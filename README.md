@@ -1,5 +1,22 @@
 # diagnostic-support-application
 
+### Abstract  
+The project developed a web application for early patient health risk assessment, integrating 
+profile data, test results, and surveys to support primary care physicians in the diagnostic 
+process and clinical decision-making. Machine learning and natural language processing (NLP) 
+models were used for data analysis: XGBoost, HerBERT, Mistral, and its variant enriched with 
+an additional knowledge base (RAG), as well as MarianMT for translation. The HerBERT and 
+XGBoost models were trained on datasets of 154,896 and 147,853 cases, respectively, spanning 
+26 classes representing medical specialties. The XGBoost model achieved 87.4% accuracy, 
+HerBERT 97.3%, and Mistral and Mistral, with an external knowledge base, achieved 71% and 
+78% correct classifications, respectively. Implementation required Python with the pandas, 
+NumPy, scikit-learn, PyTorch, and Transformers libraries, and the Django framework for 
+interface development. The developed system combines medical case classification, model 
+retraining and patient data analysis.
+
+**Keywords:** web application, clinical decision support, machine learning, natural language 
+processing (NLP), XGBoost, HerBERT, Mistral, RAG
+
 ## Ewaluacja wyników
 
 ###  Klasyfikacja 
