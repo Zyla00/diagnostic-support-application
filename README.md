@@ -88,39 +88,23 @@ These errors are likely related to genuine similarities between clinical present
 Overall, the retrained HerBERT model demonstrated high accuracy, stable performance, and very good generalization, with no clear signs of overfitting. Combined with the low loss values and relatively few classification errors, these results indicate that the model is an effective tool for supporting the automatic classification of medical cases into relevant specialties.
 
 
-### Ocena modelu XGBoost 
-Model XGBoost został wykorzystany jako klasyfikator przypisujący przypadki 
-medyczne do odpowiednich kategorii specjalistycznych. Ewaluacja jego skuteczności została 
-przeprowadzona na dużym zbiorze testowym zawierającym 29 571 przykładów obejmujących 
-26 klas (specjalizacji). Analiza objęła metryki takie jak dokładność (accuracy), precyzja 
-(precision), czułość (recall) oraz F1-score, zarówno na poziomie ogólnym, jak i dla każdej klasy 
-osobno. 
-Model XGBoost osiągnął dokładność ogólną na poziomie 87,4%, co świadczy o solidnej 
-skuteczności w zadaniu klasyfikacji przypadków medycznych do 26 specjalizacji. Wartości 
-średnich metryk : F1-score (0,8454), precyzja (0,8937) i recall (0,8127) potwierdzają, że model 
-dobrze rozpoznaje zarówno liczniejsze, jak i mniej reprezentowane klasy, choć cechuje się 
-lekką tendencją do zachowawczości (wyższa precyzja niż czułość). 
-Najwyższe wyniki uzyskano w kategoriach o wyraźnym profilu klinicznym, takich jak 
-nefrologia (F1 = 0,96), pulmonologia (0,96), hepatologia (0,97) czy hematologia (0,95). W tych 
-przypadkach objawy były na tyle charakterystyczne, że model niemal bezbłędnie przypisywał 
-je do właściwej specjalizacji. Z kolei niższe wyniki zaobserwowano w trudniejszych klasach: 
-pediatria (F1 = 0,62), medycyna zawodowa (0,68), ginekologia (0,71) czy ratunkowa (0,73). 
-Obniżona skuteczność w tych obszarach wynika prawdopodobnie z niewielkiej liczby 
-przykładów treningowych oraz z nakładania się objawów z innymi specjalizacjami. 
-Analiza macierzy pomyłek wskazuje na dominującą poprawność klasyfikacji (większość 
-przypadków na przekątnej), jednak widoczne są także pojedyncze błędy między pokrewnymi 
-dziedzinami, np. neurologią a psychiatrią czy interną a medycyną ogólną. Pomimo tych 
-przypadków, model zachowuje stabilność i nie wykazuje oznak przeuczenia. 
+### Evaluation of the XGBoost Model
+
+The XGBoost model was used as a classifier to assign medical cases to appropriate medical specialties. Its performance was evaluated on a large test dataset containing 29,571 examples across 26 classes. The analysis included accuracy, precision, recall, and F1-score, both overall and for individual classes.
+
+The model achieved an overall accuracy of 87.4%, indicating solid performance in classifying medical cases. The average metrics, including F1-score of 0.8454, precision of 0.8937, and recall of 0.8127, confirm that the model performed well across both common and less represented classes. The higher precision compared to recall also suggests a slightly conservative classification approach.
+
+The best results were observed for specialties with clearly defined clinical profiles, including Nephrology (F1 = 0.96), Pulmonology (0.96), Hepatology (0.97), and Hematology (0.95). Lower performance was recorded for more challenging classes such as Pediatrics (F1 = 0.62), Occupational Medicine (0.68), Gynecology (0.71), and Emergency Medicine (0.73). These differences were likely caused by a smaller number of training examples and overlapping symptoms between specialties.
+
+The confusion matrix showed that most predictions were correctly classified along the main diagonal. However, some errors occurred between clinically related specialties, such as Neurology and Psychiatry or Internal Medicine and General Medicine. Despite these misclassifications, the model remained stable and showed no clear signs of overfitting.
+
 
 <p>
 <img width="296" height="277" alt="image" src="https://github.com/user-attachments/assets/c360803f-e8c8-4383-a146-3ee40778e35b" />
 </p>
-Podsumowując, model XGBoost wykazał się wysoką skutecznością w przypisywaniu 
-przypadków medycznych do odpowiednich specjalizacji. Uzyskane wyniki potwierdzają jego 
-przydatność w zadaniach klasyfikacyjnych, zwłaszcza tam, gdzie istotne są stabilność 
-działania, przejrzystość decyzji oraz niska złożoność obliczeniowa. Dzięki dobrej równowadze 
-między precyzją a czułością, model ten może być z powodzeniem stosowany jako szybkie 
-i niezawodne narzędzie wspomagające analizę danych medycznych.
+
+Overall, the XGBoost model demonstrated high effectiveness in assigning medical cases to appropriate specialties. The obtained results confirm its usefulness for classification tasks, particularly where stable performance, decision transparency, and relatively low computational complexity are important. Thanks to a good balance between precision and recall, the model can serve as a fast and reliable tool for supporting the analysis and classification of medical data.
+
 
 ### Ocena modelu MarianMT 
 Jakość tłumaczeń uzyskanych z modelu MarianMT została oceniona z wykorzystaniem 
