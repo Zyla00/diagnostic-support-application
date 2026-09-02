@@ -75,22 +75,18 @@ Overall, the retrained HerBERT model demonstrated high and stable classification
   <img width="319" height="176" alt="image" src="https://github.com/user-attachments/assets/a93a5323-3e1f-4ce3-a2f3-251e78d4e2d0" />
 </p>
 
-Uzupełnieniem tej analizy jest macierz pomyłek (rysunek 8.3), która przedstawia szczegółowe 
-wyniki klasyfikacji dla poszczególnych kategorii specjalistycznych. Dominujące wartości na 
-przekątnej macierzy świadczą o tym, że model poprawnie przypisuje większość przypadków do właściwych klas. Przykładowo, kategorie takie jak Neurologia (1176 poprawnych 
-przypadków), Pulmonologia (936), czy Ortopedia (1377) zostały zaklasyfikowane niemal 
-bezbłędnie. Zdarzają się jednak drobne pomyłki, głównie między klasami o pokrywających się 
-objawach np. Psychiatria bywała mylona z Neurologią, a Onkologia z Hematologią lub 
-Gastroenterologią. Tego typu błędy mogą być wynikiem realnego klinicznego podobieństwa 
-przypadków. 
+The confusion matrix (Figure 8.3) provides a detailed overview of classification performance across individual medical specialties. The strong concentration of values along the main diagonal confirms that the model correctly classified the vast majority of cases.
+
+Several categories were recognized with particularly high accuracy, including Neurology with 1,176 correctly classified cases, Pulmonology with 936, and Orthopedics with 1,377. Only a small number of misclassifications were observed, mainly between specialties with overlapping clinical symptoms. For example, Psychiatry was occasionally confused with Neurology, while Oncology was sometimes misclassified as Hematology or Gastroenterology.
+
+These errors are likely related to genuine similarities between clinical presentations rather than major limitations of the model itself. Overall, the confusion matrix confirms the high classification accuracy and consistency of the retrained HerBERT model.
+
 
 <p>
 <img width="328" height="288" alt="image" src="https://github.com/user-attachments/assets/613013d6-dc10-413f-bf8d-63bbd22b6c3c" />
 </p>
-Podsumowując, HerBERT po retreningu prezentuje wysoki poziom dokładności, stabilność 
-działania i bardzo dobrą zdolność generalizacji, bez oznak przeuczenia. W połączeniu z niską 
-wartością funkcji straty oraz nielicznymi pomyłkami, model ten można uznać za skuteczne 
-narzędzie wspomagające automatyczną klasyfikację specjalistyczną przypadków medycznych.
+Overall, the retrained HerBERT model demonstrated high accuracy, stable performance, and very good generalization, with no clear signs of overfitting. Combined with the low loss values and relatively few classification errors, these results indicate that the model is an effective tool for supporting the automatic classification of medical cases into relevant specialties.
+
 
 ### Ocena modelu XGBoost 
 Model XGBoost został wykorzystany jako klasyfikator przypisujący przypadki 
