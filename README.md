@@ -56,24 +56,16 @@ A manual review was also conducted on approximately 10% of the dataset (109 out 
 The final labeling strategy therefore represents a deliberate simplification intended to support a consistent classification structure rather than reproduce complete diagnostic pathways. The resulting dataset reflects a compromise between medical accuracy, consistency, and practical usefulness for the purposes of this project.
 
 
-### Ocena modelu HerBERT po treningu 
-Model HerBERT został poddany retreningowi w celu dostosowania go do zadania 
-klasyfikacji przypadków medycznych do odpowiednich specjalizacji lekarskich. Wyniki 
-ewaluacji przeprowadzonej na zbiorach walidacyjnym i testowym wskazują na bardzo wysoką 
-skuteczność modelu. Wartości dokładności dla obu zbiorów wyniosły odpowiednio 97,38% dla 
-walidacyjnego oraz 97,29% dla testowego, co oznacza, że model z powodzeniem klasyfikował 
-dane. 
-Równie wysoka jakość klasyfikacji znajduje potwierdzenie w innych metrykach F1 – zarówno 
-F1-macro (0,9745 walidacja, 0,9744 test), jak i F1-weighted (0,9769 walidacja, 0,9758 test) 
-utrzymują się na bardzo stabilnym i wyrównanym poziomie. Brak większych różnic pomiędzy 
-zbiorami sugeruje, że model nie uległ przeuczeniu (overfitting) i wykazuje bardzo dobrą 
-zdolność generalizacji. Model potrafi skutecznie radzić sobie również z nowymi danymi, które 
-nie były widziane wcześniej. Dodatkowo, analiza wykresów ilustrujących przebieg treningu 
-potwierdza te obserwacje. Wykres dokładności (rysunek 8.1) po początkowym wzroście 
-wartości do poziomu około 97%, krzywe dokładności dla zbioru walidacyjnego i testowego 
-pozostają stabilne i niemal zbieżne aż do końca treningu. Taka zgodność wskazuje, że proces 
-uczenia przebiegł optymalnie. Mmodel osiągnął wysoką trafność przy zachowaniu dobrej 
-równowagi między dopasowaniem do danych uczących a uogólnianiem na dane nowe.
+### Evaluation of the HerBERT Model After Training
+
+The HerBERT model was retrained to perform classification of medical cases into appropriate medical specialties. Evaluation on the validation and test datasets showed very high performance, with accuracy reaching 97.38% on the validation set and 97.29% on the test set.
+
+The results were also confirmed by the F1 metrics. F1-macro reached 0.9745 for the validation set and 0.9744 for the test set, while F1-weighted achieved 0.9769 and 0.9758, respectively. The small differences between validation and test results indicate good generalization and no significant signs of overfitting.
+
+The training curves further supported these findings. After an initial increase, accuracy stabilized at approximately 97%, while the validation and test curves remained closely aligned until the end of training. This suggests that the model achieved a good balance between fitting the training data and maintaining high performance on previously unseen cases.
+
+Overall, the retrained HerBERT model demonstrated high and stable classification performance, confirming its effectiveness for assigning medical cases to relevant specialties.
+
 
 <p>
 <img width="326" height="179" alt="image" src="https://github.com/user-attachments/assets/4ec80e32-2568-453d-8096-e897a0c71761" />
