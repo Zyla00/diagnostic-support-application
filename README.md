@@ -17,36 +17,19 @@ retraining and patient data analysis.
 **Keywords:** web application, clinical decision support, machine learning, natural language 
 processing (NLP), XGBoost, HerBERT, Mistral, RAG
 
-## Ewaluacja wyników
+## Evaluation of Results
 
-###  Klasyfikacja 
-W zadaniu klasyfikacji objawów do odpowiednich specjalistów medycznych wykorzystano 
-model Mistral w trybie zero-shot, czyli bez wcześniejszego treningu, oraz jego rozszerzoną 
-wersję z mechanizmem RAG, wspartą zewnętrzną bazą wiedzy. Do eksperymentu 
-wykorzystano zbiór 260 przypadków (10 przypadków dla każdej klasy). Klasy odpowiadały 
-różnym specjalizacjom lekarskim. Celem było wskazanie właściwego specjalisty na podstawie 
-zestawu objawów. 
-Model Mistral bez zewnętrznej wiedzy poradził sobie dobrze, uzyskując ogólną skuteczność na 
-poziomie 71%. Jednak często miał trudność z podjęciem jednoznacznej decyzji. Skłaniał się do 
-przypisywania kilku specjalistów naraz, czasem także tych nieadekwatnych. Obserwowano 
-również tendencję do nadmiernej ostrożności np. objawy typowe dla infekcji (np. ból głowy 
-i kaszel) były kierowane też do onkologa, ze względu na wzmiankę o powiększonych węzłach chłonnych. Tego rodzaju błędy wynikały z braku zdolności eliminacji mniej prawdopodobnych 
-hipotez. Model często przypisywał jakiegoś lekarza nawet tam, gdzie brakowało pełnych 
-danych. Również w przypadkach przewlekłych problemów żołądkowych, takich jak biegunka 
-i zmęczenie, zalecał gastroenterologa, ale czasami także internistę lub dietetyka – w zależności 
-od użytego promptu. 
-Wersja Mistrala z mechanizmem RAG osiągnęła wyższą trafność. Poprawnie zaklasyfikowała 
-78% przypadków. Dzięki dodatkowej bazie wiedzy lepiej radziła sobie z dopasowaniem mniej 
-oczywistych objawów do specjalizacji. Nadal jednak pojawiała się tendencja do nadmiarowego 
-przypisywania kilku specjalistów (np. pulmonolog + alergolog + immunolog przy klasycznych 
-objawach astmy). Model nie zawsze potrafił ograniczyć odpowiedź do najbardziej 
-prawdopodobnej kategorii. Oba modele wykazały dobrą zdolność rozumienia tekstu, 
-logicznego łączenia objawów oraz sugerowania racjonalnych podejść diagnostycznych. 
-Problemem pozostał brak eliminacji zbędnych kierunków diagnostycznych, co skutkowało 
-przeszacowaniem liczby sugerowanych specjalistów. Należy podkreślić, że do analizy 
-wykorzystano przypadki z pełnym opisem obejmującym objawy i wyniki badań 
-laboratoryjnych, które nie należały do szczególnie skomplikowanych pod względem 
-klinicznym.
+### Classification
+
+For the task of assigning patient symptoms to appropriate medical specialists, the Mistral model was evaluated in two configurations: zero-shot, without additional training, and with a Retrieval-Augmented Generation (RAG) mechanism supported by an external knowledge base. The experiment was conducted on 260 cases, with 10 cases representing each medical specialty.
+
+The zero-shot Mistral model achieved an overall classification accuracy of 71%. It demonstrated a good understanding of symptoms and was generally able to suggest relevant specialists. However, it often produced overly broad recommendations by assigning several specialists to a single case, including less relevant ones. This tendency resulted from limited ability to eliminate unlikely diagnostic hypotheses, particularly when symptom descriptions were incomplete or ambiguous.
+
+The RAG-enhanced version of Mistral improved classification accuracy to 78%. Access to an external medical knowledge base enabled better interpretation of less obvious symptom combinations and more accurate specialist selection. Nevertheless, the model still occasionally suggested multiple specialists instead of identifying the single most probable category.
+
+Both configurations demonstrated strong natural language understanding and the ability to logically connect symptoms with possible medical specialties. The main limitation was excessive caution, leading to overestimation of the number of recommended specialists.
+
+It should also be noted that the evaluation was performed on cases containing relatively complete symptom descriptions and laboratory results and did not include highly complex clinical scenarios. Therefore, further evaluation on more diverse and challenging medical cases would be necessary to assess the model’s suitability for broader clinical use.
 
 ### Generowanie opisów chorób 
 W niniejszej pracy dane opisujące objawy chorób wygenerowano przy wykorzystaniu 
