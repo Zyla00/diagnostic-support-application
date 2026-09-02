@@ -31,66 +31,30 @@ Both configurations demonstrated strong natural language understanding and the a
 
 It should also be noted that the evaluation was performed on cases containing relatively complete symptom descriptions and laboratory results and did not include highly complex clinical scenarios. Therefore, further evaluation on more diverse and challenging medical cases would be necessary to assess the model’s suitability for broader clinical use.
 
-### Generowanie opisów chorób 
-W niniejszej pracy dane opisujące objawy chorób wygenerowano przy wykorzystaniu 
-modelu językowego Mistral, wspieranego samodzielnie stworzoną, zewnętrzną bazą wiedzy 
-medycznej. Po wygenerowaniu treści każdy opis został dodatkowo sprawdzony ponownie przy 
-użyciu modelu Mistral zarówno w wariancie z wykorzystaniem bazy wiedzy, jak i bez niej. 
-Weryfikacja była oparta na pytaniu o potencjalne nieprawidłowości lub anomalie. Całość 
-procedury można określić jako zastosowanie koncepcji „LLM judge”, tj. wykorzystania 
-modelu językowego jako narzędzia oceniającego jakość i spójność treści. W wyniku tego etapu: 
-• 17% przypadków (52 z 301) zostało zakwalifikowanych jako wymagające ponownej 
-analizy (zawierały mniejsze lub większe przekłamania). W takich sytuacjach proszono 
-model o poprawienie treści zgodnie z zaproponowanymi sugestiami, 
-• 10% przypadków (30 z 301) model uznał za poprawne, jednak stanowiące ogólne ujęcie 
-objawów. Uznano, że na potrzeby niniejszej pracy nie ma konieczności ich modyfikacji. 
-Przykładowo, w przypadku migreny model ograniczył się do ujęcia głównych objawów 
-(silny ból głowy, nudności, światłowstręt), pomijając mniej oczywiste, ale istotne 
-aspekty takie jak allodynia (nadwrażliwość skóry na dotyk) czy objawy prodromalne 
-w postaci senności i zwiększonego apetytu na określone produkty. Uznano jednak, że 
-dla potrzeb niniejszej pracy takie uproszczenie jest wystarczające. Następnie cały proces walidacji powtórzono. W tym etapie model nie wskazał już poważnych 
-nieprawidłowości. Natomiast 12% przypadków (36 z 301) zostało oznaczonych jako 
-wymagające zachowania ostrożności (np. drobne braki informacyjne lub potencjalne 
-uproszczenia). 
-Dla zapewnienia wiarygodności, przeprowadzono dodatkową ręczną weryfikację 10% 
-wszystkich przypadków (31 z 301) poprzez porównanie opisów z literaturą medyczną. W tym 
-etapie nie znaleziono rażących przekłamań. Natomiast około 9% z przejrzanych rekordów 
-(3 z 31) uznano za duże uproszczenia i możliwości na poszerzenia listy często występujących 
-objawów. Należy podkreślić, że już na etapie planowania zakładano, iż dane generowane na 
-potrzeby niniejszej pracy nie muszą być wyczerpujące ani w pełni szczegółowe, lecz powinny 
-odzwierciedlać typowe, główne objawy. Dlatego przyjęto opisaną metodę generowania 
-i  walidacji treści.
+### Generation of Disease Descriptions
 
-### Generowanie etykiet dla danych 
-W osobnym etapie opracowywania danych, dla drugiego zbioru, przeprowadzono proces 
-przypisywania kategorii specjalistycznych do wcześniej zdefiniowanych nazw jednostek 
-chorobowych. W tym przypadku dane wejściowe zawierały już nazwy chorób, natomiast 
-brakowało informacji dotyczącej specjalisty lub specjalizacji medycznej, której dana jednostka 
-najczęściej podlega. Do przypisania etykiety specjalistycznej zastosowano dokładnie tę samą 
-procedurę, jak w przypadku opisu objawów: 
-• wykorzystano model językowy Mistral, 
-• wspierany własną bazą wiedzy medycznej, 
-• a następnie przeprowadzono automatyczną walidację wyników z użyciem podejścia 
-„LLM-as-a-judge”, czyli metody, w której duży model językowy ocenia jakość 
-i poprawność wcześniej wygenerowanych danych. 
-Zgodnie z założeniem, do każdej choroby przypisywano jedną, najczęściej powiązaną 
-specjalizację medyczną. Takie podejście stanowiło pewne uproszczenie, ponieważ w praktyce 
-diagnostycznej wiele chorób może wymagać konsultacji z kilkoma specjalistami (np. 
-neurologiem i psychiatrą, albo internistą i endokrynologiem). W wyniku analizy: 
-• model nie zidentyfikował żadnych rażących błędów w przypisaniu jednostek do 1081 
-chorób, 
-• natomiast około 30% przypadków (324 z 1081) zostało oznaczonych jako wymagające 
-potencjalnego przypisania co najmniej dwóch specjalizacji, z czego druga kategoria 
-miała charakter opcjonalny lub zależny od indywidualnego przebiegu choroby. 
-Również w tym przypadku przeprowadzono ręczną weryfikację 10% danych (109 z 1081 
-przypadków). Nie stwierdzono sytuacji, w których przypisana główna specjalizacja byłaby 
-nieprawidłowa lub nieodpowiednia dla danej jednostki chorobowej. Należy podkreślić, że na potrzeby niniejszej pracy przyjęto założenie, iż przypisanie jednej, 
-najczęstszej kategorii specjalistycznej jest wystarczające, zwłaszcza że celem opracowania nie 
-było odwzorowanie pełnej ścieżki diagnostycznej, lecz zbudowanie struktury klasyfikacyjnej. 
-W trakcie oceny wyników skupiano się przede wszystkim na identyfikacji 
-potencjalnych nieścisłości i błędów merytorycznych. Ostateczny zbiór stanowi efekt 
-kompromisu pomiędzy dokładnością a spójnością i użytecznością danych, z uwzględnieniem 
-realiów zastosowania w kontekście niniejszego opracowania.
+Disease symptom descriptions were generated using the Mistral language model supported by a custom external medical knowledge base. Each generated description was then evaluated again using Mistral, both with and without access to the knowledge base. This validation followed an “LLM-as-a-judge” approach, where the model assessed the generated content for potential inconsistencies, inaccuracies, or anomalies.
+
+During the first validation stage, 17% of cases (52 out of 301) were identified as requiring revision due to minor or more significant inaccuracies. These descriptions were subsequently corrected according to the model’s suggestions. An additional 10% of cases (30 out of 301) were considered correct but relatively general. Since the objective was to represent the most common and characteristic symptoms rather than provide exhaustive clinical descriptions, these cases were accepted without modification.
+
+After the revision process, validation was repeated. No major errors were identified, although 12% of cases (36 out of 301) were marked as requiring caution due to minor omissions or simplifications.
+
+To further assess reliability, 10% of all records (31 out of 301) were manually reviewed against medical literature. No significant factual errors were found. Approximately 9% of the manually reviewed cases (3 out of 31) were considered overly simplified and could potentially be expanded with additional common symptoms.
+
+Overall, the adopted generation and validation procedure provided sufficiently accurate and consistent symptom descriptions for the purposes of this study while maintaining a practical balance between completeness and usability.
+
+### Generation of Data Labels
+
+A separate data preparation stage focused on assigning medical specialty labels to predefined disease entities. Since the input dataset contained disease names but no information about the most relevant medical specialty, Mistral was used to generate these labels with support from the same external medical knowledge base.
+
+The generated labels were automatically validated using the same “LLM-as-a-judge” approach. For consistency within the classification task, each disease was assigned one primary medical specialty, even though many conditions may in practice involve several specialists.
+
+Among 1,081 diseases, the model did not identify any major errors in the assigned primary specialties. However, approximately 30% of cases (324 out of 1,081) were identified as potentially associated with at least one additional specialty, depending on the clinical context or progression of the disease.
+
+A manual review was also conducted on approximately 10% of the dataset (109 out of 1,081 cases). No cases were found in which the assigned primary specialty was clearly incorrect or inappropriate.
+
+The final labeling strategy therefore represents a deliberate simplification intended to support a consistent classification structure rather than reproduce complete diagnostic pathways. The resulting dataset reflects a compromise between medical accuracy, consistency, and practical usefulness for the purposes of this project.
+
 
 ### Ocena modelu HerBERT po treningu 
 Model HerBERT został poddany retreningowi w celu dostosowania go do zadania 
