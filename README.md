@@ -68,11 +68,11 @@ Overall, the retrained HerBERT model demonstrated high and stable classification
 
 
 <p>
-<img width="326" height="179" alt="image" src="https://github.com/user-attachments/assets/4ec80e32-2568-453d-8096-e897a0c71761" />
+<img width="652" height="358" alt="image" src="https://github.com/user-attachments/assets/4ec80e32-2568-453d-8096-e897a0c71761" />
 </p>
 
 <p>
-  <img width="319" height="176" alt="image" src="https://github.com/user-attachments/assets/a93a5323-3e1f-4ce3-a2f3-251e78d4e2d0" />
+  <img width="652" height="358" alt="image" src="https://github.com/user-attachments/assets/a93a5323-3e1f-4ce3-a2f3-251e78d4e2d0" />
 </p>
 
 The confusion matrix (Figure 8.3) provides a detailed overview of classification performance across individual medical specialties. The strong concentration of values along the main diagonal confirms that the model correctly classified the vast majority of cases.
@@ -83,7 +83,7 @@ These errors are likely related to genuine similarities between clinical present
 
 
 <p>
-<img width="328" height="288" alt="image" src="https://github.com/user-attachments/assets/613013d6-dc10-413f-bf8d-63bbd22b6c3c" />
+<img width="656" height="576" alt="image" src="https://github.com/user-attachments/assets/613013d6-dc10-413f-bf8d-63bbd22b6c3c" />
 </p>
 Overall, the retrained HerBERT model demonstrated high accuracy, stable performance, and very good generalization, with no clear signs of overfitting. Combined with the low loss values and relatively few classification errors, these results indicate that the model is an effective tool for supporting the automatic classification of medical cases into relevant specialties.
 
@@ -100,7 +100,7 @@ The confusion matrix showed that most predictions were correctly classified alon
 
 
 <p>
-<img width="296" height="277" alt="image" src="https://github.com/user-attachments/assets/c360803f-e8c8-4383-a146-3ee40778e35b" />
+<img width="656" height="576" alt="image" src="https://github.com/user-attachments/assets/c360803f-e8c8-4383-a146-3ee40778e35b" />
 </p>
 
 Overall, the XGBoost model demonstrated high effectiveness in assigning medical cases to appropriate specialties. The obtained results confirm its usefulness for classification tasks, particularly where stable performance, decision transparency, and relatively low computational complexity are important. Thanks to a good balance between precision and recall, the model can serve as a fast and reliable tool for supporting the analysis and classification of medical data.
