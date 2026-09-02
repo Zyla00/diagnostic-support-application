@@ -216,65 +216,23 @@ wskazują, że przy zastosowaniach klinicznych konieczne jest wsparcie eksperta 
 etap automatycznej kontroli jakości.
 
 
-## Wnioski i komentarze 
-Realizacja projektu rozpoczęła się od analizy literaturowej dotyczącej wykorzystania 
-algorytmów uczenia maszynowego i głębokiego w medycynie, a w szczególności 
-w diagnostyce oraz predykcji ryzyka zdrowotnego. Przegląd dostępnych źródeł pozwolił na 
-sformułowanie założeń, że zastosowanie modeli takich jak Mistral, HerBERT czy XGBoost 
-umożliwia skuteczne przetwarzanie danych ankietowych i laboratoryjnych, co może realnie 
-wspierać procesy diagnostyczne i decyzje lekarzy. 
-W ramach pracy przygotowano aplikację z intuicyjnym interfejsem użytkownika, 
-pozwalającą na wprowadzanie danych profilowych, wypełnianie ankiet oraz integrację 
-z wynikami badań laboratoryjnych. Dane te stanowiły bazę do przeprowadzania analiz 
-z użyciem wybranych modeli uczenia maszynowego. Implementacja objęła również moduł 
-zarządzania specjalistami, monitoring nawyków oraz moduł wiadomości, dzięki czemu 
-system wspiera zarówno stronę pacjenta, jak i lekarza. 
-Istotnym elementem realizacji projektu było odpowiednie przygotowanie oraz wzbogacenie 
-danych treningowych i testowych. Wykorzystano dwa główne zbiory: MedSynora DW 
-(syntetyczna hurtownia danych medycznych) oraz Symptom-Disease Dataset (zbiór objawów 
-i odpowiadających im chorób). Pierwszy z nich posłużył jako główny materiał do analizy 
-i trenowania modelu XGBoost, drugi zaś stanowił uzupełnienie w procesie doskonalenia 
-modelu HerBERT. Dane były oczyszczane, tłumaczone, ujednolicane oraz filtrowane w taki 
-sposób, aby odpowiadały wymaganiom poszczególnych algorytmów. 
-Dodatkowo przygotowano bazę wiedzy w formacie PDF i TXT, obejmującą definicje 
-specjalistów oraz fragmenty literatury medycznej, które zostały wykorzystane w modelu 
-Mistral z mechanizmem RAG. Pozwoliło to na wzbogacenie procesu analizy o kontekst 
-ekspercki, poprawiając trafność i użyteczność generowanych rekomendacji. W części eksperymentalnej przeprowadzono ocenę działania modeli. Model Mistral w trybie 
-zero-shot, bez dodatkowej bazy wiedzy, osiągnął skuteczność klasyfikacji na poziomie 71%, 
-natomiast jego wariant z mechanizmem RAG poprawił wynik do 78%. Obie wersje dobrze 
-radziły sobie z logicznym łączeniem objawów i sugerowaniem potencjalnych specjalistów, 
-jednak miały tendencję do nadmiernego przypisywania kilku klas jednocześnie. Dodatkowo, 
-model ten umożliwił skuteczne generowanie opisów chorób oraz przypisywanie etykiet 
-specjalistycznych do jednostek chorobowych, co zwiększa interpretowalność wyników dla 
-lekarzy. 
-Model HerBERT, po retreningu na danych z aplikacji, osiągnął dokładność 97,3%, przy 
-wartościach F1-macro 0,974 i F1-weighted 0,976. Wyniki te potwierdzają bardzo wysoką 
-skuteczność oraz zdolność generalizacji modelu, bez oznak przeuczenia. Analiza macierzy 
-pomyłek wykazała nieliczne błędy, głównie pomiędzy klasami o podobnym profilu 
-klinicznym (np. neurologia i psychiatria), co wynika raczej z nakładania się objawów niż 
-z niedoskonałości samego modelu. 
-Model XGBoost, oparty na danych ankietowych i laboratoryjnych, uzyskał dokładność 
-87,4%, przy średnich wynikach F1-macro 0,845 i F1-weighted 0,874. Wysoką skuteczność 
-odnotowano zwłaszcza w specjalizacjach o jednoznacznych profilach (nefrologia, 
-pulmonologia, hematologia, hepatologia), natomiast trudności występowały w kategoriach 
-mniej licznych lub o szerokim spektrum objawów (pediatria, medycyna zawodowa, 
-ginekologia). 
-W przypadku modelu MarianMT, zastosowanego do tłumaczenia terminów medycznych 
-z języka angielskiego na polski, średnia ocena ekspercka jakości tłumaczeń wyniosła 4,2/5. 
-Metryki automatyczne wskazały na umiarkowaną zgodność ze wzorcami (BLEU = 0,23, chrF 
-= 0,76). Model dobrze radził sobie z prostymi i popularnymi terminami, natomiast trudności 
-pojawiały się przy terminologii specjalistycznej, rzadkich jednostkach chorobowych oraz 
-skrótach laboratoryjnych. Pojedyncze błędy krytyczne i halucynacje wskazują na konieczność 
-dodatkowej walidacji w przypadku zastosowań klinicznych. 
-Przeprowadzone testy potwierdziły postawioną hipotezę badawczą. Parametry zdrowotne 
-pacjentów, wspierane algorytmami predykcyjnymi, pozwalają skutecznie przewidywać 
-potencjalne problemy zdrowotne i dostarczać wartościowych, interpretowalnych informacji 
-zarówno dla lekarzy, jak i pacjentów. Największym wyzwaniem pozostaje jakość danych 
-wejściowych, niekompletne ankiety oraz brak wyników badań ograniczały dokładność 
-predykcji. Jednak zastosowanie mechanizmów filtracji oraz możliwość retreningu modeli 
-pozwoliły w znacznym stopniu zminimalizować ten problem. 
-Efektem końcowym jest opracowany system, który łączy elementy aplikacji dla pacjenta 
-i lekarza oraz implementuje różne algorytmy uczenia maszynowego do analizy danych 
-zdrowotnych. System ten może być w przyszłości rozwijany o dodatkowe moduły m.in. 
-integrację z urządzeniami ubieralnymi, wizualizację trendów zdrowotnych czy rozszerzenie 
-bazy wiedzy dla modeli generatywnych. 
+## Conclusions and Comments
+
+The project began with a literature review on the use of machine learning and deep learning in medicine, particularly in diagnostics and health risk prediction. The analysis indicated that models such as Mistral, HerBERT, and XGBoost can effectively process survey and laboratory data and support clinical decision-making.
+
+As part of the project, an application was developed with an intuitive user interface enabling patients to enter profile information, complete medical questionnaires, and integrate laboratory test results. The system also included specialist management, habit monitoring, and messaging modules, supporting both patients and healthcare professionals.
+
+Two main datasets were used for model development: MedSynora DW, a synthetic medical data warehouse used primarily for training XGBoost, and the Symptom-Disease Dataset, which supported the improvement of the HerBERT model. The data were cleaned, translated, standardized, and filtered according to the requirements of each algorithm. Additionally, a medical knowledge base in PDF and TXT formats was created and integrated with the Mistral model using a Retrieval-Augmented Generation (RAG) approach.
+
+Experimental results confirmed the effectiveness of the developed models. Mistral achieved 71% classification accuracy in the zero-shot setting and 78% when supported by RAG. The model was capable of connecting symptoms, suggesting relevant specialists, generating disease descriptions, and assigning medical specialty labels, although it occasionally predicted multiple classes excessively.
+
+After retraining, HerBERT achieved an accuracy of 97.3%, with F1-macro of 0.974 and F1-weighted of 0.976. The model showed strong generalization capabilities, with only minor errors between specialties with overlapping clinical symptoms, such as neurology and psychiatry.
+
+XGBoost achieved an accuracy of 87.4%, with F1-macro of 0.845 and F1-weighted of 0.874. It performed particularly well for specialties with clearly defined clinical profiles, including nephrology, pulmonology, hematology, and hepatology, while lower performance was observed for less represented or more diverse categories.
+
+The MarianMT model, used for translating medical terminology from English into Polish, received an average expert evaluation score of 4.2/5. Automatic metrics produced BLEU = 0.23 and chrF = 0.76. While the model handled common terminology effectively, difficulties occurred with specialized terms, rare diseases, and laboratory abbreviations, indicating the need for additional validation in clinical applications.
+
+Overall, the experiments confirmed the research hypothesis that patient health parameters combined with predictive algorithms can effectively identify potential health problems and provide useful, interpretable information for both patients and physicians. The main limitation remains the quality and completeness of input data, particularly incomplete questionnaires and missing laboratory results.
+
+The final system integrates patient and physician functionalities with several machine learning approaches for health data analysis. Future development could include integration with wearable devices, visualization of health trends, and further expansion of the knowledge base used by generative models.
+
