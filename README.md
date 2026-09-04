@@ -14,8 +14,7 @@ NumPy, scikit-learn, PyTorch, and Transformers libraries, and the Django framewo
 interface development. The developed system combines medical case classification, model 
 retraining and patient data analysis.
 
-**Keywords:** web application, clinical decision support, machine learning, natural language 
-processing (NLP), XGBoost, HerBERT, Mistral, RAG
+**Keywords:** web application, clinical decision support, machine learning, natural language processing (NLP), XGBoost, HerBERT, Mistral, RAG
 
 ## Evaluation of Results
 
