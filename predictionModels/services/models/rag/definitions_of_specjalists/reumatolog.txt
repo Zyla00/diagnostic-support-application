@@ -1,0 +1,207 @@
+## Kim jest reumatolog?
+
+**Reumatolog** to internista-specjalista, który diagnozuje i leczy choroby układu ruchu o podłożu zapalnym, autoimmunologicznym i zwyrodnieniowym (m.in. reumatoidalne zapalenie stawów – RZS, łuszczycowe zapalenie stawów, spondyloartropatie osiowe, toczeń układowy, twardzinę, zapalenia naczyń, dna moczanowa, choroby metaboliczne kości). Prowadzi farmakoterapię (GKS, DMARD, biologiczne), kwalifikuje do rehabilitacji i monitoruje powikłania narządowe.
+
+---
+
+## Objawy kliniczne sugerujące konieczność konsultacji reumatologicznej
+
+### Stawy i tkanki okołostawowe
+
+* **Sztywność poranna ≥ 30 min** utrzymująca się > 6 tyg.
+* Obrzęk, zaczerwienienie i bolesność ≥ 3 stawów (zwłaszcza drobnych rąk/stóp).
+* Ból krzyża lub pośladków nasilający się nad ranem, poprawa po rozruszaniu (spondyloartropatie).
+* Obrzęk asymetryczny jednego dużego stawu + napady bólu (dna, CPPD).
+* Guzki (nad wyrostkami łokciowymi – RZS; guzki dnawe).
+
+### Objawy ogólne / narządowe
+
+* Niewyjaśniona gorączka > 38 °C + bóle stawów > 2 tyg.
+* Utrata masy ciała, zmęczenie, nocne poty.
+* Rumień motylkowaty, światłowstręt, nadwrażliwość na słońce (toczeń).
+* Objaw Raynauda (zblednięcie–sinica–rumień palców).
+* Suchość oczu i ust + bóle stawów (zespół Sjögrena).
+* Bóle mięśni z osłabieniem siły (zapalenia mięśni).
+
+---
+
+## Badania laboratoryjne – wartości alarmowe
+
+* **OB > 30 mm/h** lub **CRP > 10 mg/L** utrzymujące się > 6 tyg.
+* **RF > 20 IU/mL** i/lub **anty-CCP > 20 IU/mL** – wysokie ryzyko RZS.
+* **ANA** w mianie ≥ 1:160 + objawy kliniczne – podejrzenie choroby układowej.
+* **HLA-B27 +** + ból osiowy < 45 r.ż. – spondyloartropatia.
+* **Kwas moczowy**: > 7 mg/dL (mężczyźni), > 6 mg/dL (kobiety) + napadowy ból stawu.
+* **CK > 200 U/L** + bóle mięśni – zapalenie idiopatyczne mięśni.
+* **Hipokomplementemia** (C3 < 90 mg/dL, C4 < 10 mg/dL) + objawy skórno-stawowe – toczeń, krioglobulinemia.
+* **AMoA/ANCA** dodatnie + bóle stawów + krwiomocz / krwioplucie – zapalenie naczyń (pilne!).
+
+---
+
+## Czynniki osobnicze zwiększające ryzyko
+
+Czynniki osobnicze znacząco wpływają na ryzyko zachorowania oraz przebieg chorób reumatologicznych i autoimmunologicznych. Poniżej przedstawiono najważniejsze z nich:
+
+**Płeć** odgrywa istotną rolę – kobiety chorują zdecydowanie częściej na choroby autoimmunologiczne, takie jak reumatoidalne zapalenie stawów (RZS), toczeń rumieniowaty układowy (SLE) czy zespół Sjögrena. Stosunek zachorowań kobiet do mężczyzn wynosi tu około 3:1. Z kolei mężczyźni częściej zapadają na spondyloartropatie (np. zesztywniające zapalenie stawów kręgosłupa) oraz na dnę moczanową, zwłaszcza jej cięższą, przewlekłą postać z obecnością guzków (tophi).
+
+**Wiek** również warunkuje rodzaj dominującej patologii. Spondyloartropatie zwykle rozpoczynają się przed 45. rokiem życia. RZS najczęściej rozwija się między 40. a 60. rokiem życia, natomiast u osób powyżej 60 lat przeważają przypadki polimialgii reumatycznej, późnego początku RZS oraz dny tophacealnej.
+
+**Wywiad rodzinny** jest kolejnym istotnym czynnikiem – predysponuje do wystąpienia chorób takich jak toczeń, RZS, łuszczyca czy osteoporoza, zwłaszcza gdy w rodzinie występowały złamania osteoporotyczne.
+
+**Palenie tytoniu** to silny czynnik ryzyka, szczególnie w przypadku RZS z obecnością autoprzeciwciał (ACPA). Palenie pogarsza także przebieg tocznia i może wpływać negatywnie na skuteczność leczenia.
+
+**Otyłość** (BMI powyżej 30) wiąże się z cięższym przebiegiem RZS, słabszą odpowiedzią na leczenie biologiczne oraz większym ryzykiem wystąpienia dny moczanowej.
+
+**Infekcje, stres i hormony (szczególnie estrogeny w ciąży i połogu)** mogą inicjować lub zaostrzać przebieg chorób autoimmunologicznych, wpływając zarówno na ich początek, jak i dynamikę nawrotów.
+
+Uwzględnienie tych czynników w praktyce klinicznej ułatwia szybszą diagnostykę, lepsze dopasowanie terapii oraz przewidywanie możliwego przebiegu choroby.
+                              |
+
+---
+
+## Kryteria, którymi kieruje się lekarz POZ
+
+1. **Trwały ból i obrzęk ≥ 2 stawów > 6 tyg.** + ≥ jedno z: podwyższone CRP/OB, RF+, anty-CCP+.
+2. **Ból krzyża zapalny** < 45 r.ż., HLA-B27 + lub RTG/S-MRI z sacroileitis.
+3. **Ataki ostrego, nawracającego zapalenia jednego stawu** + hiperurykemia.
+4. **Objaw Raynauda + ANA ≥ 1:160** lub obrzęk palców (sclerodactylia).
+5. **Suchość oczu/ust + przeciwciała SSA/Ro lub RF > 20 IU/mL**.
+6. **Polimialgia reumatyczna**: ból/usztywnienie obręczy barkowej/udowej + OB > 40 mm/h u > 50 l.
+7. **Nieskuteczność leczenia przeciwbólowego / NLPZ > 4 tyg.**
+
+### Pilne skierowanie / hospitalizacja
+
+* Nagły spadek filtracji nerek (kreatynina ↑ > 0,3 mg/dL w 48 h) + aktywny mocz osadowy w SLE/ANCA.
+* Krwioplucie + ANCA + c-XR/HRCT z jamami – zapalenie naczyń.
+* Gorączka + wysoki CRP + obrzęk stawu → podejrzenie septycznego zapalenia stawu.
+* Zespół masywnego zapalenia (CRP > 100 mg/L, ferrytyna > 1 000 ng/mL) – zespół aktywacji makrofagów.
+
+Reumatolog potwierdza rozpoznanie wg klasyfikacji ACR/EULAR, wdraża DMARD (metotreksat ≥ 15 mg/tydz., sulfasalazyna, leki biologiczne), kontroluje aktywność choroby (DAS28 > 3,2 → aktywna) oraz współistniejące choroby sercowo-naczyniowe i osteoporozę.
+---
+
+
+---
+
+## Ankieta specjalistyczna – reumatologia
+
+---
+
+### I. Dane ogólne pacjenta
+
+• Imię i nazwisko:
+• Wiek / data urodzenia:
+• Płeć:
+• Wzrost / masa ciała / BMI:
+• Miejsce zamieszkania: miasto / wieś
+• Zawód (czy praca fizyczna/obciążająca stawy?):
+• Tryb życia: aktywny / siedzący
+• Historia chorób reumatycznych w rodzinie: TAK / NIE / Jakie?
+
+---
+
+### II. Powód wizyty
+
+• Główna dolegliwość:
+• Od kiedy występują objawy?
+• Czy objawy są ciągłe, czy okresowe?
+• Czy występują czynniki wyzwalające (np. wysiłek, zimno)?
+• Czy objawy się nasilają z czasem?
+• Czy leczenie (np. NLPZ) przynosi ulgę?
+
+---
+
+### III. Objawy ze strony układu ruchu
+
+Zaznacz objawy występujące u pacjenta:
+
+\[ ] Bóle stawów (lokalizacja: \_\_\_ )
+\[ ] Obrzęki stawów
+\[ ] Sztywność poranna – jeśli tak, jak długo trwa? \_\_\_\_ minut
+\[ ] Trzeszczenia, ograniczenie ruchomości
+\[ ] Bóle krzyża lub pośladków nasilające się rano
+\[ ] Bóle mięśni
+\[ ] Zmęczenie / uczucie „rozbicia”
+\[ ] Trudności z poruszaniem się / wchodzeniem po schodach
+\[ ] Napadowe bóle dużego stawu (np. kolano, paluch)
+\[ ] Asymetryczny obrzęk jednego lub kilku stawów
+
+---
+
+### IV. Objawy ogólnoustrojowe
+
+\[ ] Gorączka > 38 °C lub stany podgorączkowe
+\[ ] Nocne poty
+\[ ] Spadek masy ciała (jeśli tak – ile kg i w jakim czasie): \_\_\_\_\_\_
+\[ ] Osłabienie, zmęczenie
+\[ ] Rumień (np. na twarzy, w kształcie motyla)
+\[ ] Nadwrażliwość na słońce
+\[ ] Owrzodzenia w jamie ustnej / narządach płciowych
+\[ ] Objaw Raynauda (napadowe blednięcie/sinienie palców)
+\[ ] Suchość oczu / suchość w ustach
+\[ ] Wypadanie włosów
+
+---
+
+### V. Przebyte choroby i wywiad medyczny
+
+• Czy pacjent choruje przewlekle (cukrzyca, nadciśnienie, choroby tarczycy)?
+• Czy były epizody zapalenia spojówek, zapalenia jelit, infekcji dróg moczowych?
+• Czy występuje łuszczyca? TAK / NIE
+• Czy występuje nieswoiste zapalenie jelit? TAK / NIE
+• Czy występuje choroba Hashimoto lub inne autoimmunologiczne? TAK / NIE
+• Czy pacjent miał epizody dny moczanowej? TAK / NIE
+• Czy był kiedykolwiek hospitalizowany z powodu chorób zapalnych stawów?
+
+---
+
+### VI. Badania laboratoryjne (jeśli dostępne)
+
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• RF: \_\_\_\_\_\_ IU/mL
+• Anty-CCP: \_\_\_\_\_\_ IU/mL
+• ANA: \_\_\_\_\_\_ (miano / obecność)
+• anty-dsDNA / SSA / SSB / RNP / Sm: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Kwas moczowy: \_\_\_\_\_\_ mg/dL
+• Kreatynina: \_\_\_\_\_\_ mg/dL / eGFR: \_\_\_\_\_\_
+• CK: \_\_\_\_\_\_ U/L
+• Wapń: \_\_\_\_\_\_ mg/dL
+• HLA-B27: dodatni / ujemny
+• C3 / C4: \_\_\_\_\_\_
+• Morfologia – anemia / leukopenia: TAK / NIE / szczegóły: \_\_\_\_\_\_
+• Mocz ogólny – obecność białka / krwi / wałeczków: TAK / NIE
+
+---
+
+### VII. Skala bólu i ograniczeń
+
+• Skala bólu stawów w skali 0–10: \_\_\_\_\_\_
+• Czy ból uniemożliwia sen? TAK / NIE
+• Czy pacjent wymaga pomocy przy ubieraniu, myciu się lub chodzeniu? TAK / NIE
+• Skala sztywności porannej:
+ - 0–15 min
+ - 15–60 min
+ - > 60 min
+
+---
+
+### VIII. Stosowane leczenie
+
+• Czy pacjent stosuje obecnie leki przeciwbólowe / NLPZ?
+ – Jakie: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy stosuje GKS? TAK / NIE / dawka: \_\_\_\_\_\_ mg
+• Czy był stosowany metotreksat / sulfasalazyna / hydroksychlorochina?
+• Czy pacjent był w przeszłości leczony lekami biologicznymi?
+• Czy występowały działania niepożądane?
+
+---
+
+### IX. Dodatkowe informacje dla lekarza
+
+• Podejrzenie: RZS / SLE / ZS / dna / seronegatywna spondyloartropatia / inne
+• Czy objawy ograniczają codzienne funkcjonowanie pacjenta?
+• Czy doszło do istotnego pogorszenia mimo leczenia > 4 tyg.?
+• Czy konieczna jest pilna diagnostyka obrazowa / leczenie biologiczne?
+
+---
+

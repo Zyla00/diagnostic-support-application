@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<style>
+  .patients-wrapper {
+    margin-top: 2rem;
+  }
+
+  .patients-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .patient-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.2s;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .patient-box:hover {
+    background-color: #f0f0f0;
+  }
+
+  .patient-info {
+    font-size: 0.95rem;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  .search-box {
+    margin-bottom: 2rem;
+  }
+
+  .status-active {
+    background-color: #198754;
+    color: white;
+  }
+
+  .status-inactive {
+    background-color: #6c757d;
+    color: white;
+  }
+
+  h5 {
+    margin-bottom: 1.5rem;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container patients-wrapper">
+  <div class="patients-card">
+
+    <h5>Moi pacjenci</h5>
+
+    {# ======= WYSZUKIWARKA ======= #}
+    <form method="get" class="search-box" autocomplete="off">
+      <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="Szukaj pacjenta..." value="{{ query }}">
+        <button type="submit" class="btn btn-primary">Szukaj</button>
+      </div>
+    </form>
+
+    {# ======= LISTA PACJENTÓW ======= #}
+    {% for entry in page_obj %}
+      <a href="{% url 'patient_detail' entry.patient.id %}" class="patient-box">
+        <div class="patient-info">
+          <p><strong>{{ entry.patient.get_full_name }}</strong></p>
+        </div>
+        <span class="badge rounded-pill {% if entry.is_active %}status-active{% else %}status-inactive{% endif %}">
+          {% if entry.is_active %}Aktywny{% else %}Nieaktywny{% endif %}
+        </span>
+      </a>
+    {% empty %}
+      <p>Brak przypisanych pacjentów.</p>
+    {% endfor %}
+
+    {# ======= PAGINACJA ======= #}
+    <nav aria-label="Paginacja">
+      <ul class="pagination justify-content-center mt-4">
+        {% if page_obj.has_previous %}
+          <li class="page-item">
+            <a class="page-link" href="?q={{ query }}&page={{ page_obj.previous_page_number }}">← Poprzednia</a>
+          </li>
+        {% else %}
+          <li class="page-item disabled"><span class="page-link">← Poprzednia</span></li>
+        {% endif %}
+
+        <li class="page-item disabled">
+          <span class="page-link">Strona {{ page_obj.number }} z {{ page_obj.paginator.num_pages }}</span>
+        </li>
+
+        {% if page_obj.has_next %}
+          <li class="page-item">
+            <a class="page-link" href="?q={{ query }}&page={{ page_obj.next_page_number }}">Następna →</a>
+          </li>
+        {% else %}
+          <li class="page-item disabled"><span class="page-link">Następna →</span></li>
+        {% endif %}
+      </ul>
+    </nav>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const searchForm = document.querySelector("form.search-box");
+    if (searchForm) {
+      searchForm.addEventListener("submit", function () {
+        window.onbeforeunload = null;
+      });
+    }
+  });
+</script>
+{% endblock %}

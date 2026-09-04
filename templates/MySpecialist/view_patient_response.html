@@ -1,0 +1,41 @@
+{% load dict_utils %}  {# Upewnij się, że masz custom filter get_item #}
+
+{% block content %}
+<div class="container mt-4">
+  <h4>Podgląd odpowiedzi pacjenta</h4>
+  <h5 class="mb-3">{{ questionnaire.name }}</h5>
+
+  {% for section in sections %}
+    <div class="mb-4 border-bottom pb-3">
+      {% if section.name %}
+        <h6 class="fw-semibold">{{ section.name }}</h6>
+      {% endif %}
+
+      {% for question in section.questions.all %}
+        <div class="mb-3">
+          <p><strong>{{ forloop.counter }}. {{ question.question_text }}</strong></p>
+
+          {% with answer_value=answers|get_item:question.id %}
+            {% if question.question_type == 'text' or question.question_type == 'single_choice' %}
+              <input type="text" class="form-control"
+                     value="{{ answer_value|default:'Brak odpowiedzi' }}" disabled>
+
+            {% elif question.question_type == 'multiple_choice' %}
+              {% if answer_value %}
+                {% for choice in answer_value %}
+                  <span class="badge bg-secondary me-1">{{ choice }}</span>
+                {% endfor %}
+              {% else %}
+                <p class="text-muted">Brak odpowiedzi</p>
+              {% endif %}
+
+            {% else %}
+              <p class="text-muted">Nieznany typ pytania</p>
+            {% endif %}
+          {% endwith %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}

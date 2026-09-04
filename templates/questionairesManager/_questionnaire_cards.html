@@ -1,0 +1,49 @@
+{% load static %}
+
+{% for questionnaire in questionnaires %}
+    <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+        <div class="card h-100 shadow-sm d-flex flex-column">
+            <div class="card-body d-flex flex-column justify-content-between">
+
+                <!-- Nazwa ankiety -->
+                {% if questionnaire.is_global %}
+                    <h5 class="card-title mb-0 text-muted d-flex align-items-center gap-2" title="Domyślna ankieta (niedostępna do edycji)">
+                        {{ questionnaire.name }}
+                        <img src="{% static 'img/lock.svg' %}" alt="Domyślna ankieta" width="14" height="14" class="lock-icon" />
+                    </h5>
+                {% else %}
+                    <div class="editable-wrapper position-relative" data-id="{{ questionnaire.pk }}">
+                        <h5 class="card-title editable-title mb-0 pe-4" data-id="{{ questionnaire.pk }}">
+                            {{ questionnaire.name }}
+                        </h5>
+                        <img src="{% static 'img/edit_icon.svg' %}" alt="Edytuj"
+                             class="edit-hint position-absolute top-0 end-0 me-2 mt-1 d-none"
+                             width="16" height="16">
+                    </div>
+                {% endif %}
+
+                <!-- Akcje -->
+                <div class="mt-3 d-flex justify-content-between gap-2">
+                    <a href="{% url 'questionairesManager:questionnaire_detail' questionnaire.pk %}"
+                       class="btn btn-sm btn-outline-primary w-50">
+                        Podgląd
+                    </a>
+
+                    <form method="POST"
+                          action="{% url 'questionairesManager:copy_questionnaire' questionnaire.pk %}"
+                          class="w-50 copy-form">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-sm btn-outline-secondary w-100">
+                            Kopiuj
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+{% empty %}
+    <div class="col-12">
+        <p class="text-muted">Brak wyników.</p>
+    </div>
+{% endfor %}

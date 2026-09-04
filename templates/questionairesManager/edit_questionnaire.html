@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto p-6 bg-white rounded shadow">
+    <h1 class="text-2xl font-bold mb-6">Edytuj: {{ questionnaire.name }}</h1>
+
+    <!-- FORMULARZ DODAWANIA PYTANIA -->
+    <form method="POST" class="space-y-4 mb-8">
+        {% csrf_token %}
+        <div>
+            <label class="block font-medium mb-1">Treść pytania</label>
+            <input type="text" name="question_text" required
+                   class="w-full border border-gray-300 px-3 py-2 rounded focus:ring-blue-500 focus:outline-none">
+        </div>
+
+        <div>
+            <label class="block font-medium mb-1">Typ pytania</label>
+            <select name="question_type" required
+                    class="w-full border border-gray-300 px-3 py-2 rounded focus:ring-blue-500 focus:outline-none">
+                <option value="text">Tekstowe</option>
+                <option value="single_choice">Jednokrotny wybór</option>
+                <option value="multiple_choice">Wielokrotny wybór</option>
+            </select>
+        </div>
+
+        <div>
+            <label class="block font-medium mb-1">Opcje (jeśli wybór – podaj rozdzielone przecinkiem)</label>
+            <input type="text" name="choices"
+                   class="w-full border border-gray-300 px-3 py-2 rounded focus:ring-blue-500 focus:outline-none"
+                   placeholder="np. Tak, Nie, Może">
+        </div>
+
+        <button type="submit"
+                class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+            Dodaj pytanie
+        </button>
+    </form>
+
+    <!-- WYŚWIETLENIE JUŻ DODANYCH PYTAŃ -->
+    {% if questionnaire.questions.exists %}
+        <h2 class="text-xl font-semibold mb-2">Pytania:</h2>
+        <ul class="space-y-4">
+            {% for question in questionnaire.questions.all %}
+                <li class="p-4 border rounded">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <p class="font-medium">{{ forloop.counter }}. {{ question.question_text }}</p>
+                            <p class="text-sm text-gray-500">Typ:
+                                {% if question.question_type == "text" %}Tekstowe
+                                {% elif question.question_type == "single_choice" %}Jednokrotny wybór
+                                {% elif question.question_type == "multiple_choice" %}Wielokrotny wybór
+                                {% endif %}
+                            </p>
+
+                            {% if question.choices.all %}
+                                <ul class="mt-1 list-disc list-inside text-sm text-gray-700">
+                                    {% for choice in question.choices.all %}
+                                        <li>{{ choice.text }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+
+                        <!-- PRZYCISK USUWANIA PYTANIA -->
+                        <form method="POST" action="{% url 'questionairesManager:delete_question' question.id %}">
+                            {% csrf_token %}
+                            <button type="submit"
+                                    class="text-red-600 hover:underline text-sm ml-4"
+                                    onclick="return confirm('Na pewno usunąć to pytanie?')">
+                                Usuń
+                            </button>
+                        </form>
+                    </div>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-gray-500 italic">Brak pytań w tej ankiecie.</p>
+    {% endif %}
+
+    <div class="mt-8">
+        <a href="{% url 'questionairesManager:questionnaire_detail' questionnaire.pk %}"
+           class="text-blue-600 hover:underline">← Wróć do podglądu</a>
+    </div>
+</div>
+{% endblock %}

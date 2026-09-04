@@ -1,0 +1,82 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="bg-white p-4 rounded shadow-sm">
+
+        <!-- Top bar -->
+        <div class="d-flex justify-content-between align-items-start mb-4">
+            <a href="{% url 'questionairesManager:questionnaire_list' %}" class="btn btn-outline-primary">
+                ← Wróć do listy ankiet
+            </a>
+
+            {% if not questionnaire.is_global %}
+                <div class="d-flex gap-2">
+                    <a href="{% url 'questionairesManager:edit_questionnaire' questionnaire.pk %}" class="btn btn-outline-primary d-flex align-items-center gap-2">
+                        <img src="{% static 'img/edit_icon.svg' %}" alt="Edytuj" width="16" height="16">
+                        Edytuj
+                    </a>
+                    <form method="POST" action="{% url 'questionairesManager:delete_questionnaire' questionnaire.pk %}" onsubmit="return confirm('Czy na pewno chcesz usunąć tę ankietę?')">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-outline-danger d-flex align-items-center gap-2">
+                            <img src="{% static 'img/delete_icon.svg' %}" alt="Usuń" width="16" height="16">
+                            Usuń
+                        </button>
+                    </form>
+                </div>
+            {% endif %}
+        </div>
+
+        <!-- Tytuł ankiety -->
+        <h1 class="h4 mb-4">{{ questionnaire.name }}</h1>
+
+        <!-- Pytania z sekcji -->
+        {% for section in sections %}
+            <div class="mb-5">
+                <h2 class="h5 fw-semibold mb-3">{{ section.name }}</h2>
+
+                {% if section.questions.exists %}
+                    <ul class="list-unstyled mb-0">
+                        {% for question in section.questions.all %}
+                            <li class="border-bottom py-3">
+                                <p class="mb-1">{{ forloop.counter }}. {{ question.question_text }}</p>
+                                {% if question.choices.exists %}
+                                    <ul class="ps-3 mb-0 small text-muted">
+                                        {% for choice in question.choices.all %}
+                                            <li>{{ choice.text }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <p class="text-muted fst-italic">Brak pytań w tej sekcji.</p>
+                {% endif %}
+            </div>
+        {% endfor %}
+
+        <!-- Pytania bez sekcji -->
+        {% if questions_without_section %}
+            <div class="mb-4">
+                <h2 class="h5 fw-semibold mb-3">Pytania bez sekcji</h2>
+                <ul class="list-unstyled mb-0">
+                    {% for question in questions_without_section %}
+                        <li class="border-bottom py-3">
+                            <p class="mb-1">{{ forloop.counter }}. {{ question.question_text }}</p>
+                            {% if question.choices.exists %}
+                                <ul class="ps-3 mb-0 small text-muted">
+                                    {% for choice in question.choices.all %}
+                                        <li>{{ choice.text }}</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

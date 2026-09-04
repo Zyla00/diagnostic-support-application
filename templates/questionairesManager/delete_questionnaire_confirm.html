@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="max-w-xl mx-auto p-6 bg-white rounded shadow text-center">
+    <h1 class="text-2xl font-bold text-red-600 mb-4">Usuń ankietę</h1>
+    <p class="mb-4">Czy na pewno chcesz usunąć ankietę <strong>{{ questionnaire.name }}</strong>? Tej operacji nie można cofnąć.</p>
+
+    <form method="POST" class="flex justify-center space-x-4">
+        {% csrf_token %}
+        <a href="{% url 'questionairesManager:questionnaire_detail' questionnaire.pk %}"
+           class="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400 text-gray-800">Anuluj</a>
+        <button type="submit"
+                class="px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">Usuń</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+    <script src="{% static 'js/toast.js' %}"></script>
+    <script src="{% static 'js/questionaires_manager.js' %}"></script>
+{% endblock %}
+
+{% if messages %}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        {% for message in messages %}
+            showToast("{{ message }}", "{{ message.tags }}");
+        {% endfor %}
+    });
+</script>
+{% endif %}

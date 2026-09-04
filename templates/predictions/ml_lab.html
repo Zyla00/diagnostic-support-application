@@ -1,0 +1,615 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Prediction models{% endblock %}
+
+{% block content %}
+<style>
+  .ml-lab-wrapper{margin-top:1rem}
+
+  /* sticky biały pasek z zakładkami */
+  .ml-lab-tabsbar{
+    position:sticky;top:0;z-index:1000;background:#fff;
+    padding:.5rem .75rem;margin-bottom:1rem;
+    border:1px solid rgba(0,0,0,.08);border-radius:.5rem;
+    box-shadow:0 2px 6px rgba(0,0,0,.05)
+  }
+  .ml-lab-tabsbar .nav-tabs{border-bottom:0}
+  .ml-lab-tabsbar .nav-link{
+    border:0!important;border-bottom:2px solid transparent!important;
+    color:#0d6efd;padding:.5rem .9rem
+  }
+  .ml-lab-tabsbar .nav-link:hover{color:#0b5ed7}
+  .ml-lab-tabsbar .nav-link.active{
+    background:transparent!important;color:#0d6efd!important;font-weight:600;
+    border-bottom-color:#0d6efd!important
+  }
+
+  .item-title{font-weight:600}
+  .item-meta{font-size:.85rem}
+  .patient-pill{font-size:.75rem;white-space:nowrap}
+
+  /* karty przypadków */
+  .case-card{border:1px solid rgba(0,0,0,.08); border-radius:.75rem}
+  .case-badge{font-size:.75rem}
+  .id-chip{font-size:.75rem;padding:.15rem .4rem;border:1px solid rgba(0,0,0,.15);border-radius:.5rem;background:#f8f9fa;margin:.15rem .25rem 0 0;display:inline-block}
+</style>
+
+<div class="ml-lab-wrapper">
+
+  <!-- BIAŁY STICKY BAR Z ZAKŁADKAMI -->
+  <div class="ml-lab-tabsbar">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-herbert" type="button" role="tab">
+          HerBERT
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-xgb" type="button" role="tab">
+          XGBoost
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-rag" type="button" role="tab">
+          Mistral RAG – notatki
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  {% if messages %}
+    <div class="mb-3">
+      {% for m in messages %}
+        <div class="alert alert-{{ m.tags|default:'info' }} py-2 mb-2">{{ m }}</div>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <!-- GŁÓWNY PANEL -->
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <div class="tab-content">
+
+        <!-- =================== HerBERT =================== -->
+        <div class="tab-pane fade show active" id="tab-herbert" role="tabpanel">
+          <form id="h-form" action="{% url 'predictionModels:train_herbert' %}" method="post" novalidate>
+            {% csrf_token %}
+
+            <!-- ŹRÓDŁA DANYCH -->
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title mb-3">Wybierz dane źródłowe</h5>
+
+                <ul class="nav nav-pills mb-3" role="tablist">
+                  <li class="nav-item">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#h-pane-surveys" type="button" role="tab">
+                      Ankiety <span class="badge bg-secondary ms-1">{{ filled_surveys|length }}</span>
+                    </button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#h-pane-labs" type="button" role="tab">
+                      Badania lab. <span class="badge bg-secondary ms-1">{{ lab_results|length }}</span>
+                    </button>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                  <!-- Ankiety -->
+                  <div class="tab-pane fade show active" id="h-pane-surveys" role="tabpanel">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="h-toggleAllSurveys">
+                        <label class="form-check-label" for="h-toggleAllSurveys">Zaznacz/odznacz wszystko</label>
+                      </div>
+                      <div class="ms-auto" style="min-width:260px;">
+                        <input type="text" class="form-control form-control-sm" id="h-filterSurveys" placeholder="Szukaj ankiety…">
+                      </div>
+                    </div>
+
+                    {% if filled_surveys %}
+                      <ul class="list-group small" id="h-surveyList">
+                        {% for s in filled_surveys %}
+                          <li class="list-group-item d-flex justify-content-between align-items-start h-survey-item">
+                            <div class="form-check w-100">
+                              <input class="form-check-input h-survey-checkbox" type="checkbox" value="{{ s.id }}" id="h-survey-{{ s.id }}" {% if not s.is_filled and not s.response %}disabled{% endif %}>
+                              <label class="form-check-label d-block" for="h-survey-{{ s.id }}">
+                                <span class="item-title">{{ s.questionnaire.name }}</span>
+                                {% with p=s.patient %}
+                                  {% if p %}
+                                    {% firstof p.get_full_name p.username p.email p.id as pname %}
+                                    <span class="badge text-bg-light border patient-pill ms-2">Pacjent: {{ pname }}</span>
+                                  {% endif %}
+                                {% endwith %}
+                                <br>
+                                <span class="text-muted item-meta">
+                                  Wysłano: {{ s.sent_at|date:"d.m.Y H:i" }}{% if s.filled_at %}, wypełniono: {{ s.filled_at|date:"d.m.Y H:i" }}{% endif %}
+                                </span>
+                              </label>
+                            </div>
+                            {% if s.is_filled or s.response %}
+                              <span class="badge bg-success align-self-center ms-2">Wypełniona</span>
+                            {% else %}
+                              <span class="badge bg-secondary align-self-center ms-2">Niewypełniona</span>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      <div id="h-surveyEmpty" class="text-muted small py-2 d-none">Brak wyników.</div>
+                    {% else %}
+                      <p class="text-muted mb-0">Brak ankiet.</p>
+                    {% endif %}
+                  </div>
+
+                  <!-- Badania -->
+                  <div class="tab-pane fade" id="h-pane-labs" role="tabpanel">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="h-toggleAllLabs">
+                        <label class="form-check-label" for="h-toggleAllLabs">Zaznacz/odznacz wszystko</label>
+                      </div>
+                      <div class="ms-auto" style="min-width:260px;">
+                        <input type="text" class="form-control form-control-sm" id="h-filterLabs" placeholder="Szukaj badania…">
+                      </div>
+                    </div>
+
+                    {% if lab_results %}
+                      <ul class="list-group small" id="h-labList">
+                        {% for l in lab_results %}
+                          <li class="list-group-item d-flex justify-content-between align-items-start h-lab-item">
+                            <div class="form-check w-100">
+                              <input class="form-check-input h-lab-checkbox" type="checkbox" value="{{ l.id }}" id="h-lab-{{ l.id }}">
+                              <label class="form-check-label d-block" for="h-lab-{{ l.id }}">
+                                <span class="item-title">Badanie {{ forloop.revcounter }}</span>
+                                {% with p=l.patient %}
+                                  {% if p %}
+                                    {% firstof p.get_full_name p.username p.email p.id as pname %}
+                                    <span class="badge text-bg-light border patient-pill ms-2">Pacjent: {{ pname }}</span>
+                                  {% endif %}
+                                {% endwith %}
+                                <br>
+                                <span class="text-muted item-meta">
+                                  {% if l.collected_at %}Data: {{ l.collected_at|date:"d.m.Y" }}{% elif l.created_at %}Data: {{ l.created_at|date:"d.m.Y" }}{% endif %}
+                                  {% if l.short_summary %} • {{ l.short_summary }}{% endif %}
+                                </span>
+                              </label>
+                            </div>
+                            {% if l.abnormal %}
+                              <span class="badge bg-danger align-self-center ms-2">Nieprawidłowe</span>
+                            {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      <div id="h-labEmpty" class="text-muted small py-2 d-none">Brak wyników.</div>
+                    {% else %}
+                      <p class="text-muted mb-0">Brak badań.</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BUILDER PRZYPADKÓW -->
+            <div class="card mb-0">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title mb-0">Przypadki do treningu</h5>
+                  <button class="btn btn-sm btn-outline-primary" type="button" id="h-add-case">
+                    + Dodaj przypadek
+                  </button>
+                </div>
+
+                <div id="h-cases"></div>
+
+                <input type="hidden" name="h_cases_json" id="h-cases-json">
+
+                <div class="mt-3">
+                  <button class="btn btn-primary" type="submit">Zapisz przypadki i trenuj HerBERT</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- =================== XGBoost =================== -->
+        <div class="tab-pane fade" id="tab-xgb" role="tabpanel">
+          <form id="x-form" action="{% url 'predictionModels:train_xgboost' %}" method="post" novalidate>
+            {% csrf_token %}
+
+            <!-- ŹRÓDŁA DANYCH -->
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title mb-3">Wybierz dane źródłowe</h5>
+
+                <ul class="nav nav-pills mb-3" role="tablist">
+                  <li class="nav-item">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#x-pane-surveys" type="button" role="tab">
+                      Ankiety <span class="badge bg-secondary ms-1">{{ filled_surveys|length }}</span>
+                    </button>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#x-pane-labs" type="button" role="tab">
+                      Badania lab. <span class="badge bg-secondary ms-1">{{ lab_results|length }}</span>
+                    </button>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="x-pane-surveys" role="tabpanel">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="x-toggleAllSurveys">
+                        <label class="form-check-label" for="x-toggleAllSurveys">Zaznacz/odznacz wszystko</label>
+                      </div>
+                      <div class="ms-auto" style="min-width:260px;">
+                        <input type="text" class="form-control form-control-sm" id="x-filterSurveys" placeholder="Szukaj ankiety…">
+                      </div>
+                    </div>
+                    {% if filled_surveys %}
+                      <ul class="list-group small" id="x-surveyList">
+                        {% for s in filled_surveys %}
+                          <li class="list-group-item d-flex justify-content-between align-items-start x-survey-item">
+                            <div class="form-check w-100">
+                              <input class="form-check-input x-survey-checkbox" type="checkbox" value="{{ s.id }}" id="x-survey-{{ s.id }}" {% if not s.is_filled and not s.response %}disabled{% endif %}>
+                              <label class="form-check-label d-block" for="x-survey-{{ s.id }}">
+                                <span class="item-title">{{ s.questionnaire.name }}</span>
+                                {% with p=s.patient %}
+                                  {% if p %}
+                                    {% firstof p.get_full_name p.username p.email p.id as pname %}
+                                    <span class="badge text-bg-light border patient-pill ms-2">Pacjent: {{ pname }}</span>
+                                  {% endif %}
+                                {% endwith %}
+                                <br>
+                                <span class="text-muted item-meta">Wysłano: {{ s.sent_at|date:"d.m.Y H:i" }}{% if s.filled_at %}, wypełniono: {{ s.filled_at|date:"d.m.Y H:i" }}{% endif %}</span>
+                              </label>
+                            </div>
+                            {% if s.is_filled or s.response %}<span class="badge bg-success align-self-center ms-2">Wypełniona</span>{% else %}<span class="badge bg-secondary align-self-center ms-2">Niewypełniona</span>{% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      <div id="x-surveyEmpty" class="text-muted small py-2 d-none">Brak wyników.</div>
+                    {% else %}
+                      <p class="text-muted mb-0">Brak ankiet.</p>
+                    {% endif %}
+                  </div>
+
+                  <div class="tab-pane fade" id="x-pane-labs" role="tabpanel">
+                    <div class="d-flex flex-wrap align-items-center gap-2 mb-2">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="x-toggleAllLabs">
+                        <label class="form-check-label" for="x-toggleAllLabs">Zaznacz/odznacz wszystko</label>
+                      </div>
+                      <div class="ms-auto" style="min-width:260px;">
+                        <input type="text" class="form-control form-control-sm" id="x-filterLabs" placeholder="Szukaj badania…">
+                      </div>
+                    </div>
+                    {% if lab_results %}
+                      <ul class="list-group small" id="x-labList">
+                        {% for l in lab_results %}
+                          <li class="list-group-item d-flex justify-content-between align-items-start x-lab-item">
+                            <div class="form-check w-100">
+                              <input class="form-check-input x-lab-checkbox" type="checkbox" value="{{ l.id }}" id="x-lab-{{ l.id }}">
+                              <label class="form-check-label d-block" for="x-lab-{{ l.id }}">
+                                <span class="item-title">Badanie {{ forloop.revcounter }}</span>
+                                {% with p=l.patient %}
+                                  {% if p %}
+                                    {% firstof p.get_full_name p.username p.email p.id as pname %}
+                                    <span class="badge text-bg-light border patient-pill ms-2">Pacjent: {{ pname }}</span>
+                                  {% endif %}
+                                {% endwith %}
+                                <br>
+                                <span class="text-muted item-meta">{% if l.collected_at %}Data: {{ l.collected_at|date:"d.m.Y" }}{% elif l.created_at %}Data: {{ l.created_at|date:"d.m.Y" }}{% endif %}{% if l.short_summary %} • {{ l.short_summary }}{% endif %}</span>
+                              </label>
+                            </div>
+                            {% if l.abnormal %}<span class="badge bg-danger align-self-center ms-2">Nieprawidłowe</span>{% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      <div id="x-labEmpty" class="text-muted small py-2 d-none">Brak wyników.</div>
+                    {% else %}
+                      <p class="text-muted mb-0">Brak badań.</p>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- BUILDER PRZYPADKÓW -->
+            <div class="card mb-0">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <h5 class="card-title mb-0">Przypadki do treningu</h5>
+                  <button class="btn btn-sm btn-outline-primary" type="button" id="x-add-case">
+                    + Dodaj przypadek
+                  </button>
+                </div>
+
+                <div id="x-cases"></div>
+
+                <input type="hidden" name="x_cases_json" id="x-cases-json">
+
+                <div class="mt-3">
+                  <button class="btn btn-primary" type="submit">Zapisz przypadki i trenuj XGBoost</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!-- =================== RAG =================== -->
+        <div class="tab-pane fade" id="tab-rag" role="tabpanel">
+          <form action="{% url 'predictionModels:add_note' %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title mb-3">Dodaj notatkę</h5>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label">Tytuł</label>
+                    <input name="note_title" class="form-control" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label">Załącznik (opcjonalnie)</label>
+                    <input type="file" name="note_file" class="form-control">
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label">Treść</label>
+                    <textarea name="note_text" class="form-control" rows="6" required></textarea>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <button class="btn btn-success" type="submit">Dodaj notatkę i przebuduj indeks</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- wspólny datalist z etykietami -->
+      <datalist id="labels">
+        {% for lab in label_choices %}
+          <option value="{{ lab }}">
+        {% endfor %}
+      </datalist>
+    </div>
+  </div>
+</div>
+
+<!-- ===== JS: filtry, zaznacz/odznacz, builder przypadków ===== -->
+<script>
+  /* --- utils --- */
+  const norm = (s) => (s||'').toString().toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/ą/g,'a').replace(/ć/g,'c').replace(/ę/g,'e')
+    .replace(/ł/g,'l').replace(/ń/g,'n').replace(/ó/g,'o')
+    .replace(/ś/g,'s').replace(/ż/g,'z').replace(/ź/g,'z');
+
+  function bindToggle(masterId, selector) {
+    const m = document.getElementById(masterId);
+    if (!m) return;
+    m.addEventListener('change', () => {
+      document.querySelectorAll(selector).forEach(cb => { if (!cb.disabled) cb.checked = m.checked; });
+    });
+  }
+  bindToggle('h-toggleAllSurveys','.h-survey-checkbox');
+  bindToggle('h-toggleAllLabs','.h-lab-checkbox');
+  bindToggle('x-toggleAllSurveys','.x-survey-checkbox');
+  bindToggle('x-toggleAllLabs','.x-lab-checkbox');
+
+  function bindFilter(inputId, listId, itemClass, emptyId) {
+    const input = document.getElementById(inputId);
+    if (!input) return;
+    const handler = () => {
+      const q = norm(input.value);
+      let visible = 0;
+      document.querySelectorAll('#'+listId+' .'+itemClass).forEach(el => {
+        const show = norm(el.textContent).includes(q);
+        el.classList.toggle('d-none', !show);
+        if (show) visible++;
+      });
+      const empty = document.getElementById(emptyId);
+      if (empty) empty.classList.toggle('d-none', visible>0);
+    };
+    input.addEventListener('input', handler);
+    handler();
+  }
+  bindFilter('h-filterSurveys','h-surveyList','h-survey-item','h-surveyEmpty');
+  bindFilter('h-filterLabs','h-labList','h-lab-item','h-labEmpty');
+  bindFilter('x-filterSurveys','x-surveyList','x-survey-item','x-surveyEmpty');
+  bindFilter('x-filterLabs','x-labList','x-lab-item','x-labEmpty');
+
+  /* --- builder przypadków: HerBERT --- */
+  const hCases = [];
+  const hCasesEl = document.getElementById('h-cases');
+  const hAddBtn = document.getElementById('h-add-case');
+  const hForm   = document.getElementById('h-form');
+  const hCasesJson = document.getElementById('h-cases-json');
+
+  function getChecked(selector){
+    return Array.from(document.querySelectorAll(selector+':checked')).map(i=>i.value);
+  }
+
+  function uniqPush(arr, values){
+    values.forEach(v => { if (!arr.includes(v)) arr.push(v); });
+  }
+
+  function renderHCases(){
+    hCasesEl.innerHTML = '';
+    if (hCases.length === 0){
+      hCasesEl.innerHTML = '<div class="text-muted">Brak przypadków. Kliknij „Dodaj przypadek”.</div>';
+      return;
+    }
+    hCases.forEach((c, idx) => {
+      const card = document.createElement('div');
+      card.className = 'case-card p-3 mb-3';
+      card.innerHTML = `
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+          <div class="flex-grow-1 pe-2">
+            <div class="mb-2">
+              <label class="form-label mb-1">Etykieta</label>
+              <input class="form-control form-control-sm" list="labels" placeholder="Wpisz lub wybierz…" value="${c.label||''}" data-bind="label">
+              <div class="form-text">Wymagana przy zapisie.</div>
+            </div>
+            <div>
+              <label class="form-label mb-1">Opis przypadku (opcjonalnie)</label>
+              <textarea class="form-control form-control-sm" rows="3" placeholder="Objawy, kontekst, leki…" data-bind="case_text">${c.case_text||''}</textarea>
+            </div>
+          </div>
+          <div class="text-end">
+            <div class="mb-2">
+              <span class="badge text-bg-primary case-badge">Ankiety: ${c.survey_ids.length}</span>
+              <span class="badge text-bg-primary case-badge">Badania: ${c.lab_ids.length}</span>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary" data-act="assign">Przypisz zaznaczone</button>
+              <button type="button" class="btn btn-sm btn-outline-danger" data-act="clear">Wyczyść</button>
+              <button type="button" class="btn btn-sm btn-outline-dark" data-act="remove">Usuń</button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2 small">
+          <div class="text-muted">ID ankiet:</div>
+          <div>${c.survey_ids.map(id=>`<span class="id-chip">${id}</span>`).join('') || '<span class="text-muted">—</span>'}</div>
+          <div class="mt-2 text-muted">ID badań:</div>
+          <div>${c.lab_ids.map(id=>`<span class="id-chip">${id}</span>`).join('') || '<span class="text-muted">—</span>'}</div>
+        </div>
+      `;
+      card.querySelectorAll('[data-bind]').forEach(inp=>{
+        inp.addEventListener('input', (e)=>{
+          const k = inp.dataset.bind;
+          c[k] = e.target.value;
+        });
+      });
+      card.querySelector('[data-act="assign"]').addEventListener('click', ()=>{
+        uniqPush(c.survey_ids, getChecked('.h-survey-checkbox'));
+        uniqPush(c.lab_ids,    getChecked('.h-lab-checkbox'));
+        // po przypisaniu odznacz bieżące checkboxy
+        document.querySelectorAll('.h-survey-checkbox:checked,.h-lab-checkbox:checked').forEach(cb=>cb.checked=false);
+        renderHCases();
+      });
+      card.querySelector('[data-act="clear"]').addEventListener('click', ()=>{
+        c.survey_ids = []; c.lab_ids = []; renderHCases();
+      });
+      card.querySelector('[data-act="remove"]').addEventListener('click', ()=>{
+        hCases.splice(idx,1); renderHCases();
+      });
+      hCasesEl.appendChild(card);
+    });
+  }
+
+  hAddBtn?.addEventListener('click', ()=>{
+    hCases.push({label:'', case_text:'', survey_ids:[], lab_ids:[]});
+    renderHCases();
+  });
+
+  hForm?.addEventListener('submit', (e)=>{
+    // walidacja: min 1 case i każdy z etykietą
+    if (hCases.length === 0){
+      e.preventDefault();
+      alert('Dodaj co najmniej jeden przypadek dla HerBERT.');
+      return;
+    }
+    if (hCases.some(c => !c.label || !c.label.trim())){
+      e.preventDefault();
+      alert('Każdy przypadek musi mieć uzupełnioną etykietę.');
+      return;
+    }
+    hCasesJson.value = JSON.stringify(hCases);
+  });
+
+  renderHCases();
+
+  /* --- builder przypadków: XGBoost --- */
+  const xCases = [];
+  const xCasesEl = document.getElementById('x-cases');
+  const xAddBtn = document.getElementById('x-add-case');
+  const xForm   = document.getElementById('x-form');
+  const xCasesJson = document.getElementById('x-cases-json');
+
+  function renderXCases(){
+    xCasesEl.innerHTML = '';
+    if (xCases.length === 0){
+      xCasesEl.innerHTML = '<div class="text-muted">Brak przypadków. Kliknij „Dodaj przypadek”.</div>';
+      return;
+    }
+    xCases.forEach((c, idx) => {
+      const card = document.createElement('div');
+      card.className = 'case-card p-3 mb-3';
+      card.innerHTML = `
+        <div class="d-flex justify-content-between align-items-start flex-wrap gap-2">
+          <div class="flex-grow-1 pe-2">
+            <div class="mb-2">
+              <label class="form-label mb-1">Etykieta</label>
+              <input class="form-control form-control-sm" list="labels" placeholder="Wpisz lub wybierz…" value="${c.label||''}" data-bind="label">
+              <div class="form-text">Wymagana przy zapisie.</div>
+            </div>
+            <div>
+              <label class="form-label mb-1">Opis przypadku (opcjonalnie)</label>
+              <textarea class="form-control form-control-sm" rows="3" placeholder="Objawy, kontekst, leki…" data-bind="case_text">${c.case_text||''}</textarea>
+            </div>
+          </div>
+          <div class="text-end">
+            <div class="mb-2">
+              <span class="badge text-bg-primary case-badge">Ankiety: ${c.survey_ids.length}</span>
+              <span class="badge text-bg-primary case-badge">Badania: ${c.lab_ids.length}</span>
+            </div>
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary" data-act="assign">Przypisz zaznaczone</button>
+              <button type="button" class="btn btn-sm btn-outline-danger" data-act="clear">Wyczyść</button>
+              <button type="button" class="btn btn-sm btn-outline-dark" data-act="remove">Usuń</button>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2 small">
+          <div class="text-muted">ID ankiet:</div>
+          <div>${c.survey_ids.map(id=>`<span class="id-chip">${id}</span>`).join('') || '<span class="text-muted">—</span>'}</div>
+          <div class="mt-2 text-muted">ID badań:</div>
+          <div>${c.lab_ids.map(id=>`<span class="id-chip">${id}</span>`).join('') || '<span class="text-muted">—</span>'}</div>
+        </div>
+      `;
+      card.querySelectorAll('[data-bind]').forEach(inp=>{
+        inp.addEventListener('input', (e)=>{
+          const k = inp.dataset.bind;
+          c[k] = e.target.value;
+        });
+      });
+      card.querySelector('[data-act="assign"]').addEventListener('click', ()=>{
+        uniqPush(c.survey_ids, getChecked('.x-survey-checkbox'));
+        uniqPush(c.lab_ids,    getChecked('.x-lab-checkbox'));
+        document.querySelectorAll('.x-survey-checkbox:checked,.x-lab-checkbox:checked').forEach(cb=>cb.checked=false);
+        renderXCases();
+      });
+      card.querySelector('[data-act="clear"]').addEventListener('click', ()=>{
+        c.survey_ids = []; c.lab_ids = []; renderXCases();
+      });
+      card.querySelector('[data-act="remove"]').addEventListener('click', ()=>{
+        xCases.splice(idx,1); renderXCases();
+      });
+      xCasesEl.appendChild(card);
+    });
+  }
+
+  xAddBtn?.addEventListener('click', ()=>{
+    xCases.push({label:'', case_text:'', survey_ids:[], lab_ids:[]});
+    renderXCases();
+  });
+
+  xForm?.addEventListener('submit', (e)=>{
+    if (xCases.length === 0){
+      e.preventDefault();
+      alert('Dodaj co najmniej jeden przypadek dla XGBoost.');
+      return;
+    }
+    if (xCases.some(c => !c.label || !c.label.trim())){
+      e.preventDefault();
+      alert('Każdy przypadek musi mieć uzupełnioną etykietę.');
+      return;
+    }
+    xCasesJson.value = JSON.stringify(xCases);
+  });
+
+  renderXCases();
+</script>
+{% endblock %}

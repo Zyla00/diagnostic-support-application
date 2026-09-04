@@ -1,0 +1,221 @@
+## Kim jest diabetolog?
+
+Diabetolog to lekarz specjalista w dziedzinie diabetologii i chorób metabolicznych. Zajmuje się rozpoznawaniem, leczeniem oraz edukacją pacjentów z cukrzycą typu 1 i 2, cukrzycą ciążową, stanem przedcukrzycowym, rzadkimi postaciami cukrzycy (MODY, LADA) oraz zespołami insulino- i leptynooporności. Monitoruje powikłania naczyniowe, nerkowe, neurologiczne i okulistyczne oraz koordynuje wielodyscyplinarną opiekę (dietetyk, edukator, kardiolog, nefrolog).
+
+---
+
+## Objawy sugerujące konieczność wizyty u diabetologa
+
+1. **Objawy klasycznej hiperglikemii**
+   • wzmożone pragnienie (polidypsja) i oddawanie moczu (poliuria), nocne wstawanie do toalety
+   • niewyjaśniony spadek masy ciała (> 5 kg w 3 miesiące)
+   • przewlekłe zmęczenie, senność po posiłkach
+   • nawracające infekcje skóry, dróg moczowo-płciowych, trudno gojące się rany
+
+2. **Objawy hipoglikemii** (u leczonych cukrzyków)
+   • drżenie, poty, kołatanie serca, głód, zaburzenia koncentracji, epizody utraty przytomności
+
+3. **Powikłania przewlekłe**
+   • drętwienie stóp, uczucie mrowienia lub pieczenia (neuropatia)
+   • pogorszenie ostrości wzroku, mroczki, krwawienia siatkówkowe (retinopatia)
+   • obrzęki stóp, podwyższone ciśnienie tętnicze, białkomocz (nefropatia)
+   • chromanie przestankowe, bóle w klatce piersiowej, przebyty zawał lub TIA
+
+4. **Stany nagłe**
+   • glikemia przygodna ≥ 250 mg/dL z ciałami ketonowymi w moczu lub krwi (ryzyko kwasicy ketonowej)
+   • powtarzające się hipoglikemie < 54 mg/dL lub nieświadomość hipoglikemii
+
+---
+
+## Wyniki badań laboratoryjnych wskazujące na potrzebę konsultacji
+
+*(wartości odniesienia wg wytycznych PTD 2024/ADA 2025; zawsze uwzględnić normę lokalnego laboratorium)*
+
+* **Glukoza na czczo ≥ 126 mg/dL (≥ 7,0 mmol/L) w ≥ 2 pomiarach** – potwierdza cukrzycę.
+* **Glukoza przygodna ≥ 200 mg/dL (≥ 11,1 mmol/L)** z objawami hiperglikemii – rozpoznanie cukrzycy natychmiastowe.
+* **OGTT (2-h) ≥ 200 mg/dL** – cukrzyca; 140–199 mg/dL = stan przedcukrzycowy.
+* **HbA1c ≥ 6,5 %** (NGSP) – równoważnik rozpoznania cukrzycy; 5,7–6,4 % = stan przedcukrzycowy.
+* **Średnia dobowa glikemia z CGM – czas > 70 % poza zakresem 70–180 mg/dL** – zła kontrola.
+* **C-peptyd < 0,8 ng/mL** u dorosłego z hiperglikemią – podejrzenie cukrzycy typu 1 lub LADA.
+* **Przeciwciała anty-GAD, IA-2, ZnT8 dodatnie** – autoimmunologiczna etiologia.
+* **UACR ≥ 30 mg/g** lub **albuminuria ≥ 30 mg/24 h** – nefropatia cukrzycowa; wskazane leczenie nefroprotekcyjne.
+* **eGFR < 60 mL/min/1,73 m²** – przewlekła choroba nerek; konieczna modyfikacja leków.
+* **Ciśnienie tętnicze ≥ 130/80 mmHg** (u cukrzyka ≥ 18 l.) – wymaga intensyfikacji terapii.
+* **Profil lipidowy:** LDL ≥ 100 mg/dL u osób bez CVD lub ≥ 70 mg/dL u osób z CVD; trójglicerydy ≥ 150 mg/dL – wskazanie do leczenia hipolipemizującego.
+* **Stężenie kwasu moczowego > 7 mg/dL** (mężczyzna) lub > 6 mg/dL (kobieta) – zwiększa ryzyko dny i nefropatii.
+* **Kreatynina kinaza (CK) > 5× górna norma** u cukrzyka z bólami mięśni – podejrzenie rabdomiolizy po statynach.
+
+**Zmienność wiekowo-płciowa (wybrane przykłady):**
+
+* U osób > 65 l. docelowe HbA1c bywa liberalizowane do 7,5–8,0 % przy współistniejących chorobach i ryzyku hipoglikemii.
+* Kobiety w ciąży: glukoza na czczo ≥ 92 mg/dL lub 1-h OGTT ≥ 180 mg/dL lub 2-h ≥ 153 mg/dL rozpoznaje cukrzycę ciążową.
+* Obwód talii ryzyka: ≥ 102 cm u mężczyzn, ≥ 88 cm u kobiet; u Azjatów odpowiednio ≥ 90 cm i ≥ 80 cm.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób glikemicznych
+
+* Wiek ≥ 45 lat (kontrola co 3 lata nawet bez innych czynników).
+* Otyłość: BMI ≥ 30 kg/m² lub obwód talii przekraczający wartości ryzyka.
+* Siedzący tryb życia, dieta wysokokaloryczna – nadwyżka > 300 kcal/d przez lata.
+* Nadciśnienie tętnicze, dyslipidemia, zespół policystycznych jajników (PCOS).
+* Cukrzyca ciążowa lub urodzenie dziecka > 4 kg – ryzyko cukrzycy typu 2 u matki.
+* Wywiad rodzinny cukrzycy typu 2 (rodzice lub rodzeństwo).
+* Choroby układu sercowo-naczyniowego, przebyta zatorowość, bezdech senny.
+* Leki: glikokortykosteroidy, atypowe leki przeciwpsychotyczne, tiazydy, statyny (ryzyko dysglikemii).
+
+---
+
+## Na co zwraca uwagę lekarz POZ, kierując pacjenta do diabetologa
+
+1. **Kryteria diagnostyczne cukrzycy spełnione w ≥ 2 badaniach** (glukoza na czczo ≥ 126 mg/dL, HbA1c ≥ 6,5 %).
+2. **Znaczna hiperglikemia**: glukoza przygodna ≥ 300 mg/dL lub HbA1c ≥ 9 % przy pierwszym rozpoznaniu.
+3. **Objawy cukrzycowej kwasicy ketonowej lub hiperglikemii hiperosmolarnej** – pilne skierowanie do szpitala.
+4. **Powtarzające się hipoglikemie < 54 mg/dL** lub nieświadomość hipoglikemii.
+5. **Niepowodzenie leczenia doustnego** – HbA1c pozostaje > 7,5 % po ≥ 6 miesiącach prawidłowo prowadzonej terapii i zmian stylu życia.
+6. **Planowanie ciąży** u kobiety z cukrzycą lub rozpoznanie cukrzycy ciążowej.
+7. **Szybki przyrost masy ciała, insulinooporność, podejrzenie LADA/MODY** – potrzeba zaawansowanej diagnostyki.
+8. **Rozwój powikłań narządowych**: UACR ≥ 30 mg/g, eGFR < 60, neuropatia objawowa, retinopatia wg okulisty.
+9. **Konieczność włączenia zaawansowanej terapii**: pompa insulinowa, systemy CGM, leki inkretynowe lub flozyny przy niewydolności serca / nerek.
+
+---
+
+## Podsumowanie – kiedy bezwzględnie skierować do diabetologa?
+
+* Świeżo stwierdzona cukrzyca typu 1 lub każda cukrzyca z glikemią przygodną ≥ 300 mg/dL.
+* HbA1c ≥ 9 % mimo leczenia w POZ lub spadek HbA1c < 6,0 % z częstymi hipoglikemiami.
+* Stan przedcukrzycowy z dodatkowymi czynnikami wysokiego ryzyka (otyłość brzuszna, HDL < 40 mg/dL u mężczyzny lub < 50 mg/dL u kobiety, trójglicerydy ≥ 150 mg/dL).
+* Cukrzyca ciążowa lub planowanie ciąży przez pacjentkę z cukrzycą.
+* Postępujące powikłania nerkowe, sercowo-naczyniowe, neuropatyczne, okulistyczne.
+* Potrzeba technologii (pompa, CGM) lub leczenia biologicznego wpływającego na kardioprotekcję i nefroprotekcję.
+
+---
+
+
+
+## Ankieta specjalistyczna – diabetolog
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest powód wizyty?
+• Czy u pacjenta wcześniej rozpoznano cukrzycę (typ 1, 2, ciążową, wtórną)?
+• Jakie są objawy obecne obecnie? (pragnienie, wielomocz, zmęczenie, infekcje, chudnięcie)
+• Od kiedy występują objawy? Czy nasilają się?
+• Czy występowały epizody hipoglikemii lub hiperglikemii?
+
+---
+
+### II. Pomiar glikemii i parametry metaboliczne
+
+• Jakie były ostatnie wyniki glukozy na czczo?
+• Czy wykonywano OGTT (test obciążenia glukozą)? Jaki wynik?
+• Jakie jest ostatnie HbA1c? Data i wartość.
+• Czy wykonano CGM (ciągły monitoring glikemii)? Jaki % czasu w zakresie 70–180 mg/dL?
+• Czy były hipoglikemie < 70 mg/dL? Ile razy? Czy wystąpiła utrata przytomności?
+• Czy były epizody glikemii > 300 mg/dL? Jak często?
+
+---
+
+### III. Leki i leczenie dotychczasowe
+
+• Jakie leki stosuje pacjent obecnie? (insulina, metformina, flozyny, agoniści GLP-1, inne)
+• Czy był problem z tolerancją leków lub działania niepożądane?
+• Czy pacjent stosuje system CGM lub pompę insulinową?
+• Czy potrafi samodzielnie kontrolować glikemię?
+• Czy był edukowany przez pielęgniarkę diabetologiczną?
+
+---
+
+### IV. Powikłania i choroby współistniejące
+
+• Czy występują zaburzenia czucia w stopach, drętwienie, pieczenie?
+• Czy występuje owrzodzenie stopy, zmiany paznokci, deformacje stóp?
+• Czy pacjent zgłasza pogorszenie widzenia? Czy był u okulisty?
+• Czy występuje białkomocz, UACR ≥ 30 mg/g lub eGFR < 60 ml/min/1,73 m²?
+• Czy stwierdzono nadciśnienie tętnicze lub zaburzenia lipidowe?
+• Czy przebyto udar, zawał, TIA, miażdżycę kończyn dolnych?
+• Czy pacjent cierpi na depresję lub objawy wypalenia chorobowego?
+
+---
+
+### V. Styl życia i czynniki ryzyka
+
+• Jaki jest poziom aktywności fizycznej (niski/średni/wysoki)?
+• Czy stosowana jest dieta cukrzycowa?
+• Czy pacjent ma nadwagę lub otyłość?
+ – BMI: \_\_\_\_\_\_, obwód talii: \_\_\_\_\_\_ cm
+• Czy występuje bezdech senny (chrapanie, senność w dzień)?
+• Czy pacjent pali papierosy? Ile lat?
+• Czy spożywa alkohol? W jakiej ilości?
+• Czy w rodzinie występowała cukrzyca?
+
+---
+
+### VI. Wyniki badań laboratoryjnych (w ciągu ostatnich 6 miesięcy)
+
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• OGTT: 0h \_\_\_\_\_\_, 2h \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ % (data: \_\_\_\_\_\_)
+• C-peptyd: \_\_\_\_\_\_ ng/mL
+• Przeciwciała: anty-GAD / IA-2 / ZnT8: dodatnie / ujemne
+• UACR (albumina/kreatynina): \_\_\_\_\_\_ mg/g
+• Kreatynina: \_\_\_\_\_\_ mg/dL, eGFR: \_\_\_\_\_\_ ml/min
+• Cholesterol całkowity: \_\_\_\_\_\_, LDL: \_\_\_\_\_\_, HDL: \_\_\_\_\_\_, TG: \_\_\_\_\_\_ mg/dL
+• Kwas moczowy: \_\_\_\_\_\_ mg/dL
+• TSH: \_\_\_\_\_\_ µIU/mL
+• ALT/AST: \_\_\_\_\_\_ / \_\_\_\_\_\_ U/L
+• CRP: \_\_\_\_\_\_ mg/L
+
+---
+
+### VII. Cukrzyca ciążowa (jeśli dotyczy)
+
+• Który tydzień ciąży?
+• Czy rozpoznano cukrzycę ciążową?
+• OGTT: 0h \_\_\_\_\_\_, 1h \_\_\_\_\_\_, 2h \_\_\_\_\_\_ mg/dL
+• Czy glikemia przekraczała wartości dopuszczalne (na czczo > 92 mg/dL)?
+• Czy planowany jest poród w ośrodku III poziomu?
+• Czy występują czynniki ryzyka: wiek > 35 lat, PCOS, nadwaga, dziecko > 4 kg w przeszłości?
+
+---
+
+### VIII. Pytania uzupełniające
+
+• Czy pacjent prowadzi dzienniczek glikemii?
+• Czy był szkolony z zasad diety i leczenia?
+• Czy są trudności z samodzielnym wstrzykiwaniem insuliny?
+• Czy wymagana jest pomoc opiekuna?
+• Czy w ostatnim czasie wystąpiły pogorszenie funkcji poznawczych lub upadki?
+
+---
+
+### IX. Objawy alarmowe (do zaznaczenia przez lekarza lub pacjenta)
+
+\[ ] Glikemia przygodna > 300 mg/dL
+\[ ] HbA1c ≥ 9 % mimo leczenia
+\[ ] ≥ 2 epizody hipoglikemii < 54 mg/dL
+\[ ] Nieświadomość hipoglikemii
+\[ ] Stopa cukrzycowa (owrzodzenie, martwica, obrzęk)
+\[ ] eGFR < 60 ml/min/1,73 m²
+\[ ] Albuminuria ≥ 30 mg/24 h
+\[ ] Wzrok pogarszający się mimo korekcji
+\[ ] Neuropatia objawowa
+\[ ] Retinopatia wg okulisty
+\[ ] Nadwaga + cukrzyca ciążowa w wywiadzie
+\[ ] Przeciwciała anty-GAD dodatnie
+\[ ] C-peptyd < 0,8 ng/mL
+\[ ] Potrzeba technologii: CGM / pompa
+
+---
+
+### X. Podsumowanie – wskazania do konsultacji diabetologicznej
+
+**Typ skierowania:**
+– Pilne: hipoglikemie ciężkie, glikemia > 350 mg/dL, kwasica, objawy powikłań
+– Planowe: niekontrolowana cukrzyca mimo leczenia, nowa cukrzyca w ciąży, zaawansowane powikłania
+– Diagnostyczne: podejrzenie LADA/MODY, potrzeba modyfikacji leczenia, włączenie nowych leków
+
+---
+

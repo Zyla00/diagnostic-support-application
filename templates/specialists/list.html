@@ -1,0 +1,198 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<style>
+  .specialists-wrapper {
+    margin-top: 2rem;
+  }
+
+  .specialists-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .specialist-box {
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .specialist-info {
+    flex: 1;
+  }
+
+  .specialist-info p {
+    font-size: 0.95rem;
+    margin-bottom: .3rem;
+  }
+
+  .btn-small {
+    padding: 0.25rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .search-box {
+    margin-bottom: 2rem;
+  }
+
+  .my-specialist-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .alert {
+    margin-bottom: 1.5rem;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container specialists-wrapper">
+  <div class="specialists-card">
+
+    {# ================= KOMUNIKATY ================= #}
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+          {{ message }}
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Zamknij"></button>
+        </div>
+      {% endfor %}
+    {% endif %}
+
+    {# ================= MÓJ SPECJALISTA ================= #}
+    {% if my_specialist %}
+      <div class="my-specialist-header">
+        <h5 class="mb-0">Mój specjalista</h5>
+        <button class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#resignModal">Zrezygnuj</button>
+      </div>
+
+      <div class="specialist-box">
+        <div class="specialist-info">
+          <p><strong>{{ my_specialist.get_full_name }}</strong></p>
+          {% with sp=my_specialist.specialistprofile %}
+            {% if sp.specialization %}<p>Specjalizacja: {{ sp.specialization }}</p>{% endif %}
+            {% if sp.education %}<p>Wykształcenie: {{ sp.education }}</p>{% endif %}
+            {% if sp.experience %}<p>Doświadczenie: {{ sp.experience }}</p>{% endif %}
+            {% if sp.license_number %}<p>PWZ: {{ sp.license_number }}</p>{% endif %}
+            {% if sp.location %}<p>Lokalizacja: {{ sp.location }}</p>{% endif %}
+            {% if sp.description %}<p>{{ sp.description }}</p>{% endif %}
+          {% endwith %}
+        </div>
+      </div>
+    {% endif %}
+
+    {# ================= WYSZUKIWARKA ================= #}
+    <form method="get" class="search-box" autocomplete="off">
+      <div class="input-group">
+        <input type="text" name="q" class="form-control" placeholder="Szukaj specjalisty..." value="{{ request.GET.q }}">
+        <button type="submit" class="btn btn-primary">Szukaj</button>
+      </div>
+    </form>
+
+    {# ================= LISTA SPECJALISTÓW ================= #}
+    <h6 class="mb-3">Dostępni specjaliści</h6>
+
+    {% for specialist in page_obj %}
+      <div class="specialist-box">
+        <div class="specialist-info">
+          <p><strong>{{ specialist.get_full_name }}</strong></p>
+          {% with sp=specialist.specialistprofile %}
+            {% if sp.specialization %}<p>Specjalizacja: {{ sp.specialization }}</p>{% endif %}
+            {% if sp.education %}<p>Wykształcenie: {{ sp.education }}</p>{% endif %}
+            {% if sp.experience %}<p>Doświadczenie: {{ sp.experience }}</p>{% endif %}
+            {% if sp.license_number %}<p>PWZ: {{ sp.license_number }}</p>{% endif %}
+            {% if sp.location %}<p>Lokalizacja: {{ sp.location }}</p>{% endif %}
+            {% if sp.description %}<p>{{ sp.description }}</p>{% endif %}
+          {% endwith %}
+        </div>
+        <div>
+          <button class="btn btn-outline-success btn-small" data-bs-toggle="modal" data-bs-target="#chooseModal{{ specialist.id }}">
+            Wybierz
+          </button>
+        </div>
+      </div>
+
+      {# === MODAL WYBORU SPECJALISTY === #}
+      <div class="modal fade" id="chooseModal{{ specialist.id }}" tabindex="-1" aria-labelledby="chooseModalLabel{{ specialist.id }}" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="chooseModalLabel{{ specialist.id }}">Potwierdź wybór specjalisty</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+            </div>
+            <div class="modal-body">
+              Czy na pewno chcesz wybrać tego specjalistę?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+              <a href="{% url 'choose_specialist' specialist.id %}" class="btn btn-success">Wybierz</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% empty %}
+      <p>Brak dostępnych specjalistów.</p>
+    {% endfor %}
+
+    {# === MODAL REZYGANCJI === #}
+    <div class="modal fade" id="resignModal" tabindex="-1" aria-labelledby="resignModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form action="{% url 'resign_specialist' %}" method="post">
+            {% csrf_token %}
+            <div class="modal-header">
+              <h5 class="modal-title" id="resignModalLabel">Potwierdź rezygnację</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Zamknij"></button>
+            </div>
+            <div class="modal-body">
+              Czy na pewno chcesz zrezygnować z leczenia u tego specjalisty?
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Anuluj</button>
+              <button type="submit" class="btn btn-danger">Zrezygnuj</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    {# ================= PAGINACJA ================= #}
+    <nav aria-label="Paginacja">
+      <ul class="pagination justify-content-center mt-4">
+        {% if page_obj.has_previous %}
+          <li class="page-item">
+            <a class="page-link" href="?q={{ query }}&page={{ page_obj.previous_page_number }}">← Poprzednia</a>
+          </li>
+        {% else %}
+          <li class="page-item disabled"><span class="page-link">← Poprzednia</span></li>
+        {% endif %}
+
+        <li class="page-item disabled">
+          <span class="page-link">Strona {{ page_obj.number }} z {{ page_obj.paginator.num_pages }}</span>
+        </li>
+
+        {% if page_obj.has_next %}
+          <li class="page-item">
+            <a class="page-link" href="?q={{ query }}&page={{ page_obj.next_page_number }}">Następna →</a>
+          </li>
+        {% else %}
+          <li class="page-item disabled"><span class="page-link">Następna →</span></li>
+        {% endif %}
+      </ul>
+    </nav>
+
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,275 @@
+
+## Kim jest neurolog?
+
+**Neurolog** to lekarz specjalizujący się w diagnostyce i leczeniu chorób ośrodkowego oraz obwodowego układu nerwowego. Obejmuje to mózg, rdzeń kręgowy, nerwy czaszkowe i obwodowe oraz mięśnie. Neurolog leczy m.in. padaczkę, udary, stwardnienie rozsiane, chorobę Parkinsona, neuropatie, miopatie, migreny, zawroty głowy i inne zaburzenia neurologiczne.
+
+---
+
+## Objawy wskazujące na potrzebę wizyty u neurologa
+
+### Zaburzenia czucia i ruchu:
+
+* Osłabienie kończyn, opadanie ręki lub nogi
+* Niedowład połowiczy lub jednostronny
+* Drętwienie, mrowienie, zaburzenia czucia (ręce, stopy, twarz)
+* Trudności w wykonywaniu precyzyjnych ruchów
+
+### Zaburzenia koordynacji:
+
+* Zaburzenia równowagi, chwianie się, ataksja
+* Trudności w chodzeniu (np. chód szerokopodstawny)
+* Oczopląs lub niestabilność postawy
+
+### Zawroty głowy:
+
+* Nagłe, wirowe, z nudnościami i zaburzeniami równowagi
+* Zawroty z oczopląsem, nieustępujące w pozycji leżącej
+
+### Bóle głowy:
+
+* Nagłe, silne („ból jak grom z jasnego nieba”) – podejrzenie krwotoku podpajęczynówkowego
+* Częste migreny, bóle napięciowe, klasterowe
+* Bóle głowy z objawami ogniskowymi (np. niedowład, zaburzenia mowy)
+
+### Zaburzenia mowy, widzenia i świadomości:
+
+* Afazja (trudność w mówieniu lub rozumieniu mowy)
+* Podwójne widzenie, nagła ślepota w jednym oku
+* Epizody utraty przytomności, omdlenia
+* Napady padaczkowe (drgawki, utrata kontaktu)
+
+### Inne:
+
+* Drżenia (spoczynkowe, zamiarowe), tiki, mioklonie
+* Spowolnienie ruchów (podejrzenie Parkinsonizmu)
+* Pogarszająca się pamięć, demencja, zaburzenia funkcji poznawczych
+
+---
+
+## Wyniki badań wskazujące na potrzebę konsultacji neurologicznej
+
+### 1. Badania ogólne:
+
+**Glukoza (na czczo):**
+
+* < 70 mg/dL (hipoglikemia): może powodować zaburzenia świadomości, drgawki
+* > 125 mg/dL (hiperglikemia): może wywołać neuropatię cukrzycową, senność
+
+**HbA1c:**
+
+* > 6,5% – przewlekła hiperglikemia, powikłania neurologiczne
+
+**TSH:**
+
+* < 0,4 µIU/mL – nadczynność tarczycy (drżenia, niepokój, bezsenność)
+* > 4,0 µIU/mL – niedoczynność (spowolnienie psychoruchowe, depresja, miopatie)
+
+**CRP > 10 mg/L / OB > 30 mm/h:**
+
+* stany zapalne OUN (np. zapalenie mózgu, opon)
+
+**Sód (Na⁺):**
+
+* < 130 mmol/L lub > 145 mmol/L – ryzyko obrzęku mózgu, zaburzeń świadomości
+
+**Wapń całkowity:**
+
+* < 8,5 mg/dL – tężyczka, drgawki
+* > 10,5 mg/dL – senność, zaburzenia świadomości
+
+**Witamina B12:**
+
+* < 200 pg/mL – neuropatia, parestezje, zaburzenia pamięci
+
+**D-dimery:**
+
+* > 500 ng/mL – podejrzenie udaru niedokrwiennego (zatorowego)
+
+---
+
+## Zmienność osobnicza – uwzględnienie wieku i płci
+
+### Wiek:
+
+**Dzieci i młodzież:**
+
+* Częściej: napady padaczkowe, tikowe, ból głowy typu migrenowego
+
+**Dorośli 20–50 lat:**
+
+* Stwardnienie rozsiane, migreny, padaczki, stany lękowe z objawami neurologicznymi
+
+**Osoby starsze (> 60 r.ż.):**
+
+* Choroba Parkinsona, udary mózgu, otępienia, polineuropatie
+
+### Płeć:
+
+* Kobiety: częstsze migreny, SM, choroby autoimmunologiczne układu nerwowego
+* Mężczyźni: częściej choroba Parkinsona, udary niedokrwienne
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do neurologa?
+
+### Objawy alarmowe:
+
+* Ostre objawy ogniskowe (niedowład, afazja, drgawki)
+* Napady padaczkowe – nowe, lub nawracające
+* Porażenia nerwów czaszkowych (np. opadanie powieki, podwójne widzenie)
+* Drżenia i sztywność mięśni – podejrzenie choroby Parkinsona
+* Postępujące zaburzenia równowagi i chodu
+* Spadek sprawności pamięci, dezorientacja
+* Ból głowy z cechami wtórnymi (gorączka, sztywność karku, objawy ogniskowe)
+* Pogarszające się czucie kończyn, osłabienie
+
+### Nieprawidłowe badania:
+
+* Hiponatremia < 130 mmol/L z zaburzeniami świadomości
+* B12 < 200 pg/mL – neuropatie czuciowe
+* Glukoza < 70 lub > 180 mg/dL – hipoglikemia/hiperglikemia z zaburzeniami OUN
+* TSH poza normą – objawy neuropsychiatryczne
+* Obrazowe badania sugerujące zmiany ogniskowe (CT/MRI)
+
+---
+
+## Ankieta specjalistyczna – neurologia
+
+---
+
+### I. Główna dolegliwość / powód wizyty
+
+• Co skłoniło Pana/Panią do wizyty?
+• Od kiedy występują objawy?
+• Czy występują nagle, okresowo, czy stale?
+• Czy mają charakter postępujący czy nawracający?
+• Czy objawom towarzyszą inne dolegliwości (ból, gorączka, zaburzenia świadomości)?
+
+---
+
+### II. Objawy neurologiczne
+
+**Ruchowe i czuciowe:**
+• Osłabienie mięśni / niedowład – kończyny górne, dolne, twarz
+• Utrata siły mięśniowej – jednostronna / obustronna
+• Drętwienia, mrowienie, zaburzenia czucia
+• Drżenia (rąk, głowy), tiki, szarpnięcia mięśni
+• Skurcze, kurcze, sztywność mięśni
+• Problemy z precyzyjnymi ruchami (pisanie, chwytanie, manipulacja)
+
+**Koordynacyjne i równowaga:**
+• Trudności z chodzeniem, chwiejność, upadki
+• Zaburzenia równowagi, zawroty głowy
+• Ataksja – niezborność ruchów, szczególnie w kończynach
+
+**Zaburzenia głowy i zmysłów:**
+• Bóle głowy – ostre / przewlekłe / pulsujące / rozsadzające
+• Utrata przytomności, omdlenia
+• Zaburzenia widzenia (podwójne, zamglenie, ślepota jednooczna)
+• Szumy uszne, problemy z mową, połykaniem
+
+**Napady i padaczka:**
+• Napady drgawkowe – ogniskowe / uogólnione
+• Utraty świadomości / szkliste spojrzenie / upadek
+• Aura przed napadem – np. zapach, dziwne uczucie, światło
+
+**Inne:**
+• Problemy z pamięcią, orientacją, mową, rozumieniem
+• Zmiany zachowania, depresja, stany lękowe
+• Objawy nasilające się przy wysiłku / stresie
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy w przeszłości występowały:
+ – Udar mózgu / TIA
+ – Napady padaczkowe
+ – Stwardnienie rozsiane
+ – Choroba Parkinsona lub inne zespoły parkinsonowskie
+ – Migreny, klasterowe bóle głowy
+ – Choroby demielinizacyjne
+ – Guzy mózgu
+• Choroby współistniejące: cukrzyca, nadciśnienie, miażdżyca, zaburzenia lipidowe
+• Zespół cieśni nadgarstka, rwa kulszowa, choroba zwyrodnieniowa kręgosłupa
+• Zatrucia metalami ciężkimi, ekspozycja na chemikalia
+
+---
+
+### IV. Leki i suplementy
+
+• Stałe leki neurologiczne (np. lewodopa, karbamazepina, pregabalina, statyny)
+• Suplementy diety, witaminy (B12, magnez)
+• Leki wpływające na OUN (neuroleptyki, benzodiazepiny)
+• Historia działań niepożądanych po lekach neurologicznych lub psychotropowych
+
+---
+
+### V. Styl życia i czynniki ryzyka
+
+• Palenie tytoniu – TAK / NIE / rzucił(a)
+• Spożycie alkoholu – okazjonalne / regularne / brak
+• Substancje psychoaktywne (aktualnie / w przeszłości)
+• Aktywność fizyczna – niski / umiarkowany / intensywny poziom
+• Tryb życia: praca siedząca / stresująca / nocna
+• Sen: jakość, długość, trudności w zasypianiu
+• Przebyte urazy głowy lub kręgosłupa
+
+---
+
+### VI. Wyniki badań laboratoryjnych (jeśli dostępne)
+
+• Glukoza (na czczo): \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+• Sód (Na⁺): \_\_\_\_\_\_ mmol/L
+• Potas (K⁺): \_\_\_\_\_\_ mmol/L
+• Wapń: \_\_\_\_\_\_ mg/dL
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• TSH: \_\_\_\_\_\_ µIU/mL
+• Witamina B12: \_\_\_\_\_\_ pg/mL
+• D-dimery: \_\_\_\_\_\_ ng/mL
+• Lipidy (cholesterol, LDL, HDL, TG): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• INR / APTT: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• CT / MRI głowy: wykonano TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VII. Cechy osobnicze
+
+• Wiek: \_\_\_\_\_\_
+• Płeć: K / M
+• Masa ciała: \_\_\_\_\_\_ kg
+• Wzrost: \_\_\_\_\_\_ cm
+• BMI: \_\_\_\_\_\_
+• Obciążenia rodzinne: choroby neurologiczne (udar, SM, padaczka, choroba Parkinsona, otępienia) – TAK / NIE
+
+---
+
+### VIII. Objawy alarmowe – zaznacz
+
+\[ ] Nagły niedowład, porażenie kończyn
+\[ ] Ostra afazja lub zaburzenia mowy
+\[ ] Nagły ból głowy o dużym nasileniu
+\[ ] Drgawki / napady padaczkowe
+\[ ] Postępujące zaburzenia równowagi, ataksja
+\[ ] Pogarszająca się pamięć, dezorientacja
+\[ ] Objawy ogniskowe + gorączka → podejrzenie ZOMR
+\[ ] Znaczne zaburzenia czucia, drętwienia symetryczne / asymetryczne
+\[ ] Nagłe zaburzenia widzenia
+\[ ] Trwała utrata przytomności
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Rozpoznania robocze / dotychczasowe leczenie: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Wcześniejsze konsultacje neurologiczne / hospitalizacje: TAK / NIE
+• Czy podejrzewane są zmiany naczyniowe / zapalne / neurodegeneracyjne?
+• Czy wymagana pilna konsultacja neurologiczna? TAK / NIE
+• Dalsze badania sugerowane: CT, MRI, EEG, EMG, próby otoneurologiczne, konsultacja psychiatryczna
+
+---
+
+
+

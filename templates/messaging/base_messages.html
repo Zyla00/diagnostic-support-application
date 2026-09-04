@@ -1,0 +1,62 @@
+<div class="offcanvas offcanvas-end" tabindex="-1" id="messagesOffcanvas" aria-labelledby="messagesOffcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="messagesOffcanvasLabel">Wiadomości</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zamknij"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        <ul class="nav nav-tabs nav-fill bg-light" id="messageTabs" role="tablist">
+            <li class="nav-item">
+                <button class="nav-link active" type="button" data-view="inbox">Odebrane</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" type="button" data-view="sent">Wysłane</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link" type="button" data-view="send">Napisz</button>
+            </li>
+        </ul>
+
+        <div id="messages-container" class="p-3">
+            <p class="text-muted text-center">Wczytywanie...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+(function () {
+    const offcanvas = document.getElementById('messagesOffcanvas');
+    if (!offcanvas) return;
+
+    const container = document.getElementById('messages-container');
+    const tabs = document.querySelectorAll('#messageTabs .nav-link');
+
+    function loadMessages(view) {
+        container.innerHTML = '<div class="text-center text-muted my-3">Ładowanie...</div>';
+        fetch(`/messages/${view}/`)
+            .then(response => {
+                if (!response.ok) throw new Error('Błąd serwera');
+                return response.text();
+            })
+            .then(html => {
+                container.innerHTML = html;
+                tabs.forEach(btn => {
+                    btn.classList.toggle('active', btn.dataset.view === view);
+                });
+            })
+            .catch(() => {
+                container.innerHTML = '<div class="alert alert-danger text-center">Błąd ładowania wiadomości</div>';
+            });
+    }
+
+    tabs.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const view = btn.dataset.view;
+            loadMessages(view);
+        });
+    });
+
+    offcanvas.addEventListener('shown.bs.offcanvas', () => {
+        loadMessages('inbox');
+    });
+})();
+</script>

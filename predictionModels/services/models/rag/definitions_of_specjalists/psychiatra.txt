@@ -1,0 +1,357 @@
+## Kim jest psychiatra?
+
+**Psychiatra** to lekarz, który po sześciu latach studiów medycznych i specjalizacji diagnozuje, leczy oraz prowadzi profilaktykę zaburzeń zdrowia psychicznego u dorosłych i dzieci. Może ordynować leki psychotropowe, wystawiać zwolnienia lekarskie, kierować na psychoterapię, do szpitala lub na badania somatyczne (laboratoryjne, obrazowe) w celu wykluczenia przyczyn organicznych.
+
+---
+
+## Objawy i sytuacje kliniczne, które powinny skłonić do konsultacji psychiatrycznej
+
+Objawy i sytuacje kliniczne, które powinny skłonić do konsultacji psychiatrycznej, są zróżnicowane i mogą wynikać zarówno z zaburzeń psychicznych, jak i chorób somatycznych, cech osobniczych czy sytuacji życiowej. Wiek i płeć pacjenta mają istotny wpływ na obraz kliniczny, przebieg i rozpoznanie wielu zaburzeń psychicznych.
+
+---
+
+### **1. Zaburzenia nastroju**
+
+Utrzymujące się przez co najmniej dwa tygodnie obniżenie nastroju, utrata zainteresowań (anhedonia), myśli rezygnacyjne lub samobójcze powinny skłonić do szybkiej oceny psychiatrycznej. Skala PHQ-9 ≥ 10 punktów sugeruje przynajmniej umiarkowaną depresję.
+
+* **Wiek:** depresja może mieć różne oblicza – u młodzieży częściej dominuje drażliwość, zachowania ryzykowne; u seniorów – objawy somatyczne i spadek energii.
+* **Płeć:** kobiety dwukrotnie częściej chorują na depresję; częściej też zgłaszają objawy. Mężczyźni natomiast rzadziej szukają pomocy, ale mają wyższe ryzyko samobójstwa.
+
+---
+
+### **2. Zaburzenia lękowe**
+
+Objawy takie jak nawracające napady paniki, agorafobia, lęk uogólniony trwający codziennie przez co najmniej sześć miesięcy (GAD-7 ≥ 10) wymagają dalszej diagnostyki psychiatrycznej.
+
+* **Wiek:** u dzieci lęk często manifestuje się somatyzacją (ból brzucha, nudności); u osób starszych lęk może współistnieć z zaburzeniami poznawczymi.
+* **Płeć:** kobiety częściej cierpią na lęk uogólniony i fobie; u mężczyzn przeważają lęki społeczne i napady paniki.
+
+---
+
+### **3. Zaburzenia zachowania**
+
+Objawy takie jak pobudzenie psychoruchowe, agresja, drażliwość, a z drugiej strony – spowolnienie psychoruchowe, mutyzm – mogą wskazywać na depresję psychotyczną, zaburzenia afektywne dwubiegunowe (CHAD), epizod maniakalny lub schorzenia neurologiczne.
+
+* **Wiek:** młodzież może prezentować drażliwość i zachowania impulsywne; u osób starszych objawy depresji mogą być mylnie uznane za "demencję".
+* **Płeć:** mężczyźni częściej prezentują agresję i impulsywność; kobiety – spowolnienie i apatię.
+
+---
+
+### **4. Zaburzenia myślenia**
+
+Urojenia, omamy (halucynacje), dezorganizacja myślenia i wypowiedzi mogą świadczyć o psychozie. Skala PANSS > 60 punktów sugeruje ciężkie zaburzenia psychotyczne.
+
+* **Wiek:** psychozy najczęściej ujawniają się u młodych dorosłych (20–30 r.ż.), ale u osób starszych mogą wystąpić jako objaw otępienia lub zespołu majaczeniowego.
+* **Płeć:** mężczyźni zwykle chorują wcześniej, z bardziej burzliwym przebiegiem; kobiety częściej mają lepszą odpowiedź na leczenie.
+
+---
+
+### **5. Zaburzenia funkcji poznawczych**
+
+Obniżenie pamięci, trudności z orientacją w czasie i miejscu, problemy z uwagą – to objawy wymagające różnicowania pomiędzy otępieniem, depresją, a majaczeniem. Wynik MMSE < 24 lub MoCA < 26 jest niepokojący.
+
+* **Wiek:** częstość otępienia wzrasta gwałtownie po 65. roku życia.
+* **Płeć:** kobiety żyją dłużej, dlatego częściej diagnozuje się u nich chorobę Alzheimera; mężczyźni częściej chorują na otępienie naczyniowe.
+
+---
+
+### **6. Zaburzenia snu**
+
+Bezsenność pierwotna (≥ 3 noce w tygodniu przez ≥ 3 miesiące) lub nietypowe objawy jak napady snu („sleep attack”) mogą wskazywać na depresję, zaburzenia lękowe, zaburzenia rytmu okołodobowego, narkolepsję. Skala AIS > 8 punktów sugeruje klinicznie istotne zaburzenia snu.
+
+* **Wiek:** im starszy pacjent, tym częstsze problemy z utrzymaniem snu; u dzieci dominują lęki nocne, u młodych dorosłych – opóźnienie rytmu.
+* **Płeć:** kobiety częściej zgłaszają trudności ze snem, zwłaszcza w okresie okołomenopauzalnym.
+
+---
+
+### **7. Zaburzenia odżywiania**
+
+Znaczna utrata masy ciała (BMI < 17,5), epizody objadania się z utratą kontroli (BED), wymioty, kompensacje, obsesja na punkcie sylwetki to objawy wymagające pomocy psychiatrycznej. Skala EAT-26 ≥ 20 sugeruje ryzyko zaburzenia odżywiania.
+
+* **Wiek:** najczęściej rozpoczynają się w wieku nastoletnim, ale rośnie liczba przypadków u dzieci i kobiet po 40. r.ż.
+* **Płeć:** kobiety są zdecydowanie bardziej narażone na anoreksję i bulimię; u mężczyzn częściej występuje bigoreksja i BED.
+
+---
+
+### **8. Nadużywanie substancji psychoaktywnych**
+
+Alkohol (AUDIT ≥ 8), narkotyki (DAST-10 ≥ 3), a także leki uspokajające i nasenne – wymagają konsultacji psychiatrycznej, zwłaszcza jeśli spełnione są kryteria uzależnienia wg ICD-11.
+
+* **Wiek:** młodzież częściej sięga po marihuanę i dopalacze; osoby starsze nadużywają alkoholu i benzodiazepin.
+* **Płeć:** mężczyźni częściej mają problem z uzależnieniem fizycznym; kobiety częściej piją w ukryciu i szybciej uzależniają się psychicznie.
+
+### **Podsumowanie**
+
+Wskazania do konsultacji psychiatrycznej należy oceniać całościowo – uwzględniając nie tylko objawy, ale również wiek, płeć, czynniki kulturowe i środowiskowe. Im wcześniej zostanie wdrożona diagnoza i leczenie, tym większa szansa na poprawę jakości życia i uniknięcie powikłań zdrowotnych.
+
+---
+
+Badania laboratoryjne odgrywają istotną rolę zarówno przed rozpoczęciem, jak i w trakcie leczenia psychiatrycznego. Pozwalają na wykrycie zaburzeń metabolicznych, hormonalnych lub niedoborów, które mogą pogłębiać objawy psychiczne lub wpływać na bezpieczeństwo stosowania leków psychotropowych. Warto uwzględnić zmienność osobniczą wynikającą z wieku, płci oraz szczególnych stanów fizjologicznych, takich jak ciąża czy starzenie się organizmu.
+
+---
+
+### **1. TSH – hormon tyreotropowy**
+
+Nieprawidłowe wartości TSH (< 0,4 µIU/mL lub > 4,5 µIU/mL) mogą powodować objawy lękowo-depresyjne, drażliwość, zaburzenia snu czy spowolnienie psychoruchowe.
+
+* **Wiek:** u osób starszych wzrasta fizjologicznie górna granica TSH, co może być mylnie interpretowane jako niedoczynność tarczycy.
+* **Płeć:** kobiety są znacznie częściej narażone na autoimmunologiczne choroby tarczycy (np. Hashimoto), zwłaszcza po porodzie i w okresie menopauzy.
+
+---
+
+### **2. Witamina B12**
+
+Poziom < 200 pg/mL wiąże się z obniżeniem nastroju, apatią, zaburzeniami pamięci i koncentracji, a także parestezjami.
+
+* **Wiek:** osoby starsze mają upośledzone wchłanianie B12 (zanikowe zapalenie błony śluzowej żołądka).
+* **Płeć:** kobiety stosujące doustne środki antykoncepcyjne lub wegetarianki częściej wykazują niedobory.
+
+---
+
+### **3. Kwas foliowy**
+
+Stężenie poniżej 3 ng/mL może objawiać się rozdrażnieniem, zmęczeniem i obniżonym nastrojem.
+
+* **Wiek:** zapotrzebowanie wzrasta w okresie dojrzewania oraz u osób starszych.
+* **Płeć:** kobiety w wieku rozrodczym powinny mieć zapewniony odpowiedni poziom folianów ze względu na ewentualną ciążę.
+
+---
+
+### **4. Glukoza na czczo**
+
+Wartości ≥ 100 mg/dL sugerują stan przedcukrzycowy – mogą objawiać się sennością, drażliwością i spadkiem koncentracji. Z kolei hipoglikemia (< 65 mg/dL) może powodować dezorientację, niepokój, a nawet stany przypominające napad paniki.
+
+* **Wiek:** insulinooporność częstsza jest u osób po 40. roku życia.
+* **Płeć:** u kobiet częstsze są hipoglikemie reaktywne, zwłaszcza przy nieregularnych posiłkach.
+
+---
+
+### **5. Sód (Na⁺)**
+
+Hiponatremia (< 130 mmol/L) może prowadzić do majaczenia, drgawek i zaburzeń świadomości, szczególnie u osób w podeszłym wieku.
+
+* **Wiek:** starsi pacjenci są bardziej podatni na SIADH (np. po SSRI, karbamazepinie).
+* **Płeć:** kobiety mają większą wrażliwość na leki wpływające na wydzielanie ADH.
+
+---
+
+### **6. Wapń (Ca²⁺)**
+
+Hiperkalcemia (> 2,6 mmol/L) może wywoływać depresję, osłabienie i zaburzenia poznawcze, natomiast hipokalcemia (< 2,1 mmol/L) – pobudzenie nerwowo-mięśniowe, lęk, tężyczkę.
+
+* **Wiek:** zaburzenia gospodarki wapniowo-fosforanowej nasilają się z wiekiem (osteoporoza, PTH).
+* **Płeć:** kobiety po menopauzie są bardziej narażone na hipokalcemię związaną z niedoborem witaminy D.
+
+---
+
+### **7. Enzymy wątrobowe (ALT, AST)**
+
+Podwyższone wartości (> 40 U/L u kobiet i > 50 U/L u mężczyzn) mogą zwiększać ryzyko hepatotoksyczności niektórych leków (np. walproinian, SSRI).
+
+* **Wiek:** wraz z wiekiem rośnie ryzyko NAFLD i pogorszenia funkcji wątroby.
+* **Płeć:** mężczyźni częściej mają niealkoholowe stłuszczenie wątroby; kobiety są bardziej wrażliwe na toksyczne działanie leków.
+
+---
+
+### **8. Kreatynina / eGFR**
+
+Wydolność nerek (eGFR < 60 mL/min/1,73 m²) wpływa na dawkowanie litu, duloksetyny czy gabapentyny.
+
+* **Wiek:** po 60. roku życia eGFR spada fizjologicznie, nawet przy prawidłowej kreatyninie.
+* **Płeć:** kobiety mają naturalnie niższą masę mięśniową → niższa kreatynina, ale realne eGFR może być podobne.
+
+---
+
+### **9. Ferrytyna**
+
+Stężenie < 30 ng/mL wiąże się z zespołem niespokojnych nóg (RLS), zmęczeniem i pogorszeniem snu.
+
+* **Wiek:** dzieci i osoby starsze są szczególnie wrażliwe na niedobory żelaza.
+* **Płeć:** kobiety przed menopauzą częściej cierpią na utajony niedobór żelaza z powodu miesiączek.
+
+---
+
+### **10. β-hCG (u kobiet)**
+
+Obowiązkowe przed terapią lekami potencjalnie teratogennymi, jak lit, kwetiapina, karbamazepina.
+
+* **Wiek i płeć:** dotyczy wyłącznie kobiet w wieku rozrodczym – wynik dodatni wymusza zmianę planu leczenia lub odroczenie jego rozpoczęcia.
+
+### **Podsumowanie**
+
+W ocenie psychiatrycznej nie można pomijać danych laboratoryjnych – pozwalają one wykryć somatyczne przyczyny objawów psychicznych, ocenić ryzyko działań niepożądanych leków i dostosować leczenie do indywidualnych cech pacjenta. Zmienność związana z wiekiem i płcią ma kluczowe znaczenie dla właściwej interpretacji wyników i bezpiecznego prowadzenia terapii.
+
+
+## Zmienność osobnicza wpływająca na wskazania
+
+*Wiek*
+
+* **Adolescenci (12-18 l.)** – pierwsze epizody CHAD, zaburzenia odżywiania, uzależnienia.
+* **Młodzi dorośli (18-35 l.)** – szczyt zachorowań na schizofrenię, CHAD, lęk społeczny.
+* **> 60 l.** – depresja naczyniowa, otępienie, zaburzenia snu; ryzyko interakcji lekowych.
+
+*Płeć*
+
+* **Kobiety** – częstsza depresja (2:1), zaburzenia lękowe; poporodowe epizody psychotyczne.
+* **Mężczyźni** – wyższy odsetek uzależnień, zachowań agresywnych; większe ryzyko samobójstwa (skuteczność prób).
+
+*Inne czynniki*
+
+* Choroby somatyczne (cukrzyca, POChP, nowotwory) zwiększają ryzyko depresji.
+* Niska aktywność fizyczna, izolacja społeczna i bezrobocie korelują z zaburzeniami lękowymi i depresyjnymi.
+* Historia ACEs (trauma dziecięca) – większe ryzyko PTSD, uzależnień.
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do psychiatry
+
+1. **Ryzyko samobójcze**
+
+   * Myśli/plany, skala SAD PERSONS ≥ 6 – pilne skierowanie.
+2. **Nieskuteczne leczenie w POZ**
+
+   * Co najmniej 6-tygodniowa kuracja SSRI w dawce terapeutycznej bez poprawy (≥ 20 mg paro, ≥ 50 mg sertraliny).
+3. **Objawy psychotyczne lub ciężkie CHAD**
+
+   * Urojenia, halucynacje, mania (YMRS > 20).
+4. **Wielolekowość / działania niepożądane**
+
+   * Zespół serotoninowy (temp. > 38 °C, drżenia, zaburzenia świadomości).
+5. **Współwystępujące choroby somatyczne wymagające dobrania leku**
+
+   * eGFR < 60, AST/ALT > 3×norma, QTc > 470 ms (K) / > 450 ms (M).
+6. **Epizody nawracające**
+
+   * ≥ 2 duże epizody depresji w ciągu 5 lat lub CHAD – profilaktyka lekiem normotymicznym.
+7. **Zaburzenia rozwojowe** u dzieci (ADHD, ASD) – konieczna diagnoza i farmakoterapia metylfenidat, atomoksetyna.
+
+---
+
+**Bezwzględne pilne skierowanie / hospitalizacja:**
+
+* Myśli + plan samobójczy, próba samobójcza.
+* Ostry epizod manii/psychozy z pobudzeniem lub brakiem samokrytycyzmu.
+* Ostre zatrucie/uzależnienie z majaczeniem lub drgawkami.
+* Katatonia, zespół serotoninowy lub neuroleptyczny (CK > 1000 U/L, temp. > 38,5 °C).
+
+---
+
+## Ankieta specjalistyczna – psychiatria
+
+---
+
+### I. Dane ogólne pacjenta
+
+• Imię i nazwisko:
+• Wiek / data urodzenia:
+• Płeć:
+• Wykształcenie / zawód:
+• Stan cywilny:
+• Miejsce zamieszkania: miasto / wieś
+• Czy pozostaje pod opieką innego specjalisty psychiatrycznego? TAK / NIE
+• Historia hospitalizacji psychiatrycznych: TAK / NIE / ile razy?
+• Ostatni kontakt z psychiatrą / leczenie: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### II. Powód zgłoszenia
+
+• Jaki jest główny powód wizyty?
+• Od kiedy występują objawy?
+• Czy objawy nasilają się w konkretnych sytuacjach / porach dnia?
+• Czy występowały wcześniej podobne epizody?
+• Czy pacjent miał w przeszłości leczenie psychiatryczne?
+• Czy pojawiły się działania niepożądane leków? Jakie?
+
+---
+
+### III. Objawy psychiczne
+
+Zakreśl objawy obecne przez ≥ 2 tygodnie:
+
+\[ ] Smutek, obniżony nastrój
+\[ ] Utrata zainteresowań, anhedonia
+\[ ] Bezsenność / nadmierna senność
+\[ ] Spowolnienie / pobudzenie psychoruchowe
+\[ ] Myśli rezygnacyjne / samobójcze
+\[ ] Napady lęku / uczucie napięcia
+\[ ] Lęk przed wyjściem z domu / miejscami publicznymi
+\[ ] Natrętne myśli / przymusy (OCD)
+\[ ] Drażliwość, wybuchy gniewu
+\[ ] Słyszenie głosów / widzenie rzeczy nierealnych
+\[ ] Myśli urojeniowe – prześladowcze, wielkościowe, nihilistyczne
+\[ ] Dezorganizacja mowy / działania
+\[ ] Podejrzenie otępienia (pogorszenie pamięci, dezorientacja)
+\[ ] Uzależnienie – alkohol / leki / narkotyki / hazard
+\[ ] Objawy traumy – flashbacki, nadmierna czujność, unikanie
+
+---
+
+### IV. Ocena ryzyka
+
+• Czy pacjent miał myśli samobójcze? TAK / NIE
+• Czy występują plany / zamiary samouszkodzenia lub samobójstwa?
+• Czy kiedykolwiek dokonał próby samobójczej?
+• Czy zachowanie pacjenta stwarza zagrożenie dla otoczenia?
+• Czy pacjent doświadczał przemocy lub traumy w przeszłości?
+• Czy pacjent podejmuje ryzykowne zachowania (jazda po alkoholu, impulsy)?
+• Czy pacjent pozostaje pod wpływem substancji psychoaktywnych?
+
+---
+
+### V. Styl życia i uwarunkowania
+
+• Sen: bezsenność / nadmierna senność / koszmary
+• Dieta: zmniejszony / zwiększony apetyt
+• Aktywność fizyczna: brak / umiarkowana / regularna
+• Używki:
+ – Alkohol: \_\_\_ razy w tygodniu, AUDIT wynik: \_\_\_
+ – Nikotyna: \_\_\_ papierosów dziennie
+ – Leki nasenne, uspokajające: TAK / NIE / jakie?
+ – Inne substancje psychoaktywne: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+• Sytuacja rodzinna: samotność / wsparcie / konflikty
+• Problemy finansowe / zawodowe / bezrobocie: TAK / NIE
+• Czy pacjent znajduje się pod opieką MOPS, PCPR, kuratora?
+
+---
+
+### VI. Objawy somatyczne i badania
+
+• Bóle głowy, przewlekłe zmęczenie
+• Bóle w klatce piersiowej, kołatania serca
+• Zaburzenia miesiączkowania (K)
+• Zaburzenia libido, potencji (M)
+• Wyniki badań ostatnich 6 miesięcy (jeśli dostępne):
+ – TSH: \_\_\_\_\_\_
+ – Glukoza: \_\_\_\_\_\_
+ – Na⁺: \_\_\_\_\_\_
+ – Wapń: \_\_\_\_\_\_
+ – ALT/AST: \_\_\_\_\_\_
+ – Witamina B12 / kwas foliowy: \_\_\_\_\_\_
+ – β-hCG (jeśli pacjentka leczona potencjalnie teratogennymi lekami): \_\_\_\_\_\_
+• Wzrost ryzyka powikłań metabolicznych (BMI > 30, cukrzyca typu 2): TAK / NIE
+
+---
+
+### VII. Dotychczasowe leczenie
+
+• Jakie leki psychiatryczne pacjent stosował wcześniej?
+• Czy były skuteczne?
+• Czy wystąpiły działania niepożądane?
+• Czy pacjent był kiedykolwiek hospitalizowany psychiatrycznie?
+• Czy uczęszczał na psychoterapię? Jaki nurt? Jak długo?
+
+---
+
+### VIII. Uwagi lekarza POZ
+
+• Podejrzenie: depresja / lęk / CHAD / schizofrenia / uzależnienie / zaburzenie osobowości / inne: \_\_\_\_\_\_\_\_\_\_
+• Zastosowano leki: TAK / NIE / jakie?
+• Czy leczenie okazało się nieskuteczne po ≥ 6 tyg.?
+• Czy pacjent jest stabilny emocjonalnie? TAK / NIE
+• Czy występują przeciwwskazania do farmakoterapii w POZ?
+• Czy potrzebna jest pilna konsultacja psychiatryczna lub hospitalizacja?
+
+---
+

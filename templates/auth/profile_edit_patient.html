@@ -1,0 +1,71 @@
+{% load static %}
+{% load widget_tweaks %}
+
+<link rel="stylesheet" href="{% static 'css/offcanvas_menu.css' %}">
+
+<form method="post"
+      action="{% url 'profile-edit' %}"
+      enctype="multipart/form-data"
+      class="container mt-4"
+      id="user-form">
+  {% csrf_token %}
+  {{ user_form.non_field_errors }}
+  {{ profile_form.non_field_errors }}
+
+  <div class="row">
+    <!-- Lewa kolumna -->
+    <div class="col-md-6">
+
+      <div class="form-floating mb-3">
+        {{ user_form.first_name|add_class:"form-control"|attr:"placeholder:Imię" }}
+        <label for="{{ user_form.first_name.id_for_label }}">Imię</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ user_form.last_name|add_class:"form-control"|attr:"placeholder:Nazwisko" }}
+        <label for="{{ user_form.last_name.id_for_label }}">Nazwisko</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ user_form.second_name|add_class:"form-control"|attr:"placeholder:Drugie imię" }}
+        <label for="{{ user_form.second_name.id_for_label }}">Drugie imię</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.birth_date|add_class:"form-control"|attr:"placeholder:Data urodzenia"|attr:"type:date" }}
+        <label for="{{ profile_form.birth_date.id_for_label }}">Data urodzenia</label>
+      </div>
+
+    </div>
+
+    <!-- Prawa kolumna -->
+    <div class="col-md-6">
+
+      <div class="form-floating mb-3">
+        {{ user_form.email|add_class:"form-control"|attr:"placeholder:Email" }}
+        <label for="{{ user_form.email.id_for_label }}">Email</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ user_form.phone|add_class:"form-control"|attr:"placeholder:Telefon" }}
+        <label for="{{ user_form.phone.id_for_label }}">Telefon</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.pesel|add_class:"form-control"|attr:"placeholder:PESEL" }}
+        <label for="{{ profile_form.pesel.id_for_label }}">PESEL</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.insurance|add_class:"form-select" }}
+        <label for="{{ profile_form.insurance.id_for_label }}">Ubezpieczenie</label>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="text-center mt-5 mb-5">
+    <button type="submit" class="btn btn-primary rounded-pill px-4 py-2">Zapisz zmiany</button>
+  </div>
+</form>
+<script src="{% static 'js/auth.js' %}"></script>

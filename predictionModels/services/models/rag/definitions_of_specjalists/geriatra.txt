@@ -1,0 +1,268 @@
+Oto szczegółowy profil specjalisty **geriatria**, zgodnie z Twoimi wymaganiami:
+
+---
+
+## Kim jest geriatra?
+
+**Geriatra** to lekarz specjalista zajmujący się diagnostyką, leczeniem i kompleksową opieką nad osobami w podeszłym wieku – zazwyczaj po **60.–65. roku życia**. Skupia się na tzw. zespołach geriatrycznych, czyli problemach typowych dla wieku starczego: wielochorobowości, wielolekowości, zaburzeń poznawczych, upadków, nietrzymania moczu, niedożywienia, depresji starczej, osłabienia funkcji fizycznych i poznawczych.
+
+---
+
+## Objawy i sytuacje wskazujące na konieczność konsultacji geriatrycznej
+
+### 1. **Pogorszenie sprawności fizycznej i ruchowej**
+
+* Trudności z chodzeniem, wstawaniem, poruszaniem się po domu
+* Częste upadki lub obawa przed upadkiem
+* Słabość mięśni (sarkopenia)
+* Konieczność korzystania z pomocy przy codziennych czynnościach (ubieranie, mycie, jedzenie)
+
+### 2. **Zaburzenia poznawcze i psychiczne**
+
+* Pogorszenie pamięci, orientacji, myślenia, np. zapominanie nazw, ludzi, wydarzeń
+* Dezorientacja w czasie i miejscu
+* Zmiana zachowania, apatia, drażliwość
+* Depresja wieku podeszłego (smutek, izolacja, spadek apetytu)
+
+### 3. **Zaburzenia metaboliczne i wyniszczenie**
+
+* Niewyjaśniona utrata masy ciała (>5% w 6 miesięcy)
+* Niedożywienie (BMI < 22 u osoby > 70 r.ż.)
+* Niskie wartości albuminy: < 3,5 g/dL
+* Hipo- lub hiperglikemia
+
+### 4. **Problemy z wielolekowością i powikłaniami leczenia**
+
+* Przyjmowanie > 5 leków jednocześnie (polifarmakoterapia)
+* Objawy uboczne leków: zawroty głowy, osłabienie, krwawienia, zaparcia
+* Zła współpraca z leczeniem – zapominanie o lekach
+
+### 5. **Zaburzenia równowagi wodno-elektrolitowej, anemizacja, odwodnienie**
+
+* Hiponatremia: Na⁺ < 135 mmol/L (zaburzenia świadomości, drgawki)
+* Hiperkalcemia: Ca⁺⁺ > 2,6 mmol/L (osłabienie, zaparcia, odwodnienie)
+* Hemoglobina:
+   – < 12 g/dL u kobiet
+   – < 13 g/dL u mężczyzn
+* Kwasica lub zasadowica metaboliczna (HCO₃⁻ poza 22–26 mmol/L)
+
+### 6. **Zaburzenia układu moczowo-płciowego**
+
+* Nietrzymanie moczu, nagłe parcia
+* Powtarzające się zakażenia układu moczowego
+* Wzrost kreatyniny:
+   – > 1,1 mg/dL (kobieta), > 1,3 mg/dL (mężczyzna)
+   – eGFR < 60 mL/min/1,73m² (przewlekła choroba nerek)
+
+### 7. **Zespoły otępienne i upośledzenia funkcjonalne**
+
+* Podejrzenie otępienia (Mini-Mental State Examination < 24 pkt)
+* Skala Barthel < 80 pkt (ocena samodzielności w życiu codziennym)
+* Skala GDS > 5 pkt (podejrzenie depresji starczej)
+
+---
+
+## Badania laboratoryjne – istotne wskaźniki
+
+
+**Hemoglobina (HGB):** Wartości poniżej 12 g/dL u kobiet i poniżej 13 g/dL u mężczyzn mogą wskazywać na anemię starczą lub niedożywienie.
+
+**Albumina:** Poziom niższy niż 3,5 g/dL może świadczyć o niedożywieniu, stanie zapalnym lub zwiększonym ryzyku sarkopenii (zaniku mięśni).
+
+**Sód (Na⁺):** Stężenie poniżej 135 mmol/L lub powyżej 145 mmol/L wiąże się z ryzykiem obrzęków mózgu oraz zaburzeniami świadomości.
+
+**Wapń zjonizowany (Ca²⁺):** Wartości przekraczające 2,6 mmol/L mogą powodować zaparcia i zaburzenia rytmu serca.
+
+**Białko C-reaktywne (CRP):** Poziom powyżej 10 mg/L sugeruje przewlekły stan zapalny.
+
+**Hormon tyreotropowy (TSH):** Wartości powyżej 5 mIU/L lub poniżej 0,4 mIU/L mogą świadczyć o niedoczynności lub nadczynności tarczycy, które często przebiegają bezobjawowo u osób starszych.
+
+**Wskaźnik przesączania kłębuszkowego (eGFR):** Poziom poniżej 60 mL/min/1,73 m² wskazuje na przewlekłą niewydolność nerek, przy czym należy uwzględnić wiek pacjenta.
+
+**Glukoza:** Stężenie poniżej 70 mg/dL lub powyżej 126 mg/dL może oznaczać hipo- lub hiperglikemię oraz sugerować obecność cukrzycy.
+
+**Witamina B12:** Poziom niższy niż 200 pg/mL może prowadzić do niedokrwistości megaloblastycznej oraz zaburzeń poznawczych.
+
+**Witamina D (25(OH)D):** Stężenie poniżej 20 ng/mL zwiększa ryzyko osteoporozy, upadków oraz depresji.
+
+---
+
+## Cechy osobnicze istotne w ocenie pacjenta starszego
+
+* **Wiek > 75 lat** – znaczący wzrost ryzyka zespołów geriatrycznych
+* **Samotność, izolacja społeczna** – wzrost ryzyka depresji, demencji, zaniedbań
+* **Niska masa ciała (BMI < 22)** – niedożywienie, sarkopenia
+* **Utrata wzroku lub słuchu** – pogorszenie funkcji poznawczych
+* **Upośledzenie sprawności ruchowej** – wzrost ryzyka upadków i powikłań
+* **Niska aktywność fizyczna, unieruchomienie > 1 mies.** – utrata mięśni, odleżyny
+* **Wielolekowość (> 5 leków)** – ryzyko interakcji i działań niepożądanych
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do geriatry?
+
+**1. Występowanie wielu chorób przewlekłych:**
+– Nadciśnienie, cukrzyca, choroby serca, POChP, osteoporoza, przewlekła niewydolność nerek
+
+**2. Wielolekowość i trudności z leczeniem:**
+– Polipragmazja, interakcje leków, złe tolerowanie terapii, trudności z dawkowaniem
+
+**3. Objawy sugerujące otępienie lub depresję:**
+– Problemy z pamięcią, spowolnienie, wycofanie się, apatia, drażliwość
+
+**4. Upadki lub strach przed upadkiem:**
+– Częste urazy, zaburzenia równowagi, zaburzenia chodu
+
+**5. Utrata funkcji poznawczej lub fizycznej:**
+– Pogorszenie sprawności, konieczność wsparcia w życiu codziennym
+
+**6. Wyniki badań laboratoryjnych poza normą związane z wiekiem:**
+– Hiponatremia, anemia, podwyższone CRP, hipowitaminozy, upośledzenie filtracji nerek
+
+**7. Ocena stanu ogólnego i jakości życia:**
+– Wsparcie dla opiekunów, decyzje o leczeniu paliatywnym, potrzeba koordynacji opieki
+
+---
+
+## Podsumowanie – kiedy bezwzględnie skierować do geriatry?
+
+* Wiek > 75 r.ż. + objawy wielochorobowości, osłabienie, pogorszenie funkcji
+* Mini-Mental State Examination < 24 pkt lub podejrzenie otępienia
+* Wielolekowość + działania niepożądane lub interakcje
+* Częste upadki / osłabienie mięśni / zaburzenia równowagi
+* Nieplanowana utrata masy ciała > 5% w 6 mies.
+* Anemia niewyjaśniona (HGB < 12 / < 13)
+* Pogarszająca się kontrola cukrzycy, nadciśnienia, chorób serca
+* Potrzeba oceny funkcjonalnej, wsparcia rodziny, decyzji opiekuńczych
+* Zespół kruchości (frailty): ≥ 3 z objawów: osłabienie, spowolnienie, niska aktywność, utrata masy ciała, wyczerpanie
+
+---
+
+## Ankieta specjalistyczna – geriatria
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód zgłoszenia się pacjenta?
+• Od kiedy występują objawy?
+• Czy objawy się nasilają, czy są stałe lub okresowe?
+• Czy pacjent mieszka sam czy z opiekunem?
+• Czy w ostatnim czasie doszło do pogorszenia funkcjonowania codziennego?
+
+---
+
+### II. Sprawność fizyczna i codzienne funkcjonowanie
+
+• Czy pacjent samodzielnie chodzi po domu / na zewnątrz?
+• Czy pacjent upadał w ostatnich 6 miesiącach? Ile razy?
+• Czy potrzebuje pomocy przy:
+ – Ubraniu się?
+ – Myciu się?
+ – Przygotowaniu posiłków?
+ – Korzystaniu z toalety?
+• Czy korzysta z pomocy technicznych (laska, balkonik, wózek)?
+• Czy używa pieluch lub innych zabezpieczeń z powodu nietrzymania moczu?
+• Czy potrafi samodzielnie przyjmować leki?
+
+---
+
+### III. Funkcje poznawcze i psychiczne
+
+• Czy pacjent ma problemy z pamięcią (imiona, wydarzenia, daty)?
+• Czy zdarza mu się nie poznać bliskich lub miejsca?
+• Czy występują:
+ – Zaburzenia mowy, trudności w wysławianiu się?
+ – Epizody dezorientacji, splątania, iluzji?
+• Czy pacjent jest smutny, wycofany, rozdrażniony?
+• Czy występują stany lękowe, bezsenność, niepokój?
+• Czy wcześniej rozpoznano depresję lub otępienie?
+• Czy stosowane są leki psychotropowe? Jakie?
+
+---
+
+### IV. Stan odżywienia i masa ciała
+
+• Czy pacjent schudł w ostatnim czasie? Ile kg i w jakim czasie?
+• Czy BMI wynosi < 22 kg/m²?
+• Czy pacjent ma apetyt?
+• Czy występują trudności z żuciem, połykaniem lub nudności?
+• Czy pacjent je regularnie, czy wymaga pomocy przy posiłkach?
+
+---
+
+### V. Wywiad chorobowy
+
+• Jakie choroby przewlekłe zostały rozpoznane?
+ (np. nadciśnienie, cukrzyca, choroba niedokrwienna serca, POChP, niewydolność nerek, osteoporoza)
+• Czy pacjent przeszedł udar, zawał, złamanie szyjki kości udowej, operacje?
+• Czy występuje nietrzymanie moczu lub stolca?
+• Czy rozpoznano zespół otępienny?
+• Czy pacjent był hospitalizowany w ostatnim roku?
+
+---
+
+### VI. Leki i leczenie
+
+• Ile leków pacjent stosuje regularnie?
+• Czy pacjent sam podaje sobie leki?
+• Czy występują działania niepożądane (senność, zaburzenia równowagi, bóle brzucha)?
+• Czy pacjent stosuje leki bez recepty lub suplementy?
+
+---
+
+### VII. Styl życia i wsparcie społeczne
+
+• Czy pacjent mieszka sam, z rodziną, w DPS?
+• Czy ma stałego opiekuna / rodzinę w pobliżu?
+• Czy uczestniczy w życiu społecznym (np. zajęcia, spacery, spotkania)?
+• Czy ma problemy z dostępem do lekarza, apteki, jedzenia?
+• Czy cierpi na samotność, wykluczenie społeczne, brak kontaktu z bliskimi?
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] Utrata masy ciała > 5% w 6 mies.
+\[ ] Skala GDS > 5 pkt (podejrzenie depresji starczej)
+\[ ] Skala MMSE < 24 pkt (otępienie)
+\[ ] Skala Barthel < 80 pkt (niesamodzielność)
+\[ ] ≥ 2 upadki w ostatnich 12 mies.
+\[ ] Hiponatremia: Na⁺ < 135 mmol/L
+\[ ] Anemia: HGB < 12 g/dL (K) / < 13 g/dL (M)
+\[ ] Hipowolemia, odwodnienie, CRP > 10 mg/L
+\[ ] Wydłużony INR / zaburzenia APTT przy leczeniu przeciwkrzepliwym
+\[ ] Kreatynina > 1,2 mg/dL lub eGFR < 60 mL/min
+\[ ] Wielolekowość > 5 leków
+\[ ] Brak wsparcia opiekuna, ryzyko zaniedbania socjalnego
+
+---
+
+### IX. Wyniki badań (jeśli dostępne)
+
+• Morfologia: HGB \_\_\_\_\_\_, HCT \_\_\_\_\_\_, MCV \_\_\_\_\_\_
+• Na⁺ \_\_\_\_\_\_ mmol/L, K⁺ \_\_\_\_\_\_ mmol/L, Ca²⁺ \_\_\_\_\_\_ mmol/L
+• Kreatynina \_\_\_\_\_\_ mg/dL, eGFR \_\_\_\_\_\_ mL/min
+• Glukoza na czczo \_\_\_\_\_\_ mg/dL
+• CRP \_\_\_\_\_\_ mg/L
+• Albumina \_\_\_\_\_\_ g/dL
+• TSH \_\_\_\_\_\_ µIU/mL
+• Witamina B12 \_\_\_\_\_\_ pg/mL
+• 25(OH)D \_\_\_\_\_\_ ng/mL
+• INR \_\_\_\_\_\_
+• Skale oceny: MMSE \_\_\_\_\_\_ / GDS \_\_\_\_\_\_ / Barthel \_\_\_\_\_\_
+
+---
+
+### X. Wskazania do konsultacji geriatrycznej
+
+• Wielochorobowość i pogorszenie funkcji codziennych
+• Pogorszenie pamięci, dezorientacja, podejrzenie otępienia
+• Zaburzenia równowagi, upadki, sarkopenia
+• Niedożywienie, spadek masy ciała
+• Złe tolerowanie terapii farmakologicznej, wielolekowość
+• Potrzeba oceny funkcjonalnej i decyzji o opiece przewlekłej
+• Trudności z opieką domową lub ryzyko zaniedbania
+
+---
+

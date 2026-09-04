@@ -1,0 +1,37 @@
+{% if surveys %}
+  <ul class="list-group">
+    {% for survey in surveys %}
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <div>
+          <strong>Badanie {{ survey.id }}</strong><br>
+          <small class="text-muted">{{ survey.created_at|date:"d.m.Y H:i" }}</small>
+        </div>
+        <a href="{% url 'lab_result_detail_specialist' survey.pk %}" class="btn btn-sm btn-outline-primary">Podgląd</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if surveys.paginator.num_pages > 1 %}
+    <nav class="mt-3">
+      <ul class="pagination pagination-sm justify-content-center">
+        {% if surveys.has_previous %}
+          <li class="page-item">
+            <a class="page-link" href="?lab_page={{ surveys.previous_page_number }}&tab=lab">&laquo;</a>
+          </li>
+        {% endif %}
+        {% for page in surveys.paginator.page_range %}
+          <li class="page-item {% if page == surveys.number %}active{% endif %}">
+            <a class="page-link" href="?lab_page={{ page }}&tab=lab">{{ page }}</a>
+          </li>
+        {% endfor %}
+        {% if surveys.has_next %}
+          <li class="page-item">
+            <a class="page-link" href="?lab_page={{ surveys.next_page_number }}&tab=lab">&raquo;</a>
+          </li>
+        {% endif %}
+      </ul>
+    </nav>
+  {% endif %}
+{% else %}
+  <p class="text-muted">Brak badań laboratoryjnych dla tego pacjenta.</p>
+{% endif %}

@@ -1,0 +1,236 @@
+Oto pełny profil specjalisty: **laryngolog (otorynolaryngolog)** – wraz z opisem objawów, wskazań laboratoryjnych, czynników osobniczych oraz kryteriów kierowania przez lekarza POZ:
+
+---
+
+## Kim jest laryngolog?
+
+**Laryngolog**, czyli otorynolaryngolog, to lekarz specjalista zajmujący się diagnostyką i leczeniem chorób ucha, nosa, gardła, krtani, zatok przynosowych oraz struktur szyi. Zajmuje się zarówno stanami ostrymi (infekcje, urazy), jak i przewlekłymi (przerost migdałków, niedosłuch, bezdech senny), a także nowotworami rejonu głowy i szyi.
+
+---
+
+## Objawy sugerujące konieczność konsultacji laryngologicznej
+
+### Objawy ze strony ucha:
+
+* Niedosłuch jednostronny lub obustronny (nagły lub narastający)
+* Szumy uszne
+* Zawroty głowy pochodzenia błędnikowego (np. przy zmianie pozycji)
+* Ból ucha (otalgia), wyciek z ucha
+* Uczucie zatkania, „pełności” ucha
+* Nawracające zapalenia ucha środkowego
+
+### Objawy ze strony nosa i zatok:
+
+* Niedrożność nosa, chrapanie, bezdech senny
+* Utrata węchu (anosmia), szczególnie przewlekła (> 4 tygodnie)
+* Bóle twarzy lub głowy (okolice zatok)
+* Wyciek ropny lub śluzowy z nosa, szczególnie jednostronny
+* Krwawienia z nosa (częste lub trudne do zatamowania)
+
+### Objawy ze strony gardła i krtani:
+
+* Przewlekła chrypka (> 3 tygodnie)
+* Ból gardła bez objawów infekcji ogólnej
+* Przewlekły kaszel bez przyczyny pulmonologicznej (> 8 tygodni)
+* Uczucie ciała obcego w gardle lub trudność w połykaniu (dysfagia)
+* Powiększone migdałki, częste anginy
+* Guz lub asymetria w szyi, przewlekła chrypka, szczególnie u palaczy
+
+---
+
+## Wyniki badań laboratoryjnych – wartości wskazujące na potrzebę konsultacji
+
+**Wyniki badań laboratoryjnych – kiedy zgłosić się do lekarza**
+
+Pewne odchylenia w badaniach laboratoryjnych mogą sugerować obecność przewlekłych infekcji, stanów zapalnych lub innych chorób wymagających dalszej diagnostyki. Poniżej przedstawiono najważniejsze parametry i wartości alarmowe:
+
+* **CRP (białko C-reaktywne):** Poziom powyżej 30 mg/L wskazuje na przewlekły stan zapalny. Może sugerować zapalenie zatok, ucha lub inny przewlekły proces infekcyjny.
+
+* **OB (odczyn Biernackiego):** Wartość przekraczająca 30 mm/h może być związana z przewlekłą infekcją, zwłaszcza zatok przynosowych lub migdałków.
+
+* **Leukocyty:** Liczba powyżej 11 G/L może świadczyć o infekcji bakteryjnej, natomiast poniżej 4 G/L może wskazywać na wirusową infekcję lub zaburzenia odporności.
+
+* **Monocytoza (powyżej 0,8 G/L):** Podwyższony poziom monocytów jest typowy dla przewlekłych zapaleń, takich jak nawracające zapalenie migdałków.
+
+* **Eozynofilia (powyżej 0,5 G/L):** Może sugerować alergiczne podłoże dolegliwości, np. w przebiegu alergicznego nieżytu nosa.
+
+* **IgE całkowite:** Stężenie powyżej 100 IU/mL przemawia za podłożem atopowym, które może być związane z objawami alergicznego zapalenia błon śluzowych nosa.
+
+* **D-dimery (powyżej 500 ng/mL):** Choć najczęściej kojarzone z zakrzepicą, mogą pojawić się również w przypadku zakrzepowego zapalenia zatok. Wymagają pilnej konsultacji.
+
+* **TSH (poniżej 0,4 lub powyżej 4,0 µIU/mL):** Nieprawidłowe wartości mogą świadczyć o chorobie tarczycy. Objawy takie jak chrypka lub obrzęk szyi mogą wskazywać na ucisk tarczycy na krtań.
+
+* **Hemoglobina (HGB poniżej 11 g/dL):** Może to być efekt przewlekłych krwawień z nosa prowadzących do niedokrwistości.
+
+* **Wymaz z gardła lub nosa:** Obecność patogenów takich jak *Streptococcus pyogenes*, *Haemophilus influenzae* czy *Candida albicans* może wymagać leczenia celowanego, zwłaszcza przy nawracających infekcjach.
+
+---
+
+## Cechy osobnicze i ich znaczenie
+
+### Wiek:
+
+* **Dzieci**: częste infekcje górnych dróg oddechowych, przerost migdałka gardłowego, wysiękowe zapalenie ucha
+* **Dorośli**: przewlekłe zapalenia zatok, skrzywienie przegrody, polipy nosa
+* **Seniorzy**: nowotwory krtani, chrypka, bezdech senny, zaburzenia równowagi
+
+### Płeć:
+
+* Mężczyźni: wyższe ryzyko raka krtani, szczególnie u palaczy
+* Kobiety: częstsze objawy na tle alergicznym (np. nieżyt nosa, śluzówka reaktywna)
+
+### Inne czynniki:
+
+* **Palenie tytoniu**: chrypka, kaszel, nowotwory krtani
+* **Alergia**: nieżyt nosa, zatkany nos, eozynofilia
+* **Refluks żołądkowo-przełykowy (GERD)**: przewlekła chrypka, uczucie ciała obcego w gardle
+* **Praca głosem (nauczyciele, lektorzy)**: ryzyko guzków głosowych, chrypka
+* **Praca w hałasie lub na zimnie**: zapalenia ucha, gardła, polipy nosa
+* **Częste infekcje paciorkowcowe**: > 5/rok – kwalifikacja do tonsillektomii
+
+---
+
+## Na co zwraca uwagę lekarz POZ kierując do laryngologa?
+
+### Objawy przewlekłe:
+
+* Chrypka > 3 tyg. u dorosłego, szczególnie palacza
+* Ból gardła > 10 dni mimo leczenia
+* Krwawienie z nosa (częste, jednostronne, bez urazu)
+* Przewlekła niedrożność nosa, zaburzenia węchu
+* Ból ucha bez stanu zapalnego – możliwe promieniowanie z gardła
+* Częste anginy, ≥ 5–6 epizodów w ciągu roku
+* Przerost migdałków gardłowych – chrapanie, bezdech
+* Zaburzenia równowagi pochodzenia błędnikowego
+
+### Nieprawidłowe badania:
+
+* Leukocytoza > 12 G/L z ropnym wyciekiem z nosa lub ucha
+* CRP > 30 mg/L + objawy zatokowe
+* Eozynofilia > 0.5 G/L + objawy nosa – nieżyt alergiczny
+* IgE > 100 IU/mL przy podejrzeniu alergii całorocznej
+* Wymaz dodatni na Streptococcus pyogenes lub Candida
+* TSH zaburzone – podejrzenie ucisku przez tarczycę
+
+### Dodatkowe sygnały alarmowe:
+
+* Asymetryczny przerost migdałka → podejrzenie nowotworu
+* Zmiana barwy głosu + trudności w połykaniu → badanie krtani
+* Przewlekły wyciek z ucha + niedosłuch → perforacja błony bębenkowej
+* Przewlekły szum w jednym uchu → podejrzenie guza nerwu słuchowego
+* Przewlekła duszność z chrypką → porażenie strun głosowych
+
+---
+
+---
+
+## Ankieta specjalistyczna – laryngologia
+
+---
+
+### I. Główna dolegliwość / powód wizyty
+
+• Co skłoniło pacjenta do wizyty?
+• Od kiedy występują objawy?
+• Czy są one stałe, nawracające czy postępujące?
+• Czy objawy nasilają się w nocy, przy zmianie pozycji ciała lub przy wysiłku mowy/oddychania?
+• Czy występuje ból, gorączka, duszność, chrypka, niedosłuch, szum, zawroty głowy?
+
+---
+
+### II. Objawy ze strony ucha
+
+• Ból ucha – jednostronny/obustronny, ostry/przewlekły
+• Niedosłuch – nagły / postępujący / obustronny
+• Szum w uszach – jednostronny / obustronny / pulsujący
+• Zawroty głowy – czy towarzyszą nudności, oczopląs?
+• Wyciek z ucha – ropny / śluzowy / krwisty
+• Uczucie zatkania, ciśnienia, pełności w uchu
+
+---
+
+### III. Objawy ze strony nosa i zatok
+
+• Niedrożność nosa – stała / okresowa / jednostronna
+• Wydzielina z nosa – ropna / śluzowa / krwista
+• Zaburzenia węchu – całkowita utrata / osłabienie / zmienione odczuwanie
+• Ból w obrębie zatok – czoło, policzki, nasilający się przy pochylaniu
+• Krwawienia z nosa – częstość, trudność w zatamowaniu
+• Chrapanie / bezdech senny
+
+---
+
+### IV. Objawy ze strony gardła i krtani
+
+• Przewlekła chrypka (> 3 tygodnie)
+• Ból gardła – nawracający / przewlekły / nieskuteczny na antybiotykoterapię
+• Trudności w połykaniu – stałe / progresywne
+• Uczucie ciała obcego w gardle
+• Kaszel – suchy / produktywny / przewlekły
+• Głos – zmiana barwy, osłabienie głosu
+• Częste anginy – ile epizodów w ostatnich 12 miesiącach?
+
+---
+
+### V. Objawy ogólne
+
+• Gorączka / stany podgorączkowe
+• Nocne poty
+• Utrata masy ciała
+• Osłabienie, brak apetytu
+• Zmiany na skórze twarzy / szyi / błonach śluzowych
+
+---
+
+### VI. Badania laboratoryjne (jeśli dostępne)
+
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• Leukocyty (WBC): \_\_\_\_\_\_ G/L
+• Monocyty: \_\_\_\_\_\_ G/L
+• Eozynofile: \_\_\_\_\_\_ G/L
+• IgE całkowite: \_\_\_\_\_\_ IU/mL
+• TSH: \_\_\_\_\_\_ µIU/mL
+• Hemoglobina (HGB): \_\_\_\_\_\_ g/dL
+• Wymaz z gardła / nosa – wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Audiometria / tympanometria – wynik (jeśli dostępne): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VII. Cechy osobnicze i czynniki ryzyka
+
+• Wiek: \_\_\_\_\_\_
+• Płeć: K / M
+• Palenie tytoniu – TAK / NIE / kiedy rzucił(a)?
+• Refluks żołądkowo-przełykowy – TAK / NIE
+• Praca głosem – TAK / NIE (np. nauczyciel, lektor)
+• Praca w hałasie lub narażenie na zimno
+• Alergie (pyłki, roztocza, pokarmy) – TAK / NIE
+• Nawracające infekcje (gardło, uszy, zatoki)
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] Chrypka > 3 tygodni u osoby > 40 r.ż.
+\[ ] Krwawienie z nosa – częste, jednostronne, bez urazu
+\[ ] Jednostronna niedrożność nosa z ropnym wyciekiem
+\[ ] Zawroty głowy + szum jednostronny + niedosłuch
+\[ ] Przewlekła duszność + chrypka + kaszel
+\[ ] Przerost migdałków z zaburzeniami oddychania u dziecka
+\[ ] Nawracające anginy (> 5 w roku)
+\[ ] Asymetryczny migdałek / guzek szyi
+\[ ] Ciało obce w uchu / nosie
+\[ ] Przewlekłe zapalenie zatok nieskuteczne na leczenie
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Dotychczasowe leczenie / antybiotyki / efekty: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Leki stosowane przewlekle: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Podejrzenie: przewlekłe zapalenie zatok / ucha / migdałków / nowotwór / inne: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy konieczna pilna konsultacja laryngologiczna? TAK / NIE
+• Badania do rozważenia przed konsultacją: RTG zatok / USG szyi / EKG / morfologia / posiew
+
+---

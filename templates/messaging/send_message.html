@@ -1,0 +1,142 @@
+<div class="offcanvas offcanvas-end" tabindex="-1" id="messagesOffcanvas" aria-labelledby="messagesOffcanvasLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="messagesOffcanvasLabel">Wiadomości</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zamknij"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column p-0">
+        <!-- Wyszukiwarka -->
+        <div class="p-2 border-bottom">
+            <input type="text" class="form-control" id="searchUser" placeholder="Wyszukaj użytkownika...">
+        </div>
+
+        <!-- Lista kontaktów -->
+        <div class="flex-grow-1 border-end overflow-auto" id="contactsList" style="max-height: 200px;">
+            <p class="text-center text-muted mt-2">Ładowanie kontaktów...</p>
+        </div>
+
+        <!-- Widok konwersacji -->
+        <div class="flex-grow-2 overflow-auto px-3 pt-2" id="conversationContainer" style="height: 300px; border-top: 1px solid #ccc;">
+            <p class="text-center text-muted">Wybierz rozmowę</p>
+        </div>
+
+        <!-- Formularz wiadomości -->
+        <form id="messageForm" class="p-3 border-top d-flex" style="gap: 10px;">
+            <input type="hidden" name="recipient_id" id="recipient_id">
+            <input type="text" class="form-control" name="content" id="messageInput" placeholder="Napisz wiadomość..." autocomplete="off">
+            <button type="submit" class="btn btn-primary">Wyślij</button>
+        </form>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const contactsList = document.getElementById('contactsList');
+    const conversationContainer = document.getElementById('conversationContainer');
+    const messageForm = document.getElementById('messageForm');
+    const messageInput = document.getElementById('messageInput');
+    const recipientIdInput = document.getElementById('recipient_id');
+    const searchInput = document.getElementById('searchUser');
+
+    let contacts = [];
+
+    function renderContacts(list) {
+        contactsList.innerHTML = '';
+        list.forEach(contact => {
+            const div = document.createElement('div');
+            div.classList.add('p-2', 'border-bottom', 'contact-item');
+            div.style.cursor = 'pointer';
+            div.textContent = contact.name;
+            div.dataset.userId = contact.id;
+            div.addEventListener('click', () => loadConversation(contact.id, contact.name));
+            contactsList.appendChild(div);
+        });
+    }
+
+    function loadContacts() {
+        fetch('/messages/contacts/')
+            .then(res => res.json())
+            .then(data => {
+                contacts = data.contacts;
+                renderContacts(contacts);
+            });
+    }
+
+    function loadConversation(userId, name) {
+        recipientIdInput.value = userId;
+        fetch(`/messages/conversation/${userId}/`)
+            .then(res => res.json())
+            .then(data => {
+                conversationContainer.innerHTML = `<h6 class="border-bottom pb-2 mb-2">${name}</h6>`;
+                data.messages.forEach(msg => {
+                    const div = document.createElement('div');
+                    div.classList.add('mb-2', msg.is_own ? 'text-end' : 'text-start');
+                    div.innerHTML = `<div class="p-2 rounded ${msg.is_own ? 'bg-primary text-white' : 'bg-light'}">
+                        ${msg.text}<br><small class="text-muted">${msg.sent_at}</small>
+                    </div>`;
+                    conversationContainer.appendChild(div);
+                });
+                conversationContainer.scrollTop = conversationContainer.scrollHeight;
+            });
+    }
+
+    messageForm.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const recipientId = recipientIdInput.value;
+        const content = messageInput.value.trim();
+
+        if (!recipientId || !content) return;
+
+        const formData = new FormData();
+        formData.append('recipient_id', recipientId);
+        formData.append('content', content);
+
+        fetch('/messages/send/', {
+            method: 'POST',
+            headers: {
+                'X-CSRFToken': getCookie('csrftoken')
+            },
+            body: formData
+        })
+            .then(res => res.json())
+            .then(data => {
+                const div = document.createElement('div');
+                div.classList.add('mb-2', 'text-end');
+                div.innerHTML = `<div class="p-2 rounded bg-primary text-white">
+                    ${content}<br><small class="text-muted">${data.sent_at}</small>
+                </div>`;
+                conversationContainer.appendChild(div);
+                messageInput.value = '';
+                conversationContainer.scrollTop = conversationContainer.scrollHeight;
+            });
+    });
+
+    searchInput.addEventListener('input', function () {
+        const filtered = contacts.filter(c =>
+            c.name.toLowerCase().includes(searchInput.value.toLowerCase())
+        );
+        renderContacts(filtered);
+    });
+
+    // Helper: pobieranie CSRF
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+
+    // Załaduj kontakty gdy offcanvas się otworzy
+    const offcanvas = document.getElementById('messagesOffcanvas');
+    offcanvas.addEventListener('shown.bs.offcanvas', () => {
+        loadContacts();
+    });
+});
+</script>

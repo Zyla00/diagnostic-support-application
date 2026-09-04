@@ -1,0 +1,156 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/questionaires_manager.css' %}">
+<style>
+  .results-wrapper {
+    margin-top: 2rem;
+  }
+
+  .results-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .results-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 1rem;
+  }
+
+  .results-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .results-header i {
+    font-size: 1.25rem;
+    color: #0d6efd;
+  }
+
+  .table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #212529;
+    vertical-align: middle;
+  }
+
+  .table td {
+    vertical-align: middle;
+    font-size: 0.85rem;
+    color: #212529;
+  }
+
+  .brak {
+    color: #6c757d;
+    font-size: 0.75rem;
+    font-style: italic;
+  }
+
+  .section-header {
+    background-color: #f1f3f5;
+    font-weight: 500;
+    font-size: 0.95rem;
+    text-align: left;
+    padding-left: 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .btn-back {
+    margin-top: 2rem;
+  }
+
+  .text-danger {
+    color: #dc3545 !important;
+  }
+
+  .text-success {
+    color: #198754 !important;
+  }
+
+  .fw-semibold {
+    font-weight: 600;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container results-wrapper">
+  <div class="results-card">
+
+    <!-- Nagłówek -->
+    <div class="results-header">
+      <i class="bi bi-clipboard2-pulse-fill"></i>
+      <h2>Wyniki badań pacjenta {{ survey.patient.get_full_name }} z dnia {{ survey.created_at|date:"d.m.Y" }}</h2>
+    </div>
+
+    <!-- Tabela wyników -->
+    <div class="table-responsive">
+      <table class="table table-bordered text-center align-middle">
+        <thead>
+          <tr>
+            <th>Badanie</th>
+            <th>Wartość</th>
+            <th>Jednostka</th>
+            <th>MIN</th>
+            <th>MAX</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for section, entries in grouped_entries.items %}
+            <tr>
+              <th colspan="5" class="section-header">{{ section }}</th>
+            </tr>
+            {% for entry in entries %}
+              <tr>
+                <td>{{ entry.test_name }}</td>
+                <td
+                  {% if entry.is_out_of_range or entry.is_positive %}
+                    class="text-danger fw-semibold"
+                  {% elif entry.is_negative %}
+                    class="text-success fw-semibold"
+                  {% endif %}
+                >
+                  {% if entry.get_display_value and entry.get_display_value|lower != 'brak' %}
+                    {% if entry.value_type == 'numeric' %}
+                      {{ entry.get_display_value|floatformat:3 }}
+                    {% else %}
+                      {{ entry.get_display_value }}
+                    {% endif %}
+                  {% else %}
+                    <span class="brak">Brak</span>
+                  {% endif %}
+                </td>
+                <td>{{ entry.unit }}</td>
+                <td>
+                  {% if entry.reference_min %}
+                    {{ entry.reference_min|floatformat:2 }}
+                  {% else %}
+                    <span class="brak">Brak</span>
+                  {% endif %}
+                </td>
+                <td>
+                  {% if entry.reference_max %}
+                    {{ entry.reference_max|floatformat:2 }}
+                  {% else %}
+                    <span class="brak">Brak</span>
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

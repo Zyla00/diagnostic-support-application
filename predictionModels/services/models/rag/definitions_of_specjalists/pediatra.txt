@@ -1,0 +1,291 @@
+## Kim jest pediatra?
+
+**Pediatra** to lekarz specjalista w zakresie profilaktyki, diagnostyki i leczenia chorób u pacjentów od urodzenia do ukończenia 18. roku życia. Ocenia rozwój fizyczny, psychomotoryczny i emocjonalny, prowadzi obowiązkowe bilanse zdrowia i szczepienia, rozpoznaje choroby zakaźne, metaboliczne, alergiczne, autoimmunologiczne, wady wrodzone oraz stany ostre (urazy, infekcje, zatrucia). Koordynuje opiekę specjalistyczną (nefrolog, kardiolog dziecięcy, endokrynolog) i prowadzi poradnictwo żywieniowe oraz wczesną rehabilitację.
+
+---
+
+## Objawy i sytuacje kliniczne, które powinny skłonić do wizyty u pediatry
+
+### Nagłe (pilne)
+
+* **Gorączka ≥ 38,0 °C** u niemowlęcia < 3 mies. lub ≥ 39 °C w każdym wieku.
+* **Duszność**: liczba oddechów/min > 60 (0-2 mies.), > 50 (2-12 mies.), > 40 (1-5 lat), > 30 (> 5 lat) albo wciąganie międzyżebrzy.
+* **Wymioty + odwodnienie**: brak diurezy > 8 h, zapadnięte ciemiączko, wypełnienie kapilarne > 2 s.
+* **Drgawki** (gorączkowe lub afebrilne).
+* **Wybroczyny / plamica** nie znikające po ucisku szkiełkiem.
+* **Utrata przytomności, nagłe osłabienie napięcia mięśniowego („floppy infant”)**.
+
+### Podostre / przewlekłe
+
+* **Słaby przyrost masy ciała**: < 15 g/dobę (0-3 mies.), < 10 g/dobę (3-6 mies.) lub spadek > 1 kanału percentylowego.
+* **Przewlekły kaszel** > 4 tyg., świszczący oddech, nocne napady kaszlu.
+* **Powtarzające się infekcje** (> 8 górnych lub > 2 dolnych dróg oddechowych rocznie u dzieci > 3 lat).
+* **Bóle brzucha** trwające > 4 tyg. lub nawracające (≥ 3 epizody w ciągu 3 mies.) z ograniczeniem aktywności.
+* **Bóle stawów / kulawizna** utrzymujące się > 1 tyg.
+* **Zaburzenia rozwoju mowy, ruchu**: brak gaworzenia do 9 mies., brak chodu do 18 mies., utrata wcześniej nabytych umiejętności.
+* **Nadmierne pragnienie + wielomocz** – ryzyko cukrzycy typu 1.
+* **Powiększone węzły chłonne** > 2 cm, twarde, nieruchome.
+
+---
+
+## Nieprawidłowe wyniki laboratoryjne u dzieci (wartości orientacyjne, laboratoria mogą podawać inne przedziały)
+
+Oto tekstowy opis nieprawidłowych wyników laboratoryjnych u dzieci – z uwzględnieniem zmienności osobniczej, wieku oraz płci:
+
+Wartości referencyjne badań laboratoryjnych u dzieci różnią się istotnie od norm stosowanych u dorosłych i podlegają dużym wahaniom zależnie od wieku, a czasem także płci dziecka. Poniżej przedstawiono orientacyjne progi nieprawidłowości oraz sytuacje wymagające pilnej interwencji.
+
+#### **1. CRP (białko C-reaktywne)**
+
+U niemowląt i dzieci wartości **> 20 mg/L** mogą wskazywać na aktywny stan zapalny.
+
+* Wartości **> 80 mg/L** lub **gwałtowny wzrost w ciągu kilku godzin** w połączeniu z objawami ogólnymi (gorączka, tachykardia, letarg) mogą świadczyć o **posocznicy** i wymagają pilnej diagnostyki oraz leczenia szpitalnego.
+* U niemowląt wysoki CRP może być trudniejszy do interpretacji z powodu niedojrzałości układu odpornościowego.
+
+#### **2. Leukocyty (WBC)**
+
+Liczba białych krwinek naturalnie **zmienia się z wiekiem**:
+
+* U **niemowląt** zakres jest najszerszy, a wartości **< 5 lub > 20 ×10⁹/L** są niepokojące.
+* U **dzieci do 5 r.ż.** – alarmujące są wartości **< 5 lub > 15**, a powyżej 5 lat – **< 4 lub > 14 ×10⁹/L**.
+* Pilna konsultacja konieczna jest przy liczbie **neutrofili < 0,5 G/L** (ciężka neutropenia, ryzyko sepsy) lub **> 20 G/L** (np. białaczka lub ciężka infekcja bakteryjna).
+
+#### **3. Hemoglobina (Hb)**
+
+Wiek wpływa na dolne granice normy:
+
+* **Niemowlęta**: < 10,5 g/dL uznaje się za niedokrwistość.
+* **1–5 lat**: < 11,0 g/dL.
+* **> 5 lat**: < 11,5 g/dL.
+* Wartość **< 7 g/dL** to bezwzględne wskazanie do pilnej transfuzji, szczególnie przy objawach niedotlenienia lub niestabilności krążeniowej.
+* U dziewcząt w okresie dojrzewania niedokrwistość częściej wynika z utraty żelaza (miesiączki), u chłopców – z intensywnego wzrostu.
+
+#### **4. Glukoza na czczo**
+
+* Hipoglikemia < 50 mg/dL u niemowląt i < 60 mg/dL u starszych dzieci wymaga wykluczenia zaburzeń metabolicznych.
+* Wartości **> 126 mg/dL** sugerują cukrzycę, szczególnie jeśli potwierdzone w kolejnych pomiarach.
+* Pilna interwencja jest konieczna przy **glikemii > 300 mg/dL** (ryzyko kwasicy) lub **< 40 mg/dL** (ryzyko drgawek, uszkodzenia OUN).
+
+#### **5. Sód (Na⁺)**
+
+Norma u dzieci to 135–145 mmol/L.
+
+* Wartości **< 130 lub > 150 mmol/L** są nieprawidłowe.
+* Wartość **< 125 mmol/L** z towarzyszącymi objawami neurologicznymi (apatia, drgawki) to stan nagły – ryzyko obrzęku mózgu.
+* Niemowlęta są szczególnie narażone na szybkie zmiany sodu ze względu na niedojrzały mechanizm regulacji wodno-elektrolitowej.
+
+#### **6. Potas (K⁺)**
+
+* U dzieci dolna granica to zwykle 3,3 mmol/L, a górna 5,5 mmol/L.
+* **Potas > 6,0 mmol/L** może prowadzić do arytmii i wymaga pilnego leczenia.
+* Wysoki potas częściej obserwuje się u noworodków, u których mechanizmy nerkowe są jeszcze niedojrzałe.
+
+#### **7. TSH (hormon tyreotropowy)**
+
+* W przesiewie noworodków wartość **TSH > 10 µIU/mL** jest wskazaniem do dalszej diagnostyki w kierunku wrodzonej niedoczynności tarczycy.
+* U starszych dzieci: **TSH > 6 (1–5 lat)** lub **> 5 µIU/mL (> 5 lat)** może sugerować subkliniczną lub pełnoobjawową niedoczynność.
+* Szczególnie niepokojące są jednoczesne spadki **FT4 < 10 pmol/L**, które mogą powodować zaburzenia rozwoju.
+
+#### **8. Enzymy wątrobowe – AST i ALT**
+
+* Fizjologicznie wyższe u niemowląt, ale wartości:
+
+  * **AST > 80 U/L**, **ALT > 60 U/L** u niemowląt i małych dzieci,
+  * **> 50 U/L** u dzieci starszych
+    wymagają dalszej oceny.
+* Gdy **AST lub ALT > 200 U/L**, istnieje ryzyko ostrego uszkodzenia wątroby (np. wirusowe zapalenie wątroby, toksyczność lekowa) – konieczna szybka konsultacja specjalistyczna.
+
+### **Podsumowanie**
+
+Interpretacja wyników badań u dzieci wymaga znajomości przedziałów wiekowych oraz typowych fizjologicznych zmian.
+
+* **Wiek** jest kluczowym czynnikiem wpływającym na normy – wartości u niemowląt mogą znacznie różnić się od tych u dzieci starszych.
+* **Płeć** rzadziej wpływa na interpretację w młodym wieku, ale w okresie dojrzewania różnice w stężeniach hemoglobiny czy TSH zaczynają być zauważalne.
+* W każdym przypadku wartości skrajne, zwłaszcza jeśli towarzyszą im objawy kliniczne, wymagają **pilnej diagnostyki i często hospitalizacji**.
+
+
+---
+
+## Cechy osobnicze zwiększające ryzyko wizyty u pediatry
+
+Oto tekstowy opis cech osobniczych zwiększających ryzyko wizyty u pediatry, uwzględniający zmienność związaną z wiekiem, płcią oraz innymi indywidualnymi czynnikami:
+
+Niektóre cechy biologiczne i środowiskowe znacząco zwiększają prawdopodobieństwo występowania dolegliwości zdrowotnych u dzieci i młodzieży, prowadząc do częstszych wizyt u pediatry. Wpływ na to mają zarówno wiek i płeć dziecka, jak i czynniki rodzinne, okołoporodowe czy środowiskowe.
+
+#### **1. Wiek dziecka**
+
+Wiek jest jednym z najistotniejszych czynników determinujących ryzyko chorób i powikłań:
+
+* **Noworodki (< 28 dni):** każda gorączka wymaga pilnej diagnostyki w kierunku sepsy, ze względu na niedojrzałość układu odpornościowego.
+* **Niemowlęta (< 6 miesięcy):** mają większe ryzyko odwodnienia w przebiegu gorączki, biegunki lub wymiotów, a objawy są często niespecyficzne.
+* **Dzieci przedszkolne:** narażone na liczne infekcje wirusowe ze względu na kontakt w żłobku lub przedszkolu.
+* **Nastolatki:** w tej grupie rośnie częstość migren, problemów psychicznych (zaburzenia odżywiania, depresja, lęki) oraz bólów wzrostowych i problemów ortopedycznych.
+
+#### **2. Płeć dziecka**
+
+Zależnie od płci pewne choroby i objawy są bardziej typowe:
+
+* **Chłopcy:** częściej diagnozuje się u nich przepukliny pachwinowe, wodniaki jąder, zapalenie jądra czy stulejkę. W okresie niemowlęcym częstsze są też epizody bezdechów.
+* **Dziewczynki:** po 2. roku życia wzrasta ryzyko zakażeń układu moczowego (ZUM) ze względu na krótszą cewkę moczową oraz wcześniejsze występowanie pierwszych objawów pokwitania.
+
+#### **3. Historia porodu i okresu noworodkowego**
+
+* **Wcześniactwo** oraz **niska masa urodzeniowa** zwiększają ryzyko przewlekłych chorób takich jak dysplazja oskrzelowo-płucna (BPD), retinopatia wcześniacza, opóźnienia w rozwoju psychoruchowym czy niedobory odporności.
+
+#### **4. Wywiad rodzinny**
+
+Choroby dziedziczne i skłonności rodzinne są istotne w ocenie ryzyka:
+
+* Obciążenie rodzinne w kierunku **astmy, alergii, padaczki, chorób metabolicznych** czy **niedokrwistości hemolitycznej** zwiększa prawdopodobieństwo wystąpienia podobnych problemów u dziecka i może być podstawą wcześniejszej profilaktyki lub diagnostyki.
+
+#### **5. Szczepienia**
+
+* **Niekompletny kalendarz szczepień** lub całkowity brak szczepień naraża dziecko na ciężki przebieg chorób zakaźnych, takich jak **krztusiec, odra, świnka**, które u dzieci mogą przebiegać z groźnymi powikłaniami neurologicznymi i oddechowymi.
+
+#### **6. Warunki socjo-ekonomiczne**
+
+* **Przeludnienie w mieszkaniu**, brak dostępu do opieki zdrowotnej lub **palenie tytoniu w domu** znacząco zwiększają zachorowalność dzieci, zwłaszcza na infekcje dróg oddechowych, alergie czy przewlekły kaszel.
+
+#### **7. Masa ciała i otyłość**
+
+* **Dzieci z BMI-Z score > +2 (otyłość):** są w grupie podwyższonego ryzyka rozwoju chorób metabolicznych, takich jak **insulinooporność**, **nadciśnienie tętnicze**, **stłuszczenie wątroby** czy problemy ortopedyczne (np. koślawość kolan, bóle stawów).
+
+#### **8. Aktywność fizyczna i urazy**
+
+* **Dzieci uprawiające sport wyczynowy lub kontaktowy** (np. piłka nożna, judo) są bardziej narażone na urazy mechaniczne – skręcenia, złamania, wstrząśnienia mózgu, a także przeciążeniowe bóle stawów i kręgosłupa.
+
+### **Podsumowanie**
+
+W ocenie ryzyka zdrowotnego u dzieci należy uwzględniać nie tylko aktualne objawy, ale i czynniki osobnicze takie jak wiek, płeć, historia okołoporodowa, wywiad rodzinny czy styl życia. Tylko całościowe spojrzenie pozwala skutecznie zapobiegać powikłaniom i zapewnić wczesne rozpoznanie poważniejszych chorób.
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do pediatry
+
+1. **Ciężkość i czas trwania objawów** – gorączka > 3 dni, utrata > 5 % mc, wymioty/diarrhoea > 24 h u niemowląt.
+2. **Nieskuteczność leczenia domowego / ambulatoryjnego** (antybiotyk, inhalacje, leki przeciwalergiczne).
+3. **Nieprawidłowe bilanse** – brak przyrostu masy, opóźnienia rozwoju.
+4. **Odchylenia w badaniach** – anemia, leukopenia, podwyższona kreatynina > 0,7 mg/dL (niemowlęta) lub > 1,0 mg/dL (starsze dzieci), TSH > 6.
+5. **Ryzyko powikłań** – wcześniactwo, wady serca, immunosupresja.
+6. **Potrzeba diagnostyki specjalistycznej** – USG przezciemiączkowe, echo serca, konsultacja neurologiczna, alergologiczna, gastroenterologiczna itd.
+
+**Pilne skierowanie**: gorączka u < 3 mies., sepsa, drgawki, zaburzenia świadomości, sinica, saturacja < 92 %, obrzęk epiglotis, odwodnienie ciężkie, podejrzenie OZT (lipaza > 200 U/L) lub OZW (AST/ALT > 200 U/L), masywne krwawienie z przewodu pokarmowego.
+---
+
+## Ankieta specjalistyczna – pediatria
+
+---
+
+### I. Dane ogólne dziecka
+
+• Imię i nazwisko:
+• Data urodzenia / wiek:
+• Płeć:
+• Masa ciała (kg):
+• Wzrost (cm):
+• BMI / kanał centylowy:
+• Czy dziecko było urodzone przedwcześnie?
+• Masa urodzeniowa:
+• Poród: naturalny / cesarskie cięcie
+• Szczepienia: zgodne z kalendarzem / opóźnione / brak
+• Alergie (pokarmowe, wziewne, leki): TAK / NIE / Jakie?
+• Choroby przewlekłe / niepełnosprawność: TAK / NIE / Jakie?
+
+---
+
+### II. Powód wizyty
+
+• Co skłoniło rodzica / opiekuna do wizyty?
+• Od kiedy występują objawy?
+• Czy objawy są przewlekłe, ostre, nawracające?
+• Czy objawy nasilają się w określonych warunkach (np. noc, ruch, pokarm)?
+• Czy wystąpiły podobne objawy wcześniej?
+• Czy wdrożono wcześniej leczenie? Jakie?
+
+---
+
+### III. Objawy alarmowe (zakreślone przez POZ / rodzica)
+
+\[ ] Gorączka powyżej 38°C < 3 m.ż.
+\[ ] Brak apetytu, odwodnienie
+\[ ] Drgawki
+\[ ] Szybki oddech / duszność / sinica
+\[ ] Utrata przytomności / senność / apatia
+\[ ] Nieprzybieranie na wadze
+\[ ] Powiększone węzły chłonne
+\[ ] Wybroczyny, krwawienia
+\[ ] Bóle brzucha, biegunki, wymioty
+\[ ] Trudności w połykaniu / kaszel / chrypka
+\[ ] Zmiany skórne / wysypki
+\[ ] Upośledzenie rozwoju psychoruchowego
+\[ ] Brak kontaktu wzrokowego / mowy
+\[ ] Nadmierne pragnienie / oddawanie moczu
+
+---
+
+### IV. Rozwój i funkcjonowanie dziecka
+
+• Czy dziecko rozwija się zgodnie z wiekiem?
+• Czy osiągało kamienie milowe (chód, mowa, chwyt, kontakt)?
+• Czy były problemy z napięciem mięśniowym, chodem, zachowaniem?
+• Jak wygląda sen? Czy dziecko przesypia noce?
+• Czy dziecko chodzi do żłobka / przedszkola / szkoły?
+• Czy występują trudności w nauce, koncentracji, integracji?
+
+---
+
+### V. Wywiad rodzinny
+
+• Czy w rodzinie występują choroby przewlekłe (cukrzyca, astma, padaczka, nowotwory)?
+• Czy rodzeństwo jest zdrowe?
+• Czy występowały choroby dziedziczne?
+• Czy w rodzinie były przypadki nagłych zgonów w młodym wieku?
+
+---
+
+### VI. Styl życia i czynniki środowiskowe
+
+• Rodzaj karmienia w niemowlęctwie: pierś / mm / mieszane
+• Dieta obecna: zrównoważona / wybiórcza / niedobory
+• Aktywność fizyczna: brak / umiarkowana / duża
+• Ekspozycja na dym papierosowy: TAK / NIE
+• Warunki socjalne: stabilne / przeludnienie / trudności finansowe
+• Higiena snu, ekranów (czas spędzany z urządzeniami cyfrowymi)
+
+---
+
+### VII. Badania laboratoryjne (jeśli dostępne)
+
+• Hemoglobina (HGB): \_\_\_\_\_\_ g/dL
+• Leukocyty (WBC): \_\_\_\_\_\_ G/L
+• OB: \_\_\_\_\_\_ mm/h
+• CRP: \_\_\_\_\_\_ mg/L
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• Elektrolity: Na⁺ \_\_\_\_\_\_ mmol/L, K⁺ \_\_\_\_\_\_ mmol/L
+• AST / ALT: \_\_\_\_\_\_ U/L
+• Bilirubina: \_\_\_\_\_\_ mg/dL
+• Kreatynina: \_\_\_\_\_\_ mg/dL
+• TSH: \_\_\_\_\_\_ µIU/mL, FT4: \_\_\_\_\_\_ ng/dL
+• IgE całkowite: \_\_\_\_\_\_ IU/mL
+• Dodatkowe badania (kał, mocz, pasożyty, testy alergiczne): \_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VIII. Bilans rozwojowy
+
+• Ostatni bilans wykonany w wieku: \_\_\_\_\_\_
+• Odchylenia: wzrost / waga / mowa / motoryka / koncentracja
+• Zalecenia z bilansu: \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Wykonane szczepienia uzupełniające: TAK / NIE / planowane
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Rozpoznanie wstępne: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Dotychczasowe leczenie / antybiotyki: TAK / NIE / Jakie?
+• Potrzeba pilnej konsultacji pediatrycznej: TAK / NIE
+• Podejrzenie choroby infekcyjnej / metabolicznej / rozwojowej?
+• Czy rodzic wyraża niepokój co do rozwoju lub zachowania dziecka?
+
+---
+

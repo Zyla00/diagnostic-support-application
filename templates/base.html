@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="csrf-token" content="{{ csrf_token }}">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalHustle</title>
+    {% load django_bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    {% load static %}
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+    <link rel="stylesheet" href="{% static 'css/offcanvas_menu.css' %}?v=2">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}?v=2">
+    {% block css %}{% endblock %}
+
+    {% block extra_scripts %}{% endblock %}
+</head>
+<body data-static-base-url="{% static '' %}">
+    <div id="toast-container" class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 1100;"></div>
+
+<main>
+    <div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 sidebar">
+        <div class="logo-container">
+            <img class="logo nav-icon" src="{% static 'img/vitalhustle_icon.svg' %}" alt="Icon">
+            <span class="fs-4">MedPred</span>
+        </div>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+
+            {% if user.role == "patient" %}
+{#                <li class="nav-item">#}
+{#                    <a href="{% url 'patient_dashboard' %}" class="nav-link text-white {% if request.path == '/dashboard/patient/' %}active{% endif %}">#}
+{#                        <img class="img-style nav-icon" src="{% static 'img/home_icon.svg' %}" alt="Icon"> Home#}
+{#                    </a>#}
+{#                </li>#}
+                <li>
+                    <a href="{% url 'my_recommendations' %}"
+                       class="nav-link position-relative"
+                       id="recommendationLink"
+                       data-unread="{{ unread_recommendations_count|default:0 }}">
+
+                      <img src="{% static 'img/text-column-two-right-svgrepo-com.svg' %}" class="nav-icon" alt="">
+                      Rekomendacje
+
+                      <span class="notification-dot" id="recDot"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'patient_questionnaires' %}" class="nav-link text-white {% if request.path == '/questionnaires-patient/my/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/survey-svgrepo-com.svg' %}" alt="Icon"> Ankiety
+                    </a>
+                </li>
+                <li>
+                    <li>
+                    <a href="{% url 'labTest:dashboard' %}" class="nav-link text-white {% if request.path|slice:":5" == '/lab/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/lab-svgrepo-com.svg' %}" alt="Icon"> Wyniki Laboratoryjne
+                    </a>
+                </li>
+
+{#                <li>#}
+{#                    <a href="{% url 'my_recommendations' %}"#}
+{#                       class="nav-link position-relative"#}
+{#                       id="recommendationLink"#}
+{#                       data-unread="{{ unread_recommendations_count|default:0 }}">#}
+{##}
+{#                      <img src="{% static 'img/calendar_icon.svg' %}" class="nav-icon" alt="">#}
+{#                      Rekomendacje#}
+{##}
+{#                      <span class="notification-dot" id="recDot"></span>#}
+{#                    </a>#}
+{##}
+{##}
+{#                </li>#}
+
+                <li>
+                        <a href="{% url 'specialist_list' %}" class="nav-link text-white {% if request.path == '/specialists/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/patient-profile-people-svgrepo-com.svg' %}" alt="Icon"> Mój lekarz
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'habbit' %}" class="nav-link text-white {% if request.path == '/habbit/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/home_icon.svg' %}" alt="Icon"> Nawyki
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'cald-view' %}" class="nav-link text-white {% if request.path == '/cald/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/calendar_icon.svg' %}" alt="Icon"> Kalendarz
+                    </a>
+                </li>
+                <li>
+                    <a href="{% url 'Statistics-view' %}" class="nav-link text-white {% if request.path == '/statistics/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/statistic_icon.svg' %}" alt="Icon"> Statystyki
+                    </a>
+                </li>
+                <li class="position-relative">
+                  <a href="#" class="nav-link text-white d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#messagesOffcanvas">
+                    <img class="img-style nav-icon icon-large" src="{% static 'img/envelope-svgrepo-com.svg' %}" alt="Icon">
+                    <span class="ms-2">Wiadomości</span>
+                    <span id="unreadBadge" class="position-absolute translate-middle-y badge rounded-pill bg-danger d-none" style="right: 0.5rem; top: 50%;">
+                      0
+                    </span>
+                  </a>
+                </li>
+
+
+
+            {% endif %}
+
+            {% if user.role == "specialist" %}
+{#                <li>#}
+{#                    <a href="{% url 'specialist_dashboard' %}" class="nav-link text-white {% if request.path == '/dashboard/specialist/' %}active{% endif %}">#}
+{#                        <img class="img-style nav-icon" src="{% static 'img/statistic_icon.svg' %}" alt="Icon"> Home#}
+{#                    </a>#}
+{#                </li>#}
+                <li>
+                    <a href="{% url 'my_patients' %}" class="nav-link text-white {% if request.path == '/my-patients/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/patient-profile-people-svgrepo-com.svg' %}" alt="Icon"> Pacjenci
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{% url 'questionairesManager:questionnaire_list' %}"
+                       class="nav-link text-white {% if request.path == '/ankiety/' %}active{% endif %}">
+                        <img class="img-style nav-icon" src="{% static 'img/ai-robustness-svgrepo-com.svg' %}" alt="Icon">
+                        Menadżer Ankiet
+                    </a>
+                </li>
+
+{#                <li>#}
+{#                    <a href="{% url 'specialist_dashboard' %}" class="nav-link text-white {% if request.path == '/dashboard/specialist/' %}active{% endif %}">#}
+{#                        <img class="img-style nav-icon" src="{% static 'img/statistic_icon.svg' %}" alt="Icon"> Prediction models#}
+{#                    </a>#}
+{#                </li>#}
+                {% url 'predictionModels:ml_lab' as ml_lab_url %}
+                <li>
+                  <a href="{{ ml_lab_url }}"
+                     class="nav-link text-white {% if request.path == ml_lab_url %}active{% endif %}">
+                    <img class="img-style nav-icon" src="{% static 'img/ai-svgrepo-com.svg' %}" alt="Icon">
+                    Modele Predykcyjne
+                  </a>
+                </li>
+
+
+                <li class="position-relative">
+                  <a href="#" class="nav-link text-white d-flex align-items-center" data-bs-toggle="offcanvas" data-bs-target="#messagesOffcanvas">
+                    <img class="img-style nav-icon" src="{% static 'img/envelope-svgrepo-com.svg' %}" alt="Icon">
+                    <span class="ms-2">Wiadomości</span>
+                    <span id="unreadBadge" class="position-absolute translate-middle-y badge rounded-pill bg-danger d-none" style="right: 0.5rem; top: 50%;">
+                      0
+                    </span>
+                  </a>
+                </li>
+
+
+            {% endif %}
+        </ul>
+
+        <hr>
+
+        <form id="logoutForm" action="{% url 'logout' %}" method="post" style="display: none;">{% csrf_token %}</form>
+
+        <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="https://api.dicebear.com/8.x/pixel-art/svg?seed={{ user|default:'Anonymous' }}" width="32" height="32" class="rounded-circle me-2 border border-dark">
+                <div id="username"><strong>{{ request.user.username }}</strong></div>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                <li><a class="dropdown-item open-profile-btn" href="#" data-url="{% url 'profile-view' %}">Profil</a></li>
+                <li><a class="dropdown-item" id="changePasswordLink" href="#">Zmień hasło</a></li>
+{#                <li><a class="dropdown-item" id="openSettingsForm" href="#">Settings</a></li>#}
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#" onclick="event.preventDefault(); document.getElementById('logoutForm').submit();">Wyloguj</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <button id="toggle-button" class="toggle-button">&#9776;</button>
+
+    <div class="container content">
+
+        {% block content %}{% endblock %}
+    </div>
+</main>
+
+
+<div class="offcanvas offcanvas-end
+  {% if user.role == 'specialist' %}
+    offcanvas-specialist
+  {% elif user.role == 'patient' %}
+    offcanvas-patient
+  {% endif %}" tabindex="-1" id="editProfileCanvas">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="editProfileCanvasLabel">Profil</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div id="profileContainer"></div>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasElement" aria-labelledby="offcanvasElementLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasElementLabel">Change password</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body"></div>
+</div>
+{% include "messaging/messenger_panel.html" %}
+<div class="modal fade" id="modalElement" tabindex="-1" aria-labelledby="modalElementTitle" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalElementTitle"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body" id="modalElementBody"></div>
+            <div class="modal-footer" id="modalElementFooter"></div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+<script src="{% static 'js/utils/alert.js' %}"></script>
+<script src="{% static 'js/base.js' %}"></script>
+<script src="{% static 'js/questionaire_manager_bulk.js' %}"></script>
+{% block script %}{% endblock %}
+
+{#{% if messages %}#}
+{#  {% for message in messages %}#}
+{#    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">#}
+{#      {{ message }}#}
+{#      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Zamknij"></button>#}
+{#    </div>#}
+{#  {% endfor %}#}
+{#{% endif %}#}
+
+
+</body>
+</html>

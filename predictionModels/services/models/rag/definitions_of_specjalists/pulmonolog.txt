@@ -1,0 +1,318 @@
+## Kim jest pulmonolog?
+
+**Pulmonolog** (lekarz chorób płuc) diagnozuje, leczy i monitoruje schorzenia układu oddechowego – od ostrych infekcji po przewlekłe choroby płuc i opłucnej. W jego kompetencji znajdują się m.in. astma, POChP, zapalenia płuc, rozstrzenie oskrzeli, zatorowość płucna, śródmiąższowe choroby płuc (IPF), nowotwory płuca, bezdech senny, choroby opłucnej oraz powikłania po-COVID-19. Pulmonolog wykonuje lub zleca badania czynnościowe (spirometria, pletyzmografia, DLCO), obrazowe (RTG, TK HRCT), bronchoskopię i polisomnografię.
+
+---
+
+## Objawy kliniczne wskazujące na potrzebę konsultacji pulmonologicznej
+
+### 1. Kaszel i odkrztuszanie
+
+* Kaszel **przewlekły > 8 tyg.** bez jasnej przyczyny.
+* Napadowy kaszel nocny, po wysiłku, z oddechem świszczącym – podejrzenie astmy.
+* Odkrztuszanie ropnej plwociny > 2 tyg. lub **plwocina z krwią** (≥ 2 ml).
+
+### 2. Duszność / ograniczenie tolerancji wysiłku
+
+* Skala mMRC ≥ 2 (duszność przy chodzie po równym terenie, zatrzymanie się po \~100 m).
+* SpO₂ **< 92 %** w spoczynku lub **spadek > 4 %** przy 6-MWT.
+* Napadowa duszność nocna (orthopnoë) – konieczne ABG, ocena zastoinowej choroby płuc.
+
+### 3. Ból w klatce piersiowej
+
+* Kłujący ból nasilany wdechem ± gorączka > 38 °C – podejrzenie zapalenia opłucnej.
+* Ostry ból + duszność + tachykardia (HR > 100/min) – wykluczyć zatorowość płucną.
+
+### 4. Objawy towarzyszące
+
+* **Świsty, furczenia** osłuchowe; utrzymujące się trzeszczenia śródmiąższowe.
+* Spadek masy ciała, nocne poty, stany podgorączkowe (gruźlica, nowotwór).
+* Nawracające zapalenia płuc (> 2 epizody/rok w tym samym płacie).
+
+---
+
+Interpretacja wyników badań kierujących do pulmonologa wymaga uwzględnienia osobniczych zmiennych takich jak **wiek**, **płeć**, **wywiad palenia tytoniu**, **narażenia środowiskowe**, a także obecność chorób przewlekłych. Wiek i płeć wpływają nie tylko na normy referencyjne, ale również na częstość występowania poszczególnych schorzeń układu oddechowego oraz reakcję organizmu na infekcje i leki.
+
+---
+
+### **1. Spirometria**
+
+* Obniżony stosunek FEV₁/FVC < 0,70 po podaniu leku rozszerzającego oskrzela jest typowy dla **przewlekłej obturacyjnej choroby płuc (POChP)**.
+
+  * **Wiek:** POChP występuje głównie u osób po 40. roku życia.
+  * **Płeć:** Mężczyźni częściej chorują, jednak u kobiet POChP może szybciej postępować, zwłaszcza przy paleniu papierosów.
+* Zwiększenie FEV₁ o ≥ 12% i ≥ 200 ml po salbutamolu sugeruje **odwracalność obturacji**, typową dla **astmy**.
+
+---
+
+### **2. DLCO (pojemność dyfuzyjna dla tlenku węgla)**
+
+* Wartość < 80% normy wskazuje na zaburzenia wymiany gazowej, typowe dla **śródmiąższowych chorób płuc (ILD)**, **niewydolności krążenia**, czy **przebytej zatorowości płucnej**.
+
+  * **Wiek:** Spadek DLCO jest fizjologiczny po 65. roku życia.
+  * **Płeć:** Kobiety mają nieco wyższe wartości referencyjne (po korekcie na wzrost i masę ciała).
+
+---
+
+### **3. PEF – zmienność dobowa**
+
+* Zmienność PEF > 20% świadczy o **niewyrównanej astmie**.
+
+  * **Wiek:** U dzieci i młodzieży często obserwuje się zmienność, ale bez utrwalonej obturacji.
+  * **Płeć:** Astma w dzieciństwie częstsza u chłopców, po okresie dojrzewania – u dziewcząt.
+
+---
+
+### **4. CRP > 30 mg/L + zmiany w RTG**
+
+* Sugeruje **ostre bakteryjne zapalenie płuc**, zwłaszcza przy naciekach i gorączce.
+
+  * **Wiek:** U osób starszych objawy mogą być skąpe, ale CRP często rośnie znacznie.
+  * **Płeć:** Mężczyźni rzadziej zgłaszają wczesne objawy, częściej trafiają z powikłaniami.
+
+---
+
+### **5. Prokalcytonina ≥ 0,5 ng/mL**
+
+* Wskazuje na **poważne bakteryjne zapalenie płuc** lub sepsę.
+
+  * **Wiek:** U noworodków i seniorów wartości mogą być fałszywie zawyżone lub zaniżone w zależności od stanu układu immunologicznego.
+
+---
+
+### **6. Eozynofile ≥ 300/µL**
+
+* Typowe dla **astmy eozynofilowej** lub **ACOS (astma-POChP overlap)**.
+
+  * **Płeć:** Astma eozynofilowa częściej rozpoznawana jest u kobiet.
+  * **Wiek:** ACOS częściej u pacjentów po 50. roku życia z dodatnim wywiadem palenia.
+
+---
+
+### **7. D-dimery > 500 ng/mL**
+
+* Sugerują konieczność wykluczenia **zatorowości płucnej (PE)**.
+
+  * U pacjentów < 50 r.ż. istotna jest reguła: **próg = wiek × 10**.
+  * **Kobiety:** Częściej fałszywie dodatnie D-dimery w ciąży, miesiączce, chorobach autoimmunologicznych.
+  * **Starszy wiek:** rośnie ryzyko PE, nawet przy umiarkowanych wzrostach D-dimerów.
+
+---
+
+### **8. Gazometria**
+
+* PaO₂ < 60 mm Hg lub PaCO₂ > 45 mm Hg to kryteria **niewydolności oddechowej**.
+
+  * **Wiek:** Fizjologiczny spadek PaO₂ o 0,3 mm Hg/rok po 40. r.ż. → nie każdy spadek wymaga O₂.
+  * **Płeć:** Brak istotnych różnic, ale u kobiet z mniejszą pojemnością życiową szybciej rozwija się hipoksemia.
+
+---
+
+### **9. RTG klatki piersiowej**
+
+* Niepokojące są zacienienia > 3 cm, przetrwałe nacieki lub poszerzenie śródpiersia.
+
+  * **Wiek:** Ryzyko raka płuca znacznie wzrasta po 50. r.ż., szczególnie u palaczy.
+  * **Płeć:** U kobiet rzadziej, ale nowotwory często mają inną, wolniej rosnącą dynamikę.
+
+---
+
+### **10. HRCT (tomografia wysokiej rozdzielczości)**
+
+* Obraz siateczkowo-plasterkowy czy mleczne szkło wskazują na **włóknienie płuc (IPF)** lub **powikłania po COVID-19 (ILD)**.
+
+  * **Wiek:** IPF najczęściej u mężczyzn > 60 r.ż.
+  * **Płeć:** U kobiet częstsze są niespecyficzne ILD o łagodniejszym przebiegu.
+
+---
+
+### **Podsumowanie**
+
+Badania pulmonologiczne należy interpretować w kontekście indywidualnych cech pacjenta. Wiek wpływa na fizjologię oddechową, zaś płeć warunkuje podatność na konkretne choroby, reakcje zapalne i wartości referencyjne. Uwzględnianie tych zmiennych poprawia trafność diagnostyczną i przyspiesza właściwe skierowanie do specjalisty pulmonologa.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób płuc
+
+* **Wiek > 40 l. + > 10 paczkolat** → największe ryzyko POChP (mężczyźni nieco częściej).
+* **Płeć żeńska** – większa skłonność do ciężkiej astmy, nadreaktywności oskrzeli; mężczyźni – wyższy odsetek raka płuca związanego z paleniem.
+* **Ekspozycja zawodowa**: pyły krzemionki, azbest, dymy spawalnicze → pylice, włóknienie.
+* **Otyłość (BMI > 30)** → zespół hipowentylacji, bezdech senny, astma o fenotypie otyłości.
+* **Choroby współistniejące**: refluks (GERD) – przewlekły kaszel; RZS, SLE – śródmiąższowe zapalenie płuc; niewydolność serca – zastoinowe zmiany.
+
+---
+
+## Na co zwraca uwagę lekarz POZ kierując do pulmonologa?
+
+1. **Czas trwania i charakter objawów**
+
+   * Kaszel > 8 tyg. pomimo leczenia objawowego i RTG bez rozstrzygnięcia.
+   * Duszność postępująca, ograniczająca codzienną aktywność (mMRC ≥ 2).
+
+2. **Nieprawidłowe badania w POZ**
+
+   * Spirometria: FEV₁/FVC < 0,7, restrykcja (FVC < 80 % bez obturacji).
+   * RTG: utrzymujący się naciek, powiększenie węzłów wnęk/sródpiersia, zacienienie ogniskowe.
+   * Saturacja < 94 % w spoczynku (bez znanej choroby serca).
+
+3. **Brak odpowiedzi na leczenie**
+
+   * Antybiotyk + steryd doustny → brak poprawy w 7–10 dni przy założeniu zgodności.
+   * Astma – wymagane > 2 dawki SABA/tydz. mimo ICS-LABA.
+
+4. **Ryzyko powikłań**
+
+   * > 2 zaostrzenia POChP wymagające steroidów/antybiotyku w roku.
+   * Nadkrzepliwość + ostry ból KP/hemoptysis (pilna diagnostyka PE).
+
+5. **Planowanie specjalistycznych procedur**
+
+   * Ocena przed kwalifikacją do RIRS (rehabilitacji respiratorowej), tlenoterapii domowej, immunoterapii biologicznej w astmie.
+   * Bronchoskopia / torakoskopia diagnostyczna.
+
+---
+
+### Sytuacje do pilnego skierowania / SOR
+
+* Nagła duszność + SpO₂ < 90 % mimo tlenu, podejrzenie zatorowości płucnej lub odmy.
+* Krwioplucie > 20 ml lub z masywnym wymiotowaniem krwią.
+* Ostry atak astmy – PEF < 50 % wartości należnej, brak poprawy po 3 dawkach SABA.
+* Zaostrzenie POChP z pH < 7,35 lub PaCO₂ > 60 mm Hg.
+* Drenaż klatki w warunkach domowych/ambu z dysfunkcją (zatkany dren, wzrost duszności).
+
+---
+
+---
+
+## Ankieta specjalistyczna – pulmonologia
+
+---
+
+### I. Dane ogólne pacjenta
+
+• Imię i nazwisko:
+• Wiek / data urodzenia:
+• Płeć:
+• Miejsce zamieszkania: miasto / wieś
+• Zawód / ekspozycja zawodowa (pyły, dymy, chemikalia):
+• Palenie tytoniu: TAK / NIE / liczba paczkolat:
+• Historia chorób płuc: TAK / NIE / Jakie:
+• Czy pacjent leczy się pulmonologicznie? Jeśli tak – gdzie i od kiedy?
+
+---
+
+### II. Powód zgłoszenia
+
+• Główny powód wizyty:
+• Od kiedy występują objawy?
+• Czy objawy są przewlekłe / nawracające / epizodyczne?
+• Czynniki wywołujące objawy (np. wysiłek, noc, pora roku):
+• Czy objawy występują również w spoczynku?
+• Czy objawy nasilają się z czasem?
+• Dotychczasowe leczenie: Jakie? Skuteczność?
+• Czy pacjent był hospitalizowany z powodu chorób układu oddechowego?
+
+---
+
+### III. Objawy zgłaszane przez pacjenta
+
+Zaznacz wszystkie objawy obecne w ostatnich 4 tygodniach:
+
+\[ ] Kaszel przewlekły (> 8 tygodni)
+\[ ] Odkrztuszanie plwociny (ropna / śluzowa / krwista)
+\[ ] Duszność wysiłkowa (od ilu metrów / stopni / poziom mMRC?)
+\[ ] Duszność spoczynkowa
+\[ ] Świszczący oddech
+\[ ] Ból w klatce piersiowej przy oddychaniu
+\[ ] Uczucie ucisku w klatce
+\[ ] Napady kaszlu nocnego
+\[ ] Bezdechy w czasie snu (zgłaszane przez pacjenta lub bliskich)
+\[ ] Nadmierna senność dzienna
+\[ ] Zmniejszenie tolerancji wysiłku
+\[ ] Krwioplucie
+\[ ] Powtarzające się infekcje dróg oddechowych
+\[ ] Gorączka / stany podgorączkowe
+\[ ] Spadek masy ciała bez zmiany diety
+
+---
+
+### IV. Badania dodatkowe (jeśli wykonane)
+
+• RTG klatki piersiowej – data: \_\_\_\_\_\_\_\_ / opis:
+• TK klatki (HRCT) – data: \_\_\_\_\_\_\_\_ / wynik:
+• Spirometria:
+ – FEV₁: \_\_\_\_\_\_ % wartości należnej
+ – FVC: \_\_\_\_\_\_ %
+ – FEV₁/FVC: \_\_\_\_\_\_
+ – Odwracalność po salbutamolu: TAK / NIE
+• PEF: \_\_\_\_\_\_ L/min (najniższe i najwyższe wartości w ciągu dnia)
+• Saturacja (SpO₂): \_\_\_\_\_\_ % w spoczynku / po wysiłku
+• CRP: \_\_\_\_\_\_ mg/L
+• Eozynofile: \_\_\_\_\_\_ /μL
+• D-dimer: \_\_\_\_\_\_ ng/mL
+• TSH: \_\_\_\_\_\_
+• Gazometria (jeśli była): pH: \_\_\_\_\_ / PaO₂: \_\_\_\_\_ / PaCO₂: \_\_\_\_\_
+• Inne badania: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### V. Wywiad środowiskowy i zawodowy
+
+• Palenie tytoniu: obecne / przeszłe / nigdy
+• Bierne palenie w domu / pracy
+• Ekspozycja na pyły, pleśnie, zwierzęta, chemikalia
+• Wilgoć / grzyb w mieszkaniu
+• Zawód / miejsce pracy / zmiany nocne
+• Zwierzęta w domu: TAK / NIE / Jakie?
+• Przewlekłe używanie klimatyzacji / wentylatorów
+
+---
+
+### VI. Przebyte choroby i leczenie
+
+• Astma (wiek rozpoznania):
+• POChP: TAK / NIE
+• Rozstrzenie oskrzeli
+• Zatorowość płucna
+• COVID-19 / zespół po-COVID
+• Sarkoidoza, IPF, pylica
+• Alergie wziewne (testy skórne / IgE całkowite / swoiste):
+• Inne choroby: RZS, SLE, GERD, cukrzyca, nadciśnienie
+
+---
+
+### VII. Leki i interwencje
+
+• Inhalatory stosowane obecnie (nazwy, dawki):
+• Sterydy wziewne / doustne: TAK / NIE / od kiedy
+• Immunoterapia biologiczna (np. omalizumab): TAK / NIE
+• Leki mukolityczne, antybiotyki, β2-mimetyki:
+• Ostatnie hospitalizacje – liczba / data / powód
+• Czy pacjent jest objęty programem tlenoterapii domowej lub CPAP?
+
+---
+
+### VIII. Skala duszności – mMRC (Medical Research Council)
+
+Proszę zaznaczyć najwyższy stopień:
+
+0 – Duszność tylko przy bardzo dużym wysiłku
+1 – Duszność przy szybkim marszu / wchodzeniu pod górę
+2 – Muszę się zatrzymać po przejściu \~100 metrów
+3 – Duszność uniemożliwia nadążenie za rówieśnikami
+4 – Duszność przy wykonywaniu codziennych czynności / w spoczynku
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Podejrzenie: POChP / astma / IPF / infekcja / guz płuca / inne:
+• Dotychczasowe leczenie w POZ:
+• Czy był wykonany RTG / spirometria?
+• Wskazania do konsultacji specjalistycznej:
+• Potrzeba pilnej diagnostyki: TAK / NIE
+• Inne choroby wpływające na duszność (np. niewydolność serca):
+• Czy objawy postępują pomimo leczenia?
+
+---
+

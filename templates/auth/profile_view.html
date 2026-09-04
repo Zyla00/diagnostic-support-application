@@ -1,0 +1,56 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/offcanvas_menu.css' %}">
+
+<div class="container mt-4 position-relative">
+
+  <div class="d-flex justify-content-end align-items-start mb-3">
+    <a href="{% url 'profile-edit' %}" id="editProfileBtn" class="edit-icon-link">
+      <img src="{% static 'img/edit_icon.svg' %}" alt="Edytuj" class="edit-icon edit-icon-link:hover">
+    </a>
+  </div>
+
+ {% if user.role == 'specialist' %}
+  <div class="row">
+    <div class="col-md-6">
+      <p><strong>Imię:</strong> {{ user.first_name }}</p>
+      <p><strong>Nazwisko:</strong> {{ user.last_name }}</p>
+      <p><strong>O mnie:</strong> {{ profile.description }}</p>
+      <p><strong>Wykształcenie:</strong> {{ profile.education }}</p>
+      <p><strong>Doświadczenie:</strong> {{ profile.experience }}</p>
+    </div>
+    <div class="col-md-6">
+      <p><strong>Email:</strong> {{ user.email }}</p>
+      <p><strong>Telefon:</strong> {{ user.phone }}</p>
+      <p><strong>Adres przyjęć:</strong> {{ profile.location }}</p>
+      <p><strong>Numer PWZ:</strong> {{ profile.license_number }}</p>
+      <p><strong>Specjalizacja:</strong> {{ profile.specialization }}</p>
+    </div>
+  </div>
+
+{% elif user.role == 'patient' %}
+    <div class="row">
+      <div class="col-md-6">
+        <p><strong>Imię:</strong> {{ user.first_name }}</p>
+        <p><strong>Nazwisko:</strong> {{ user.last_name }}</p>
+        <p><strong>Data urodzenia:</strong> {{ profile.birth_date|date:"d.m.Y" }}</p>
+        <p><strong>PESEL:</strong> {{ profile.pesel }}</p>
+      </div>
+      <div class="col-md-6">
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Telefon:</strong> {{ user.phone }}</p>
+        <p><strong>Ubezpieczenie:</strong>
+          {% if profile.insurance == 'NFZ' %}
+            NFZ
+          {% elif profile.insurance == 'PRIVATE' %}
+            Prywatne
+          {% else %}
+            Brak
+          {% endif %}
+        </p>
+      </div>
+    </div>
+  {% endif %}
+
+
+
+</div>

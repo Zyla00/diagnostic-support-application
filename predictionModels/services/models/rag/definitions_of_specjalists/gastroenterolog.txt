@@ -1,0 +1,261 @@
+## Kim jest gastroenterolog?
+
+Gastroenterolog to lekarz specjalista zajmujący się diagnostyką i leczeniem chorób przewodu pokarmowego, wątroby, dróg żółciowych i trzustki. Diagnozuje m.in. chorobę refluksową przełyku, chorobę wrzodową, zespół jelita drażliwego (IBS), nieswoiste choroby zapalne jelit (Crohna, wrzodziejące zapalenie jelita grubego), zapalenia wątroby, choroby pęcherzyka żółciowego i trzustki, a także przeprowadza badania endoskopowe – gastroskopię i kolonoskopię.
+
+---
+
+## Objawy wskazujące na potrzebę konsultacji gastroenterologicznej
+
+**1. Objawy przewlekłe ze strony przewodu pokarmowego:**
+– Bóle brzucha trwające > 3 tygodnie, zwłaszcza po jedzeniu lub na czczo
+– Przewlekłe wzdęcia, uczucie pełności po posiłkach, odbijanie
+– Nawracające nudności lub wymioty
+– Przewlekła zgaga, pieczenie za mostkiem, kwaśny posmak w ustach
+– Trudności w przełykaniu (dysfagia)
+– Przewlekłe biegunki (>3/dobę, >4 tygodnie) lub zaparcia
+– Zmiany rytmu wypróżnień, np. naprzemiennie biegunki i zaparcia
+– Bóle odbytu, świąd, obecność krwi w stolcu (świeża lub smolista)
+
+**2. Objawy ogólnoustrojowe towarzyszące:**
+– Utrata masy ciała (>5% w ciągu 6 miesięcy bez zmiany diety)
+– Osłabienie, niedokrwistość, brak apetytu
+– Żółtaczka, ciemny mocz, odbarwiony stolec
+– Gorączka bez wyjaśnienia > 38°C trwająca kilka dni
+– Nawracające stany podgorączkowe z bólami brzucha lub biegunką
+
+---
+
+## Wyniki laboratoryjne sugerujące konieczność konsultacji gastroenterologicznej
+
+*(dane uwzględniające płeć, wiek i zakresy referencyjne)*
+
+**1. Wskaźniki wątrobowe:**
+
+* ALT (GPT) > 40 U/L (mężczyźni) / > 35 U/L (kobiety) – podejrzenie zapalenia wątroby
+* AST > 40 U/L
+* GGTP > 60 U/L u mężczyzn / > 45 U/L u kobiet – cholestaza, alkoholowe uszkodzenie wątroby
+* ALP > 120 U/L (u osób < 50 r.ż. zwykle < 110 U/L) – cholestaza, choroby dróg żółciowych
+* Bilirubina całkowita > 1,2 mg/dL lub bilirubina bezpośrednia > 0,3 mg/dL
+* Albumina < 3,5 g/dL – w chorobach wątroby przewlekłych (marskość, zapalenia autoimmunologiczne)
+
+**2. Markery stanu zapalnego / immunologii / infekcji:**
+
+* CRP > 5 mg/L – podejrzenie stanu zapalnego (Crohn, WZJG, infekcja jelit)
+* OB > 20 mm/h (u kobiet < 50 r.ż.), > 30 mm/h (u mężczyzn > 60 r.ż.)
+* ASCA / pANCA dodatnie – wstępne rozpoznanie IBD
+* Calprotektyna w kale > 50 µg/g (u dorosłych) – zapalenie jelita grubego
+* Antygen H. pylori dodatni – wskazanie do eradykacji
+
+**3. Wskaźniki trzustkowe:**
+
+* Amylaza > 100 U/L (górna granica może się różnić) – zapalenie trzustki
+* Lipaza > 60 U/L – bardziej swoista niż amylaza
+* Glukoza > 126 mg/dL – cukrzyca wtórna do przewlekłego zapalenia trzustki
+
+**4. Krew utajona w kale:**
+
+* Dodatni test FIT – konieczność kolonoskopii (szczególnie u osób > 50 r.ż.)
+
+**5. Inne:**
+
+* Żelazo < 60 µg/dL lub ferrytyna < 15 ng/mL – niedokrwistość z niedoboru żelaza (ukryte krwawienie)
+* MCV < 80 fl + HGB < 12 g/dL (kobiety) lub < 13 g/dL (mężczyźni) – mikrocytarna niedokrwistość (krwawienie z pp)
+* Anty-tTG lub EmA dodatnie – celiakia
+* Białko całkowite < 6 g/dL lub hipoproteinemia – zespół złego wchłaniania
+* Wapń zjonizowany < 1,1 mmol/L – przewlekła biegunka/zespół złego wchłaniania
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób gastroenterologicznych
+
+* Wiek > 50 lat – zwiększone ryzyko raka jelita grubego (kolonoskopia co 10 lat)
+* Wiek < 40 lat – większe ryzyko IBD (Crohn, WZJG), celiakia
+* Rodzinny wywiad raka jelita grubego – szczególnie jeśli < 60 r.ż.
+* Płeć męska – większe ryzyko alkoholowego uszkodzenia wątroby, raka trzustki
+* Kobiety – częstszy IBS, celiakia, autoimmunologiczne choroby wątroby
+* BMI > 30 kg/m² – stłuszczenie wątroby (NAFLD), refluks
+* Nadużywanie alkoholu (> 21 jednostek/tydz. u mężczyzn, > 14 u kobiet)
+* Palenie tytoniu – czynnik ryzyka raka trzustki, jelita, wrzodów
+* Dieta uboga w błonnik, nadmiar tłuszczów nasyconych – zaparcia, polipy
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do gastroenterologa
+
+**1. Objawy przewlekłe (>4 tyg.) niewyjaśnione leczeniem objawowym:**
+– Nawracające bóle brzucha, biegunki, zaparcia
+– Krwawienia z przewodu pokarmowego: smoliste stolce, krew świeża
+– Przewlekła zgaga i nieskuteczność leczenia IPP (np. omeprazolem)
+– Podejrzenie IBD – utrata masy ciała, gorączka, biegunki z krwią, podwyższone CRP
+– Dodatni wynik testu na krew utajoną w kale
+– Wzrost enzymów wątrobowych w ≥ 2 pomiarach (>1,5× normy)
+– Amylaza/lipaza > 2× norma – podejrzenie zapalenia trzustki
+– Niedokrwistość mikrocytarna z nieznanego źródła
+
+**2. Brak poprawy mimo leczenia w POZ:**
+– Przewlekła dyspepsja mimo 4 tyg. terapii IPP
+– Zaparcia oporne na błonnik, laktulozę i nawodnienie
+– Wzdęcia, dyskomfort i nietolerancje pokarmowe mimo modyfikacji diety
+
+**3. Wskazania do badań endoskopowych (w tym pilnych):**
+– Krwawienie z dolnego przewodu pokarmowego
+– Podejrzenie celiakii, IBD
+– Niedokrwistość z niedoboru żelaza
+– Utrata masy ciała bez znanej przyczyny
+– Podejrzenie choroby wrzodowej, nowotworu żołądka, przełyku, jelita
+
+**4. Sytuacje specjalne:**
+– Diagnostyka przewlekłego zapalenia trzustki, torbieli trzustki
+– Marskość wątroby – klasyfikacja Child-Pugh, przygotowanie do leczenia
+– Choroby autoimmunologiczne wątroby (AIH, PBC, PSC)
+– Przewlekłe WZW B lub C
+
+---
+
+## Podsumowanie – kiedy bezwzględnie skierować do gastroenterologa
+
+* Krew utajona dodatnia + wiek > 50 r.ż. lub wywiad rodzinny raka jelita
+* Biegunki przewlekłe z podwyższonym CRP lub kalprotektyną
+* Smoliste stolce, hematochezja
+* ALT/AST > 2× ggn w dwóch pomiarach, GGTP/ALP podwyższone
+* Amylaza/lipaza > 3× ggn – podejrzenie ostrego zapalenia trzustki
+* Niedokrwistość mikrocytarna + niskie żelazo lub ferrytyna
+* Żółtaczka, bilirubina całk. > 3 mg/dL
+* Celiakia potwierdzona przeciwciałami + objawy złego wchłaniania
+* Trudności w przełykaniu, zaburzenia połykania
+* Podejrzenie nowotworu przewodu pokarmowego (utrata masy, anemia, objawy alarmowe)
+
+---
+
+## Ankieta specjalistyczna – gastroenterolog
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód wizyty?
+• Od kiedy występują objawy?
+• Czy objawy są stałe, nawracające, okresowe?
+• Czy objawy nasilają się po posiłkach, w stresie, przy zmianie diety?
+• Czy występuje ból brzucha? Gdzie jest zlokalizowany? Jak często?
+• Czy doszło do utraty masy ciała? Jeśli tak, o ile i w jakim czasie?
+
+---
+
+### II. Objawy ze strony przewodu pokarmowego
+
+• Czy występują:
+ – Zgaga, pieczenie za mostkiem, kwaśne odbijania?
+ – Nudności, wymioty (częstość, zawartość)?
+ – Wzdęcia, uczucie pełności po jedzeniu?
+ – Biegunki? Jak długo, ile razy dziennie, jaka konsystencja?
+ – Zaparcia? Jak długo, ile wypróżnień tygodniowo?
+ – Bóle brzucha? Lokalizacja, charakter, związek z jedzeniem?
+ – Krew w stolcu (świeża, smolista), śluz, ropa, zmiana koloru?
+ – Świąd odbytu, pieczenie, bolesność przy defekacji?
+
+---
+
+### III. Objawy ogólnoustrojowe
+
+• Czy występuje:
+ – Utrata apetytu?
+ – Zmęczenie, senność w ciągu dnia?
+ – Gorączka lub stany podgorączkowe?
+ – Żółtaczka (skóra, białka oczu)?
+ – Swędzenie skóry bez wysypki?
+ – Ciemny mocz, odbarwiony stolec?
+
+---
+
+### IV. Wywiad medyczny
+
+• Czy występują choroby przewlekłe (cukrzyca, nadciśnienie, choroby autoimmunologiczne)?
+• Czy były przebyte infekcje przewodu pokarmowego?
+• Czy były operacje jamy brzusznej?
+• Czy była diagnoza refluksu, choroby wrzodowej, celiakii, IBD, zapalenia trzustki lub chorób wątroby?
+• Czy kiedykolwiek wykonano gastroskopię lub kolonoskopię? Kiedy? Wyniki?
+
+---
+
+### V. Leki i suplementy
+
+• Czy pacjent stosuje:
+ – Leki przeciwbólowe (NLPZ)?
+ – IPP (np. omeprazol, pantoprazol)?
+ – Antybiotyki (w ostatnich 3 mies.)?
+ – Suplementy żelaza, magnezu, wapnia, zioła?
+• Czy były objawy niepożądane po lekach?
+
+---
+
+### VI. Styl życia i dieta
+
+• Czy stosowana jest jakaś dieta eliminacyjna (bezglutenowa, bezlaktozowa)?
+• Czy po konkretnych pokarmach występują objawy (np. mleko, gluten, tłuste)?
+• Czy spożywane są napoje gazowane, kawa, alkohol (ile, jak często)?
+• Czy pacjent pali papierosy?
+• Jak wygląda rytm posiłków i regularność wypróżnień?
+• Jaka jest aktywność fizyczna?
+
+---
+
+### VII. Rodzinny wywiad gastroenterologiczny
+
+• Czy w rodzinie występował:
+ – Rak jelita grubego, żołądka, trzustki?
+ – Celiakia?
+ – Wrzodziejące zapalenie jelita grubego lub choroba Leśniowskiego-Crohna?
+• W jakim wieku były diagnozy u członków rodziny?
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] Utrata masy ciała > 5% w 6 miesięcy
+\[ ] Krew w stolcu (świeża, smolista)
+\[ ] Zmiana rytmu wypróżnień utrzymująca się > 4 tygodnie
+\[ ] Gorączka bez uchwytnej przyczyny
+\[ ] CRP > 10 mg/L lub OB > 30 mm/h
+\[ ] Calprotektyna w kale > 200 µg/g
+\[ ] Niedokrwistość: HGB < 12 g/dL (kobiety), < 13 g/dL (mężczyźni)
+\[ ] Żelazo < 60 µg/dL lub ferrytyna < 15 ng/mL
+\[ ] ALT lub AST > 2× norma
+\[ ] GGTP > 3× norma lub bilirubina całkowita > 2,5 mg/dL
+\[ ] Amylaza / lipaza > 3× norma
+\[ ] Test H. pylori dodatni (oddechowy, antygen w kale, serologiczny)
+
+---
+
+### IX. Wyniki badań laboratoryjnych (jeśli dostępne)
+
+• Morfologia: HGB \_\_\_\_\_\_ g/dL, HCT \_\_\_\_\_\_ %, MCV \_\_\_\_\_\_ fl
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• ALT: \_\_\_\_\_\_ U/L
+• AST: \_\_\_\_\_\_ U/L
+• GGTP: \_\_\_\_\_\_ U/L
+• ALP: \_\_\_\_\_\_ U/L
+• Bilirubina całkowita / bezpośrednia: \_\_\_\_\_\_ / \_\_\_\_\_\_ mg/dL
+• Albumina: \_\_\_\_\_\_ g/dL
+• Amylaza: \_\_\_\_\_\_ U/L
+• Lipaza: \_\_\_\_\_\_ U/L
+• Żelazo: \_\_\_\_\_\_ µg/dL
+• Ferrytyna: \_\_\_\_\_\_ ng/mL
+• Calprotektyna w kale: \_\_\_\_\_\_ µg/g
+• Antygen H. pylori: dodatni / ujemny
+• Krew utajona w kale (FIT): dodatni / ujemny
+
+---
+
+### X. Podsumowanie – kwalifikacja do konsultacji gastroenterologicznej
+
+• Objawy przewlekłe > 4 tygodnie + brak poprawy mimo leczenia
+• Zmiany w wynikach badań wskazujące na patologię przewodu pokarmowego
+• Podejrzenie IBD, celiakii, choroby wątroby, refluksu opornego na leczenie
+• Dodatni wynik krew utajona w kale lub anemia bez wyjaśnienia
+• Wskazanie do gastroskopii / kolonoskopii / USG jamy brzusznej
+
+---
+

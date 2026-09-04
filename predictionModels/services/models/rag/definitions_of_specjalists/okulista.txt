@@ -1,0 +1,302 @@
+## Kim jest okulista?
+
+**Okulista (lekarz chorób oczu)** diagnozuje i leczy choroby gałki ocznej, aparatu ochronnego (powieki, spojówka), narządu łzowego i nerwu wzrokowego oraz wykonuje zabiegi mikrochirurgiczne (np. zaćma, jaskra, witrektomie). Prowadzi profilaktykę wad refrakcji, retinopatii cukrzycowej, zwyrodnienia plamki (AMD) i nadzoruje pacjentów po operacjach lub urazach oka.
+
+---
+
+## Objawy sugerujące wizytę u okulisty
+
+### Nagłe (pilne)
+
+* **Nagłe pogorszenie widzenia** lub „zasłona”, „błyski, męty” – odwarstwienie siatkówki
+* **Silny ból oka** + zaczerwienienie, nudności – ostry atak jaskry (IOP ≥ 40 mm Hg)
+* **Podwójne widzenie**, opadanie powieki – udar, porażenie n. III/VI
+* **Nagły, jednostronny ból, obrzęk, wytrzeszcz** – zapalenie oczodołu lub zakrzep zatoki jamistej
+
+### Podostre / przewlekłe
+
+* Stopniowe pogarszanie ostrości (VA < 0,8 lub spadek o ≥ 0,2 w ciągu roku)
+* Zniekształcenie linii (test Amslera) – AMD
+* Halo świetlne, pogorszenie po zmroku – wczesna zaćma, jaskra
+* Łzawienie, pieczenie, uczucie piasku – zespół suchego oka (OSDI > 13)
+* Światłowstręt, ból przy ruchach gałek – zapalenie błony naczyniowej (CRP > 15 mg/L, OB > 30 mm/h)
+* Częste jęczmienie, gradówki – zaburzenia gruczołów Meiboma, cukrzyca
+
+---
+
+## Nieprawidłowe wyniki i wartości graniczne
+
+Oto tekstowy opis nieprawidłowych wyników i wartości granicznych ważnych w diagnostyce okulistycznej oraz ogólnomedycznej, z uwzględnieniem zmienności osobniczej związanej z wiekiem i płcią:
+
+Interpretacja wyników badań mających wpływ na narząd wzroku wymaga uwzględnienia szeregu czynników osobniczych – takich jak wiek, płeć, choroby współistniejące oraz czynniki ryzyka. Poniżej przedstawiono wybrane parametry, których nieprawidłowe wartości mogą sygnalizować potrzebę konsultacji okulistycznej, a także potencjalne powiązania z chorobami ogólnoustrojowymi.
+
+---
+
+* **Ciśnienie śródgałkowe (IOP):**
+  Wartość **≥ 22 mm Hg** budzi podejrzenie jaskry pierwotnej otwartego kąta, szczególnie gdy towarzyszy jej zmiana tarczy nerwu wzrokowego lub ubytek pola widzenia.
+  **IOP > 30 mm Hg** jest wskazaniem do pilnej konsultacji okulistycznej.
+  U **osób starszych** ryzyko jaskry rośnie, dlatego nawet umiarkowane przekroczenie normy może być groźne. U **kobiet po menopauzie** zmiany hormonalne mogą wpływać na ciecz wodnistą i wartości ciśnienia – kontrola powinna być częstsza.
+
+* **Ostrość wzroku (tablica Snellena):**
+  **Ostrość < 0,8 w lepszym oku** lub różnica **> 2 linii między oczami** wskazuje na konieczność pełnej refrakcji i badania dna oka.
+  U **dzieci i młodzieży** oznacza to ryzyko rozwoju niedowidzenia (amblyopii) i wymaga szybkiej korekcji. U **osób starszych** pogorszenie ostrości może świadczyć o początku zaćmy lub zwyrodnienia plamki (AMD).
+
+* **HbA1c (hemoglobina glikowana):**
+  Wartość **≥ 7,0%** u osób z cukrzycą wiąże się z ryzykiem retinopatii cukrzycowej i wskazuje na konieczność badania siatkówki **co 6–12 miesięcy**.
+  U **osób starszych** dopuszcza się łagodniejsze cele terapeutyczne (do 7,5%), ale okulistyczna kontrola pozostaje obowiązkowa. Kobiety ciężarne z cukrzycą ciążową wymagają szybszej diagnostyki okulistycznej.
+
+* **Glukoza na czczo:**
+  Poziom **≥ 126 mg/dL** to kryterium rozpoznania cukrzycy. Nawet krótkotrwałe, ostre hiperglikemie mogą powodować przejściowe zaburzenia ostrości widzenia z powodu zmian refrakcji soczewki.
+  U **młodych dorosłych** problem bywa przejściowy i często związany z insulinowrażliwością, natomiast u **osób 60+** trwałe hiperglikemie zwiększają ryzyko mikroangiopatii siatkówki.
+
+* **CRP > 10 mg/L lub OB > 30 mm/h:**
+  Takie wartości mogą świadczyć o ogólnoustrojowym stanie zapalnym, który – w kontekście okulistyki – może wskazywać na **zapalenie twardówki, nadtwardówki lub naczyniówki**.
+  U **młodych kobiet** takie objawy mogą wiązać się z chorobami autoimmunologicznymi (np. SLE, RZS), natomiast u **osób starszych** podejrzewa się zapalenie naczyń (np. olbrzymiokomórkowe zapalenie tętnic).
+
+* **Cholesterol całkowity > 200 mg/dL lub triglicerydy > 150 mg/dL:**
+  Podwyższone lipidy mogą objawiać się jako **kępkowatość powiek (xanthelasma)** lub powodować **retinopatię surowiczą**.
+  U **mężczyzn w średnim wieku** takie zmiany mogą pojawić się wcześnie i współistnieć z otyłością brzuszną; u **kobiet po menopauzie** wzrost lipidów jest częsty i powinien być monitorowany profilaktycznie.
+
+* **D-dimery > 500 ng/mL FEU:**
+  Znacznie podwyższone D-dimery mogą sugerować **zakrzepicę żyły środkowej siatkówki** (CRVO), szczególnie przy współistniejących objawach nagłego pogorszenia widzenia.
+  U **osób starszych z migotaniem przedsionków lub nadciśnieniem** ryzyko tej komplikacji rośnie; u młodych kobiet warto rozważyć też trombofilię wrodzoną lub stosowanie antykoncepcji hormonalnej.
+
+* **Auto-przeciwciała (ANA, HLA-B27):**
+  Dodatni wynik może świadczyć o chorobach autoimmunologicznych, których manifestacją jest **nawracające zapalenie przedniego odcinka błony naczyniowej (uveitis)**.
+  U **młodych mężczyzn** z dodatnim HLA-B27 częściej dochodzi do nawrotów jednostronnych, ostrych zapaleń, często związanych z zesztywniającym zapaleniem stawów kręgosłupa (ZZSK). U **kobiet z dodatnim ANA** częściej obserwuje się łagodniejsze, ale przewlekłe formy zapaleń oczu.
+
+Nieprawidłowe wartości omawianych parametrów mogą wskazywać na schorzenia okulistyczne lub ogólnoustrojowe wpływające na narząd wzroku. Ich interpretacja powinna uwzględniać wiek, płeć, choroby towarzyszące i indywidualne ryzyko pacjenta. Częstsze kontrole okulistyczne są szczególnie zalecane u osób starszych, diabetyków, kobiet w ciąży oraz pacjentów z dodatnimi markerami autoimmunologicznymi.
+
+---
+
+## Cechy osobnicze podnoszące ryzyko chorób oczu
+
+Oto tekstowy opis cech osobniczych zwiększających ryzyko rozwoju chorób oczu, z uwzględnieniem wpływu wieku, płci oraz innych indywidualnych czynników:
+
+Występowanie chorób oczu, zwłaszcza przewlekłych i postępujących, w dużej mierze zależy od indywidualnych cech pacjenta – takich jak wiek, płeć, rasa, obciążenia ogólnoustrojowe czy ekspozycja na określone leki. Poniżej przedstawiono najważniejsze z tych czynników oraz ich wpływ na ryzyko okulistyczne:
+
+---
+
+* **Wiek:**
+  Ryzyko chorób oczu rośnie wyraźnie po 40. roku życia.
+
+  * **Po 40. r.ż.** najczęściej pojawiają się: **presbiopia** (starczowzroczność) i pierwsze zmiany jaskrowe (jaskra pierwotna otwartego kąta).
+  * **Po 50. r.ż.** wzrasta ryzyko **zaćmy** oraz **zwyrodnienia plamki związanego z wiekiem (AMD)**.
+    U osób **powyżej 65 r.ż.** ryzyko wszystkich chorób okulistycznych istotnie się kumuluje – wymagana jest regularna kontrola co 12 miesięcy.
+
+* **Płeć kobieca:**
+  Kobiety, szczególnie **po menopauzie**, są znacznie bardziej narażone na **zespół suchego oka** z powodu zmian hormonalnych (spadek estrogenów i androgenów wpływających na film łzowy).
+  Dodatkowo częściej występują u nich choroby **autoimmunologiczne** (takie jak zespół Sjögrena, toczeń, reumatoidalne zapalenie stawów), które mogą prowadzić do **zapaleń błony naczyniowej** i uszkodzeń struktur oka.
+
+* **Płeć męska:**
+  Mężczyźni częściej doświadczają **urazów gałki ocznej**, a co za tym idzie – są bardziej narażeni na **odwarstwienie siatkówki**.
+  U mężczyzn obserwuje się również nieco wyższą częstość **jaskry z otwartym kątem przesączania** w młodszych grupach wiekowych (40–60 lat).
+
+* **Rasa i fenotyp:**
+  Osoby pochodzenia **afrykańskiego** oraz **azjatyckiego** są bardziej narażone na rozwój **jaskry pierwotnej**, często o szybkim i bezobjawowym przebiegu.
+  Osoby o **jasnej karnacji, niebieskich oczach i słabym pigmentowaniu siatkówki** mają większe ryzyko **zwyrodnienia plamki (AMD)**, szczególnie przy dużej ekspozycji na światło słoneczne.
+  U takich pacjentów zaleca się regularne kontrole oraz stosowanie filtrów UV w okularach przeciwsłonecznych.
+
+* **Cukrzyca trwająca ≥ 10 lat:**
+  Prawdopodobieństwo rozwoju **retinopatii cukrzycowej** u pacjenta z tak długim czasem trwania choroby sięga nawet **50%**.
+  U osób z gorszą kontrolą glikemii, zwłaszcza u **mężczyzn z towarzyszącym nadciśnieniem**, retinopatia może postępować szybciej i prowadzić do obrzęku plamki czy krwotoków do ciała szklistego.
+  U kobiet ciężarnych z cukrzycą przedciążową ryzyko szybkiego pogorszenia retinopatii jest również podwyższone – wymaga ścisłej kontroli okulistycznej.
+
+* **Nadciśnienie tętnicze > 140/90 mm Hg:**
+  Długotrwałe nadciśnienie prowadzi do **retinopatii nadciśnieniowej**, objawiającej się zwężeniem naczyń siatkówki, zmianami wysiękowymi i krwotokami.
+  U osób starszych, szczególnie **mężczyzn**, wzrasta również ryzyko **zakrzepów naczyń siatkówki**, w tym żyły środkowej siatkówki (CRVO).
+  U kobiet z nadciśnieniem ciążowym obserwuje się przemijające zaburzenia widzenia i zmiany w krążeniu siatkówkowym.
+
+* **Palenie tytoniu:**
+  Regularne palenie znacząco zwiększa ryzyko:
+
+  * **zwyrodnienia plamki związanego z wiekiem (AMD)** – zwłaszcza postaci wysiękowej,
+  * **zaćmy podtorebkowej tylnej**, szczególnie u **mężczyzn > 60 r.ż.**.
+    Palenie dodatkowo pogarsza mikrokrążenie w siatkówce u diabetyków i osób z nadciśnieniem.
+
+* **Wada refrakcji – krótkowzroczność:**
+  **Wysoka krótkowzroczność** (≤ –6,0 dioptrii) istotnie podnosi ryzyko:
+
+  * **odwarstwienia siatkówki** (szczególnie u osób młodych i aktywnych fizycznie),
+  * **jaskry z otwartym kątem przesączania**,
+  * **zaniku naczyniówki** i zmian zwyrodnieniowych w plamce.
+    Ryzyko to jest niezależne od płci, choć krótkowzroczność występuje częściej u kobiet w wieku szkolnym.
+
+* **Leki ogólnoustrojowe:**
+
+  * **Glikokortykosteroidy (GKS)** – przewlekłe stosowanie, zwłaszcza w tabletkach lub wziewnie, może powodować **zaćmę podtorebkową tylną** oraz podnosić **ciśnienie śródgałkowe** (jaskra polekowa).
+  * **Hydroksychlorochina** – stosowana w chorobach reumatycznych (np. SLE), może prowadzić do **retinopatii toksycznej**.
+    Ryzyko rośnie u kobiet z niską masą ciała i stosujących lek > 5 lat – konieczne są coroczne badania OCT i pola widzenia.
+
+
+### **Podsumowanie:**
+
+Wiele chorób okulistycznych rozwija się pod wpływem czynników, które nie zależą tylko od samego narządu wzroku, ale od ogólnego profilu pacjenta. Szczególną uwagę w profilaktyce i kontroli ryzyka wymagają:
+
+* **osoby po 50. r.ż.**,
+* **kobiety w okresie menopauzy**,
+* **mężczyźni z urazową historią zdrowotną lub krótkowzrocznością**,
+* **osoby z chorobami przewlekłymi (cukrzyca, NT, choroby autoimmunologiczne)**
+  oraz pacjenci przyjmujący leki mogące uszkadzać siatkówkę czy soczewkę.
+
+Indywidualne podejście, regularna kontrola okulistyczna i znajomość czynników ryzyka pozwalają na wczesne wykrycie poważnych patologii i zachowanie widzenia na dłużej.
+
+---
+
+## Na co patrzy lekarz POZ przed skierowaniem
+
+### Objawy:
+
+1. **Spadek ostrości wzroku** – weryfikacja korekcji; jeśli nowe okulary nie poprawiają, kierowanie.
+2. **Czerwone, bolesne oko** niewyjaśnione (> 48 h) lub z zaburzeniem widzenia.
+3. **Ostry ból głowy + halo / wymioty** – wykluczyć atak jaskry (pilne).
+4. **Cukrzyca**: brak kontroli retinopatycznej > 12 mies.
+5. **Dziecko**: zez utrwalony, leukokoria, opóźniony rozwój wzroku (test Hirschberga, Cover test).
+
+### Badania w POZ:
+
+* **IOP tonometrem bezkontaktowym** > 22 mm Hg – szybka konsultacja
+* **VA** < 0,8 mimo korekcji lub asymetria > 2 linii
+* **Proteinuria + HbA1c ≥ 7 %** – nefro- i retinopatia (wspólne powikłanie)
+* **CRP** / **OB** podwyższone + ból oka – podejrzenie zapalenia twardówki/naczyniówki
+* **FT4 / TSH** zaburzone + wytrzeszcz – orbitopatia tarczycowa (endokrynolog i okulista)
+
+### Kryteria pilności skierowania
+
+* Nagła utrata widzenia, odwarstwienie siatkówki – tego samego dnia
+* Podejrzenie jaskry ostrej, IOP > 40 mm Hg – do 6 h
+* Nowe krwotoczki w dnie oka u cukrzyka – w ciągu 2 tyg.
+* Postępująca zaćma z VA < 0,5 – planowa wizyta (1–3 mies.)
+
+---
+
+**Podsumowanie – bezwzględne wskazania do okulisty:**
+
+* Nagły, silny ból oka lub utrata widzenia.
+* IOP ≥ 22 mm Hg lub anizokoria + ból głowy.
+* VA spadek ≥ 0,2 w < 1 mies.
+* Krwiomocz + zaburzenia widzenia kolorów (podejrzenie nefropatia IgA + retinopatia).
+* HbA1c ≥ 7 %, cukrzyca > 5 lat i brak badań dna w ostatnim roku.
+* Owrzodzenie rogówki, ciało obce penetracyjne.
+
+---
+
+## Ankieta specjalistyczna – okulistyka
+
+---
+
+### I. Główna dolegliwość / powód wizyty
+
+• Jaki jest główny problem ze wzrokiem lub okiem?
+• Od kiedy występuje dolegliwość?
+• Czy objaw ma charakter nagły czy postępujący?
+• Czy dolegliwość dotyczy jednego oka czy obu?
+• Czy pojawiły się objawy towarzyszące – ból, światłowstręt, łzawienie, zaczerwienienie, wydzielina?
+
+---
+
+### II. Objawy podmiotowe – do zaznaczenia
+
+\[ ] Pogorszenie ostrości wzroku
+\[ ] Widzenie „zasłony”, błysków, mętów
+\[ ] Podwójne widzenie
+\[ ] Ból gałki ocznej
+\[ ] Zaczerwienienie oka
+\[ ] Obrzęk powiek
+\[ ] Światłowstręt
+\[ ] Nadmierne łzawienie
+\[ ] Suchość oka / uczucie piasku
+\[ ] Swędzenie, pieczenie
+\[ ] Ropna lub śluzowa wydzielina
+\[ ] Problemy z widzeniem w nocy
+\[ ] Utrata pola widzenia / czarne plamy
+\[ ] Zniekształcenie obrazu (np. krzywe linie)
+\[ ] Zez / nierównoległe ustawienie gałek
+\[ ] Opadanie powieki
+\[ ] Nagłe przymknięcie oka / skurcze powiek
+\[ ] Wyciek z oka u niemowlęcia
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy w przeszłości występowały:
+ – Choroby oczu (jaskra, zaćma, zapalenia, urazy)?
+ – Operacje lub zabiegi okulistyczne (laseroterapia, witrektomia)?
+ – Urazy mechaniczne, oparzenia chemiczne?
+ – Alergie kontaktowe lub wziewne (np. sezonowe zapalenie spojówek)?
+• Czy są choroby ogólne wpływające na narząd wzroku?
+ – Cukrzyca
+ – Nadciśnienie tętnicze
+ – Choroby tarczycy
+ – Reumatoidalne zapalenie stawów, toczeń
+ – Miażdżyca, hipercholesterolemia
+ – Choroby neurologiczne (stwardnienie rozsiane, udary)
+
+---
+
+### IV. Przyjmowane leki i środki
+
+• Leki okulistyczne stosowane obecnie (np. na jaskrę, alergię, zapalenia)
+• Leki ogólne: cukrzyca, NT, tarczyca, statyny, GKS, psychotropowe
+• Suplementy, zioła, witaminy (np. luteina, Omega-3)
+• Czy występowały działania niepożądane na leki?
+• Czy były stosowane krople do oczu bez recepty?
+
+---
+
+### V. Czynniki ryzyka
+
+• Cukrzyca (od ilu lat?)
+• HbA1c z ostatnich 6 mies.: \_\_\_\_\_\_ %
+• Nadciśnienie tętnicze > 140/90 mmHg – TAK / NIE
+• Palenie tytoniu – TAK / NIE / ilość paczkolat: \_\_\_\_\_\_
+• Ekspozycja na słońce / UV / chemikalia w pracy
+• Krótkowzroczność (wada wzroku): \_\_\_\_\_\_ D
+• Obciążenia rodzinne: jaskra, zwyrodnienie siatkówki, choroby nerwu wzrokowego
+• Czy pacjent ma > 40 lat i nie był u okulisty w ostatnich 2 latach?
+
+---
+
+### VI. Badania dostępne w POZ (jeśli wykonano)
+
+• Ostrość wzroku (Snellen):
+ – Lewe oko: \_\_\_\_\_\_
+ – Prawe oko: \_\_\_\_\_\_
+• IOP (ciśnienie śródgałkowe):
+ – Lewe oko: \_\_\_\_\_\_ mm Hg
+ – Prawe oko: \_\_\_\_\_\_ mm Hg
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• TSH: \_\_\_\_\_\_ µIU/mL
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+• Cholesterol / triglicerydy: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Wynik dna oka (jeśli wykonano w POZ lub optometrii): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VII. Objawy alarmowe – zaznaczyć
+
+\[ ] Nagła utrata wzroku (pełna lub częściowa)
+\[ ] Nagłe błyski / zasłona / „iskry”
+\[ ] Ból oka z nudnościami, wymiotami
+\[ ] Wyciek ropny u dziecka z obrzękiem powiek
+\[ ] Ostry światłowstręt + zaczerwienienie
+\[ ] Nowy zez u dziecka
+\[ ] Ciało obce głębokie / chemiczne uszkodzenie
+\[ ] Nagłe pogorszenie widzenia w cukrzycy
+\[ ] Trwałe zamglenie mimo zmiany okularów
+
+---
+
+### VIII. Uwagi lekarza POZ
+
+• Rozpoznania robocze / dotychczasowe leczenie: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy pacjent wymaga szybkiej konsultacji? TAK / NIE
+• Czy załączono badania: VA, IOP, glikemię, CRP, TSH? TAK / NIE
+• Wskazania do specjalistycznej diagnostyki obrazowej (OCT, perymetria, USG): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy pacjent zgłasza trudności w funkcjonowaniu z powodu objawów ocznych? TAK / NIE
+• Inne istotne uwagi: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---

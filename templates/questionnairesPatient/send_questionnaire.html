@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container mt-4">
+  <h4>Wysyłanie ankiety do pacjenta</h4>
+  <p><strong>Pacjent:</strong> {{ patient.get_full_name }}</p>
+
+  <div class="row">
+    <!-- Lewa kolumna - historia -->
+    <div class="col-md-7">
+      <div class="card mb-4">
+        <div class="card-header">Historia wysyłek</div>
+        <ul class="list-group list-group-flush" id="history-list">
+          {% if history %}
+            {% for record in history %}
+              <li class="list-group-item">
+                <strong>{{ record.questionnaire.name }}</strong><br>
+                Wysłano: {{ record.sent_at|date:"d.m.Y H:i" }}
+                {% if record.is_filled %}
+                  <span class="badge bg-success ms-2">Wypełniona</span>
+                {% else %}
+                  <span class="badge bg-secondary ms-2">Oczekuje</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="list-group-item">Brak wysłanych ankiet.</li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+    <!-- Prawa kolumna - wyszukiwanie i lista -->
+    <div class="col-md-5">
+      <div class="card">
+        <div class="card-header">Znajdź ankietę</div>
+        <div class="card-body">
+          <input type="text" id="searchInput" class="form-control mb-3" placeholder="Wyszukaj ankietę..." autocomplete="off">
+
+          <ul class="list-group" id="questionnaire-list">
+            {% for questionnaire in questionnaires %}
+              <li class="list-group-item d-flex justify-content-between align-items-center questionnaire-item">
+                <span class="questionnaire-name">{{ questionnaire.name }}</span>
+                <button class="btn btn-sm btn-success" onclick="confirmSend('{{ questionnaire.id }}', '{{ questionnaire.name }}')">Wyślij</button>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <form id="sendForm" method="post" style="display: none;">
+            {% csrf_token %}
+            <input type="hidden" name="questionnaire_id" id="questionnaireInput">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="{% url 'patient_detail' patient.id %}" class="btn btn-link mt-3">← Powrót do profilu pacjenta</a>
+</div>
+
+<!-- MODAL POTWIERDZENIA -->
+<div class="modal fade" id="confirmModal" tabindex="-1" aria-labelledby="confirmLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded-4 shadow">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmLabel">Potwierdzenie wysyłki</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Czy na pewno chcesz wysłać ankietę: <strong id="modalQuestionnaireName"></strong>?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Anuluj</button>
+        <button type="button" class="btn btn-primary" onclick="submitForm()">Tak, wyślij</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+<script>
+  const searchInput = document.getElementById("searchInput");
+  const items = document.querySelectorAll(".questionnaire-item");
+
+  searchInput.addEventListener("input", function () {
+    const query = this.value.toLowerCase();
+    items.forEach(item => {
+      const name = item.querySelector(".questionnaire-name").textContent.toLowerCase();
+      item.style.display = name.includes(query) ? "flex" : "none";
+    });
+  });
+
+  function confirmSend(id, name) {
+    document.getElementById("questionnaireInput").value = id;
+    document.getElementById("modalQuestionnaireName").textContent = name;
+    new bootstrap.Modal(document.getElementById("confirmModal")).show();
+  }
+
+  function submitForm() {
+    document.getElementById("sendForm").submit();
+  }
+</script>
+{% endblock %}

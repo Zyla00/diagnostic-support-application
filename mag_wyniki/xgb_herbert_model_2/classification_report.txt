@@ -1,0 +1,32 @@
+                     precision    recall  f1-score   support
+
+    Choroba zakaźna     0.8328    0.8777    0.8547      1300
+       Dermatologia     0.9018    0.9506    0.9256      1256
+     Endokrynologia     0.9475    0.8855    0.9154      1100
+  Gastroenterologia     0.8886    0.8789    0.8837      1461
+           Genetyka     0.8972    0.7579    0.8217       380
+        Ginekologia     0.8638    0.6024    0.7098       337
+        Hematologia     0.9754    0.9185    0.9461      1423
+        Hepatologia     0.9953    0.9477    0.9709       669
+        Immunologia     0.9688    0.8732    0.9185       142
+        Kardiologia     0.8989    0.9301    0.9143      2763
+Medycyna naczyniowa     0.8702    0.8143    0.8413       980
+ Medycyna ratunkowa     0.9649    0.5914    0.7333        93
+  Medycyna zawodowa     0.8128    0.5875    0.6820       303
+         Nefrologia     1.0000    0.9285    0.9629       671
+         Neurologia     0.7284    0.8807    0.7974      2406
+             Ogólne     0.9511    0.6916    0.8009       788
+         Okulistyka     0.9431    0.8719    0.9061      1140
+          Onkologia     0.8821    0.9328    0.9067      2053
+          Ortopedia     0.8240    0.9366    0.8767      2714
+Otorynolaryngologia     0.8208    0.8317    0.8262      1592
+          Pediatria     0.7410    0.5395    0.6244       228
+    Praktyka ogólna     0.9062    0.5743    0.7030       101
+        Psychiatria     0.8307    0.8315    0.8311      1864
+       Pulmonologia     0.9676    0.9512    0.9593      1823
+       Reumatologia     0.8727    0.8182    0.8446      1491
+       Stomatologia     0.9496    0.7262    0.8230       493
+
+           accuracy                         0.8743     29571
+          macro avg     0.8937    0.8127    0.8454     29571
+       weighted avg     0.8791    0.8743    0.8737     29571

@@ -1,0 +1,276 @@
+Oto pełna charakterystyka specjalisty – **hepatologa**, z dokładnym opisem objawów, interpretacją badań laboratoryjnych (z wartościami granicznymi), czynnikami osobniczymi i wskazaniami z perspektywy lekarza POZ:
+
+---
+
+## Kim jest hepatolog?
+
+**Hepatolog** to lekarz specjalista chorób wewnętrznych lub gastroenterologii, zajmujący się diagnostyką i leczeniem chorób wątroby, dróg żółciowych i pęcherzyka żółciowego. Konsultuje także choroby metaboliczne i autoimmunologiczne wpływające na funkcję wątroby, takie jak wirusowe zapalenia wątroby (HBV, HCV), stłuszczenie wątroby (NAFLD), marskość, cholestazy, hemochromatoza czy autoimmunologiczne zapalenia wątroby.
+
+---
+
+## Objawy kliniczne wskazujące na konieczność konsultacji hepatologicznej
+
+### Objawy podmiotowe i przedmiotowe:
+
+* Przewlekłe zmęczenie, osłabienie
+* Bóle lub uczucie dyskomfortu w prawym podżebrzu
+* Nudności, brak apetytu
+* Żółtaczka (zażółcenie skóry i spojówek)
+* Świąd skóry (nasilony nocą, bez wysypki)
+* Ciemny mocz, odbarwiony stolec
+* Powiększenie obwodu brzucha (wodobrzusze)
+* Krwawienia z nosa, dziąseł, siniaki
+* Powiększenie wątroby lub śledziony w badaniu palpacyjnym
+* Objawy encefalopatii (splątanie, zaburzenia snu, dezorientacja)
+* Ginekomastia, rumień dłoniowy, „pajączki naczyniowe” u mężczyzn
+
+---
+
+## Nieprawidłowe wyniki laboratoryjne – konkretne wartości
+
+### Enzymy wątrobowe:
+
+* **ALT (AlAT):**
+
+  > 45 U/L (K), > 50 U/L (M) – sugeruje uszkodzenie hepatocytów
+  > 200 U/L – silne uszkodzenie; wymaga pogłębionej diagnostyki
+* **AST (AspAT):**
+
+  > 40 U/L (K/M); stosunek AST/ALT > 2 sugeruje alkoholowe uszkodzenie
+* **ALP (fosfataza zasadowa):**
+
+  > 130 U/L – podejrzenie cholestazy, guzów wątroby lub dróg żółciowych
+* **GGTP:**
+
+  > 40 U/L (K), > 60 U/L (M) – marker cholestazy, silnie wzrasta w NAFLD i nadużywaniu alkoholu
+* **Bilirubina całkowita:**
+
+  > 1,2 mg/dL – hiperbilirubinemia; > 3 mg/dL widoczna żółtaczka
+
+### Parametry syntezy wątrobowej:
+
+* **Albumina:**
+  < 3,5 g/dL – spadek w niewydolności wątroby
+* **INR:**
+
+  > 1,3 bez leczenia przeciwzakrzepowego – upośledzenie syntezy czynników krzepnięcia
+* **Czas protrombinowy (PT):**
+
+  > 14 s – niewyrównana funkcja wątroby
+* **Płytki krwi (PLT):**
+  < 130 G/L – w nadciśnieniu wrotnym, marskości
+
+### Markery zapalne i metaboliczne:
+
+* **CRP:**
+
+  > 10 mg/L – proces zapalny, infekcja (różnicowanie przyczyn uszkodzenia)
+* **Ferrytyna:**
+
+  > 500 ng/mL – możliwa hemochromatoza, zapalenie
+* **Glukoza na czczo:**
+
+  > 100 mg/dL – insulinooporność, NAFLD
+* **Triglicerydy:**
+
+  > 150 mg/dL – składowa zespołu metabolicznego
+* **HDL:**
+  < 40 mg/dL (M), < 50 mg/dL (K) – komponenta zespołu metabolicznego
+* **Anty-HCV, HBsAg:**
+  dodatnie – WZW C lub B
+
+---
+
+## Zmienność osobnicza
+
+### Wiek:
+
+* < 40 r.ż.: częstsze zapalenia autoimmunologiczne (AIH), choroba Wilsona
+* > 45 r.ż.: dominują NAFLD, stłuszczenie alkoholowe, marskość
+* > 60 r.ż.: większe ryzyko raka wątrobowokomórkowego (HCC), pierwotnej marskości
+
+### Płeć:
+
+* Kobiety: częstsze AIH, PBC (pierwotna marskość żółciowa)
+* Mężczyźni: alkoholowa choroba wątroby, hemochromatoza, HCC
+
+### Inne czynniki:
+
+* BMI > 30 kg/m² – czynnik ryzyka NAFLD
+* Zespół metaboliczny: insulinooporność, nadciśnienie, dyslipidemia
+* Alkohol > 20 g/dobę (K), > 30 g/dobę (M) – ryzyko uszkodzenia alkoholowego
+* Wywiad rodzinny – rak wątroby, choroby autoimmunologiczne, hemochromatoza
+
+---
+
+## Na co zwraca uwagę lekarz POZ kierując do hepatologa?
+
+### Objawy kliniczne:
+
+* Żółtaczka, świąd, ciemny mocz, wodobrzusze
+* Utrata masy ciała, brak apetytu
+* Nasilające się zmęczenie
+* Objawy encefalopatii (splątanie, senność, dezorientacja)
+
+### Wyniki badań:
+
+* ALT > 3 × ggn (> 150 U/L) utrzymujące się > 4 tyg.
+* ALT/AST > 200 U/L + dodatni HBsAg/anty-HCV
+* GGTP + ALP > 2 × ggn – podejrzenie cholestazy
+* Bilirubina > 2,5 mg/dL
+* INR > 1,3 + albumina < 3,5 g/dL – podejrzenie niewydolności wątroby
+* PLT < 130 G/L bez innej przyczyny – podejrzenie nadciśnienia wrotnego
+* Fibroscan > F2 lub USG: wątroba o cechach zwłóknienia
+* Dodatni wynik HBsAg lub anty-HCV – kwalifikacja do leczenia
+* Podejrzenie autoimmunologicznego zapalenia wątroby: ALT > 5 ggn + ANA/ASMA/IgG↑
+
+### Inne:
+
+* Marskość potwierdzona w USG (nieregularny zarys, wodobrzusze, splenomegalia)
+* Podejrzenie raka wątroby – AFP ↑, zmiana ogniskowa w USG
+* Nieprawidłowości przewlekłe mimo wykluczenia WZW i alkoholu
+
+---
+
+## Wskazania pilne:
+
+* Ostra żółtaczka + INR > 2,0 lub encefalopatia – podejrzenie ostrej niewydolności wątroby
+* Spadek PLT < 50 G/L u osoby z marskością – ryzyko krwawień
+* Silne wodobrzusze, krwawienie z przewodu pokarmowego – do szpitala
+* WZW B lub C z bardzo wysoką wiremią (PCR) – pilna kwalifikacja do leczenia
+
+---
+
+## Ankieta specjalistyczna – hepatologia
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód zgłoszenia się pacjenta?
+• Od kiedy występują objawy?
+• Czy pojawiła się żółtaczka (skóra, oczy)?
+• Czy pacjent zgłasza świąd skóry?
+• Czy występuje ból lub dyskomfort w prawym podżebrzu?
+• Czy pojawiły się nudności, brak apetytu, wzdęcia?
+• Czy wystąpiło powiększenie obwodu brzucha (wodobrzusze)?
+• Czy pacjent zauważył zmiany koloru moczu (ciemny) lub stolca (jasny)?
+
+---
+
+### II. Wywiad chorobowy
+
+• Czy pacjent chorował na:
+ – WZW typu B, C, A?
+ – Marskość wątroby lub zwłóknienie?
+ – Choroby autoimmunologiczne (PBC, PSC, AIH)?
+ – Kamicę pęcherzyka żółciowego, kolkę żółciową?
+ – Hemochromatozę, chorobę Wilsona?
+• Czy wystąpiły krwawienia z nosa, dziąseł, nadmierne siniaki?
+• Czy pojawiły się objawy encefalopatii (dezorientacja, senność, zaburzenia świadomości)?
+• Czy rozpoznano cukrzycę, nadciśnienie tętnicze, otyłość?
+• Czy była transfuzja krwi lub zabiegi chirurgiczne przed 1992 rokiem?
+
+---
+
+### III. Styl życia i czynniki ryzyka
+
+• Czy pacjent spożywa alkohol? W jakiej ilości i jak często?
+ – Mężczyzna: > 30 g etanolu/dobę = ryzyko
+ – Kobieta: > 20 g etanolu/dobę = ryzyko
+• Czy pacjent pali tytoń?
+• Czy zażywa leki hepatotoksyczne (np. paracetamol, statyny, MTX, izoniazyd)?
+• Czy stosuje zioła, suplementy, sterydy anaboliczne?
+• Czy pacjent miał kontakty seksualne z wieloma partnerami lub bez zabezpieczenia?
+• Czy podróżował do krajów o wysokim ryzyku WZW A/B/C?
+• Czy pracuje w ochronie zdrowia lub ma kontakt z krwią?
+
+---
+
+### IV. Przyjmowane leki
+
+• Leki stosowane przewlekle (nazwy, dawki)?
+• Czy pacjent stosuje NLPZ, sterydy, preparaty żelaza, suplementy diety?
+• Czy przyjmuje leki z potencjalnym działaniem toksycznym na wątrobę?
+
+---
+
+### V. Objawy ogólnoustrojowe
+
+• Czy występuje:
+ – Przewlekłe zmęczenie?
+ – Osłabienie, senność, apatia?
+ – Utrata masy ciała?
+ – Wzrost obwodu brzucha (wodobrzusze)?
+ – Obrzęki kończyn dolnych?
+ – Poty nocne?
+ – Ginekomastia, zaburzenia miesiączkowania?
+
+---
+
+### VI. Objawy sugerujące marskość lub nadciśnienie wrotne
+
+• Czy występuje:
+ – Żółtaczka (skóra, twardówki)?
+ – Świąd skóry?
+ – Pajączki naczyniowe (teleangiektazje)?
+ – Rumień dłoniowy?
+ – Wodobrzusze, obrzęki nóg?
+ – Krwawienia z nosa, siniaki?
+ – Splątanie, problemy z koncentracją?
+ – Krwawienia z przewodu pokarmowego (fusowate wymioty, smolisty stolec)?
+
+---
+
+### VII. Wyniki badań laboratoryjnych (jeśli dostępne)
+
+• ALT: \_\_\_\_\_\_ U/L
+• AST: \_\_\_\_\_\_ U/L
+• ALP: \_\_\_\_\_\_ U/L
+• GGTP: \_\_\_\_\_\_ U/L
+• Bilirubina całkowita: \_\_\_\_\_\_ mg/dL
+• INR: \_\_\_\_\_\_
+• Czas protrombinowy: \_\_\_\_\_\_ s
+• Albumina: \_\_\_\_\_\_ g/dL
+• PLT (płytki): \_\_\_\_\_\_ G/L
+• Glukoza: \_\_\_\_\_\_ mg/dL
+• Cholesterol: całkowity \_\_\_\_\_\_ / HDL \_\_\_\_\_\_ / LDL \_\_\_\_\_\_
+• Triglicerydy: \_\_\_\_\_\_ mg/dL
+• Ferrytyna: \_\_\_\_\_\_ ng/mL
+• Żelazo: \_\_\_\_\_\_ µg/dL
+• CRP: \_\_\_\_\_\_ mg/L
+• AFP (jeśli HCC podejrzewane): \_\_\_\_\_\_ ng/mL
+• Anty-HCV: dodatni / ujemny
+• HBsAg: dodatni / ujemny
+• Anty-HBs, HBeAg, anty-HBc: \_\_\_\_\_\_
+• IgG, IgA, IgM (jeśli podejrzenie AIH / PBC): \_\_\_\_\_\_
+• USG jamy brzusznej: \_\_\_\_\_\_
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] Żółtaczka kliniczna (bilirubina > 3 mg/dL)
+\[ ] INR > 1,3 bez leczenia przeciwzakrzepowego
+\[ ] Albumina < 3,5 g/dL
+\[ ] ALT lub AST > 3 x ggn
+\[ ] Płytki < 130 G/L
+\[ ] GGTP + ALP > 2 x ggn
+\[ ] Bilirubina sprzężona ↑ + świąd – cholestaza
+\[ ] AFP > 10 ng/mL + zmiana ogniskowa w USG
+\[ ] CRP > 30 mg/L + ↑ ALT/AST – ostre zapalenie
+\[ ] Wodobrzusze, encefalopatia, ginekomastia
+\[ ] USG – zwłóknienie, marskość, zmiany ogniskowe
+\[ ] Dodatni HBsAg / anty-HCV
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Dotychczasowe leczenie / obserwacja: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Reakcja na leczenie (jeśli próbowano): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Podejrzenie: marskość / WZW przewlekłe / AIH / NAFLD / inna: \_\_\_\_\_\_\_\_\_
+• Czy wymagana pilna konsultacja hepatologiczna? TAK / NIE
+
+---
+

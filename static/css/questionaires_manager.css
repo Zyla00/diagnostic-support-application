@@ -1,0 +1,70 @@
+
+.editable-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.edit-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none;
+    border-radius: 0.25rem;
+}
+
+.editable-wrapper:hover .edit-overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.editable-wrapper:hover .edit-hint {
+    display: inline !important;
+}
+
+.editable-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+input[name="q"] {
+    max-width: 200px;
+}
+
+#searchButton img {
+    vertical-align: middle;
+    filter: brightness(0);
+}
+
+
+.search-bar {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+.search-bar input {
+    padding-right: 90px;
+}
+
+
+.search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 105px;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    display: block;
+    width: 16px;
+    height: 16px;
+    filter: brightness(0);
+}

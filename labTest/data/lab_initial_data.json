@@ -1,0 +1,506 @@
+[
+    {
+        "test_name": "Leukocyty",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Erytrocyty",
+        "unit": "mln/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Hemoglobina",
+        "unit": "g/dl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Hematokryt",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "MCV",
+        "unit": "fl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "MCH",
+        "unit": "pg",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "MCHC",
+        "unit": "g/dl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Płytki krwi",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "RDW-SD",
+        "unit": "fl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "RDW-CV",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "PDW",
+        "unit": "fl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "MPV",
+        "unit": "fl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "P-LCR",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "PCT",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Neutrofile",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Limfocyty",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Monocyty",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Eozynofile",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Bazofile",
+        "unit": "tys/μl",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Retikulocyty",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "OB (Odczyn Biernackiego)",
+        "unit": "mm/h",
+        "value_type": "numeric",
+        "section": "Morfologia krwi"
+    },
+    {
+        "test_name": "Sód (Na⁺)",
+        "unit": "mmol/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Potas (K⁺)",
+        "unit": "mmol/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Wapń zjonizowany",
+        "unit": "mmol/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Żelazo",
+        "unit": "μg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "TIBC",
+        "unit": "μg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Transferryna",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Ferrytyna",
+        "unit": "ng/mL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Glukoza (na czczo)",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Glukoza (po obciążeniu)",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Hemoglobina glikowana (HbA1c)",
+        "unit": "%",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Mocznik",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Kreatynina",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "eGFR",
+        "unit": "mL/min/1,73m²",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Kwas moczowy",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Białko całkowite",
+        "unit": "g/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Albumina",
+        "unit": "g/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "CRP",
+        "unit": "mg/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "ALT",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "AST",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "GGTP",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "ALP",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "ACP",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Amylaza (surowica)",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Amylaza (mocz)",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "CK",
+        "unit": "U/L",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Cholesterol całkowity",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Cholesterol HDL",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Cholesterol LDL",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Triglicerydy",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Bilirubina całkowita",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "Bilirubina bezpośrednia",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Biochemia"
+    },
+    {
+        "test_name": "TSH",
+        "unit": "μIU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "FT3",
+        "unit": "pg/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "FT4",
+        "unit": "ng/dL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "HbSAg",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "VDRL",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "PSA całkowity",
+        "unit": "ng/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "Anty-CCP",
+        "unit": "IU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "Anty-HCV",
+        "unit": "IU/mL",
+        "value_type": "choice",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "AntyTPO",
+        "unit": "IU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "AntyTSHR",
+        "unit": "IU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "AntyTG",
+        "unit": "IU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "IgE całkowite",
+        "unit": "IU/mL",
+        "value_type": "numeric",
+        "section": "Hormony"
+    },
+    {
+        "test_name": "Białko w moczu",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Glukoza w moczu",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Wapń w moczu",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Amylaza w moczu",
+        "unit": "mg/dL",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Albuminuria",
+        "unit": "mg/24h",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "UACR",
+        "unit": "mg/g",
+        "value_type": "numeric",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Badanie ogólne moczu",
+        "unit": "",
+        "value_type": "text",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Sedyment moczu",
+        "unit": "",
+        "value_type": "text",
+        "section": "Mocz"
+    },
+    {
+        "test_name": "Badanie ogólne kału",
+        "unit": "",
+        "value_type": "text",
+        "section": "Kał"
+    },
+    {
+        "test_name": "Badanie pasożytów",
+        "unit": "",
+        "value_type": "text",
+        "section": "Kał"
+    },
+    {
+        "test_name": "Krew utajona (kał)",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Kał"
+    },
+    {
+        "test_name": "Antygen H. pylori",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Kał"
+    },
+    {
+        "test_name": "INR",
+        "unit": "",
+        "value_type": "numeric",
+        "section": "Układ krzepnięcia"
+    },
+    {
+        "test_name": "APTT",
+        "unit": "s",
+        "value_type": "numeric",
+        "section": "Układ krzepnięcia"
+    },
+    {
+        "test_name": "Fibrynogen",
+        "unit": "g/L",
+        "value_type": "numeric",
+        "section": "Układ krzepnięcia"
+    },
+    {
+        "test_name": "Posiew moczu",
+        "unit": "",
+        "value_type": "text",
+        "section": "Mikrobiologia"
+    },
+    {
+        "test_name": "Posiew gardła",
+        "unit": "",
+        "value_type": "text",
+        "section": "Mikrobiologia"
+    },
+    {
+        "test_name": "Posiew kału",
+        "unit": "",
+        "value_type": "text",
+        "section": "Mikrobiologia"
+    },
+    {
+        "test_name": "Strep-test",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Mikrobiologia"
+    },
+    {
+        "test_name": "Antygen SARS-CoV-2",
+        "unit": "",
+        "value_type": "choice",
+        "section": "Mikrobiologia"
+    }
+]

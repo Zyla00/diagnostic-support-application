@@ -1,0 +1,19 @@
+{% if widget.is_initial %}
+  <div class="text-center">
+    <div class="position-relative d-inline-block mb-2">
+      <img src="{{ widget.value.url }}" class="rounded" alt="Aktualne zdjęcie" style="width: 200px; height: 200px; object-fit: cover; border: 2px dashed #ccc;">
+      {% if not widget.required %}
+        <div class="position-absolute top-0 end-0">
+          <label class="btn btn-sm btn-danger" style="position: absolute; right: 0; top: 0;">
+            {{ widget.clear_checkbox }} <span>&times;</span>
+          </label>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+<label class="form-label">Zmień zdjęcie</label>
+<input type="{{ widget.type }}" name="{{ widget.name }}"
+       {% include "django/forms/widgets/attrs.html" %}
+       class="form-control">
