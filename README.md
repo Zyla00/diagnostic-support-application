@@ -326,6 +326,96 @@ użytkownika, np. o zapisaniu zmian, usunięciu ankiety czy błędach podczas ed
 specjalista ma pełną kontrolę nad procesem przygotowania ankiet, które później mogą służyć 
 do zbierania informacji od pacjentów w ustrukturyzowanej i spójnej formie.
 
+#### Zarządzanie modelami predykcyjnymi
+
+Zakładka Modele predykcyjne umożliwia specjalistom aktywną ingerencję w działanie 
+i rozwój wykorzystywanych algorytmów. Udostępnione zostały tutaj trzy zakładki: HerBERT, 
+XGBoost oraz Mistral RAG – notatki (rysunki 7.21–7.24). Dwa pierwsze odpowiadają za 
+możliwość retreningu modeli HerBERT oraz XGBoost na podstawie danych udostępnionych 
+przez pacjentów, natomiast ostatni pozwala na dodawanie notatek rozszerzających bazę wiedzy. 
+W module HerBERT (rysunek 7.21) specjalista może wskazać dane wejściowe w postaci 
+wysłanych i wypełnionych formularzy. Ankiety już wypełnione są dostępne do zaznaczenia, 
+natomiast niewypełnione są wyszarzane i nieaktywne. Dodatkowo dostępna jest wyszukiwarka 
+po nazwie ankiety oraz licznik wskazujący liczbę dostępnych formularzy. Dzięki temu proces 
+wyboru danych jest precyzyjny i ograniczony wyłącznie do wartościowych przypadków. 
+
+<p>
+<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+</p>
+
+Analogicznie działa moduł XGBoost (rysunek 7.22), w którym dane wejściowe mogą stanowić 
+ankiety oraz wyniki badań laboratoryjnych. Widok przedstawia listę badań wraz z datą ich 
+wykonania oraz przypisaniem do konkretnego pacjenta. Możliwe jest również dodanie ankiet. 
+Działa to dokładnie tak samo jak w przypadku modelu HerBERT. Tu również można korzystać 
+z wyszukiwarki oraz filtrowania, aby szybko odnaleźć interesujące dane.
+
+<p>
+<img width="261" height="134" alt="image" src="https://github.com/user-attachments/assets/27d210bc-5cb2-4efa-9ca7-1037fa8385ee" />
+</p>
+
+Po zaznaczeniu odpowiednich rekordów (ankiet lub badań) i wciśnięciu przycisku „Przypisz 
+zaznaczone” można przejść do okna definiowania przypadków do treningu (rysunek 7.23). 
+Specjalista nadaje im etykietę (np. nazwę jednostki chorobowej), która może być całkowicie 
+nowa lub wybrana spośród podpowiedzi systemu. Dodatkowo istnieje możliwość dopisania 
+opisu przypadku (np. kontekst kliniczny, objawy, leki), usunięcia przypadku (przycisk 
+„Wyczyść”) oraz wyczyszczenia przypisania ankiet i badań (przycisk „Usuń”). Tak 
+przygotowane dane zapisywane są jako nowa próbka i natychmiast wykorzystywane do 
+ponownego treningu modelu. Mechanizm aplikacji automatycznie archiwizuje poprzednią 
+wersję modelu, a nowa zaktualizowana wersja jest od razu gotowa do wykorzystania 
+w analizach predykcyjnych.
+
+<p>
+<img width="254" height="141" alt="image" src="https://github.com/user-attachments/assets/64914ba5-e703-4794-8aae-951b4a6a485b" />
+</p>
+
+Ostatnia zakładka, Mistral RAG – notatki (rysunek 7.24), pozwala specjalistom dodawać 
+treściowe wpisy, które rozszerzają bazę wiedzy systemu. Każda notatka może mieć tytuł, treść 
+oraz opcjonalny załącznik. Po zapisaniu i przebudowie indeksu jest natychmiast uwzględniana 
+w procesie generowania rekomendacji dla pacjentów. Dzięki temu możliwe jest elastyczne 
+wzbogacanie kontekstu analiz bez potrzeby retreningu modeli ML. 
+
+<p>
+<img width="262" height="156" alt="image" src="https://github.com/user-attachments/assets/fac4f09c-1730-4ad5-963a-0c29985443e8" />
+</p>
+
+Sekcja Zarządzanie modelami predykcyjnymi stanowi kluczowy element aplikacji, pozwalając 
+na bieżące aktualizowanie i rozwijanie algorytmów uczenia maszynowego. Dzięki intuicyjnym 
+mechanizmom wyboru danych, archiwizacji starych modeli i wzbogacania wiedzy w postaci 
+notatek, specjaliści mają pełną kontrolę nad procesem adaptacji systemu do zmieniających się 
+potrzeb klinicznych.
+
+### Funkcjonalności dostępne dla pacjenta
+
+#### Widok dostępny po zalogowaniu
+
+Od razu po zalogowaniu pacjent trafia na ekran startowy, którego zawartość odpowiada 
+zakładce Rekomendacje (rysunek 7.25). W tym miejscu wyświetlane są zalecenia i uwagi od 
+specjalisty. Mogą one wynikać z analizy wypełnionych ankiet, dodanych wyników badań 
+laboratoryjnych, a także modeli predykcyjnych. Dzięki temu pacjent w pierwszej kolejności 
+otrzymuje spersonalizowane wskazówki dotyczące dalszej diagnostyki lub postępowania 
+zdrowotnego. Po lewej stronie ekranu znajduje się pasek nawigacyjny, który umożliwia szybki 
+dostęp do wszystkich głównych sekcji aplikacji: 
+• Rekomendacje – główna zakładka, w której wyświetlane są zalecenia od specjalisty, 
+• Ankiety – dostęp do ankiet wypełnionych wcześniej oraz nowych, wysłanych przez 
+lekarza, 
+• Wyniki laboratoryjne – historia dotychczas dodanych badań laboratoryjnych oraz 
+możliwość wprowadzenia nowych wyników, 
+• Mój lekarz – przegląd lekarzy dostępnych w systemie oraz możliwość wyboru lub 
+zmiany przypisanego specjalisty, 
+• Nawyki – funkcjonalność pozwalająca na dodawanie i monitorowanie wybranych 
+nawyków zdrowotnych, 
+• Kalendarz – podgląd zaplanowanych wydarzeń i wizyt, 
+• Statystyki – prezentacja statystyk dotyczących np. nastrojów pacjenta czy innych 
+wskaźników zdrowotnych, 
+• Wiadomości – moduł służący do komunikacji z lekarzem.
+
+<p>
+<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+</p>
+
+<p>
+<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+</p>
 
 ## Evaluation of Results
 
