@@ -168,6 +168,27 @@ przestrzeni roboczej do aktualnych potrzeb użytkownika.
 
 #### Karta pacjenta i analiza danych
 
+Po przejściu do zakładki Pacjenci i wybraniu konkretnego pacjenta (aktywnego lub 
+nieaktywnego), system przenosi specjalistę do karty pacjenta, gdzie na samej górze 
+wyświetlana jest podstawowa informacja identyfikacyjna (rysunek 7.11). Poniżej dostępne są 
+cztery zakładki: Rekomendacje, Ankiety, Badania laboratoryjne oraz AI. 
+Zakładka Rekomendacje (rysunek 7.11) umożliwia lekarzowi wpisanie nowej rekomendacji, 
+która natychmiast trafia do pacjenta i pojawia się również w jego panelu startowym. Dostępna 
+jest też pełna historia wcześniejszych zaleceń.
+
+<p>
+<img width="262" height="193" alt="image" src="https://github.com/user-attachments/assets/6865dc5d-188c-4d21-8d4f-cc4e7950e2b1" />  
+</p>
+
+Zakładka Ankiety (rysunki 7.12.A–D) zawiera historię ankiet wysyłanych do danego pacjenta. 
+Każda ankieta ma oznaczenie  „Wypełniona” (zielony znacznik) lub „Niewypełniona” (szary 
+znacznik). Lekarz może wyświetlić zawartość ankiety zarówno przed wypełnieniem (podgląd 
+pytań), jak i po jej uzupełnieniu (z odpowiedziami pacjenta). Po prawej stronie znajduje się 
+pole wyszukiwania, w którym można znaleźć i wybrać dowolną ankietę z dostępnych 
+(systemowych lub stworzonych przez specjalistę). Po wybraniu ankiety pojawia się okno 
+potwierdzenia wysyłki (rysunek 7.12.C). Wysłanie ankiety jest procesem nieodwracalnym. Nie 
+można jej edytować ani cofnąć.
+
 ## Evaluation of Results
 
 ### Classification
