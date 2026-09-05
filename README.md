@@ -189,6 +189,144 @@ pole wyszukiwania, w którym można znaleźć i wybrać dowolną ankietę z dost
 potwierdzenia wysyłki (rysunek 7.12.C). Wysłanie ankiety jest procesem nieodwracalnym. Nie 
 można jej edytować ani cofnąć.
 
+<p>
+<img width="253" height="262" alt="image" src="https://github.com/user-attachments/assets/209fbbaa-cab7-47f1-a34b-cb146d9864b9" />
+</p>
+Zakładka Badania laboratoryjne (rysunki 7.13.A) prezentuje historię wyników badań dodanych 
+przez pacjenta. Specjalista ma możliwość podglądu szczegółowych wartości, np. poziomu 
+hormonów (rysunek 7.13.B).
+
+<p>
+<img width="257" height="152" alt="image" src="https://github.com/user-attachments/assets/fdcfd0a9-14af-4bc3-9f37-735109ebc64c" /> 
+</p>
+
+Zakładka AI (rysunki 7.14.A–E) umożliwia przeprowadzenie analizy danych pacjenta 
+z wykorzystaniem modeli uczenia maszynowego. W pierwszym kroku wybiera się model: 
+• XGBoost – klasyfikacja na podstawie ankiet i badań, 
+• HerBERT – klasyfikacja na podstawie ankiet, 
+• Mistral – analiza ankiet i badań, odpowiedzi tekstowe, 
+• Mistral RAG – analiza z wykorzystaniem bazy wiedzy. 
+Każdy model ma opis działania widoczny w niebieskim dymku obok. Następnie wybiera się 
+dane wejściowe – jedną ankietę (tylko „Informacje dodatkowe” i „Pierwszy wywiad ogólny” 
+są filtrowane do analizy) oraz, w przypadku modeli XGBoost i Mistral, opcjonalnie badania 
+laboratoryjne. Przygotowane dane są filtrowane tak, aby obejmowały tylko pola zgodne 
+z treningiem modelu (wiek, płeć, waga, objawy, choroby przewlekłe itp.). Kolejnym krokiem 
+jest uruchomienie analizy. W przypadku Mistrala i Mistrala RAG można dodatkowo wpisać 
+własne pytanie lub pozostawić domyślny prompt („Do jakiego specjalisty powinien udać się 
+pacjent?”). Wynik ma formę odpowiedzi tekstowej z podsumowaniem i zaleceniami.
+
+<p>
+<img width="251" height="61" alt="image" src="https://github.com/user-attachments/assets/c6b8fcd1-d998-437d-9839-8861946138e4" />  
+</p>
+<p>
+<img width="248" height="307" alt="image" src="https://github.com/user-attachments/assets/fc1fa2d1-6df9-46f0-866b-fdabb21395fe" />
+</p>
+<p>
+<img width="255" height="140" alt="image" src="https://github.com/user-attachments/assets/fea4880c-c758-45ae-a65b-c6cc2241ff18" />
+</p>
+
+W przypadku modelu Mistral RAG analiza danych pacjenta odbywa się z dodatkowym 
+wykorzystaniem podpiętej bazy wiedzy, co pozwala na poszerzenie kontekstu i bardziej 
+precyzyjne odpowiedzi. Model ten umożliwia nie tylko analizę ankiet i badań, ale również 
+zadawanie pytań odnoszących się do szerszej wiedzy medycznej (rysunek 7.15.A-B).
+
+<p>
+<img width="252" height="68" alt="image" src="https://github.com/user-attachments/assets/57deda2a-a6e1-4913-b4ee-a3fd648abd6f" />
+</p>
+<p>
+<img width="262" height="185" alt="image" src="https://github.com/user-attachments/assets/50cb7d07-4642-4525-9fb8-fb736a944868" />
+</p>
+
+Dla HerBERTa i XGBoosta analiza przedstawiana jest jako procentowe prawdopodobieństwo 
+wystąpienia poszczególnych klas (specjalizacji medycznych). Na górze wskazana jest ta 
+najbardziej prawdopodobna (rysunek 8.16.A-B).
+
+<p>
+<img width="250" height="62" alt="image" src="https://github.com/user-attachments/assets/9d6d3cbd-af35-49fe-94e2-318b056eb93c" />
+</p>
+
+<p>
+<img width="248" height="200" alt="image" src="https://github.com/user-attachments/assets/6734a3a9-9051-436d-8ad0-343a2fefef75" />
+</p>
+
+Warto zaznaczyć, że w przypadku, gdy kilka specjalizacji uzyskuje porównywalne wyniki (np. 
+20–10%), lekarz może poddać analizę w wątpliwość i samodzielnie zdecydować o dalszych 
+krokach diagnostycznych. Rysunek 8.18.A-B przedstawia przykładową analizę dla modelu 
+HerBERT.
+
+<p>
+<img width="253" height="62" alt="image" src="https://github.com/user-attachments/assets/7530a8cf-4774-45e4-b893-9519cf22906c" />
+</p>
+
+<p>
+<img width="254" height="204" alt="image" src="https://github.com/user-attachments/assets/971683f9-e5bb-447d-91a8-0e132dbb0356" />
+</p>
+
+Sekcja szczegółowego widoku pacjenta stanowi centralne narzędzie pracy specjalisty. Łączy 
+ona możliwość przeglądania historii interakcji (rekomendacje, ankiety, badania) 
+z zaawansowaną analizą AI wspierającą proces diagnostyczny. Dzięki integracji różnych 
+modeli lekarz otrzymuje zarówno precyzyjne klasyfikacje, jak i bardziej elastyczne odpowiedzi 
+tekstowe, co pozwala łączyć dane kliniczne pacjenta z wiedzą ekspercką i wspomaga 
+podejmowanie decyzji. 
+
+#### Menadżer ankiet
+
+Menadżer ankiet jest modułem umożliwiającym specjalistom tworzenie, edycję oraz 
+zarządzanie ankietami, które następnie mogą być udostępniane pacjentom. Po wejściu do tej 
+sekcji użytkownik widzi listę wszystkich ankiet przypisanych do jego konta. Jak przedstawiono 
+na rysunku 7.18, ankiety mogą być zarówno systemowe, jak i użytkownika. Ankiety systemowe 
+oznaczone są ikoną kłódki. Można je jedynie podglądać lub kopiować, natomiast nie ma 
+możliwości ich edycji czy usuwania. Ankiety utworzone przez użytkownika są w pełni 
+edytowalne, można zmieniać ich nazwy oraz usuwać je w dowolnym momencie. Dodatkowo w górnej części interfejsu znajduje się wyszukiwarka, która umożliwia szybkie odnalezienie 
+konkretnej ankiety po nazwie, a także mechanizm paginacji (zmiany stron), jeśli liczba ankiet 
+przekracza jedną stronę. 
+
+<p>
+<img width="263" height="112" alt="image" src="https://github.com/user-attachments/assets/8ddf8a14-6e3d-4a7a-be05-47c069b3dac1" />
+</p>
+
+W prawym górnym rogu znajduje się przycisk „Nowa ankieta”, którego kliknięcie powoduje 
+wyświetlenie pola do wprowadzenia nazwy ankiety. Po zatwierdzeniu, jak widać na rysunku 
+7.19.A, nowa ankieta zostaje dodana i pojawia się na liście dostępnych. W przypadku usunięcia 
+ankiety, w prawym górnym rogu system wyświetla stosowny komunikat, co zaprezentowano 
+na rysunku 7.19.B. 
+
+<p>
+<img width="249" height="71" alt="image" src="https://github.com/user-attachments/assets/bf769e77-80d8-4590-83c0-8bda0d4f42da" />
+</p>
+
+Po wejściu w tryb Podglądu ankiety użytkownik zyskuje możliwość jej edycji lub usunięcia. 
+Na rysunku 7.20.A przedstawiono górny panel widoku ankiety, gdzie dostępne są przyciski 
+Edytuj oraz Usuń. Przechodząc do edycji, użytkownik może tworzyć strukturę ankiety poprzez 
+dodawanie nowych sekcji (przycisk Dodaj nową sekcję, widoczny na rysunku 7.20.B). Każdą 
+sekcję można nazwać lub zmienić jej nazwę poprzez kliknięcie w tytuł. Do sekcji można 
+następnie dodawać pytania. Jak pokazano na rysunku 7.20.C w trzech dostępnych formatach: 
+pytania otwarte (tekstowe), pytania jednokrotnego wyboru oraz pytania wielokrotnego wyboru. 
+W przypadku pytań zamkniętych opcje odpowiedzi należy podawać w jednym polu, 
+oddzielając je przecinkami. Na rysunku 7.20.D zaprezentowano przykład pytania 
+jednokrotnego wyboru oraz przycisk zapisu całej ankiety.
+
+<p>
+<img width="263" height="330" alt="image" src="https://github.com/user-attachments/assets/eed6c677-2ce8-46ba-bc1f-f68adbc2b914" />
+</p>
+
+<p>
+<img width="263" height="161" alt="image" src="https://github.com/user-attachments/assets/423ff8fe-632b-4f1c-92f4-2b7439fea4fd" />
+</p>
+
+Kolejna ilustracje przedstawiają podgląd całej ankiety po wprowadzeniu pytań i sekcji. Jak 
+widać na rysunku 7.21, możliwe jest szybkie przełączanie się pomiędzy edycją a podglądem.
+
+<p>
+<img width="266" height="141" alt="image" src="https://github.com/user-attachments/assets/ff18ac3c-4980-4720-be4d-a8567c9b67f5" />
+</p>
+
+Dodatkowo system wyświetla w prawym górnym rogu komunikaty związane z działaniami 
+użytkownika, np. o zapisaniu zmian, usunięciu ankiety czy błędach podczas edycji. Dzięki temu 
+specjalista ma pełną kontrolę nad procesem przygotowania ankiet, które później mogą służyć 
+do zbierania informacji od pacjentów w ustrukturyzowanej i spójnej formie.
+
+
 ## Evaluation of Results
 
 ### Classification
