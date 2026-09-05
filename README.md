@@ -18,10 +18,6 @@ retraining and patient data analysis.
 
 ## Web application interface
 
-
-
-## Evaluation of Results
-
 ### Rejestracja oraz logowanie użytkownika 
 
 W aplikacji MedPred proces logowania i rejestracji użytkowników został 
@@ -39,6 +35,48 @@ opcji Pamiętaj mnie. Na rysunku 7.1.B znajdują się przykładowe komunikaty b�
 <p>
 <img width="253" height="296" alt="image" src="https://github.com/user-attachments/assets/5e60e275-6dde-4808-8ff1-cf36947fdda1" />
 </p>
+
+Cały mechanizm logowania i rejestracji zapewnia przejrzystość oraz bezpieczeństwo 
+korzystania z aplikacji. Dzięki odpowiedniej walidacji danych użytkownicy mają pewność, że 
+ich konta są unikalne i chronione przed nieuprawnionym dostępem.
+
+### Informacje profilowe oraz zmiana hasła 
+
+W aplikacji MedPred użytkownik ma dostęp do panelu zarządzania swoim kontem 
+poprzez ikonę awatara znajdującą się w lewym dolnym rogu paska bocznego. Po kliknięciu 
+w tę ikonę rozwija się menu z trzema opcjami: Profil, Zmień hasło oraz Wyloguj (rysunek 
+7.2.A). Dzięki temu specjalista może w prosty sposób zarządzać informacjami dotyczącymi 
+swojego konta. 
+Wybór opcji Zmień hasło powoduje wysunięcie się panelu z prawej strony ekranu (rysunek 
+7.2.B). Panel ten zawiera formularz umożliwiający wpisanie starego hasła, wprowadzenie 
+nowego oraz jego potwierdzenie. Po zatwierdzeniu zmian przyciskiem Zapisz zmiany, system 
+wyświetla w prawym górnym rogu stosowny komunikat informujący o poprawnym zapisaniu 
+nowego hasła lub o ewentualnym błędzie, np. niezgodności haseł.
+
+<p>
+<img width="254" height="233" alt="image" src="https://github.com/user-attachments/assets/4d67d8ef-d94c-46d0-bd5c-8bd25e23df56" />
+</p>
+
+Analogicznie, wybierając opcję Profil, użytkownikowi wyświetla się widok podglądu profilu 
+(rysunek 7.3). Znajdują się tam wszystkie kluczowe dane specjalisty, takie jak imię, nazwisko, 
+adres e-mail, telefon, numer PWZ, adres przyjęć, wykształcenie, doświadczenie zawodowe czy 
+specjalizacja. 
+
+<p>
+<img width="259" height="151" alt="image" src="https://github.com/user-attachments/assets/d57609aa-655b-44f6-9575-e8572e1a6ae2" />
+</p>
+
+W prawym górnym rogu widoczny jest przycisk umożliwiający przejście do trybu edycji. Po 
+jego wybraniu otwiera się panel z formularzem (rysunek 7.4), w którym specjalista może 
+uzupełniać lub modyfikować wszystkie pola. Po zapisaniu zmian system ponownie generuje 
+komunikat potwierdzający operację. Zarówno panel zmiany hasła, jak i panel profilu można 
+zamknąć na dwa sposoby: klikając w krzyżyk w prawym górnym rogu lub klikając 
+w zaciemnione pole po lewej stronie ekranu.
+
+
+
+## Evaluation of Results
+
 ### Classification
 
 For the task of assigning patient symptoms to appropriate medical specialists, the Mistral model was evaluated in two configurations: zero-shot, without additional training, and with a Retrieval-Augmented Generation (RAG) mechanism supported by an external knowledge base. The experiment was conducted on 260 cases, with 10 cases representing each medical specialty. 
