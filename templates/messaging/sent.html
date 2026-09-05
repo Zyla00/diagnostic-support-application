@@ -1,0 +1,17 @@
+<h2 class="mb-3">📤 Wysłane wiadomości</h2>
+
+<ul class="list-group">
+    {% for message in messages %}
+        <li class="list-group-item">
+            <div><strong>Do:</strong> {{ message.recipient.get_full_name|default:message.recipient.username }}</div>
+            <div><strong>Temat:</strong> {{ message.subject }}</div>
+            <small class="text-muted">{{ message.sent_at|date:"Y-m-d H:i" }}</small>
+        </li>
+    {% empty %}
+        <li class="list-group-item text-center text-muted">Brak wysłanych wiadomości.</li>
+    {% endfor %}
+</ul>
+
+<div class="mt-3 text-end">
+    <a href="#" class="btn btn-primary" data-view="send">➕ Napisz nową wiadomość</a>
+</div>

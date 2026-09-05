@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wywiad Medyczny POZ</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    textarea {
+      resize: vertical;
+      min-height: 60px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Formularz wywiadu medycznego (POZ)</h1>
+
+  <form>
+
+    <h2>I. Dane pacjenta</h2>
+    <label>Imię i nazwisko</label>
+    <input type="text" name="name" required>
+
+    <label>Data urodzenia</label>
+    <input type="date" name="dob">
+
+    <label>Płeć</label>
+    <select name="gender">
+      <option value="">-- Wybierz --</option>
+      <option>Mężczyzna</option>
+      <option>Kobieta</option>
+      <option>Inna</option>
+    </select>
+
+    <label>Zawód / Tryb życia</label>
+    <input type="text" name="occupation">
+
+    <label>Miejsce zamieszkania</label>
+    <select name="location">
+      <option>Miasto</option>
+      <option>Wieś</option>
+    </select>
+
+    <hr>
+
+    <h2>II. Główna dolegliwość</h2>
+    <label>Powód wizyty</label>
+    <textarea name="main_complaint"></textarea>
+
+    <label>Od kiedy objawy się utrzymują?</label>
+    <input type="text" name="duration">
+
+    <label>Co nasila lub łagodzi objawy?</label>
+    <textarea name="modifiers"></textarea>
+
+    <label>Czy objawy występowały wcześniej?</label>
+    <textarea name="recurrence"></textarea>
+
+    <hr>
+
+    <h2>III. Choroby i hospitalizacje</h2>
+    <label>Choroby przewlekłe</label>
+    <textarea name="chronic_diseases"></textarea>
+
+    <label>Operacje / Hospitalizacje</label>
+    <textarea name="hospitalizations"></textarea>
+
+    <label>Choroby zakaźne w przeszłości</label>
+    <textarea name="infections"></textarea>
+
+    <hr>
+
+    <h2>IV. Wywiad rodzinny</h2>
+    <label>Choroby w rodzinie (serce, rak, cukrzyca, psychiczne...)</label>
+    <textarea name="family_history"></textarea>
+
+    <hr>
+
+    <h2>V. Leki i alergie</h2>
+    <label>Przyjmowane leki (stałe)</label>
+    <textarea name="medications"></textarea>
+
+    <label>Leki OTC / suplementy</label>
+    <textarea name="supplements"></textarea>
+
+    <label>Alergie (leki, pokarm, środowiskowe)</label>
+    <textarea name="allergies"></textarea>
+
+    <hr>
+
+    <h2>VI. Styl życia</h2>
+    <label>Palenie tytoniu (ilość, od kiedy)</label>
+    <input type="text" name="smoking">
+
+    <label>Spożycie alkoholu</label>
+    <input type="text" name="alcohol">
+
+    <label>Aktywność fizyczna</label>
+    <input type="text" name="physical_activity">
+
+    <label>Dieta</label>
+    <textarea name="diet"></textarea>
+
+    <hr>
+
+    <h2>VII. Funkcje fizjologiczne</h2>
+    <label>Oddawanie moczu / wypróżnienia</label>
+    <textarea name="functions"></textarea>
+
+    <label>Sen</label>
+    <textarea name="sleep"></textarea>
+
+    <label>Omdlenia, zawroty głowy</label>
+    <textarea name="neurological"></textarea>
+
+    <hr>
+
+    <h2>VIII. Objawy ogólnoustrojowe i układowe</h2>
+    <label>Objawy ogólne (gorączka, osłabienie, poty nocne...)</label>
+    <textarea name="general_symptoms"></textarea>
+
+    <label>Układ krążenia (ból w klatce, duszność...)</label>
+    <textarea name="cardio"></textarea>
+
+    <label>Układ oddechowy (kaszel, duszność...)</label>
+    <textarea name="respiratory"></textarea>
+
+    <label>Układ pokarmowy (nudności, bóle brzucha...)</label>
+    <textarea name="digestive"></textarea>
+
+    <label>Układ moczowy (pieczenie, częstomocz...)</label>
+    <textarea name="urinary"></textarea>
+
+    <label>Układ nerwowy (drętwienia, bóle głowy...)</label>
+    <textarea name="neurology"></textarea>
+
+    <label>Skóra (wysypki, swędzenie...)</label>
+    <textarea name="skin"></textarea>
+
+    <label>Układ ruchu (bóle stawów, ograniczenia...)</label>
+    <textarea name="musculoskeletal"></textarea>
+
+    <label>Objawy psychiczne (depresja, lęk...)</label>
+    <textarea name="mental_health"></textarea>
+
+    <hr>
+
+    <h2>IX. Dla kobiet</h2>
+    <label>Miesiączki / Ciąże / Antykoncepcja</label>
+    <textarea name="female_only"></textarea>
+
+    <hr>
+
+    <h2>X. Dla seniorów</h2>
+    <label>Upadki, problemy z pamięcią, samoobsługa</label>
+    <textarea name="elderly"></textarea>
+
+    <hr>
+
+    <button type="submit">Zapisz formularz</button>
+  </form>
+
+</body>
+</html>

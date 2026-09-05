@@ -1,0 +1,10 @@
+{% for q in questionnaires %}
+  <button class="list-group-item list-group-item-action py-2 small text-start text-truncate"
+          style="cursor: pointer;"
+          title="{{ q.name }}"
+          onclick="confirmSend('{{ q.id }}', '{{ q.name|escapejs }}')">
+    {{ q.name }}
+  </button>
+{% empty %}
+  <div class="list-group-item text-muted text-center small py-2">Brak wyników</div>
+{% endfor %}

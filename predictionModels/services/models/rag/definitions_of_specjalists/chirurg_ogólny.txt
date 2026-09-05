@@ -1,0 +1,232 @@
+## Kim jest chirurg ogólny?
+
+Chirurg ogólny to specjalista zajmujący się diagnostyką i leczeniem operacyjnym (lub zabiegowym) chorób narządów jamy brzusznej, skóry, tkanki podskórnej, gruczołów (np. tarczycy), układu żylnego powierzchownego, a także leczeniem ran, urazów i zakażeń tkanek miękkich.
+
+Zakres obejmuje zarówno przypadki nagłe (ostry brzuch, ropień, uraz), jak i planowe (przepukliny, żylaki, zmiany skórne, torbiele).
+
+---
+
+## Objawy kliniczne wskazujące na konieczność wizyty u chirurga ogólnego
+
+### Jamy brzusznej:
+
+* Ból zlokalizowany, narastający, trwający >6–12 h – zwłaszcza prawy dolny kwadrant (wyrostek), nadbrzusze (trzustka, wrzód), prawe podżebrze (pęcherzyk żółciowy)
+* Wymioty utrzymujące się >24 h
+* Brak wypróżnień i gazów >24–48 h (objaw niedrożności)
+* Wzdęcia, bolesność uciskowa, obrona mięśniowa – objawy otrzewnowe
+* Krwawienie z odbytu lub smolisty stolec
+
+### Skóry i tkanek podskórnych:
+
+* Ropnie, czyraki, przetoki, zwłaszcza nawracające
+* Powiększające się guzki, torbiele, tłuszczaki – szczególnie >2 cm
+* Zmiany skórne z nieregularnym brzegiem, owrzodzeniem, szybkim wzrostem
+* Zakażone rany pourazowe lub pooperacyjne
+
+### Żył powierzchownych i okolic odbytu:
+
+* Żylaki kończyn dolnych z bólem, obrzękiem, przebarwieniami
+* Bolesne guzki odbytu, krwawienie podczas defekacji
+* Przetoki okołoodbytowe, zakrzep guzka krwawniczego
+
+---
+
+## Badania laboratoryjne wskazujące na potrzebę konsultacji chirurgicznej
+
+### Parametry stanu zapalnego:
+
+* CRP > 30 mg/L – podejrzenie ostrego zapalenia wyrostka robaczkowego, pęcherzyka żółciowego, ropnia, zapalenia skóry i tkanki podskórnej
+* Leukocyty > 11 G/L (11 000/µL)** – leukocytoza w kierunku zakażenia/ostrego stanu zapalnego
+* Neutrofile > 75% (lub liczba bezwzględna > 7,5 G/L) – sugerują zakażenie bakteryjne
+
+> CRP > 100 mg/L i leukocytoza > 15 G/L wymagają szybkiej interwencji – możliwa sepsa, perforacja, ropowica
+
+### Biochemia – narządy jamy brzusznej:
+
+* Amylaza > 100 U/L (norma zwykle do 90) – podejrzenie ostrego zapalenia trzustki
+* Lipaza > 300 U/L (norma do 60–160) – bardziej swoista dla trzustki
+* ALT/AST > 2x GGN – możliwy stan zapalny wątroby lub kamica przewodowa
+* Bilirubina całkowita > 1.5 mg/dL lub bezpośrednia > 0.5 mg/dL – sugeruje cholestazę (np. kamica przewodowa)
+* ALP > 120 U/L i GGTP > 70 U/L – wspomagają rozpoznanie cholestazy
+
+#### Hemoglobina i parametry krwawienia:
+
+* Hb < 10 g/dL u kobiet / <11 g/dL u mężczyzn – niedokrwistość z utraty krwi (np. utajone krwawienia z przewodu pokarmowego)
+* OB > 40 mm/h – może wskazywać na stan zapalny lub nowotwór, zwłaszcza w zmianach przewlekłych
+* Krew utajona w kale – wynik dodatni – wskazanie do kolonoskopii lub konsultacji proktologicznej
+
+#### Posiewy/ropa:
+
+* Dodatnie posiewy ropy z rany, przetoki lub czyraka – często chirurgiczne oczyszczenie konieczne
+* Prokalcytonina > 0.5 ng/mL – podejrzenie infekcji uogólnionej, sepsy
+
+---
+
+## Cechy osobnicze zwiększające ryzyko problemów chirurgicznych
+
+* Wiek > 50 lat – wzrost ryzyka nowotworów, kamicy, zmian naczyniowych
+* Otyłość (BMI > 30) – ryzyko kamicy, przepuklin, powikłań naczyniowych
+* Płeć żeńska + otyłość + wiek > 40 – klasyczne czynniki kamicy pęcherzyka żółciowego
+* Siedzący tryb życia / praca biurowa – predyspozycja do żylaków i hemoroidów
+* Palenie tytoniu – pogarsza gojenie, zwiększa ryzyko zakażeń i nowotworów
+* Choroby współistniejące: cukrzyca, miażdżyca, przewlekła niewydolność żylna – wolniejsze gojenie, zakażenia ran
+* Częste stosowanie NLPZ / alkoholu – zwiększa ryzyko owrzodzeń i perforacji
+
+---
+
+## Jakie objawy i dane sugerują lekarzowi POZ potrzebę skierowania do chirurga?
+
+### Objawy alarmowe:
+
+* Ostry, jednostronny lub narastający ból brzucha z nudnościami lub wymiotami
+* Gorączka + zmiany skórne (ropień, przetoka, zaczerwienienie)
+* Wyczuwalny guz, torbiel, zgrubienie > 1,5–2 cm
+* Krwawienie z odbytu / dodatni test na krew utajoną
+* Żylaki z powikłaniami: obrzęk, zmiana koloru skóry, owrzodzenia
+* Nawracające lub powikłane przetoki odbytu lub ropnie okołoodbytowe
+* Brak poprawy po leczeniu zachowawczym
+
+### Wyniki badań:
+
+* CRP > 30–50 mg/L + objawy kliniczne → ostre zapalenie
+* Leukocytoza > 12 G/L
+* Amylaza/lipaza podwyższone → podejrzenie OZT
+* Bilirubina/ALP/GGTP podwyższone → kamica przewodowa
+* Krew utajona dodatnia → konsultacja w kierunku chorób odbytu / kolonoskopia
+* Zmiany w USG/TK: ropień, kamica, torbiel, przepuklina, masa litego charakteru
+
+### Charakter zmian:
+
+* Utrzymywanie się objawów > 5–7 dni bez poprawy
+* Pojawienie się objawów nagłych (w ciągu kilku godzin)
+* Nawracające zakażenia skórne lub przetoki
+* Progresja zmiany podskórnej / skórnej mimo leczenia
+
+---
+
+### Podsumowanie – kiedy kierować do chirurga ogólnego?
+
+Konsultacja chirurgiczna jest konieczna, gdy:
+
+1. Występuje ostry stan bólowy brzucha lub inne objawy nagłe (np. ropień, krwawienie).
+2. Z badań wynika podejrzenie stanu zapalnego lub mechanicznego powikłania (np. torbiel, przepuklina, niedrożność).
+3. Zmiany skórne, guzki lub przetoki wymagają oceny lub wycięcia.
+4. Nie ma poprawy mimo leczenia w POZ, a badania lub obrazowanie sugerują przyczynę chirurgiczną.
+5. Konieczne jest dalsze różnicowanie z pomocą badania histopatologicznego lub zabiegu.**
+
+---
+
+---
+
+## Ankieta specjalistyczna – chirurg ogólny
+
+---
+
+### I. Główna dolegliwość / powód wizyty
+
+• Co Pana/Panią skłoniło do wizyty u chirurga?
+• Od kiedy występują objawy?
+• Czy objawy się nasilają, są stałe czy napadowe?
+• Czy miały już miejsce podobne epizody wcześniej?
+• Czy był/a Pan/Pani hospitalizowany/a z powodu obecnych dolegliwości?
+
+---
+
+### II. Objawy brzuszne i jamy brzusznej
+
+• Czy występuje ból brzucha?
+ – Gdzie jest zlokalizowany? (np. nadbrzusze, dół brzucha, pod żebrami)
+ – Czy ból promieniuje?
+ – Jaki ma charakter (kłujący, tępy, kolkowy)?
+• Czy występują nudności, wymioty?
+• Czy wystąpiło zatrzymanie gazów lub stolca?
+• Czy pojawiło się krwawienie z odbytu lub smolisty stolec?
+• Czy ból nasila się po jedzeniu lub w określonej porze dnia?
+• Czy wcześniej stwierdzono kamicę, wrzody, przepuklinę?
+
+---
+
+### III. Objawy skórne i podskórne
+
+• Czy zauważył/a Pan/Pani guzek, zgrubienie, torbiel pod skórą?
+ – Od kiedy? Czy rośnie?
+• Czy występuje zaczerwienienie, ból, wyciek treści ropnej?
+• Czy była już wcześniej podobna zmiana lub przetoka?
+• Czy rana nie goi się prawidłowo?
+• Czy doszło do urazu w okolicy zmiany?
+
+---
+
+### IV. Objawy naczyniowe i proktologiczne
+
+• Czy ma Pan/Pani żylaki kończyn dolnych?
+ – Czy występuje ból, obrzęk, przebarwienia skóry, owrzodzenia?
+• Czy pojawia się ból odbytu lub guzki w tej okolicy?
+• Czy pojawiło się krwawienie przy wypróżnianiu?
+• Czy wcześniej leczono hemoroidy lub przetoki?
+• Czy występuje ból podczas siedzenia, uczucie rozpierania?
+
+---
+
+### V. Wyniki badań (jeśli dostępne)
+
+• Czy wykonano morfologię krwi, CRP lub OB? Jakie były wyniki?
+• Czy wykonano badania enzymów trzustkowych lub wątrobowych (amylaza, lipaza, ALT, AST)?
+• Czy wykonano USG jamy brzusznej? Jakie były wnioski?
+• Czy test na krew utajoną w kale był dodatni?
+• Czy są dostępne wyniki badań obrazowych (TK, RTG, kolonoskopia)?
+• Czy w przeszłości wycięto podobną zmianę – jaka była histopatologia?
+
+---
+
+### VI. Historia chirurgiczna i choroby współistniejące
+
+• Czy był/a Pan/Pani wcześniej operowany/a?
+ – Kiedy i z jakiego powodu?
+• Czy występowały powikłania pooperacyjne? (np. zakażenie, ropień, przetoka)
+• Czy ma Pan/Pani zdiagnozowaną:
+ – Cukrzycę?
+ – Nadciśnienie?
+ – Miażdżycę?
+ – Przewlekłą chorobę żył?
+• Czy przyjmuje Pan/Pani leki obniżające odporność (np. sterydy, immunosupresja)?
+
+---
+
+### VII. Czynniki ryzyka i cechy osobnicze
+
+• Wiek i płeć (jeśli nie wypełnione w ankiecie ogólnej)
+• Czy jest Pan/Pani osobą otyłą (BMI > 30)?
+• Czy tryb życia jest siedzący czy aktywny?
+• Czy występują zaparcia lub przewlekłe parcie na stolec?
+• Czy pali Pan/Pani papierosy?
+• Czy występują trudności w gojeniu ran lub częste zakażenia?
+
+---
+
+### VIII. Objawy alarmowe – „checklist”
+
+(Pacjent może sam zaznaczyć lub lekarz prowadzący może uzupełnić)
+
+☐ Ostry ból brzucha trwający >6 h
+☐ Wymioty >24 h
+☐ Zatrzymanie gazów/stolca >24–48 h
+☐ Gorączka >38°C + ból brzucha/skóry
+☐ Ropna zmiana skórna z narastaniem
+☐ Krwawienie z odbytu lub czarny stolec
+☐ Wyczuwalna zmiana podskórna >2 cm
+☐ Nawracające przetoki lub ropnie
+☐ CRP >30 mg/L i leukocytoza >11 G/L
+☐ Amylaza lub lipaza podwyższone
+☐ Dodatni wynik na krew utajoną
+
+---
+
+###IX. Podsumowanie (dla lekarza POZ lub systemu EMR)
+
+**Wstępna klasyfikacja potrzeby konsultacji chirurgicznej:**
+
+- pilna (ostry brzuch, ropień, zakażenie, zatrzymanie stolca/gazów)
+- planowa (przepuklina, zmiana skórna, żylaki, torbiel)
+- wymagana dalsza diagnostyka (testy, USG, histopatologia)
+

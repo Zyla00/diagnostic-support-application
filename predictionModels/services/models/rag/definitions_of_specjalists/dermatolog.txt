@@ -1,0 +1,216 @@
+## Kim jest dermatolog?
+
+Dermatolog to lekarz specjalista, który diagnozuje i leczy choroby skóry, włosów, paznokci oraz wybrane choroby błon śluzowych. Zajmuje się również wczesnym wykrywaniem nowotworów skóry, chorobami o podłożu autoimmunologicznym, alergicznym, metabolicznym i zakaźnym, a także medycyną estetyczną.
+
+---
+
+## Objawy i sytuacje kliniczne wymagające wizyty u dermatologa
+
+1. **Zmiany barwnikowe lub guzki**
+   • znamię, które rośnie, ciemnieje, swędzi lub krwawi (podejrzenie czerniaka)
+   • każda grudka/guzek o średnicy > 6 mm o asymetrycznym kształcie, nieregularnym brzegu lub > 2 mm wysokości
+
+2. **Przewlekłe lub nawracające wykwity skórne**
+   • plamy rumieniowe, łuski, grudki utrzymujące się > 6 tyg. mimo leczenia w POZ
+   • łuszczyca umiarkowana lub ciężka (BSA > 10 % albo PASI ≥ 10)
+   • atopowe zapalenie skóry z częstymi zaostrzeniami lub zajęciem > 10 % powierzchni ciała
+
+3. **Ciężka lub oporna na leczenie postać trądziku**
+   • > 50 grudek / krost lub torbiele ropne; bliznowacenie
+
+4. **Nagłe lub rozległe wypadanie włosów**
+   • utrata > 100 włosów dziennie przez > 4 tyg.
+   • w obrębie skóry owłosionej widoczne ogniska o średnicy > 2 cm bez włosów
+
+5. **Paznokcie**
+   • zmiana koloru (brąz-czarna smuga > 3 mm szerokości)
+   • onycholiza lub rogowacenie podpaznokciowe obejmujące > 50 % płytki
+
+6. **Zakażenia lub zapalenia skóry**
+   • ropowica, róża, czyraki mnogie z gorączką lub CRP > 30 mg/L
+   • zakażenie wirusem półpaśca w dermatomie twarzowym lub ocznym
+
+7. **Objawy ogólnoustrojowe ze skórą**
+   • owrzodzenia kończyn utrzymujące się > 4 tyg.
+   • rumień wędrujący po ukłuciu kleszcza (średnica > 5 cm)
+   • twardzina, zapalenie skórno-mięśniowe, toczeń rumieniowaty (typowe wysypki motylkowe)
+
+---
+
+## Wyniki badań laboratoryjnych wspierające decyzję o skierowaniu
+
+* **Eozynofile > 0,45 G/L** lub całkowite IgE > 100 kU/L – przewlekła pokrzywka, AZS, pasożyty.
+* **CRP > 30 mg/L** z objawami zakażenia skóry – wymaga antybiotykoterapii i możliwej hospitalizacji.
+* **ASO > 200 IU/mL** u dziecka z wysiewem kropelkowej łuszczycy lub rumienia guzowatego.
+* **Ferrytyna < 30 ng/mL u kobiet / < 50 ng/mL u mężczyzn** – łysienie telogenowe, przewlekłe wypadanie włosów.
+* **Witamina D < 20 ng/mL** – może zaostrzać AZS, łuszczycę; warto suplementować przed leczeniem systemowym.
+* **TSH < 0,4 µIU/mL lub > 4,5 µIU/mL** – choroby tarczycy współistniejące z łysieniem plackowatym, pokrzywką.
+* **HbA1c ≥ 6,5 %** – wskazuje na cukrzycę; przy przewlekłych owrzodzeniach stóp konieczna konsultacja z diabetologiem i dermatologiem.
+* **ANA dodatnie w mianie ≥ 1 : 160** – podejrzenie tocznia rumieniowatego lub twardziny.
+* **Poziom DHT lub wolnego testosteronu przekraczający górną granicę normy płci i wieku** – trądzik ciężki, łysienie androgenowe u kobiet.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób dermatologicznych
+
+* Wiek < 16 lat: atopowe zapalenie skóry, naczyniaki, trądzik młodzieńczy.
+* Wiek > 50 lat: rogowacenie słoneczne, rak podstawnokomórkowy, czerniak złośliwy, świąd starczy.
+* Płeć męska: częstsze łysienie androgenowe, rak kolczystokomórkowy skóry.
+* Płeć żeńska: przewlekły toczeń skórny, telogenowe wypadanie włosów; łysienie androgenowe często współistnieje z PCOS.
+* Fototyp I–II (bardzo jasna karnacja): większe ryzyko nowotworów skóry oraz poparzeń słonecznych.
+* Zawód z ekspozycją na chemikalia, promieniowanie UV, lateks, rękawice (fryzjer, pracownik służby zdrowia, budowlaniec).
+* Choroby autoimmunologiczne w rodzinie (toczeń, łuszczyca, bielactwo).
+* Przewlekłe przyjmowanie leków: steroidy, lit, leki biologiczne, inhibitory kinaz (ryzyko wysypek i infekcji skórnych).
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do dermatologa
+
+1. **Ryzyko nowotworu skóry**
+   – zmiana zgodna z kryteriami ABCDE albo nowy guzek, który krwawi lub rośnie przez 4-6 tyg.
+
+2. **Nieskuteczność leczenia w POZ**
+   – brak poprawy po 4-6 tyg. stosowania maści steroidowych/antybiotyków lub doustnych leków przeciwtrądzikowych.
+
+3. **Nasila­jące się lub rozległe zapalenie skóry**
+   – AZS zajmujące > 10 % powierzchni ciała, łuszczyca PASI ≥ 10, liszaj płaski z rozległymi zmianami błon śluzowych.
+
+4. **Ciężkie zakażenia skóry i tkanki podskórnej**
+   – ropowica, róża twarzy, półpasiec w obrębie oka, CRP > 30 mg/L.
+
+5. **Zweryfikowane odchylenia w badaniach**
+   – ferrytyna < 30 ng/mL + utrata włosów; ANA ≥ 1 : 160 + typowe wysypki; HbA1c ≥ 6,5 % + trudno gojące się owrzodzenia.
+
+6. **Psychologiczny ciężar choroby**
+   – zmiany skórne powodujące zaburzenia snu, lęk, depresję lub absencję szkolną/pracowniczą.
+
+---
+
+## Podsumowanie – kiedy bezwzględnie skierować do dermatologa?
+
+* Każda zmiana skórna o cechach czerniaka lub innego nowotworu.
+* Przewlekła wysypka lub wykwity utrzymujące się > 6 tyg. i oporne na leczenie w POZ.
+* Ciężkie lub nawracające infekcje skóry z gorączką lub wysokim CRP.
+* Rozległa łuszczyca, atopowe zapalenie skóry lub pokrzywka przewlekła z istotnym wpływem na jakość życia.
+* Ostre wypadanie włosów, nghięlące się owrzodzenia lub podejrzenie autoimmunologicznej choroby skóry.
+
+---
+
+## Ankieta specjalistyczna – dermatolog
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Co jest powodem wizyty u dermatologa?
+• Od kiedy występują zmiany skórne?
+• Czy zmiany pojawiły się nagle czy narastały stopniowo?
+• Czy zmiany swędzą, bolą, pieką, łuszczą się, krwawią?
+• Czy zmiany występowały wcześniej?
+• Czy są symetryczne, rozległe czy zlokalizowane miejscowo?
+• Czy były próby leczenia? Jakie preparaty i z jakim skutkiem?
+
+---
+
+### II. Charakterystyka zmian skórnych
+
+• Gdzie na ciele występują zmiany skórne?
+• Czy są to plamy, grudki, pęcherze, owrzodzenia, strupy, krostki czy guzki?
+• Jaki mają kolor? Czy się zmieniają (ciemnieją, bledną)?
+• Czy zauważono nowe znamiona lub szybki wzrost istniejących?
+• Czy któraś zmiana ma nieregularny brzeg, asymetrię, zmieniony kolor lub średnicę > 6 mm?
+• Czy dochodzi do nadmiernego rogowacenia, łuszczenia, pękania skóry?
+
+---
+
+### III. Objawy ogólne i systemowe
+
+• Czy występuje gorączka, dreszcze lub złe samopoczucie?
+• Czy zmiany skórne współistnieją z bólem stawów, mięśni, zmęczeniem, utratą masy ciała?
+• Czy obecne są obrzęki, powiększone węzły chłonne?
+• Czy występuje świąd uogólniony bez zmian skórnych?
+
+---
+
+### IV. Skóra owłosiona głowy, paznokcie, błony śluzowe
+
+• Czy występuje nadmierne wypadanie włosów?
+ – Od kiedy? W jakiej ilości?
+• Czy są widoczne ogniska łysienia? Jakiej wielkości?
+• Czy pojawiły się zmiany na paznokciach?
+ – Zmiana koloru, łamliwość, zgrubienie, onycholiza, rogowacenie podpaznokciowe?
+• Czy występują zmiany na języku, w jamie ustnej, na narządach płciowych?
+
+---
+
+### V. Choroby przewlekłe, hormonalne, autoimmunologiczne
+
+• Czy choruje Pan/Pani na:
+ – Cukrzycę? Nadczynność/niedoczynność tarczycy?
+ – Choroby wątroby, nerek, nowotwory?
+ – Choroby autoimmunologiczne (np. toczeń, Hashimoto, RZS)?
+• Czy występują zaburzenia miesiączkowania, trądzik, łysienie, hirsutyzm (kobiety)?
+• Czy wykonywano badania hormonalne? Jakie były wyniki (TSH, testosteron, DHT, prolaktyna)?
+• Czy badano ferrytynę lub witaminę D? Jakie były wartości?
+
+---
+
+### VI. Historia chorób skóry i leczenia
+
+• Czy w przeszłości leczono choroby skóry? Jakie i kiedy?
+• Czy były wykonywane biopsje skóry, dermatoskopia, testy alergiczne, badania mykologiczne?
+• Czy w rodzinie występowały choroby skóry (łuszczyca, bielactwo, atopowe zapalenie skóry, nowotwory skóry)?
+• Czy w rodzinie występowały choroby autoimmunologiczne?
+
+---
+
+### VII. Styl życia i narażenie środowiskowe
+
+• Jaki jest zawód? Czy ma kontakt ze środkami chemicznymi, lateksem, rozpuszczalnikami?
+• Czy nosi Pan/Pani rękawice ochronne regularnie?
+• Czy przebywa Pan/Pani często na słońcu (praca na zewnątrz, solarium)?
+• Czy stosuje się filtry przeciwsłoneczne? Jakie i jak często?
+• Czy występują reakcje skórne po kosmetykach, detergentach, pokarmach?
+• Czy zauważono związki między występowaniem zmian a sytuacjami stresowymi?
+• Jak wygląda dieta (dużo nabiału, pikantnych potraw, przetworzona żywność)?
+• Czy występują zaburzenia snu?
+
+---
+
+### VIII. Leki i suplementy
+
+• Jakie leki przyjmowane są przewlekle?
+• Czy stosowane są suplementy diety, zioła, kosmetyki lecznicze?
+• Czy pojawiły się działania niepożądane po lekach?
+• Czy występowały reakcje alergiczne?
+
+---
+
+### IX. Objawy alarmowe (do zaznaczenia przez lekarza lub pacjenta)
+
+\[ ] Znamię, które zmienia kolor, kształt, wielkość lub krwawi
+\[ ] Wyprysk, który nie ustępuje po 4–6 tygodniach leczenia miejscowego
+\[ ] Owrzodzenia skóry trwające > 4 tygodnie
+\[ ] Silny świąd całego ciała bez wyraźnych zmian
+\[ ] Wysypka + gorączka
+\[ ] Nasilone wypadanie włosów (> 100 dziennie przez > 4 tygodnie)
+\[ ] Zmiany paznokci obejmujące > 50% płytki lub smuga podłużna > 3 mm
+\[ ] CRP > 30 mg/L + objawy ropne skóry
+\[ ] IgE całkowite > 100 IU/mL + objawy atopowe
+\[ ] Ferrytyna < 30 ng/mL (kobieta) / < 50 ng/mL (mężczyzna)
+\[ ] ANA ≥ 1:160 + objawy skórne lub stawowe
+\[ ] TSH poza normą + łysienie / pokrzywka
+\[ ] HbA1c ≥ 6,5% + owrzodzenia / zakażenia skóry
+\[ ] Witamina D < 20 ng/mL + AZS / łuszczyca
+
+---
+
+### X. Podsumowanie (dla lekarza POZ lub EMR)
+
+**Typ skierowania:**
+– Pilne: podejrzenie czerniaka, ropowica, półpasiec oczny, nowotwór skóry
+– Planowe: łuszczyca, AZS, trądzik oporny na leczenie, łysienie, grzybica przewlekła
+– Diagnostyczne: podejrzenie choroby autoimmunologicznej, nietypowe wysypki, dodatnie ANA, nieskuteczne leczenie w POZ
+
+---
+

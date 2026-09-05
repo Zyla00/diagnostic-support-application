@@ -1,0 +1,230 @@
+## Kim jest urolog?
+
+**Urolog** to lekarz-specjalista zajmujący się diagnostyką i leczeniem chorób:
+
+* układu moczowego kobiet i mężczyzn (nerki, moczowody, pęcherz, cewka),
+* męskiego układu płciowego (prostata, jądra, najądrza, nasieniowody, prącie).
+
+Prowadzi zarówno terapię zachowawczą (farmakologia, zabiegi endoskopowe) jak i operacyjną (laparoskopię, robotykę, klasyczne zabiegi otwarte). Nadzoruje profilaktykę nowotworów (rak nerki, pęcherza, prostaty) oraz leczenie kamicy, zakażeń, zaburzeń mikcji i niepłodności męskiej.
+
+---
+
+## Objawy kliniczne wskazujące na konieczność konsultacji urologicznej
+
+### Objawy ze strony układu moczowego
+
+* **Krwiomocz makro- / mikroskopowy** (> 3 krwinki/HPF w dwóch badaniach)
+* **Dysuria, pieczenie przy mikcji** trwające > 7 dni lub nawracające ≥ 3 epizody/rok
+* **Częstomocz / nykturia**: > 8 mikcji/24 h lub ≥ 2 mikcje nocne
+* **Nagłe parcia z nietrzymaniem moczu** (OAB)
+* **Uczucie niepełnego opróżnienia pęcherza** lub strumień < 15 mL/s w uroflowmetrii
+* **Ból w okolicy lędźwiowej / kolka nerkowa** nieustępująca po NLPZ
+* **Zatrzymanie moczu** (brak mikcji > 8 h + uczucie pełnego pęcherza)
+
+### Objawy ze strony układu płciowego (mężczyźni)
+
+* **Ból i obrzęk jądra / najądrza** > 24 h
+* **Guzek jądra** (twarda, niebolesna zmiana)
+* **Erekcje niewystarczające do współżycia** trwające > 3 mies.
+* **Ejakulat o objętości < 1 mL** lub z krwią (hemospermia)
+* **Niepłodność** – brak ciąży po 12 mies. starań
+
+---
+
+## Badania laboratoryjne i czynnościowe – wartości alarmowe
+
+| Parametr                        | Nieprawidłowość                                                            | Znaczenie kliniczne                            |
+| ------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------- |
+| **PSA – całkowity** (mężczyźni) | > 4,0 ng/mL (50–69 l.)<br>> 5,0 ng/mL (≥ 70 l.)<br>Wzrost ≥ 0,75 ng/mL/rok | podejrzenie raka stercza                       |
+| **DRE (per rectum)**            | guzowatość, asymetria prostaty                                             | wskazanie do biopsji niezależnie od PSA        |
+| **Badanie ogólne moczu**        | erytrocyty ≥ + (> 25/µL) lub > 3/HPF w sedymencie                          | krwiomocz; nowotwór, kamica, zapalenie         |
+|                                 | leukocyty ≥ 10/HPF lub bakterie > 10⁵ CFU/mL                               | zakażenie układu moczowego                     |
+| **eGFR**                        | < 60 mL/min/1,73 m² utrzymujące się > 3 mies.                              | nefropatia zaporowa, PChN wtórna do przeszkody |
+| **Kreatynina**                  | > 1,3 mg/dL (K), > 1,4 mg/dL (M) + objawy BOO                              | retencja azotowa w przerostach prostaty        |
+| **Kwas moczowy**                | ≥ 7 mg/dL (M), ≥ 6 mg/dL (K)                                               | kamica moczanowa                               |
+| **Ca²⁺ całkowity**              | > 10,5 mg/dL                                                               | kamica wapniowa, hiperkalcemia nowotworowa     |
+| **Testosteron całk. (poranny)** | < 300 ng/dL                                                                | hipogonadyzm, zaburzenia wzwodu, niepłodność   |
+| **Uroflowmetria**               | Qmax < 15 mL/s + objawy LUTS                                               | przeszkoda podpęcherzowa/BPH                   |
+| **Cytologia moczu**             | komórki atypowe klasy III–V                                                | podejrzenie raka pęcherza                      |
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób urologicznych
+
+| Czynnik                           | Relewancja                                                                                                     |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Wiek**                          | > 50 l. – BPH, rak prostaty;<br>kobiety > 50 l. – nietrzymanie, wypadanie pęcherza                             |
+| **Płeć**                          | kobiety – 10× częstsze ZUM i pęcherz nadreaktywny;<br>mężczyźni – przerost i rak prostaty, kamica szczawianowa |
+| **Palenie**                       | 3–4× wyższe ryzyko raka pęcherza i nerki                                                                       |
+| **Wywiad rodzinny**               | mut. BRCA2 – rak prostaty;<br>policystyczna choroba nerek – torbiele, krwiomocz                                |
+| **Metabolizm**                    | zespół metaboliczny, otyłość → BPH, nietrzymanie, kamica kwasu moczowego                                       |
+| **Ciąża / porody drogami natury** | u kobiet – wysiłkowe nietrzymanie moczu, wypadanie narządów                                                    |
+
+---
+
+## Na co zwraca uwagę lekarz POZ przed skierowaniem
+
+1. **Obraz kliniczny i czas trwania**
+
+   * Krwiomocz bez infekcji lub nawracający po leczeniu → pilne USG i urolog.
+   * ZUM ≥ 3/rok (K) lub ≥ 1 u mężczyzny → diagnostyka urologiczna.
+   * Ostra kolka nerkowa nieustępująca po NSAID/opioidzie.
+
+2. **Badania podstawowe**
+
+   * USG układu moczowego: złogi, rozdęcie UKM, guz pęcherza.
+   * Badanie ogólne moczu + posiew: > 10⁵ CFU/ml jednego patogenu.
+   * PSA + DRE: nieprawidłowości → biopsja.
+
+3. **Brak poprawy po leczeniu w POZ**
+
+   * LUTS pomimo α-blokera 6 tyg.
+   * Refluks moczowodowo-pęcherzowy u dziecka ≥ III stopnia mimo profilaktyki.
+
+4. **Ryzyko powikłań**
+
+   * Kamica obustronna, kamień > 6 mm lub jedynej nerki.
+   * Nagłe zatrzymanie moczu (pęcherz > 600 mL) – cewnik + pilna konsultacja.
+   * Krwiomocz makroskopowy z kłębuszków (skrzepy, bóle kolkowe) – ocena onko-urologiczna.
+
+---
+
+---
+
+## Ankieta specjalistyczna – urologia
+
+---
+
+### I. Dane identyfikacyjne i ogólne
+
+• Imię i nazwisko:
+• Wiek / data urodzenia:
+• Płeć:
+• Waga / wzrost / BMI:
+• Miejsce zamieszkania: miasto / wieś
+• Zawód / charakter pracy:
+• Status hormonalny (kobieta): miesiączkująca / pomenopauzalna / ciąża / po porodzie
+
+---
+
+### II. Powód zgłoszenia do urologa
+
+• Jaki jest główny powód wizyty?
+• Od kiedy trwają objawy?
+• Czy objawy się nasilają / mają charakter napadowy / przewlekły?
+• Co je wywołuje / łagodzi?
+• Czy występowały podobne objawy wcześniej?
+• Czy były wcześniejsze konsultacje urologiczne?
+
+---
+
+### III. Objawy ze strony układu moczowego
+
+Zaznacz wszystkie objawy obecne obecnie lub w ostatnich 3 miesiącach:
+
+\[ ] Krwiomocz makroskopowy
+\[ ] Krwiomocz mikroskopowy (potwierdzony laboratoryjnie)
+\[ ] Pieczenie przy oddawaniu moczu
+\[ ] Bóle podbrzusza lub lędźwi
+\[ ] Częstomocz dzienny (>8 mikcji/dobę)
+\[ ] Nokturia (≥2 mikcje w nocy)
+\[ ] Nagłe parcia na mocz
+\[ ] Nietrzymanie moczu (wysiłkowe / naglące / mieszane)
+\[ ] Uczucie niepełnego opróżnienia pęcherza
+\[ ] Przerywany strumień moczu / słaby strumień
+\[ ] Zatrzymanie moczu (nagłe lub przewlekłe)
+\[ ] Parcie na mocz bez mikcji
+\[ ] Ból lub dyskomfort podczas mikcji
+\[ ] Gorączka + objawy ZUM
+
+---
+
+### IV. Objawy ze strony układu płciowego (mężczyźni)
+
+\[ ] Ból jądra / najądrza
+\[ ] Twarda zmiana w mosznie
+\[ ] Obrzęk moszny lub zaczerwienienie
+\[ ] Zaburzenia erekcji (czas trwania: \_\_\_ miesięcy)
+\[ ] Krwiomocz w nasieniu (hemospermia)
+\[ ] Zaburzenia wytrysku (brak, przedwczesny, bolesny)
+\[ ] Zmniejszenie objętości nasienia
+\[ ] Niepłodność (brak ciąży >12 mies. przy współżyciu bez zabezpieczenia)
+
+---
+
+### V. Przebyte choroby i interwencje
+
+• Przebyte zakażenia układu moczowego – ile razy w ostatnim roku?
+• Czy wystąpiła kolka nerkowa lub kamica?
+• Czy były hospitalizacje urologiczne?
+• Czy były urazy okolicy lędźwiowej / moszny / krocza?
+• Czy występowała gruźlica układu moczowego?
+• Czy były wcześniej nowotwory nerek / pęcherza / prostaty / jąder?
+• Czy wykonywano biopsję prostaty? Kiedy, wynik:
+• Czy pacjent był cewnikowany (przewlekle lub doraźnie)?
+• Czy były zabiegi urologiczne (np. TURP, URSL, cystoskopia)?
+
+---
+
+### VI. Badania laboratoryjne i obrazowe (jeśli dostępne)
+
+• PSA całkowity: \_\_\_\_\_\_\_ ng/mL
+• PSA wolny: \_\_\_\_\_\_\_ ng/mL (%PSAwolny = \_\_\_%)
+• Kreatynina: \_\_\_\_\_\_\_ mg/dL
+• eGFR: \_\_\_\_\_\_\_ mL/min/1,73m²
+• Kwas moczowy: \_\_\_\_\_\_\_ mg/dL
+• Wapń całkowity: \_\_\_\_\_\_\_ mg/dL
+• CRP / OB: \_\_\_\_\_\_\_
+• Badanie ogólne moczu:
+ – Leukocyty: \_\_\_
+ – Erytrocyty: \_\_\_
+ – Bakterie: obecne / brak
+ – Białko: obecne / brak
+• Posiew moczu: data, wynik:
+• USG układu moczowego:
+ – Nerki:
+ – Pęcherz:
+ – Prostata:
+• Uroflowmetria: Qmax = \_\_\_\_\_ mL/s, objętość = \_\_\_\_\_ mL
+• Cytologia moczu: wynik:
+• Testosteron całkowity (poranny): \_\_\_\_\_\_\_ ng/dL
+
+---
+
+### VII. Styl życia i czynniki ryzyka
+
+\[ ] Palenie tytoniu – ile lat / ilość:
+\[ ] Picie alkoholu (częstotliwość):
+\[ ] Cukrzyca
+\[ ] Nadciśnienie tętnicze
+\[ ] Choroby sercowo-naczyniowe
+\[ ] Otyłość (BMI > 30)
+\[ ] Leki przyjmowane przewlekle (np. diuretyki, IPP, hormony, NLPZ)
+\[ ] Dieta uboga w płyny
+\[ ] Brak aktywności fizycznej
+\[ ] Kontakt z substancjami chemicznymi (barwniki, guma, ropa, farby)
+
+---
+
+### VIII. Pytania dodatkowe (kobiety)
+
+• Liczba ciąż / porodów:
+• Porody naturalne / cesarskie:
+• Nietrzymanie moczu – czy nasila się przy kichaniu / kaszlu / wysiłku?
+• Wypadanie narządu rodnego – TAK / NIE / nie wiem
+• Czy pacjentka korzysta z wkładek higienicznych codziennie?
+• Przebyte operacje ginekologiczne / uroginekologiczne
+
+---
+
+### IX. Uwagi POZ / lekarza kierującego
+
+• Podejrzenie: ZUM / kamica / BPH / rak stercza / nietrzymanie moczu / inne
+• Dotychczasowe leczenie (antybiotyk / α-bloker / inne):
+• Wskazania do pilnej konsultacji: TAK / NIE
+• Czy wykonano podstawową diagnostykę (badanie moczu, USG)?
+• Czy objawy utrzymują się pomimo leczenia przez >4 tygodnie?
+
+---
+
+

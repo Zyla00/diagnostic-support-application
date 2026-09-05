@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/questionaires_manager.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+
+
+        <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 gap-3">
+
+            <div class="flex-grow-1 d-flex justify-content-center">
+                <form id="searchForm" class="search-bar" onsubmit="return false;">
+                    <input
+                        type="text"
+                        id="searchInput"
+                        name="q"
+                        class="form-control form-control-sm"
+                        placeholder="Szukaj ankiety..."
+                        value="{{ request.GET.q|default_if_none:'' }}"
+                    >
+                    <button type="button" id="searchButton">
+                        <img src="{% static 'img/search.svg' %}" alt="Szukaj" width="16" height="16">
+                    </button>
+                </form>
+
+            </div>
+
+    <form id="createForm" method="POST" action="{% url 'questionairesManager:create_questionnaire' %}" class="d-flex align-items-center gap-2 m-0">
+        {% csrf_token %}
+        <input
+            type="text"
+            name="name"
+            id="questionnaireNameInput"
+            class="form-control form-control-sm d-none"
+            placeholder="Wpisz nazwę ankiety"
+            required
+        >
+        <button type="button" id="showInputBtn" class="btn btn-primary btn-sm">+ Nowa ankieta</button>
+        <button type="submit" id="createSubmitBtn" class="btn btn-success btn-sm d-none">Zapisz</button>
+    </form>
+</div>
+
+
+    <div id="questionnaireResults" class="row">
+        {% include "questionairesManager/_questionnaire_cards.html" with questionnaires=page_obj.object_list %}
+    </div>
+
+    <nav class="mt-4">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">←</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">←</span></li>
+            {% endif %}
+
+            {% for num in page_obj.paginator.page_range %}
+                <li class="page-item {% if page_obj.number == num %}active{% endif %}">
+                    <a class="page-link" href="?page={{ num }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">{{ num }}</a>
+                </li>
+            {% endfor %}
+
+            {% if page_obj.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_obj.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">→</a>
+                </li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">→</span></li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="{% static 'js/toast.js' %}"></script>
+<script src="{% static 'js/questionaires_manager.js' %}"></script>
+
+{% if messages %}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        {% for message in messages %}
+            showToast("{{ message|escapejs }}", "{{ message.tags }}");
+        {% endfor %}
+    });
+</script>
+{% endif %}
+{% endblock %}

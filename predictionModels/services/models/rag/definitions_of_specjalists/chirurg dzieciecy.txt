@@ -1,0 +1,239 @@
+
+## Kim jest chirurg dziecięcy?
+
+Chirurg dziecięcy to lekarz specjalista zajmujący się diagnostyką i leczeniem operacyjnym chorób, wad wrodzonych, urazów oraz powikłań wymagających interwencji chirurgicznej u dzieci – od okresu noworodkowego do około 18. roku życia. Jego obszar działania obejmuje m.in. chirurgię jamy brzusznej, przepukliny, wnętrostwo, wodniaki, chirurgię skóry i tkanek miękkich, chirurgię proktologiczną oraz leczenie urazów.
+
+---
+
+## Objawy wskazujące na konieczność wizyty u chirurga dziecięcego
+
+### Objawy u noworodków i niemowląt:
+
+* Brak oddania smółki w ciągu 24–48 godzin po urodzeniu
+* Wymioty żółciowe lub wymioty z krwią
+* Rozdęcie brzucha, napięcie powłok
+* Przepuklina pępkowa lub pachwinowa (wyczuwalne uwypuklenie przy płaczu lub kaszlu)
+* Brak jądra w mosznie po ukończeniu 6. miesiąca życia
+* Przetoki odbytu, zapalenia okołoodbytnicze, ropnie
+* Zmiany skórne wrodzone: torbiele, guzki, znamiona
+
+### Objawy u dzieci starszych:
+
+* Ból brzucha trwający powyżej 12 godzin, nasilający się lub powtarzający cyklicznie
+* Zatrzymanie stolca lub gazów przez ponad 24–48 godzin
+* Krwawienie z odbytu, smolisty stolec
+* Ostry ból jądra, obrzęk moszny, zaczerwienienie
+* Nawracające lub rosnące zmiany skórne (guzy, ropnie, torbiele)
+* Deformacje kończyn, urazy, obrzęki pourazowe
+
+---
+
+## Wyniki laboratoryjne i obrazowe wspierające decyzję o skierowaniu
+
+### Parametry stanu zapalnego:
+
+* CRP > 30 mg/L – podejrzenie ostrego zapalenia (np. wyrostek, ropień)
+* Leukocytoza > 15 G/L – silny stan zapalny
+* Neutrofile > 75% – przewaga granulocytów segmentowanych sugerująca infekcję bakteryjną
+* Prokalcytonina > 0,5 ng/mL – możliwa infekcja ogólnoustrojowa lub sepsa
+
+### Enzymy trzustkowe i wątrobowe:
+
+* Amylaza > 100 U/L – podejrzenie zapalenia trzustki
+* Lipaza > 300 U/L – wysokie prawdopodobieństwo zapalenia trzustki
+* ALT lub AST > 2x górna granica normy – podejrzenie chorób wątroby, dróg żółciowych
+* Bilirubina całkowita > 2 mg/dL po 14. dniu życia – podejrzenie cholestazy, atrezji dróg żółciowych
+
+### Inne:
+
+* Dodatni wynik testu na krew utajoną w kale – podejrzenie krwawienia z dolnego odcinka przewodu pokarmowego
+* Brak oddania smółki >48 godzin – pilna ocena chirurgiczna
+
+### Obrazowanie (USG, RTG, TK):
+
+* Poszerzenie pętli jelitowych i poziomy płynu w RTG – obraz niedrożności
+* Obraz „mety pocisku” w USG – wgłobienie jelit
+* Bezekogeniczna zmiana w mosznie – podejrzenie skrętu jądra lub wodniaka
+* Uwięźnięta przepuklina – obecność treści jelitowej w worku przepuklinowym
+
+---
+
+## Cechy osobnicze zwiększające ryzyko problemów chirurgicznych
+
+* Wiek poniżej 1 roku – większe ryzyko niedrożności, wad wrodzonych, przepuklin
+* Płeć męska – częstsze wnętrostwo, wodniaki, skręt jądra
+* Wcześniactwo – większe ryzyko wad układu pokarmowego i infekcji
+* Choroby genetyczne (np. zespół Downa, Turner) – możliwe współistniejące wady rozwojowe
+* Obciążony wywiad rodzinny (przepukliny, wnętrostwo, guzy wrodzone)
+* Przewlekłe choroby skóry (np. atopowe zapalenie skóry) – większa skłonność do ropni i przetok
+* Choroby metaboliczne lub niedobory odporności – wpływ na gojenie się ran i infekcje
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do chirurga dziecięcego?
+
+### Objawy alarmowe:
+
+* Ból brzucha z gorączką i wymiotami trwający >12–24 godziny
+* Brak stolca/gazów, rozdęcie brzucha
+* Wyczuwalne uwypuklenie w pachwinie, pępku, mosznie
+* Obecność zmiany skórnej rosnącej lub bolesnej
+* Ostre zmiany moszny – obrzęk, ból, zaczerwienienie
+* Brak jąder w mosznie po 6. miesiącu życia
+* Dodatni test na krew utajoną lub widoczne krwawienie z odbytu
+* Nawracające ropnie, przetoki, zmiany guzowate
+
+### Wyniki badań:
+
+* CRP > 30 mg/L, leukocyty > 15 G/L – ostry proces zapalny
+* Prokalcytonina > 0,5 ng/mL – wysokie ryzyko ciężkiej infekcji
+* Amylaza/lipaza powyżej norm – podejrzenie choroby trzustki
+* Bilirubina całkowita > 2 mg/dL po 2. tygodniu życia – konieczność szybkiej diagnostyki w kierunku atrezji
+* Obraz niedrożności w RTG/USG – wymaga pilnej oceny
+* USG jamy brzusznej z podejrzeniem przepukliny uwięźniętej, wodniaka, masy litej – konsultacja specjalistyczna
+
+---
+
+
+Skierowanie do chirurga dziecięcego należy wystawić, gdy:
+
+1. Występują objawy ostrego brzucha, niedrożności, nagłe bóle jąder lub moszny.
+2. Obecne są zmiany w badaniu fizykalnym – guzki, przepukliny, torbiele, przetoki.
+3. Stwierdza się nieprawidłowe wyniki badań laboratoryjnych lub obrazowych sugerujące problem chirurgiczny.
+4. Leczenie zachowawcze w POZ nie przynosi poprawy.
+5. Podejrzewa się wadę wrodzoną wymagającą obserwacji lub korekcji.
+
+---
+
+## Ankieta specjalistyczna – chirurg dziecięcy
+
+---
+
+### I. Powód wizyty / główna dolegliwość dziecka
+
+• Co skłoniło Pana/Panią do zgłoszenia dziecka do chirurga dziecięcego?
+• Od kiedy występują objawy?
+• Czy objawy pojawiły się nagle, czy narastają od dłuższego czasu?
+• Czy były podobne objawy wcześniej?
+• Czy dziecko było z tego powodu hospitalizowane?
+
+---
+
+### II. Objawy ze strony jamy brzusznej i układu pokarmowego
+
+• Czy występuje ból brzucha?
+ – Od kiedy? Gdzie jest zlokalizowany?
+ – Jaki ma charakter (ciągły, kolkowy, narastający)?
+• Czy dziecko wymiotuje?
+ – Czy w wymiocinach była żółć lub krew?
+• Czy wystąpiła gorączka?
+• Czy dziecko oddaje stolce i gazy?
+ – Kiedy ostatnio? Czy są prawidłowe?
+• Czy wystąpiło krwawienie z odbytu?
+ – Czy stolce były czarne lub z domieszką krwi?
+
+---
+
+### III. Objawy u noworodków i niemowląt
+
+• Czy dziecko oddało smółkę w ciągu 48 godzin po urodzeniu?
+• Czy występują nawracające wymioty po karmieniu?
+• Czy brzuch jest rozdęty lub napięty?
+• Czy zauważono wybrzuszenie w okolicy pępka lub pachwin?
+• Czy w mosznie obecne są oba jądra?
+ – Jeśli nie: czy brak występuje od urodzenia, czy zanikł po czasie?
+• Czy występują zmiany skórne od urodzenia (np. guzki, torbiele, znamiona)?
+
+---
+
+### IV. Objawy z okolic moszny, narządów płciowych i odbytu
+
+• Czy dziecko skarży się na ból jądra, moszny lub pachwiny?
+• Czy moszna jest powiększona, obrzęknięta lub zaczerwieniona?
+• Czy występuje okresowe „znikanie” jądra z moszny?
+• Czy występuje przetoka, ropa, zaczerwienienie w okolicy odbytu?
+• Czy były leczone ropnie okołoodbytowe? Czy nawracają?
+
+---
+
+### V. Objawy skórne i podskórne
+
+• Czy zauważył/a Pan/Pani guzek, torbiel, zmianę skórną?
+ – Od kiedy? Czy się powiększa?
+• Czy zmiana jest bolesna, zaczerwieniona, z wyciekiem treści?
+• Czy dziecko miało podobne zmiany wcześniej?
+• Czy obecna zmiana była leczona zachowawczo? Z jakim skutkiem?
+
+---
+
+### VI. Urazy, obrzęki, deformacje
+
+• Czy dziecko przeszło ostatnio uraz?
+ – Jakie były objawy bezpośrednio po?
+• Czy występuje obrzęk, zasinienie, ograniczenie ruchu kończyny?
+• Czy zauważono nieprawidłowe ustawienie kończyny lub palca?
+• Czy zmiana w obrębie ciała narasta, deformuje się lub powoduje ból?
+
+---
+
+### VII. Przebyte leczenie i badania
+
+• Czy dziecko było już konsultowane przez chirurga dziecięcego?
+ – Jeśli tak, kiedy i z jakim rozpoznaniem?
+• Czy były wykonywane badania obrazowe (USG, RTG, TK)?
+ – Jakie były wyniki?
+• Czy wykonano badania laboratoryjne (CRP, leukocyty, prokalcytonina, bilirubina)?
+• Czy były wcześniejsze zabiegi chirurgiczne?
+ – Jeśli tak, to jakie i w jakim wieku?
+
+---
+
+### VIII. Choroby towarzyszące i wywiad okołoporodowy
+
+• Czy dziecko urodziło się przedwcześnie?
+• Czy występowały problemy okołoporodowe?
+• Czy dziecko ma zdiagnozowane choroby genetyczne lub metaboliczne?
+• Czy były przebyte infekcje wewnątrzmaciczne?
+• Czy w rodzinie występowały wady wrodzone lub choroby wymagające leczenia chirurgicznego?
+
+---
+
+### IX. Styl życia i funkcje fizjologiczne
+
+• Czy występują trudności z oddawaniem stolca, przewlekłe zaparcia?
+• Czy dziecko przybiera na masie ciała prawidłowo?
+• Czy obserwuje się senność, apatię, osłabienie apetytu?
+• Czy w domu występują czynniki sprzyjające zakażeniom skóry (np. atopowe zapalenie skóry, kontakt z osobami chorymi)?
+
+---
+
+### X. Objawy alarmowe – do odnotowania przez lekarza lub opiekuna
+
+Zaznacz objawy obecne aktualnie:
+
+\[ ] Ból brzucha >12 godzin
+\[ ] Wymioty żółciowe lub z krwią
+\[ ] Brak oddania stolca/gazów >24 godzin
+\[ ] Gorączka + ból brzucha
+\[ ] Wyczuwalna masa lub przepuklina
+\[ ] Zmiana skórna >1 cm, rosnąca lub bolesna
+\[ ] Krwawienie z odbytu / smolisty stolec
+\[ ] Nagły ból jądra lub moszny
+\[ ] CRP > 30 mg/L
+\[ ] Leukocyty > 15 G/L
+\[ ] Prokalcytonina > 0,5 ng/mL
+\[ ] Amylaza / lipaza podwyższone
+\[ ] Bilirubina całkowita > 2 mg/dL po 14. dniu życia
+\[ ] Obraz niedrożności w USG/RTG
+\[ ] Przetoka / ropień / torbiel
+
+---
+
+### XI. Podsumowanie (dla lekarza POZ)
+
+**Typ skierowania:**
+
+* Pilne (ból brzucha, ostre objawy, podejrzenie niedrożności, skręt jądra, uwięźnięta przepuklina)
+* Planowe (wnętrostwo, wodniak, torbiel, zmiana skórna, przewlekła przepuklina, powikłania pozapalne)
+* Wymagana dalsza diagnostyka (wada wrodzona, przetoka, zmiana guzowata)
+

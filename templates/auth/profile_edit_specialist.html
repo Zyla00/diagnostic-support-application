@@ -1,0 +1,111 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/offcanvas_menu.css' %}">
+
+{% load widget_tweaks %}
+
+<form method="post"
+      action="{% url 'profile-edit' %}"
+      enctype="multipart/form-data"
+      class="container mt-4"
+      id="user-form">
+  {% csrf_token %}
+  {{ user_form.non_field_errors }}
+  {{ profile_form.non_field_errors }}
+
+  <div class="row">
+    <!-- Lewa kolumna -->
+    <div class="col-md-6">
+
+      <div class="form-floating mb-3">
+        {{ user_form.first_name|add_class:"form-control"|attr:"placeholder:Imię" }}
+        <label for="{{ user_form.first_name.id_for_label }}">Imię</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ user_form.last_name|add_class:"form-control"|attr:"placeholder:Nazwisko" }}
+        <label for="{{ user_form.last_name.id_for_label }}">Nazwisko</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.description|add_class:"form-control"|attr:"placeholder:O mnie" }}
+        <label for="{{ profile_form.description.id_for_label }}">O mnie</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.education|add_class:"form-control"|attr:"placeholder:Wykształcenie" }}
+        <label for="{{ profile_form.education.id_for_label }}">Wykształcenie</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.experience|add_class:"form-control"|attr:"placeholder:Doświadczenie zawodowe" }}
+        <label for="{{ profile_form.experience.id_for_label }}">Doświadczenie zawodowe</label>
+      </div>
+    </div>
+
+    <!-- Prawa kolumna -->
+    <div class="col-md-6">
+
+{#     <div class="position-relative text-center mb-3">#}
+{#      <label for="{{ profile_form.photo.id_for_label }}" class="d-block">#}
+{#        {% if profile_form.instance.photo %}#}
+{#          <img src="{{ profile_form.instance.photo.url }}" alt="Zdjęcie profilowe"#}
+{#               class="rounded border border-secondary"#}
+{#               style="width: 200px; height: 200px; object-fit: cover; cursor: pointer;">#}
+{#        {% else %}#}
+{#          <div class="rounded border border-secondary d-flex justify-content-center align-items-center"#}
+{#               style="width: 200px; height: 200px; cursor: pointer;">#}
+{#            <span class="text-muted">Dodaj zdjęcie</span>#}
+{#          </div>#}
+{#        {% endif %}#}
+{#      </label>#}
+
+{#      {{ profile_form.photo|add_class:"d-none" }}#}
+{#    #}
+{#      {% if profile_form.instance.photo %}#}
+{#        <button type="button" class="btn btn-sm btn-danger position-absolute top-0 end-0"#}
+{#                onclick="document.getElementById('id_photo-clear_id').checked = true;">#}
+{#          Usuń#}
+{#        </button>#}
+{#      {% endif %}#}
+{#    #}
+{#      {{ profile_form.photo.clear_widget }}#}
+{#    </div>#}
+
+
+
+      <div class="form-floating mb-3">
+        {{ user_form.email|add_class:"form-control"|attr:"placeholder:Email" }}
+        <label for="{{ user_form.email.id_for_label }}">Email</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ user_form.phone|add_class:"form-control"|attr:"placeholder:Telefon" }}
+        <label for="{{ user_form.phone.id_for_label }}">Telefon</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.location|add_class:"form-control"|attr:"placeholder:Adres przyjęć" }}
+        <label for="{{ profile_form.location.id_for_label }}">Adres przyjęć</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.license_number|add_class:"form-control"|attr:"placeholder:Numer PWZ" }}
+        <label for="{{ profile_form.license_number.id_for_label }}">Numer PWZ</label>
+      </div>
+
+      <div class="form-floating mb-3">
+        {{ profile_form.specialization|add_class:"form-control"|attr:"placeholder:Specjalizacja" }}
+        <label for="{{ profile_form.specialization.id_for_label }}">Specjalizacja</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mt-5 mb-5">
+      <button type="submit" class="btn btn-primary rounded-pill px-4 py-2">Zapisz zmiany</button>
+  </div>
+
+</form>
+
+<script src="{% static 'js/auth.js' %}"></script>
+
+

@@ -1,0 +1,203 @@
+<!-- Messenger Offcanvas Panel -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="messagesOffcanvas" aria-labelledby="messagesOffcanvasLabel" style="width: 750px;">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="messagesOffcanvasLabel">Wiadomości</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zamknij"></button>
+    </div>
+    <div class="offcanvas-body p-0">
+        <div class="d-flex h-100" style="min-height: 500px;">
+
+            <!-- Lista kontaktów -->
+            <div class="border-end bg-light p-3" style="width: 45%; overflow-y: auto; min-width: 240px;">
+                <input id="contactSearch" type="text" class="form-control mb-2" placeholder="Szukaj...">
+                <ul id="contactList" class="list-group list-group-flush"></ul>
+            </div>
+
+            <!-- Okno rozmowy -->
+            <div class="d-flex flex-column flex-grow-1 h-100">
+                <div id="conversationContainer" class="flex-grow-1 overflow-auto p-3 bg-white border-bottom">
+                    <p class="text-muted text-center">Wybierz rozmowę</p>
+                </div>
+                <form id="messageForm" class="p-3 border-top d-flex" style="display: none;">
+                    <input type="text" id="messageInput" name="content" class="form-control me-2" placeholder="Napisz wiadomość..." required>
+                    <button type="submit" class="btn btn-primary">Wyślij</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Style -->
+<style>
+    #conversationContainer {
+        overflow-y: auto;
+        scroll-behavior: smooth;
+    }
+
+    #contactList .list-group-item {
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+    #contactList .list-group-item:hover {
+        background-color: #f8f9fa;
+    }
+
+    #messageInput {
+        height: 45px;
+    }
+
+    .chat-message {
+        max-width: 80%;
+        word-wrap: break-word;
+    }
+
+    /* Poprawka: upewnij się, że flex działa pełnej wysokości */
+    .offcanvas-body > .d-flex {
+        height: 100%;
+    }
+</style>
+
+<script>
+function getCSRFToken() {
+    const name = 'csrftoken';
+    const cookies = document.cookie.split(';');
+    for (let i = 0; i < cookies.length; i++) {
+        const cookie = cookies[i].trim();
+        if (cookie.startsWith(name + '=')) {
+            return decodeURIComponent(cookie.substring(name.length + 1));
+        }
+    }
+    return '';
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    let selectedUserId = null;
+    let selectedUserName = null;
+
+    function loadContacts(query = "") {
+        const url = `/messages/contacts/?search=${encodeURIComponent(query)}`;
+
+        fetch(url)
+            .then(res => res.json())
+            .then(data => {
+                const list = document.getElementById("contactList");
+                list.innerHTML = "";
+                data.contacts.forEach(contact => {
+                    const li = document.createElement("li");
+                    li.classList.add("list-group-item", "list-group-item-action");
+                    li.dataset.id = contact.id;
+                    li.style.cursor = "pointer";
+                    li.innerHTML = `
+                        <div class="d-flex justify-content-between align-items-center">
+                            <strong>${contact.name}</strong>
+                            <small class="text-muted">${contact.last_time || ''}</small>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="text-muted small text-truncate">${contact.last_message || 'Brak wiadomości'}</div>
+                            ${contact.unread > 0 ? `<span class="badge bg-danger rounded-pill ms-2">${contact.unread}</span>` : ''}
+                        </div>
+                    `;
+                    li.addEventListener("click", () => {
+                        selectedUserName = contact.name;
+                        loadConversation(contact.id, contact.name);
+                    });
+                    list.appendChild(li);
+                });
+            });
+    }
+
+    document.getElementById("contactSearch").addEventListener("input", function () {
+        const value = this.value.trim();
+        loadContacts(value);
+    });
+
+    function loadConversation(userId, name = null, isRefresh = false) {
+        selectedUserId = userId;
+        if (!isRefresh) {
+            document.getElementById("messageForm").style.display = "flex";
+        }
+
+        fetch(`/messages/conversation/${userId}/`)
+            .then(res => res.json())
+            .then(data => {
+                const container = document.getElementById("conversationContainer");
+
+                if (!isRefresh) {
+                    container.innerHTML = `<h6 class="text-center border-bottom pb-2 mb-3">${name || selectedUserName}</h6>`;
+                } else {
+                    const header = container.querySelector("h6");
+                    container.innerHTML = "";
+                    if (header) container.appendChild(header);
+                }
+
+                data.messages.forEach(msg => {
+                    const msgDiv = document.createElement("div");
+                    msgDiv.classList.add("mb-2", "chat-message");
+                    msgDiv.innerHTML = `
+                        <div class="${msg.is_own ? 'text-end' : 'text-start'}">
+                            <div class="d-inline-block px-3 py-2 rounded ${msg.is_own ? 'bg-primary text-white' : 'bg-light border'}">
+                                ${msg.text}
+                            </div>
+                            <div class="small text-muted mt-1">${msg.sent_at}</div>
+                        </div>`;
+                    container.appendChild(msgDiv);
+                });
+
+                container.scrollTop = container.scrollHeight;
+            });
+    }
+
+    document.getElementById("messageForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        const content = document.getElementById("messageInput").value;
+        if (!content || !selectedUserId) return;
+
+        fetch("/messages/send-message/", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+                "X-CSRFToken": getCSRFToken()
+            },
+            body: `recipient_id=${selectedUserId}&content=${encodeURIComponent(content)}`
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data.status === "ok") {
+                document.getElementById("messageInput").value = "";
+                loadConversation(selectedUserId, null, true);
+                loadContacts();
+            }
+        });
+    });
+
+    document.getElementById("messageInput").addEventListener("keydown", function (e) {
+        if (e.key === "Enter" && !e.shiftKey) {
+            e.preventDefault();
+            document.getElementById("messageForm").requestSubmit();
+        }
+    });
+
+    const offcanvas = document.getElementById("messagesOffcanvas");
+    offcanvas.addEventListener("shown.bs.offcanvas", () => {
+        loadContacts();
+        document.getElementById("conversationContainer").innerHTML = `<p class="text-muted text-center">Wybierz rozmowę</p>`;
+        document.getElementById("messageForm").style.display = "none";
+    });
+
+    setInterval(() => {
+        if (offcanvas.classList.contains('show')) {
+            loadContacts(document.getElementById("contactSearch").value.trim());
+        }
+    }, 10000);
+
+    setInterval(() => {
+        if (selectedUserId && offcanvas.classList.contains('show')) {
+            loadConversation(selectedUserId, null, true);
+        }
+    }, 3000);
+});
+</script>
+

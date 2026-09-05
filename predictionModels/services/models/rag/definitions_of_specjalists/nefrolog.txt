@@ -1,0 +1,251 @@
+## Kim jest nefrolog?
+
+**Nefrolog** to lekarz specjalista zajmujący się chorobami nerek – ostrymi i przewlekłymi. Diagnozuje i leczy m.in. przewlekłą chorobę nerek (PChN), kłębuszkowe zapalenie nerek, nefropatie cukrzycowe, nadciśnienie nerkopochodne, zakażenia układu moczowego, kamicę nerkową i zaburzenia elektrolitowe. Nefrolog **nie wykonuje zabiegów chirurgicznych (np. usuwania kamieni)** – to kompetencja urologa.
+
+---
+
+## Objawy wskazujące na konieczność konsultacji nefrologicznej
+
+### Objawy podmiotowe i przedmiotowe:
+
+* Obrzęki twarzy, kończyn dolnych (szczególnie rano, obustronne)
+* Nadciśnienie tętnicze (oporne lub nowo rozpoznane)
+* Zmniejszenie ilości oddawanego moczu (skąpomocz) lub zwiększenie (poliuria)
+* Częstomocz nocny (nykturia)
+* Krwiomocz (krwisty mocz lub wykryty mikroskopowo)
+* Białkomocz (pienisty mocz, potwierdzony w badaniu)
+* Mętny, ciemny, pienisty lub cuchnący mocz
+* Przewlekłe zmęczenie, osłabienie, świąd skóry
+* Mdłości, utrata apetytu (przewlekła mocznica)
+* Zaburzenia elektrolitowe (np. drżenia, kurcze mięśni)
+
+---
+
+## Wyniki badań laboratoryjnych sugerujące konieczność wizyty u nefrologa
+
+### 1. **Funkcja nerek:**
+
+* **eGFR** < 60 mL/min/1,73 m² (PChN – stadium 3 lub wyższe)
+  ⤷ Uwaga: z wiekiem eGFR spada, ale < 60 zawsze wymaga oceny
+* **Kreatynina** > 1,2 mg/dL (K) / > 1,3 mg/dL (M) – podejrzenie niewydolności
+* **Mocznik** > 45 mg/dL – niewydolność nerek lub odwodnienie
+* **Cystatyna C** > 1,0 mg/L – wcześniejszy marker uszkodzenia nerek
+
+### 2. **Badanie ogólne moczu:**
+
+* Białkomocz: > 150 mg/24h lub obecność w pasku testowym ≥ „++”
+* Krwinkomocz: > 5 krwinek/µl (lub obecność w mikroskopii)
+* Leukocyturia: > 10 leukocytów/µl – podejrzenie ZUM lub śródmiąższowego ZN
+* Ciężar właściwy < 1.010 – utrata zdolności zagęszczania
+* Osad z wałeczkami (ziarniste, woskowe, erytrocytarne) – kłębuszkowe uszkodzenie
+
+### 3. **Białkomocz selektywny i albuminuria:**
+
+* **Albuminuria**:
+
+  * ≥ 30 mg/dobę (mikroalbuminuria – wczesny marker nefropatii)
+  * > 300 mg/dobę – jawny białkomocz
+* **UACR (albumina/kreatynina)**:
+
+  * > 30 mg/g – nieprawidłowe
+  * > 300 mg/g – ciężkie uszkodzenie
+
+### 4. **Elektrolity i równowaga kwasowo-zasadowa:**
+
+* **Potas (K⁺)**:
+
+  * > 5,5 mmol/L (hiperkaliemia) – szczególnie niebezpieczna w PChN
+  * < 3,5 mmol/L (hipokaliemia) – możliwe w zespole Fanconiego, utrata przez nerki
+* **Sód (Na⁺)**:
+
+  * < 135 mmol/L – hiponatremia (retencja wody, niewydolność nerek)
+* **Fosfor**:
+
+  * > 4,5 mg/dL – retencja fosforanów w PChN
+* **Wapń**:
+
+  * < 8,5 mg/dL – hipokalcemia z niedoborem wit. D lub PChN
+* **pH moczu**:
+
+  * < 5 – kwasica cewkowa, kwasica metaboliczna
+  * > 7 – infekcje bakteryjne, zasadowica
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób nerek
+
+### Wiek:
+
+* Po 60 r.ż. naturalny spadek eGFR – ale < 60 to zawsze sygnał alarmowy
+* Osoby > 75 r.ż. częściej mają choroby współistniejące, wielolekowość
+
+### Płeć:
+
+* Mężczyźni: częściej PChN w wyniku nadciśnienia i cukrzycy
+* Kobiety: częstsze infekcje dróg moczowych (krótsza cewka)
+
+### Styl życia / obciążenia:
+
+* Cukrzyca (HbA1c > 6,5%) – nefropatia cukrzycowa
+* Nadciśnienie tętnicze (> 140/90 mmHg) – nefroskleroza
+* Otyłość (BMI > 30) – przewlekły białkomocz, NAFLD z nefropatią
+* Stosowanie NLPZ, inhibitorów ACE, suplementów białkowych
+
+---
+
+## Na co zwraca uwagę lekarz POZ kierując do nefrologa?
+
+### 1. Zmiany w badaniach:
+
+* eGFR < 60 mL/min/1,73 m² utrzymujące się > 3 miesiące
+* Kreatynina stale podwyższona > 1,3 mg/dL (M) / > 1,2 mg/dL (K)
+* Białkomocz lub albuminuria > 300 mg/dobę
+* Krwinkomocz + białkomocz + nadciśnienie → podejrzenie kłębuszkowego ZN
+* Elektrolity: hiperkaliemia > 5,5 mmol/L, fosfor > 4,5 mg/dL
+* Utrzymująca się leukocyturia lub nawracające ZUM bez poprawy
+
+### 2. Objawy:
+
+* Obrzęki niejasnego pochodzenia
+* Utrata masy ciała + wzrost kreatyniny
+* Przewlekłe zmęczenie, świąd, nudności – podejrzenie mocznicy
+* Nadciśnienie oporne na ≥ 3 leki
+* Skąpomocz, nykturia, poliuria
+* Ból okolicy lędźwiowej przy PChN lub zapaleniach
+* Zaburzenia oddawania moczu (zatrzymanie, nietrzymanie, strumień przerywany)
+
+### 3. Inne:
+
+* Cukrzyca + mikroalbuminuria – wczesna konsultacja
+* PChN w rodzinie – choroby genetyczne (np. torbielowatość nerek)
+* Przebyte choroby układowe (toczeń, zapalenia naczyń, amyloidoza)
+
+---
+
+---
+
+## Ankieta specjalistyczna – nefrologia
+
+---
+
+### I. Główna dolegliwość / powód wizyty
+
+• Co skłoniło Pana/Panią do wizyty?
+• Od kiedy występują objawy?
+• Czy objawy nasilają się, są stałe, postępujące?
+• Czy występują obrzęki, zmiany w moczu, zmęczenie?
+• Czy występuje spadek masy ciała, gorączki, świąd skóry?
+
+---
+
+### II. Objawy wskazujące na chorobę nerek
+
+• Czy zauważył(a) Pan/Pani:
+ – Obrzęki nóg, twarzy (kiedy występują, czy ustępują po nocy?)
+ – Zmiany w oddawaniu moczu: częstomocz, nocne mikcje, skąpomocz
+ – Zmiana koloru moczu (krwisty, ciemny, mętny, pienisty)
+ – Ból w okolicy lędźwiowej
+ – Uczucie zmęczenia, senność, osłabienie
+ – Świąd skóry, utratę apetytu, metaliczny smak
+ – Wysokie ciśnienie, mimo leczenia farmakologicznego
+ – Zakażenia dróg moczowych (częstość, przebieg, leczenie)
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy zdiagnozowano u Pana/Pani:
+ – Nadciśnienie tętnicze
+ – Cukrzycę typu 1 lub 2
+ – Przewlekłą chorobę nerek / kłębuszkowe zapalenie
+ – Kamicę nerkową
+ – Infekcje układu moczowego
+ – Toczeń układowy, reumatoidalne zapalenie stawów
+ – Przerost gruczołu krokowego (u mężczyzn)
+ – Przebyte urazy / operacje nerek lub pęcherza
+ – Przebyte zatrucia lekami nefrotoksycznymi (NLPZ, antybiotyki, kontrasty)
+
+---
+
+### IV. Styl życia i czynniki ryzyka
+
+• Palenie papierosów – TAK / NIE / kiedy rzucił(a)
+• Spożycie alkoholu – regularnie / okazjonalnie / nie
+• Dieta: wysokobiałkowa / wysokosodowa / wegetariańska / inna
+• Podaż płynów dziennie: <1 L / 1–2 L / >2 L
+• Praca fizyczna / siedząca / w warunkach odwodnienia
+• Regularna aktywność fizyczna – TAK / NIE
+• Utrata masy ciała w ostatnich 3–6 mies. – TAK / NIE
+• Przyjmowanie leków / suplementów bez kontroli – TAK / NIE
+
+---
+
+### V. Przyjmowane leki
+
+• Stałe leki: (hipotensyjne, przeciwcukrzycowe, diuretyki, ACEI/ARB, metformina)
+• Leki z ostatnich tygodni: antybiotyki, leki przeciwzapalne (NLPZ), inne
+• Suplementy diety, środki ziołowe, preparaty z magnezem/potasem
+• Czy były objawy działań niepożądanych?
+
+---
+
+### VI. Badania laboratoryjne (jeśli dostępne)
+
+• Kreatynina: \_\_\_\_\_\_ mg/dL
+• eGFR: \_\_\_\_\_\_ mL/min/1,73 m²
+• Mocznik: \_\_\_\_\_\_ mg/dL
+• Cystatyna C: \_\_\_\_\_\_ mg/L
+• Albuminuria: \_\_\_\_\_\_ mg/dobę
+• UACR: \_\_\_\_\_\_ mg/g
+• Potas (K⁺): \_\_\_\_\_\_ mmol/L
+• Sód (Na⁺): \_\_\_\_\_\_ mmol/L
+• Wapń całkowity: \_\_\_\_\_\_ mg/dL
+• Fosfor: \_\_\_\_\_\_ mg/dL
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• Badanie ogólne moczu – białko, krew, leukocyty: \_\_\_\_\_\_
+• Posiew moczu – wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VII. Cechy osobnicze i rodzinne
+
+• Wiek: \_\_\_\_\_\_
+• Płeć: K / M
+• Wzrost: \_\_\_\_\_\_ cm
+• Masa ciała: \_\_\_\_\_\_ kg
+• BMI: \_\_\_\_\_\_
+• Choroby nerek w rodzinie (torbielowatość, dializy): TAK / NIE
+• Choroby autoimmunologiczne w rodzinie: TAK / NIE
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] eGFR < 60 mL/min/1,73 m² utrzymujący się > 3 mies.
+\[ ] Kreatynina > 1,3 mg/dL (M) / > 1,2 mg/dL (K)
+\[ ] Białkomocz: > 300 mg/dobę lub +++ w badaniu paskowym
+\[ ] Krwinkomocz + białkomocz + NT → podejrzenie kłębuszkowego zapalenia
+\[ ] Hiperkaliemia > 5,5 mmol/L
+\[ ] Fosfor > 4,5 mg/dL / Wapń < 8,5 mg/dL
+\[ ] Trwałe nadciśnienie > 140/90 mmHg pomimo ≥ 3 leków
+\[ ] Obrzęki bez innej przyczyny
+\[ ] Nawracające ZUM bez poprawy
+\[ ] Cukrzyca + mikroalbuminuria
+\[ ] Twarde wyczuwalne nerki lub guz w jamie brzusznej
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Dotychczasowe rozpoznania: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Wyniki wcześniejszych badań: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Przebyte leczenie nefrologiczne / hospitalizacje: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy pacjent ma choroby współistniejące (cukrzyca, NT, autoimmuno)?
+• Potrzeba pilnej konsultacji? TAK / NIE
+• Zalecane dalsze badania: USG nerek, doppler tętnic nerkowych, CT/urogram, immunologia
+
+---
+

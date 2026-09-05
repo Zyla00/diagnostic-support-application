@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Witaj, pacjencie!</h2>
+  <p>To jest Twój panel.</p>
+{% endblock %}
+
+<!-- Offcanvas do ładowania profilu, ustawień, hasła -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="editProfileCanvas" aria-labelledby="editProfileCanvasLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="editProfileCanvasLabel">Profil</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Zamknij"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div id="profileContainer"></div>
+  </div>
+</div>

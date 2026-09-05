@@ -1,0 +1,112 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<style>
+  textarea.form-control,
+  input.form-control,
+  select.form-control {
+    height: calc(1.5em + 0.5rem + 2px) !important;
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  input[type="date"] {
+    width: 160px !important;
+  }
+
+  table th,
+  table td {
+    vertical-align: middle;
+  }
+
+  /* Lepsze proporcje kolumn */
+  .col-test-name { width: 35%; }
+  .col-value     { width: 15%; }
+  .col-unit      { width: 15%; }
+  .col-min       { width: 15%; }
+  .col-max       { width: 15%; }
+</style>
+
+<div class="container mt-4">
+  <div class="bg-light p-3 rounded shadow-sm">
+
+    <h4 class="mb-3 text-primary">Wyniki badań laboratoryjnych</h4>
+    <p class="text-muted mb-4"><strong>Uwaga:</strong> Sprawdź dane. Po zapisaniu nie będzie możliwości ich edycji.</p>
+
+
+    <form method="post" novalidate>
+        {% csrf_token %}
+        {{ formset.management_form }}
+        <div class="mb-3">
+          {{ survey_form.as_p }}
+        </div>
+
+        <div class="survey-panels">
+          {% if grouped_formset %}
+            {% for section, forms in grouped_formset.items %}
+              <h5 class="mt-3 text-secondary">{{ section }}</h5>
+              <div class="table-responsive">
+                <table class="table table-sm table-bordered align-middle bg-white">
+                  <thead class="table-light">
+                    <tr>
+                      <th class="col-test-name">Badanie</th>
+                      <th class="col-value">Wartość</th>
+                      <th class="col-unit">Jednostka</th>
+                      <th class="col-min">MIN</th>
+                      <th class="col-max">MAX</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for form in forms %}
+                        {{ form.section }}
+                      <tr>
+                        <td class="text-wrap">{{ form.test_name }}</td>
+                        <td>{{ form.value }}</td>
+                        <td>{{ form.unit }}</td>
+                        <td>{{ form.reference_min }}</td>
+                        <td>{{ form.reference_max }}</td>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            {% endfor %}
+          {% else %}
+            <p class="text-muted">Brak dostępnych badań do wypełnienia.</p>
+          {% endif %}
+        </div>
+
+        <div class="d-flex gap-2 mt-4">
+          <button type="submit" class="btn btn-outline-primary">Zapisz</button>
+          <a href="{% url 'labTest:dashboard' %}" class="btn btn-outline-primary">Powrót</a>
+        </div>
+    </form>
+
+    {% if formset.non_form_errors %}
+      <div class="alert alert-danger mt-4">
+        <ul class="mb-0">
+          {% for error in formset.non_form_errors %}
+            <li>{{ error }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+    {% if formset.errors %}
+      <div class="alert alert-danger mt-4">
+        <h5 class="mb-2">Błędy w formularzu:</h5>
+        <ul>
+          {% for form_errors in formset.errors %}
+            {% for field, error_list in form_errors.items %}
+              <li><strong>{{ field }}:</strong> {{ error_list|join:", " }}</li>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+{% endblock %}

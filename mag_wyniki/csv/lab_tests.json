@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Complete blood count (CBC)",
+    "type": "numeric",
+    "unit": "g/dL, thous./μL"
+  },
+  {
+    "name": "Erythrocyte sedimentation rate (ESR)",
+    "type": "numeric",
+    "unit": "mm/h"
+  },
+  {
+    "name": "Glycated hemoglobin (HbA1c)",
+    "type": "numeric",
+    "unit": "%"
+  },
+  {
+    "name": "Sodium",
+    "type": "numeric",
+    "unit": "mmol/L"
+  },
+  {
+    "name": "Potassium",
+    "type": "numeric",
+    "unit": "mmol/L"
+  },
+  {
+    "name": "Calcium",
+    "type": "numeric",
+    "unit": "mmol/L"
+  },
+  {
+    "name": "Iron",
+    "type": "numeric",
+    "unit": "µg/dL"
+  },
+  {
+    "name": "Total iron-binding capacity (TIBC)",
+    "type": "numeric",
+    "unit": "µg/dL"
+  },
+  {
+    "name": "Creatinine",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Urea",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Fasting glucose",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Oral glucose tolerance test (OGTT)",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Total protein",
+    "type": "numeric",
+    "unit": "g/dL"
+  },
+  {
+    "name": "Albumin",
+    "type": "numeric",
+    "unit": "g/dL"
+  },
+  {
+    "name": "C-reactive protein (CRP)",
+    "type": "numeric",
+    "unit": "mg/L"
+  },
+  {
+    "name": "Uric acid",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Total cholesterol",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "HDL cholesterol",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "LDL cholesterol",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Triglycerides",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Total bilirubin",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Direct bilirubin",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Alkaline phosphatase (ALP)",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Aspartate aminotransferase (AST)",
+    "type": "numeric",
+    "unit": "IU/L"
+  },
+  {
+    "name": "Alanine aminotransferase (ALT)",
+    "type": "numeric",
+    "unit": "IU/L"
+  },
+  {
+    "name": "Gamma-glutamyl transferase (GGT)",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Amylase",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Creatine kinase (CK)",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Acid phosphatase",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Free triiodothyronine (FT3)",
+    "type": "numeric",
+    "unit": "pmol/L"
+  },
+  {
+    "name": "Free thyroxine (FT4)",
+    "type": "numeric",
+    "unit": "pmol/L"
+  },
+  {
+    "name": "Thyroid-stimulating hormone (TSH)",
+    "type": "numeric",
+    "unit": "mIU/L"
+  },
+  {
+    "name": "Prostate-specific antigen (PSA)",
+    "type": "numeric",
+    "unit": "ng/mL"
+  },
+  {
+    "name": "Prothrombin time (INR)",
+    "type": "numeric",
+    "unit": "–"
+  },
+  {
+    "name": "Activated partial thromboplastin time (APTT)",
+    "type": "numeric",
+    "unit": "seconds"
+  },
+  {
+    "name": "Fibrinogen",
+    "type": "numeric",
+    "unit": "g/L"
+  },
+  {
+    "name": "Urine specific gravity",
+    "type": "numeric",
+    "unit": "g/cm³"
+  },
+  {
+    "name": "Urine pH",
+    "type": "numeric",
+    "unit": "–"
+  },
+  {
+    "name": "Urine glucose",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Urine protein",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Urine amylase",
+    "type": "numeric",
+    "unit": "U/L"
+  },
+  {
+    "name": "Albuminuria",
+    "type": "numeric",
+    "unit": "mg/g"
+  },
+  {
+    "name": "Vitamin B12",
+    "type": "numeric",
+    "unit": "pg/mL"
+  },
+  {
+    "name": "Folic acid",
+    "type": "numeric",
+    "unit": "ng/mL"
+  },
+  {
+    "name": "Ferritin",
+    "type": "numeric",
+    "unit": "ng/mL"
+  },
+  {
+    "name": "BNP (NT-proBNP)",
+    "type": "numeric",
+    "unit": "pg/mL"
+  },
+  {
+    "name": "Urinary albumin/creatinine ratio (UACR)",
+    "type": "numeric",
+    "unit": "mg/g"
+  },
+  {
+    "name": "Total IgE",
+    "type": "numeric",
+    "unit": "IU/mL"
+  },
+  {
+    "name": "H. pylori antigen in stool",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "SARS-CoV-2 antigen test",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Hepatitis B surface antigen (HBsAg)",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Anti-TPO antibodies",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Anti-TG antibodies",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Anti-TSHR antibodies",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Rheumatoid factor (RF)",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "ASO titer",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Occult blood in stool",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Urine culture",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Estimated glomerular filtration rate (GFR)",
+    "type": "numeric",
+    "unit": "mL/min/1.73 m²"
+  },
+  {
+    "name": "Vitamin D (25-hydroxy)",
+    "type": "numeric",
+    "unit": "ng/mL"
+  },
+  {
+    "name": "Magnesium",
+    "type": "numeric",
+    "unit": "mg/dL"
+  },
+  {
+    "name": "Zinc",
+    "type": "numeric",
+    "unit": "µg/dL"
+  },
+  {
+    "name": "Homocysteine",
+    "type": "numeric",
+    "unit": "µmol/L"
+  },
+  {
+    "name": "Cortisol",
+    "type": "numeric",
+    "unit": "µg/dL"
+  },
+  {
+    "name": "Prolactin",
+    "type": "numeric",
+    "unit": "ng/mL"
+  },
+  {
+    "name": "Insulin",
+    "type": "numeric",
+    "unit": "µIU/mL"
+  },
+  {
+    "name": "Anti-CCP antibodies",
+    "type": "boolean",
+    "unit": null
+  },
+  {
+    "name": "Troponin",
+    "type": "numeric",
+    "unit": "ng/mL"
+  }
+]

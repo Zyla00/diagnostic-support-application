@@ -1,0 +1,357 @@
+
+## Kim jest onkolog?
+
+**Onkolog** to lekarz specjalizujący się w rozpoznawaniu, leczeniu oraz monitorowaniu chorób nowotworowych, zarówno złośliwych, jak i niektórych łagodnych. Wyróżnia się specjalistów onkologii klinicznej, chirurgii onkologicznej i radioterapii onkologicznej. Onkolog planuje terapie systemowe (chemioterapię, immunoterapię, hormonoterapię), kieruje na badania obrazowe i histopatologiczne, prowadzi profilaktykę oraz opiekę paliatywną.
+
+---
+
+## Objawy kliniczne wskazujące na konieczność wizyty u onkologa
+
+### Objawy ogólne (nieswoiste, ale niepokojące):
+
+* Niewyjaśniona utrata masy ciała >10% w ciągu 3–6 miesięcy
+* Długotrwałe stany podgorączkowe (>37,5°C przez >14 dni)
+* Nocne poty bez infekcji
+* Przewlekłe zmęczenie, osłabienie
+* Bóle o nietypowym charakterze (np. nocne, nieustępujące po lekach)
+* Powiększenie węzłów chłonnych (>1 cm, twarde, nieruchome, niebolesne)
+
+### Objawy miejscowe:
+
+* Guz wyczuwalny palpacyjnie (piersi, jądro, szyja, brzuch)
+* Trwała zmiana skórna – nieregularny kształt, asymetria, krwawienie, szybki wzrost
+* Przewlekły kaszel, krwioplucie
+* Zmiana rytmu wypróżnień, krwawienie z odbytu, smoliste stolce
+* Krew w moczu (bez infekcji), zmiana strumienia moczu, częstomocz
+* Trudności w połykaniu, chrypka >3 tygodnie
+* Wydzielina z brodawki sutkowej, zmiana kształtu piersi
+* Zmiany owrzodzeniowe niegojące się >3 tygodni
+* Ból kości, złamania patologiczne
+
+---
+
+## Wyniki laboratoryjne sugerujące nowotwór (przykładowe odchylenia)
+
+### Morfologia:
+
+* **Hemoglobina**: < 11 g/dL (K), < 13 g/dL (M) – niedokrwistość normocytarna lub mikrocytarna
+* **Leukocyty**: > 11,0 x10⁹/L lub < 4,0 x10⁹/L – podejrzenie białaczek
+* **Płytki**: < 150 tys. lub > 450 tys. – np. przy nowotworach mieloproliferacyjnych
+* **LDH**: > 250 U/L – chłoniaki, białaczki, nowotwory rozsiane
+* **OB**: > 40 mm/h – podejrzenie zmian zapalnych / nowotworowych
+* **CRP**: > 10 mg/L przewlekle – możliwe nowotwory z komponentą zapalną
+
+### Markery nowotworowe (wstępna interpretacja):
+
+Oto tekstowy opis markerów nowotworowych wraz z ich wstępną interpretacją, uwzględniający zmienność osobniczą – w szczególności wpływ wieku i płci:
+
+Markery nowotworowe to substancje obecne we krwi lub innych płynach ustrojowych, które mogą wskazywać na obecność nowotworu. Należy pamiętać, że pojedynczy wynik powyżej normy **nie jest równoznaczny z rozpoznaniem raka** – może wynikać z innych, także łagodnych przyczyn. Interpretacja powinna uwzględniać **płeć, wiek oraz stan fizjologiczny pacjenta**.
+
+---
+
+* **PSA (antygen specyficzny dla prostaty):**
+  Za niepokojący uznaje się wynik **powyżej 4,0 ng/mL** u mężczyzn.
+  Jednak wartości PSA **rosną fizjologicznie z wiekiem**: u mężczyzn po 70. roku życia dopuszcza się poziom nawet do 6,5 ng/mL bez cech klinicznych raka prostaty.
+  Należy również uwzględnić objawy z dolnych dróg moczowych i wynik badania per rectum (DRE).
+  PSA może być podwyższone także przy łagodnym rozroście prostaty (BPH), zapaleniu prostaty czy po ejakulacji.
+
+* **CEA (antygen rakowo-płodowy):**
+  Wartość powyżej **5,0 ng/mL** budzi niepokój i może wskazywać na raka jelita grubego, płuca lub piersi.
+  U **palaczy tytoniu** fizjologicznie CEA może być nieco podwyższone.
+  Wzrost obserwuje się również u osób starszych, zwłaszcza w chorobach zapalnych jelit lub w marskości wątroby.
+
+* **CA 125 (głównie u kobiet):**
+  Poziom **> 35 U/mL** może świadczyć o raku jajnika, ale również wzrasta w przebiegu **endometriozy, mięśniaków macicy, torbieli jajnika oraz w czasie miesiączki**.
+  U kobiet **przed menopauzą** nawet wyraźnie podwyższony wynik nie musi oznaczać nowotworu.
+  Z kolei u kobiet **po menopauzie** każda trwała zwyżka CA 125 jest bardziej podejrzana i wymaga pogłębionej diagnostyki.
+
+* **CA 15-3 (rak piersi):**
+  Wartość powyżej **30 U/mL** może wskazywać na raka piersi, ale również może być nieznacznie podwyższona w przebiegu łagodnych chorób wątroby lub zapaleń gruczołu sutkowego.
+  Marker ten **nie nadaje się do wykrywania raka piersi we wczesnym stadium**, lecz może być użyteczny w monitorowaniu leczenia u kobiet z rozpoznanym nowotworem.
+  **Po menopauzie** wartości mogą być nieco niższe – co zwiększa wiarygodność wyniku nieprawidłowego.
+
+* **CA 19-9:**
+  Wartość **> 37 U/mL** może świadczyć o raku trzustki lub dróg żółciowych.
+  Jednak CA 19-9 może również wzrastać w łagodnych stanach, takich jak zapalenie trzustki, kamica żółciowa czy cholestaza.
+  U osób **starszych** lub z cholestazą bezobjawową możliwy jest umiarkowany wzrost bez nowotworu.
+  Warto także pamiętać, że u części populacji (około 5–10%) występuje genetyczny brak antygenu Lewis – co oznacza, że marker ten **nie będzie się w ogóle podnosił**, nawet przy raku trzustki.
+
+* **AFP (alfa-fetoproteina):**
+  Poziom **> 10 ng/mL** może sugerować nowotwór wątroby (np. HCC) lub nowotwory jąder (zarodkowe).
+  U **mężczyzn w młodym wieku (20–40 lat)** z guzami jąder AFP jest jednym z podstawowych markerów.
+  W marskości wątroby lub wirusowym zapaleniu wątroby wartości mogą być umiarkowanie podwyższone nawet bez nowotworu.
+  U kobiet **w ciąży** fizjologicznie rośnie AFP – do bardzo wysokich poziomów, co nie jest stanem patologicznym.
+
+* **β-hCG (gonadotropina kosmówkowa):**
+  Wartość **> 5 IU/L** u **mężczyzn** lub **nieciężarnych kobiet** jest nieprawidłowa i może wskazywać na:
+
+  * nowotwory germinalne (jąder),
+  * rzadziej: nowotwory trofoblastyczne, ciążę zaśniadową.
+    U kobiet **w ciąży** β-hCG jest fizjologicznie bardzo wysokie – dlatego ten marker można interpretować tylko w kontekście stanu klinicznego.
+    U **starszych mężczyzn** z nowotworami jądra lub przerzutami – β-hCG bywa markerem rokowniczym.
+
+* **CYFRA 21-1:**
+  Poziom **> 3,3 ng/mL** wskazuje na możliwość raka niedrobnokomórkowego płuca (NSCLC), zwłaszcza podtypu płaskonabłonkowego.
+  Marker ma znaczenie głównie **u osób palących**, po 50. roku życia, szczególnie mężczyzn.
+  Nie jest przydatny jako badanie przesiewowe – stosuje się go raczej w ocenie leczenia i wznowy nowotworu.
+
+### **Podsumowanie:**
+
+Markery nowotworowe są przydatnym narzędziem diagnostycznym, ale **ich interpretacja wymaga dużej ostrożności**. Prawidłowe wartości mogą różnić się w zależności od:
+
+* **płci** – niektóre markery są specyficzne tylko dla kobiet (CA 125, CA 15-3), inne głównie dla mężczyzn (PSA, AFP),
+* **wieku** – u osób starszych niektóre parametry rosną fizjologicznie (PSA, CEA),
+* **stanu fizjologicznego** – np. ciąża, cykl miesiączkowy, menopauza.
+
+W przypadku odchyleń zawsze należy potwierdzić wynik w powtórnym badaniu i rozważyć pełną diagnostykę obrazową oraz konsultację specjalistyczną.
+
+### Inne:
+
+* **Hiperkalcemia** (>10,5 mg/dL) – możliwe przerzuty do kości, nowotwory PTH-zależne
+* **Hipoalbuminemia** (< 3,5 g/dL) – zaawansowany nowotwór, zespół paraneoplastyczny
+* **Ferrytyna**: > 400 ng/mL (K), > 500 ng/mL (M) – możliwe utajone zapalenie lub rak
+* **Kreatynina** > 1,2 mg/dL + krwinkomocz – guz nerki
+* **Test na krew utajoną w kale (FIT)**: dodatni – badanie kolonoskopowe pilne
+
+---
+
+## Cechy osobnicze zwiększające ryzyko nowotworów
+
+Oto tekstowy opis cech osobniczych, które zwiększają ryzyko zachorowania na nowotwory, z uwzględnieniem zmienności zależnej od wieku, płci oraz innych indywidualnych czynników:
+
+---
+
+### **Cechy osobnicze zwiększające ryzyko nowotworów – wpływ wieku, płci i uwarunkowań indywidualnych**
+
+Ryzyko rozwoju nowotworów zależy od wielu czynników osobniczych. Należą do nich przede wszystkim wiek, płeć, genetyka, styl życia, a także ekspozycja na czynniki środowiskowe i zakaźne. Każdy z tych elementów wpływa na prawdopodobieństwo wystąpienia określonych typów raka, a ich znaczenie może się istotnie różnić w zależności od cech demograficznych pacjenta.
+
+---
+
+#### **Wiek**
+
+Wiek to najważniejszy czynnik ryzyka w onkologii.
+
+* **Po 50. roku życia** gwałtownie wzrasta zapadalność na nowotwory: **jelita grubego**, **piersi**, **prostaty**, **płuc**, a także chłoniaki i nowotwory układu moczowego.
+* U osób **powyżej 65–70 r.ż.**, ryzyko rozwoju nowotworów jeszcze się zwiększa, co związane jest z gromadzeniem się mutacji genetycznych oraz osłabieniem mechanizmów naprawczych komórki.
+
+#### **Płeć męska**
+
+Mężczyźni mają ogólnie **większe ryzyko zachorowania i zgonu z powodu nowotworów**.
+
+* Najczęstsze u nich nowotwory to: **rak płuca**, **rak jelita grubego**, **rak prostaty** oraz **rak pęcherza moczowego**.
+* Częściej niż kobiety są narażeni na nowotwory związane z paleniem i pracą w warunkach ekspozycji środowiskowej (np. azbest, rozpuszczalniki).
+
+#### **Płeć żeńska**
+
+Kobiety są bardziej narażone na nowotwory zależne hormonalnie:
+
+* **rak piersi** – szczególnie po menopauzie i u kobiet bezdzietnych lub z późnym pierwszym porodem,
+* **rak jajnika**,
+* **rak trzonu macicy (endometrium)** – zwłaszcza przy otyłości,
+* **rak szyjki macicy** – związany z przewlekłą infekcją wirusem HPV,
+* częściej niż mężczyźni chorują również na **nowotwory tarczycy**.
+
+#### **Wywiad rodzinny i genetyka**
+
+Obciążenia genetyczne mają istotne znaczenie:
+
+* Jeśli rak wystąpił u **krewnego I stopnia przed 50. rokiem życia**, podejrzewa się **dziedziczne zespoły nowotworowe** (np. BRCA1/2 – rak piersi i jajnika, Lynch – jelito).
+* Ryzyko rośnie istotnie u osób, u których **więcej niż jeden członek rodziny** zachorował na ten sam typ nowotworu.
+
+#### **Palenie tytoniu**
+
+Palenie to najsilniejszy modyfikowalny czynnik ryzyka nowotworów.
+
+* Odpowiada za większość przypadków **raka płuca**, ale także za: **nowotwory pęcherza moczowego, jamy ustnej, krtani, trzustki**, a u kobiet – **szyjki macicy**.
+* Ryzyko wzrasta z czasem trwania i liczbą wypalanych papierosów dziennie.
+* Mężczyźni częściej palą, więc ogólnie są bardziej narażeni na te nowotwory, jednak rosnący odsetek palących kobiet zrównuje statystyki w niektórych krajach.
+
+#### **Nadmierne spożycie alkoholu (> 2 jednostki/dobę)**
+
+Regularne spożycie dużych ilości alkoholu zwiększa ryzyko:
+
+* **raka przełyku, wątroby, jelita grubego, głowy i szyi**, a także **piersi u kobiet** (nawet przy umiarkowanych dawkach).
+* Mężczyźni są generalnie bardziej narażeni z powodu częstszego spożywania większych ilości alkoholu.
+
+#### **Otyłość (BMI > 30)**
+
+Otyłość znacząco zwiększa ryzyko:
+
+* u kobiet: **raka endometrium**, **piersi (po menopauzie)**,
+* u obu płci: **raka jelita grubego, trzustki, nerki** i **wątroby**.
+  Mechanizmy obejmują zaburzenia hormonalne, przewlekły stan zapalny i insulinooporność.
+  Ryzyko wzrasta z wiekiem, szczególnie gdy otyłość trwa wiele lat.
+
+#### **Narażenie środowiskowe i zawodowe**
+
+Długotrwała ekspozycja na:
+
+* **azbest** – zwiększa ryzyko **międzybłoniaka opłucnej i raka płuca**,
+* **promieniowanie jonizujące** – wiąże się z białaczkami i rakiem tarczycy (np. u kobiet po leczeniu chłoniaka w młodości),
+* **rozpuszczalniki organiczne, pestycydy, metale ciężkie** – zwiększają ryzyko nowotworów układu krwiotwórczego, wątroby i nerek.
+  Niektóre zawody (np. górnicy, lakiernicy, rolnicy) wiążą się z istotnie wyższym ryzykiem nowotworów, zależnym również od płci i długości ekspozycji.
+
+#### **Przebyte infekcje**
+
+Pewne zakażenia wirusowe i bakteryjne mają silny związek z onkogenezą:
+
+* **HPV** – odpowiedzialny za większość przypadków **raka szyjki macicy**, ale też **gardła i odbytu** (również u mężczyzn),
+* **HCV i HBV** – podnoszą ryzyko **raka wątroby**,
+* **EBV** – związany z powstaniem **chłoniaków** i niektórych guzów głowy i szyi.
+
+#### **Brak udziału w badaniach przesiewowych**
+
+Regularne badania przesiewowe umożliwiają wykrycie nowotworu we wczesnym, uleczalnym stadium.
+Brak udziału w programach takich jak:
+
+* **cytologia szyjki macicy (u kobiet 25–65 lat)**,
+* **mammografia (kobiety 50–69 lat)**,
+* **test na krew utajoną w kale / kolonoskopia (osoby > 50 lat)**
+  zwiększa ryzyko późnej diagnozy, zwłaszcza u osób starszych i mniej wyedukowanych zdrowotnie.
+
+Indywidualny profil ryzyka nowotworów zależy od wielu cech: **wieku, płci, stylu życia, predyspozycji rodzinnych oraz narażeń środowiskowych**.
+
+* Osoby po **50. roku życia** oraz z dodatnim wywiadem rodzinnym powinny być objęte szczególnym nadzorem onkologicznym.
+* **Kobiety** są bardziej narażone na nowotwory hormonalne i szyjki macicy, a **mężczyźni** – na nowotwory związane z paleniem, alkoholem i pracą fizyczną.
+  Wczesna profilaktyka, zmiana stylu życia oraz udział w badaniach przesiewowych to kluczowe elementy redukcji ryzyka.
+
+---
+
+## Na co zwraca uwagę lekarz POZ przed skierowaniem do onkologa?
+
+### Objawy alarmowe:
+
+* Szybko rosnący guz / zmiana skórna
+* Trwałe krwawienia bez wyraźnej przyczyny (krwiomocz, krwawienie z odbytu, z dróg rodnych po menopauzie)
+* Utrata masy ciała + niedokrwistość + ból
+* Nawracające infekcje + leukocytoza lub niedokrwistość
+* Znaczna niedokrwistość z niskim MCV – podejrzenie utajonego krwawienia
+
+### Badania dodatkowe:
+
+* **Morfologia**: niedokrwistość, leukocytoza, trombocytopenia
+* **OB / CRP**: utrzymujące się podwyższenie bez infekcji
+* **Markery nowotworowe**: podwyższone – w kontekście objawów i wieku
+* **RTG płuc / USG jamy brzusznej / mammografia / kolonoskopia** – wyniki nieprawidłowe
+* **Badania przesiewowe**: test FIT dodatni, cytologia L-SIL/H-SIL, mammografia BIRADS 4–5
+---
+
+## Ankieta specjalistyczna – onkologia
+
+---
+
+### I. Główna dolegliwość / powód skierowania
+
+• Jaki objaw lub nieprawidłowość skłoniła do wizyty?
+• Od kiedy występują objawy?
+• Czy mają charakter postępujący, nawracający, przewlekły czy nagły?
+• Czy zauważono zmiany w wyglądzie, masie ciała, nastroju?
+• Czy pacjent zgłasza dolegliwości bólowe, nocne poty, utratę apetytu?
+
+---
+
+### II. Objawy alarmowe (zaznacz wszystkie, które występują)
+
+\[ ] Niezamierzona utrata masy ciała (>10% w 3–6 mies.)
+\[ ] Stała gorączka lub stany podgorączkowe > 2 tyg.
+\[ ] Przewlekłe osłabienie, zmęczenie
+\[ ] Powiększone węzły chłonne (>1 cm, nieruchome, niebolesne)
+\[ ] Krwawienia (z przewodu pokarmowego, dróg rodnych, z dróg moczowych)
+\[ ] Krwioplucie
+\[ ] Wyciek z brodawki sutkowej (krwisty, jednostronny)
+\[ ] Utrzymujący się ból kości lub złamania bez urazu
+\[ ] Trwała zmiana na skórze – szybki wzrost, owrzodzenie, krwawienie
+\[ ] Trudności w połykaniu, chrypka > 3 tygodnie
+\[ ] Guz wyczuwalny palpacyjnie (szyja, pierś, jądro, brzuch)
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy w przeszłości występowały nowotwory?
+• Czy pacjent był poddany chemioterapii, radioterapii lub operacji onkologicznej?
+• Choroby przewlekłe: cukrzyca, choroby wątroby, układu krążenia, autoimmunologiczne?
+• Przebyte infekcje (HCV, HPV, EBV, HIV)?
+• Choroby hematologiczne (niedokrwistość, białaczki)?
+• Czy objawy wystąpiły po ekspozycji zawodowej (np. pyły, azbest, chemikalia)?
+
+---
+
+### IV. Wywiad rodzinny
+
+• Czy w rodzinie występowały choroby nowotworowe?
+ – Kto, w jakim wieku, jaki nowotwór?
+• Czy krewni chorowali na: rak piersi, jajnika, prostaty, jelita grubego, chłoniaki?
+• Czy były przypadki nowotworów u młodych osób (< 50 lat)?
+
+---
+
+### V. Styl życia i czynniki ryzyka
+
+• Palenie tytoniu – TAK / NIE / ilość paczkolat: \_\_\_\_\_\_
+• Spożycie alkoholu – TAK / NIE / ilość i częstotliwość: \_\_\_\_\_\_
+• Dieta uboga w warzywa / błonnik – TAK / NIE
+• Aktywność fizyczna – niska / umiarkowana / wysoka
+• Praca w ekspozycji chemicznej / promieniowaniu – TAK / NIE
+• Czy pacjent wykonywał badania przesiewowe (cytologia, mammografia, kolonoskopia)? Kiedy?
+
+---
+
+### VI. Obiektywne cechy kliniczne
+
+• Masa ciała: \_\_\_\_\_\_ kg
+• Wzrost: \_\_\_\_\_\_ cm
+• BMI: \_\_\_\_\_\_
+• Obwód w talii: \_\_\_\_\_\_ cm
+• Skóra: bladość, zasinienia, zmiany barwnikowe, guzki
+• Palpacyjne zmiany – guz, asymetria, powiększenie narządów
+• Węzły chłonne: lokalizacja, wielkość, konsystencja
+• Oznaki wyniszczenia (kacheksja) – TAK / NIE
+
+---
+
+### VII. Badania laboratoryjne (ostatnie dostępne wyniki)
+
+• Hemoglobina (HGB): \_\_\_\_\_\_ g/dL
+• Leukocyty (WBC): \_\_\_\_\_\_ x10⁹/L
+• Płytki krwi (PLT): \_\_\_\_\_\_ x10⁹/L
+• OB: \_\_\_\_\_\_ mm/h
+• CRP: \_\_\_\_\_\_ mg/L
+• LDH: \_\_\_\_\_\_ U/L
+• Kreatynina: \_\_\_\_\_\_ mg/dL
+• Bilirubina całkowita: \_\_\_\_\_\_ mg/dL
+• Ferrytyna: \_\_\_\_\_\_ ng/mL
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+• TSH: \_\_\_\_\_\_ µIU/mL
+• Markery nowotworowe (jeśli były wykonane):
+ – PSA: \_\_\_\_\_\_ ng/mL
+ – CA 125: \_\_\_\_\_\_ U/mL
+ – CA 19-9: \_\_\_\_\_\_ U/mL
+ – CEA: \_\_\_\_\_\_ ng/mL
+ – AFP: \_\_\_\_\_\_ ng/mL
+• Inne (D-dimer, wit. B12, ALP, AST, ALT): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### VIII. Badania obrazowe (jeśli dostępne)
+
+• RTG klatki piersiowej: TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• USG jamy brzusznej / szyi / piersi: TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Mammografia: TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Tomografia komputerowa / rezonans: TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• PET-CT / scyntygrafia: TAK / NIE / wynik: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+
+### IX. Uwagi lekarza POZ
+
+• Podejrzenie nowotworu: lokalizacja / narząd: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Wskazania do pilnego skierowania: TAK / NIE
+• Czy pacjent otrzymał kopię badań do konsultacji onkologicznej? TAK / NIE
+• Planowane dalsze postępowanie POZ (jeśli nie kierowany): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Czy pacjent był wcześniej objęty opieką onkologiczną? TAK / NIE
+• Inne istotne uwagi: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+---
+

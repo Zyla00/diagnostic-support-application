@@ -1,0 +1,212 @@
+{
+  "Allergist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Anesthesiologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Angiologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Audiologist and Phoniatrist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Balneologist": {
+    "aliases": [
+      "Specialist in Balneology and Physical Medicine"
+    ],
+    "requires_referral": true
+  },
+  "Pediatric Surgeon": {
+    "aliases": [
+      "Child Surgeon"
+    ],
+    "requires_referral": true
+  },
+  "Thoracic Surgeon": {
+    "aliases": [
+      "Chest Surgeon"
+    ],
+    "requires_referral": true
+  },
+  "Vascular Surgeon": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "General Surgeon": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Oncological Surgeon": {
+    "aliases": [
+      "Cancer Surgeon"
+    ],
+    "requires_referral": true
+  },
+  "Plastic Surgeon": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Maxillofacial Surgeon": {
+    "aliases": [
+      "Oral and Maxillofacial Surgeon"
+    ],
+    "requires_referral": true
+  },
+  "Orthopedist": {
+    "aliases": [
+      "Orthopedic Surgeon",
+      "Orthopedic and Trauma Surgeon"
+    ],
+    "requires_referral": true
+  },
+  "Dermatologist": {
+    "aliases": [
+      "Dermatologist and Venereologist"
+    ],
+    "requires_referral": false
+  },
+  "Diabetologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Endocrinologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Clinical Pharmacologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Gastroenterologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Geriatrician": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Gynecologist": {
+    "aliases": [
+      "Obstetrician",
+      "Obstetrician-Gynecologist",
+      "OB-GYN"
+    ],
+    "requires_referral": false
+  },
+  "Hematologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Hepatologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Clinical Immunologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Internist": {
+    "aliases": [
+      "Internal Medicine Specialist"
+    ],
+    "requires_referral": true
+  },
+  "Cardiologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Otolaryngologist": {
+    "aliases": [
+      "ENT",
+      "Ear Nose Throat Specialist",
+      "Laryngologist"
+    ],
+    "requires_referral": true
+  },
+  "Nephrologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Neurologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Ophthalmologist": {
+    "aliases": [
+      "Eye Specialist"
+    ],
+    "requires_referral": false
+  },
+  "Clinical Oncologist": {
+    "aliases": [
+      "Oncologist"
+    ],
+    "requires_referral": false
+  },
+  "Pediatrician": {
+    "aliases": [
+      "Child Doctor"
+    ],
+    "requires_referral": true
+  },
+  "Pulmonologist": {
+    "aliases": [
+      "Lung Specialist",
+      "Pneumonologist"
+    ],
+    "requires_referral": true
+  },
+  "Psychiatrist": {
+    "aliases": [],
+    "requires_referral": false
+  },
+  "Child and Adolescent Psychiatrist": {
+    "aliases": [
+      "Pediatric Psychiatrist"
+    ],
+    "requires_referral": true
+  },
+  "Radiologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Rheumatologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Physiatrist": {
+    "aliases": [
+      "Rehabilitation Medicine Specialist"
+    ],
+    "requires_referral": true
+  },
+  "Sexologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Dentist": {
+    "aliases": [
+      "Stomatologist"
+    ],
+    "requires_referral": false
+  },
+  "Toxicologist": {
+    "aliases": [],
+    "requires_referral": true
+  },
+  "Transplantologist": {
+    "aliases": [
+      "Transplant Specialist"
+    ],
+    "requires_referral": true
+  },
+  "Urologist": {
+    "aliases": [],
+    "requires_referral": true
+  }
+}

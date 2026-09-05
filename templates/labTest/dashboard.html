@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/questionaires_manager.css' %}">
+<style>
+  .top-bar {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 1rem;
+  }
+
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 0.75rem;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .form-label {
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .btn-new {
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .pagination {
+    margin-top: 2rem;
+  }
+</style>
+
+{% endblock %}
+
+{% block content %}
+<!-- GÓRNA SEKCJA FILTRA I AKCJI -->
+<div class="top-bar mt-4">
+  <form method="get" class="d-flex flex-wrap align-items-end gap-3 m-0">
+    <div>
+      <label for="start_date" class="form-label mb-1">Od:</label>
+      <input type="date" name="start_date" id="start_date" class="form-control" value="{{ request.GET.start_date }}">
+    </div>
+    <div>
+      <label for="end_date" class="form-label mb-1">Do:</label>
+      <input type="date" name="end_date" id="end_date" class="form-control" value="{{ request.GET.end_date }}">
+    </div>
+    <div>
+      <button type="submit" class="btn btn-outline-primary">Szukaj</button>
+    </div>
+  </form>
+
+  <!-- Przycisk Nowa ankieta -->
+  <div class="align-self-end">
+    <a href="{% url 'labTest:new_survey' %}" class="btn btn-primary btn-new">
+      Nowa ankieta
+    </a>
+  </div>
+</div>
+
+<!-- KAFELKI -->
+{% if surveys %}
+  <div class="card-grid">
+    {% for survey in surveys %}
+      <a href="{% url 'labTest:result_detail' survey.pk %}" class="card-link">
+        <div class="card">
+          Wynik z dnia {{ survey.created_at|date:"d.m.Y" }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+
+  <!-- Paginacja -->
+  <nav aria-label="Paginacja" class="pagination justify-content-center">
+    <ul class="pagination">
+      {% if surveys.has_previous %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ surveys.previous_page_number }}{% if request.GET.start_date %}&start_date={{ request.GET.start_date }}{% endif %}{% if request.GET.end_date %}&end_date={{ request.GET.end_date }}{% endif %}">«</a>
+        </li>
+      {% endif %}
+
+      {% for page_num in surveys.paginator.page_range %}
+        <li class="page-item {% if page_num == surveys.number %}active{% endif %}">
+          <a class="page-link" href="?page={{ page_num }}{% if request.GET.start_date %}&start_date={{ request.GET.start_date }}{% endif %}{% if request.GET.end_date %}&end_date={{ request.GET.end_date }}{% endif %}">{{ page_num }}</a>
+        </li>
+      {% endfor %}
+
+      {% if surveys.has_next %}
+        <li class="page-item">
+          <a class="page-link" href="?page={{ surveys.next_page_number }}{% if request.GET.start_date %}&start_date={{ request.GET.start_date }}{% endif %}{% if request.GET.end_date %}&end_date={{ request.GET.end_date }}{% endif %}">»</a>
+        </li>
+      {% endif %}
+    </ul>
+  </nav>
+{% else %}
+  <p class="text-muted">Brak wyników dla wybranego zakresu dat.</p>
+{% endif %}
+{% endblock %}
+

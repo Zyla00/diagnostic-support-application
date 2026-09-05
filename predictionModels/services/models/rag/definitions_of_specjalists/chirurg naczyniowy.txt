@@ -1,0 +1,220 @@
+Oczywiście – poniżej znajdziesz ten sam materiał **bez tabel**, w formacie czystego tekstu (`.txt`), gotowy do zapisu lub bezpośredniego wklejenia do dokumentacji.
+
+---
+
+## Kim jest chirurg naczyniowy?
+
+Chirurg naczyniowy to lekarz specjalista zajmujący się diagnostyką i leczeniem chorób tętnic, żył i naczyń limfatycznych. Leczy między innymi: miażdżycę kończyn dolnych, tętniaki aorty, zwężenia tętnic szyjnych, przewlekłą niewydolność żylną (żylaki, owrzodzenia), zakrzepicę żył głębokich, zespoły uciskowe naczyń oraz powikłania cukrzycy, takie jak stopa niedokrwienna.
+
+---
+
+## Objawy wskazujące na konieczność wizyty u chirurga naczyniowego
+
+1. Chromanie przestankowe – ból łydki lub uda pojawiający się po przejściu krótkiego dystansu (poniżej 200 metrów), ustępujący po odpoczynku.
+2. Ból spoczynkowy stopy – zwłaszcza nocą, ustępujący po opuszczeniu kończyny.
+3. Zimne, blade lub sine palce u nóg; brak wyczuwalnego tętna na stopie.
+4. Niegojące się rany, owrzodzenia lub martwica kończyn dolnych, szczególnie u osób z cukrzycą.
+5. Nagły ból kończyny, jej zblednięcie, osłabienie lub utrata czucia – możliwe ostre niedokrwienie.
+6. Żylaki z bólem, obrzękiem, świądem skóry, przebarwieniami.
+7. Owrzodzenia żylne w okolicy kostki przyśrodkowej.
+8. Asymetryczny, nagły obrzęk kończyny – podejrzenie zakrzepicy żył głębokich.
+9. Przemijające zaburzenia widzenia, mowy lub zawroty głowy – możliwe zwężenie tętnicy szyjnej.
+10. Pulsujący, widoczny guz w jamie brzusznej – podejrzenie tętniaka aorty brzusznej.
+
+---
+
+## Wyniki badań laboratoryjnych i obrazowych sugerujące potrzebę skierowania
+
+1. ABI (wskaźnik kostkowo-ramienny) poniżej 0,90 – istotne zwężenie tętnic; powyżej 1,40 – zwapnienie i sztywność naczyń (często u diabetyków i osób z chorobą nerek).
+2. Zwężenie tętnicy szyjnej ≥ 50% w USG Doppler – ryzyko udaru, kwalifikacja do leczenia.
+3. Średnica aorty brzusznej ≥ 3,0 cm – rozpoznanie tętniaka. Gdy przekracza 5,5 cm u mężczyzn lub 5,0 cm u kobiet – wskazanie do operacji.
+4. D-dimer > 500 ng/mL u osób <50 r.ż. lub przekraczający próg wieku (wiek × 10 ng/mL) u osób >50 r.ż. – podejrzenie zakrzepicy.
+5. CRP > 10 mg/L w obecności objawów zapalenia żył – podejrzenie zakrzepowego zapalenia żył powierzchownych.
+6. Homocysteina > 15 µmol/L – czynnik ryzyka miażdżycy i zakrzepicy, szczególnie u osób <45 r.ż.
+7. LDL-cholesterol ≥ 190 mg/dL bez leczenia – bardzo wysokie ryzyko miażdżycowe; u pacjentów po incydentach naczyniowych LDL powinien być < 55 mg/dL.
+8. Trójglicerydy ≥ 200 mg/dL – czynnik ryzyka miażdżycy, element zespołu metabolicznego.
+9. HbA1c ≥ 7,0 % – wskazuje na źle kontrolowaną cukrzycę, co zwiększa ryzyko owrzodzeń niedokrwiennych.
+10. eGFR < 60 mL/min/1,73 m² – przewlekła choroba nerek; wpływa na rokowanie i wybór leczenia.
+11. Fibrynogen > 4,0 g/L – zwiększa lepkość krwi i ryzyko zakrzepicy.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób naczyniowych
+
+1. Wiek powyżej 65 lat (dla kobiet z przewlekłą chorobą żylną – już od 70. roku życia); u diabetyków i palaczy ryzyko wzrasta już po 45. roku życia.
+2. Płeć męska – częstsze występowanie miażdżycy i tętniaków aorty.
+3. Palenie tytoniu – nawet umiarkowane (ponad 10 paczkolat) znacznie zwiększa ryzyko.
+4. Cukrzyca typu 1 lub 2 trwająca dłużej niż 10 lat; HbA1c powyżej 7%.
+5. Nadciśnienie tętnicze powyżej 140/90 mmHg mimo leczenia.
+6. Otyłość – BMI ≥ 30, obwód talii > 102 cm u mężczyzn lub > 88 cm u kobiet.
+7. Przewlekła niewydolność nerek – eGFR poniżej 60.
+8. Przebyte zawały, udary, epizody zakrzepowo-zatorowe.
+9. Rodzinne występowanie chorób naczyniowych przed 55. rokiem życia u krewnych pierwszego stopnia.
+
+---
+
+## Na co zwraca uwagę lekarz POZ, wystawiając skierowanie do chirurga naczyniowego
+
+1. **Objawy kliniczne:**
+
+   * Chromanie przestankowe z dystansem poniżej 200 metrów
+   * Ból kończyn w spoczynku
+   * Martwica, zgorzel, sinica palców stóp
+   * Nagły, jednostronny obrzęk kończyny z bólem i dodatnim objawem Homansa
+   * Żylaki z krwawieniem, owrzodzeniem lub objawami zapalenia żył
+
+2. **Nieprawidłowe badanie przedmiotowe:**
+
+   * Brak tętna na tętnicy grzbietowej stopy lub piszczelowej tylnej
+   * Szmer naczyniowy nad tętnicą szyjną lub udową
+   * Pulsujący guz w jamie brzusznej
+
+3. **Nieprawidłowe wyniki badań:**
+
+   * ABI poniżej 0,90 lub powyżej 1,40
+   * Zwężenie tętnicy szyjnej ≥ 50% w USG
+   * Tętniak aorty ≥ 3,0 cm (lub przyrost ≥ 5 mm w ciągu 6 miesięcy)
+   * D-dimer powyżej progu wieku i objawy kliniczne ZŻG/ZP
+   * CRP > 10 mg/L przy objawach zapalenia żył
+
+4. **Nieskuteczność leczenia zachowawczego:**
+
+   * Brak poprawy pomimo stosowania statyn, leków przeciwzakrzepowych, kontroli cukrzycy
+   * Nawracające owrzodzenia żylne mimo kompresjoterapii
+
+5. **Ryzyko powikłań:**
+
+   * Przyrost tętniaka > 5 mm w 6 miesięcy
+   * Nawracające TIA przy potwierdzonym zwężeniu tętnicy szyjnej
+   * Zatorowość płucna lub obwodowa z podejrzeniem źródła zakrzepowego
+
+---
+
+## Podsumowanie – kiedy konieczna jest konsultacja z chirurgiem naczyniowym?
+
+* Objawy niedokrwienia kończyn (ból, chromanie, zgorzel, owrzodzenia)
+* Nieprawidłowy ABI (< 0,90 lub > 1,40), zwężenie tętnicy szyjnej ≥ 50%
+* Tętniak aorty brzusznej ≥ 5,5 cm (mężczyźni) lub ≥ 5,0 cm (kobiety)
+* Zakrzepica żył głębokich, D-dimer powyżej normy wiekowej i objawy kliniczne
+* Żylaki z powikłaniami (owrzodzenia, zapalenia, krwawienia)
+* Brak poprawy po leczeniu w POZ, pogarszający się stan naczyń
+* Słaba kontrola chorób współistniejących (np. cukrzycy, nadciśnienia, hipercholesterolemii) mimo leczenia
+
+---
+
+## Ankieta specjalistyczna – chirurg naczyniowy
+
+---
+
+### I. Powód wizyty / główna dolegliwość
+
+• Jaki jest główny powód zgłoszenia się do chirurga naczyniowego?
+• Od kiedy występują objawy?
+• Czy objawy mają charakter stały czy nasilają się w określonych sytuacjach?
+• Czy wcześniej występowały podobne dolegliwości?
+• Czy objawy ustępują po odpoczynku lub zmianie pozycji?
+• Czy były wcześniej konsultacje naczyniowe, badania USG Doppler lub operacje?
+
+---
+
+### II. Objawy ze strony układu tętniczego
+
+• Czy odczuwa Pan/Pani ból łydki lub uda po przejściu krótkiego dystansu (chromanie)?
+ – Ile metrów można przejść bez bólu?
+• Czy pojawia się ból stopy w spoczynku, szczególnie nocą?
+• Czy kończyny są zimne, blade lub sine?
+• Czy występuje brak tętna w stopie lub w udzie?
+• Czy wystąpiły owrzodzenia, rany, martwica palców u stóp?
+• Czy wystąpiło ostre osłabienie, drętwienie lub ból kończyny?
+• Czy wyczuwalny jest pulsujący guz w jamie brzusznej?
+
+---
+
+### III. Objawy ze strony układu żylnego i limfatycznego
+
+• Czy występują widoczne żylaki kończyn dolnych?
+• Czy występuje obrzęk nóg, zwłaszcza wieczorem?
+• Czy pojawia się uczucie ciężkości, napięcia, świądu skóry nóg?
+• Czy były epizody zapalenia żył powierzchownych (bolesny, twardy sznur żyły)?
+• Czy występują owrzodzenia w okolicach kostek lub podudzi?
+• Czy wystąpił nagły, jednostronny obrzęk nogi lub ręki?
+• Czy pojawiło się krwawienie z żylaka?
+
+---
+
+### IV. Objawy naczyniowe w innych lokalizacjach
+
+• Czy występowały przemijające zaburzenia widzenia, mowy, równowagi?
+• Czy lekarz wspominał o „szmerze naczyniowym” nad tętnicą szyjną?
+• Czy wykonano USG tętnic szyjnych?
+• Czy stwierdzono zwężenie naczyń?
+
+---
+
+### V. Przebyte leczenie i badania diagnostyczne
+
+• Czy wykonano wskaźnik kostkowo-ramienny (ABI)?
+ – Jaka była jego wartość?
+• Czy wykonano USG Doppler kończyn dolnych lub szyjnych?
+• Czy rozpoznano zakrzepicę żył głębokich lub zapalenie żył powierzchownych?
+• Czy wykonano D-dimer?
+ – Jaka była wartość i data badania?
+• Czy wykonano badania lipidogramu, glikemii, hemoglobiny glikowanej?
+ – Czy stwierdzono: wysoki LDL, HbA1c > 7,0%, trójglicerydy ≥ 200 mg/dL?
+• Czy wykonano eGFR lub oznaczenie kreatyniny?
+• Czy występują przeciwwskazania do leczenia chirurgicznego lub zabiegowego?
+
+---
+
+### VI. Choroby przewlekłe i czynniki ryzyka
+
+• Czy ma Pan/Pani zdiagnozowaną cukrzycę?
+ – Od ilu lat? Jaki jest poziom HbA1c?
+• Czy występuje nadciśnienie tętnicze?
+• Czy choruje Pan/Pani na choroby nerek (eGFR < 60)?
+• Czy przebyto udar, zawał serca lub zakrzepicę?
+• Czy w rodzinie występowały choroby naczyń, udary, amputacje, tętniaki?
+• Czy pali lub palił(a) Pan/Pani papierosy?
+ – Ile paczkolat?
+• Czy ma Pan/Pani nadwagę lub otyłość (BMI ≥ 30)?
+• Jaki jest obwód talii?
+
+---
+
+### VII. Leki i wcześniejsze leczenie
+
+• Czy przyjmuje Pan/Pani leki przeciwkrzepliwe (np. NOAC, VKA, heparyny)?
+• Czy stosuje Pan/Pani statyny, leki przeciwpłytkowe lub hipotensyjne?
+• Czy stosuje Pan/Pani kompresjoterapię (pończochy uciskowe)?
+• Czy wcześniej wykonano zabieg (np. stripping żył, stenty, by-passy)?
+
+---
+
+### VIII. Objawy alarmowe (do odnotowania przez lekarza lub pacjenta)
+
+Zaznacz, jeśli występuje:
+
+\[ ] Chromanie przestankowe (ból po przejściu < 200 m)
+\[ ] Ból stopy w spoczynku (głównie w nocy)
+\[ ] Martwica lub zgorzel palców
+\[ ] Brak tętna na stopie
+\[ ] Obrzęk jednostronny i bolesność łydki
+\[ ] Owrzodzenie w okolicy kostki przyśrodkowej
+\[ ] Zakrzepica żył głębokich lub dodatni D-dimer
+\[ ] Tętniak aorty brzusznej > 5 cm
+\[ ] Zwężenie tętnicy szyjnej ≥ 50%
+\[ ] Przemijające zaburzenia neurologiczne (TIA)
+\[ ] CRP > 10 mg/L przy objawach zapalenia żył
+\[ ] HbA1c ≥ 7,0%
+\[ ] LDL ≥ 190 mg/dL (lub ≥ 70 mg/dL przy przebytej chorobie naczyniowej)
+\[ ] eGFR < 60 mL/min/1,73 m²
+
+---
+
+### IX. Podsumowanie (dla lekarza POZ lub systemu EMR)
+
+**Typ skierowania:**
+
+* Pilne (niedokrwienie kończyny, owrzodzenie, zgorzel, podejrzenie zakrzepicy, tętniak > 5 cm)
+* Planowe (chromanie przestankowe, żylaki, owrzodzenia żylne, tętnica szyjna ≥ 50%)
+* Diagnostyczne (rozpoznane czynniki ryzyka i podejrzenie choroby naczyń, brak poprawy w POZ)

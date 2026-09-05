@@ -1,0 +1,458 @@
+<!-- Predictions/modele.html -->
+<div class="container-fluid px-0">
+
+  <!-- KROK 1: Wybór modelu -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <h6 class="card-title mb-3">Krok 1: Wybierz model</h6>
+      <div class="row g-3 align-items-center">
+        <div class="col-md-6">
+          <label for="aiModel" class="form-label">Model</label>
+          <select id="aiModel" name="model" class="form-select">
+            <option value="" selected disabled>— Wybierz model —</option>
+            <option value="mistral">Mistral - Analiza ankiet i badań</option>
+            <option value="mistral_rag">Mistral (RAG) - Analiza ankiet i badań, baza wiedzy</option>
+            <option value="xgboost">XGBoost - Klasyfikacja (ankiety + badania)</option>
+            <option value="herbert">HerBERT - Klasyfikacja (ankiety)</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <div class="alert alert-info mb-0 py-2" id="modelHint" style="display:none;">
+            <small id="modelHintText">Wskazówka dotycząca wybranego modelu.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KROK 2: Wybór danych do analizy (ankiety + badania) -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <h6 class="card-title mb-3">Krok 2: Wybierz dane do analizy</h6>
+
+      <ul class="nav nav-pills mb-3" role="tablist">
+        <li class="nav-item" role="presentation">
+          {% with surveys_list=filled_surveys %}
+          <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pane-surveys" type="button" role="tab">
+            Ankiety <span class="badge bg-secondary ms-1">{{ surveys_list|length }}</span>
+          </button>
+          {% endwith %}
+        </li>
+        <li class="nav-item" role="presentation">
+          {% with labs_list=lab_results %}
+          <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pane-labs" type="button" role="tab">
+            Badania lab. <span class="badge bg-secondary ms-1">{{ labs_list|length }}</span>
+          </button>
+          {% endwith %}
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <!-- Ankiety -->
+        <div class="tab-pane fade show active" id="pane-surveys" role="tabpanel">
+          {% with surveys_list=filled_surveys %}
+          <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="toggleAllSurveys">
+              <label class="form-check-label" for="toggleAllSurveys">Zaznacz/odznacz wszystko</label>
+            </div>
+            <div class="ms-auto" style="min-width:260px;">
+              <input type="text" class="form-control form-control-sm" id="filterSurveys" placeholder="Szukaj ankiety…">
+            </div>
+          </div>
+          {% if surveys_list %}
+          <ul class="list-group small" id="surveyList">
+            {% for s in surveys_list %}
+            <li class="list-group-item d-flex align-items-start justify-content-between survey-item">
+              <div class="form-check w-100">
+                <input class="form-check-input survey-checkbox" type="checkbox" name="survey_ids" value="{{ s.id }}"
+                  id="survey-{{ s.id }}"
+                  {% if not s.is_filled and not s.response %}disabled title="Ankieta niewypełniona – brak danych do analizy"{% endif %}>
+                <label class="form-check-label d-block" for="survey-{{ s.id }}">
+                  <strong class="item-title">{{ s.questionnaire.name }}</strong><br>
+                  <span class="text-muted item-meta">
+                    Wysłano: {{ s.sent_at|date:"d.m.Y H:i" }}
+                    {% if s.filled_at %}, wypełniono: {{ s.filled_at|date:"d.m.Y H:i" }}{% endif %}
+                  </span>
+                </label>
+              </div>
+              {% if s.is_filled or s.response %}
+              <span class="badge bg-success align-self-center ms-2">Wypełniona</span>
+              {% else %}
+              <span class="badge bg-secondary align-self-center ms-2">Niewypełniona</span>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+          <div id="surveyEmpty" class="text-muted small py-2 d-none">Brak wyników dla podanego hasła.</div>
+          {% else %}
+          <p class="text-muted mb-0">Brak wysłanych ankiet dla tego pacjenta.</p>
+          {% endif %}
+          {% endwith %}
+        </div>
+
+        <!-- Badania lab. -->
+        <div class="tab-pane fade" id="pane-labs" role="tabpanel">
+          {% with labs_list=lab_results %}
+          <div class="d-flex flex-wrap gap-2 align-items-center mb-2">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="toggleAllLabs">
+              <label class="form-check-label" for="toggleAllLabs">Zaznacz/odznacz wszystko</label>
+            </div>
+            <div class="ms-auto" style="min-width:260px;">
+              <input type="text" class="form-control form-control-sm" id="filterLabs" placeholder="Szukaj badania…">
+            </div>
+          </div>
+          {% if labs_list %}
+          <ul class="list-group small" id="labList">
+            {% for l in labs_list %}
+            <li class="list-group-item d-flex align-items-start justify-content-between lab-item">
+              <div class="form-check w-100">
+                <input class="form-check-input lab-checkbox" type="checkbox" name="lab_ids" value="{{ l.id }}"
+                  id="lab-{{ l.id }}">
+                <label class="form-check-label d-block" for="lab-{{ l.id }}">
+                  <strong class="item-title">Badanie {{ forloop.revcounter }}</strong><br>
+                  <span class="text-muted item-meta">
+                    {% if l.collected_at %} Data: {{ l.collected_at|date:"d.m.Y" }}
+                    {% elif l.created_at %} Data: {{ l.created_at|date:"d.m.Y" }} {% endif %}
+                    {% if l.short_summary %} • {{ l.short_summary }}{% endif %}
+                  </span>
+                </label>
+              </div>
+              {% if l.abnormal %}
+              <span class="badge bg-danger align-self-center ms-2">Nieprawidłowe</span>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+          <div id="labEmpty" class="text-muted small py-2 d-none">Brak wyników dla podanego hasła.</div>
+          {% else %}
+          <p class="text-muted mb-0">Brak wyników badań laboratoryjnych dla tego pacjenta.</p>
+          {% endif %}
+          {% endwith %}
+        </div>
+      </div>
+
+      <!-- Informacja o liczbie zaznaczeń -->
+      <div class="mt-3">
+        <small class="text-muted">
+          Zaznaczono: <span id="countSurveys">0</span> ankiet, <span id="countLabs">0</span> badań.
+        </small>
+      </div>
+    </div>
+  </div>
+
+  <!-- KROK 3: Analiza + wyniki -->
+  <div class="card mb-3 shadow-sm">
+    <div class="card-body">
+      <h6 class="card-title mb-3">Krok 3: Uruchom analizę</h6>
+      <div class="d-flex gap-2">
+        <button id="runAnalysisBtn" class="btn btn-primary" type="button">Uruchom analizę</button>
+        <button id="clearResultsBtn" class="btn btn-outline-secondary" type="button">Wyczyść wyniki</button>
+      </div>
+
+      <!-- PROMPT: widoczny tylko dla Mistral / Mistral (RAG) -->
+      <div id="promptGroup" class="mt-3" style="display:none;">
+        <label for="promptInput" class="form-label">Dodatkowe polecenie (prompt, opcjonalnie)</label>
+        <textarea id="promptInput" class="form-control" rows="3"
+          placeholder="Np. Zrób krótkie podsumowanie i wypunktuj zalecenia."></textarea>
+        <small class="text-muted">Pole widoczne dla modeli Mistral i Mistral (RAG).</small>
+      </div>
+
+      <div id="analysisLoading" class="text-muted mt-3" style="display:none;">
+        <div class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></div>
+        Trwa analiza…
+      </div>
+    </div>
+  </div>
+
+  <!-- WYNIKI -->
+  <div class="card shadow-sm">
+    <div class="card-body">
+      <h6 class="card-title mb-3">Wyniki analizy</h6>
+
+      <div id="resultsGeneral" style="display:none;">
+        <h6 class="fw-semibold">Podsumowanie</h6>
+        <div id="generalText" class="mb-3"></div>
+      </div>
+
+      <div id="resultsClassification" style="display:none;">
+        <h6 class="fw-semibold">Klasyfikacja i pewność</h6>
+        <div class="d-flex justify-content-between mb-3">
+          <span>Przewidywana klasa:</span>
+          <span class="fw-semibold" id="predictedClass">—</span>
+        </div>
+        <div id="classProbs"></div>
+        <small class="text-muted d-block mt-2" id="probNote">
+          * Procenty pochodzą z modelu; dla lepszej kalibracji rozważ Platt/Isotonic.
+        </small>
+      </div>
+
+      <div id="resultsLLMConfidence" style="display:none;">
+        <h6 class="fw-semibold">Ocena wiarygodności (LLM)</h6>
+        <div class="alert alert-warning py-2">
+          <small>LLM-y nie zwracają dobrze skalibrowanych „pewności”. Poniższa ocena jest heurystyczna.</small>
+        </div>
+        <div class="mb-2">
+          <div class="d-flex justify-content-between">
+            <small>Ocena wiarygodności (heurystyczna)</small><small id="llmHeuristicScoreText">—</small>
+          </div>
+          <div class="progress">
+            <div id="llmHeuristicBar" class="progress-bar" role="progressbar" style="width:0%;" aria-valuenow="0"
+              aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <ul class="list-group list-group-flush mt-3" id="llmExtraSignals"></ul>
+      </div>
+
+      <details class="mt-3" id="rawPayload" style="display:none;">
+        <summary class="mb-2">Pokaż surowy wynik (JSON)</summary>
+        <pre class="bg-light p-2 rounded border" id="rawJson"
+          style="white-space:pre-wrap; word-break:break-word;"></pre>
+      </details>
+    </div>
+  </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  // --- utils (normalizacja, zaznacz/odznacz, liczniki) ---
+  const norm = (s) => (s || '')
+    .toString()
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/ą/g,'a').replace(/ć/g,'c').replace(/ę/g,'e')
+    .replace(/ł/g,'l').replace(/ń/g,'n').replace(/ó/g,'o')
+    .replace(/ś/g,'s').replace(/ż/g,'z').replace(/ź/g,'z');
+
+  function toggleAll(masterId, itemSelector) {
+    const master = document.getElementById(masterId);
+    if (!master) return;
+    master.addEventListener('change', () => {
+      document.querySelectorAll(itemSelector).forEach(cb => { cb.checked = master.checked; });
+      updateCounts();
+    });
+  }
+  toggleAll('toggleAllSurveys', '.survey-checkbox');
+  toggleAll('toggleAllLabs', '.lab-checkbox');
+
+  function updateCounts() {
+    const s = document.querySelectorAll('.survey-checkbox:checked').length;
+    const l = document.querySelectorAll('.lab-checkbox:checked').length;
+    const sNode = document.getElementById('countSurveys');
+    const lNode = document.getElementById('countLabs');
+    if (sNode) sNode.textContent = s;
+    if (lNode) lNode.textContent = l;
+  }
+  document.addEventListener('change', (e) => {
+    if (e.target.matches('.survey-checkbox, .lab-checkbox')) updateCounts();
+  });
+  updateCounts();
+
+  function filterList(listId, itemClass, query) {
+    const list = document.getElementById(listId);
+    if (!list) return;
+    const q = norm(query);
+    let visible = 0;
+    list.querySelectorAll('.' + itemClass).forEach(li => {
+      const show = norm(li.textContent).includes(q);
+      li.classList.toggle('d-none', !show);
+      if (show) visible++;
+    });
+    const emptyId = (listId === 'surveyList') ? 'surveyEmpty' : (listId === 'labList') ? 'labEmpty' : null;
+    if (emptyId) {
+      const el = document.getElementById(emptyId);
+      if (el) el.classList.toggle('d-none', visible > 0);
+    }
+  }
+
+  document.addEventListener('input', function (e) {
+    if (e.target?.id === 'filterSurveys') {
+      filterList('surveyList', 'survey-item', e.target.value);
+    } else if (e.target?.id === 'filterLabs') {
+      filterList('labList', 'lab-item', e.target.value);
+    }
+  });
+
+  const sInput = document.getElementById('filterSurveys');
+  if (sInput?.value) filterList('surveyList', 'survey-item', sInput.value);
+  const lInput = document.getElementById('filterLabs');
+  if (lInput?.value) filterList('labList', 'lab-item', lInput.value);
+
+  // --- wybór modelu, hint i prompt visibility ---
+  const model = document.getElementById('aiModel');
+  const hint = document.getElementById('modelHint');
+  const hintText = document.getElementById('modelHintText');
+  const promptGroup = document.getElementById('promptGroup');
+  const copy = {
+    'mistral': 'Mistral: generatywna analiza odpowiedzi z ankiet oraz wyników badań.',
+    'mistral_rag': 'Mistral (RAG): analiza z odwołaniami do źródeł.',
+    'xgboost': 'XGBoost: klasyfikacja z rozkładem procentowym klas.',
+    'herbert': 'HerBERT: klasyfikacja z rozkładem procentowym klas.'
+  };
+  function refreshPromptVisibility() {
+    const v = (model?.value || '').toLowerCase();
+    const showPrompt = (v === 'mistral' || v === 'mistral_rag');
+    if (hint) hint.style.display = 'block';
+    if (hintText) hintText.textContent = copy[v] || 'Wybrano model.';
+    if (promptGroup) promptGroup.style.display = showPrompt ? '' : 'none';
+  }
+  model?.addEventListener('change', refreshPromptVisibility);
+  refreshPromptVisibility();
+
+  // --- CSRF z cookies ---
+  function getCookie(name) {
+    const value = document.cookie;
+    const parts = value.split('; ' + name + '=');
+    if (parts.length === 2) return parts.pop().split(';').shift();
+    return null;
+  }
+  const csrftoken = getCookie('csrftoken');
+
+  // --- helpers ---
+  function getCheckedValues(selector) {
+    return Array.from(document.querySelectorAll(selector + ':checked')).map(cb => cb.value);
+  }
+
+  // --- render: tekst (LLM) ---
+  function showResultText(html) {
+    const gen = document.getElementById('generalText');
+    const genWrap = document.getElementById('resultsGeneral');
+    const cls = document.getElementById('resultsClassification');
+    const llm = document.getElementById('resultsLLMConfidence');
+    const raw = document.getElementById('rawPayload');
+    if (gen) gen.innerHTML = html;
+    if (genWrap) genWrap.style.display = '';
+    if (cls) cls.style.display = 'none';
+    if (llm) llm.style.display = 'none';
+    if (raw) raw.style.display = '';
+  }
+
+  // --- render: klasyfikacja (HerBERT / XGBoost) ---
+  function showClassification(predLabel, probs) {
+    // schowaj sekcję generatywną
+    const genWrap = document.getElementById('resultsGeneral');
+    if (genWrap) genWrap.style.display = 'none';
+
+    const wrap = document.getElementById('resultsClassification');
+    const clsSpan = document.getElementById('predictedClass');
+    const probsBox = document.getElementById('classProbs');
+    if (!wrap || !clsSpan || !probsBox) return;
+
+    clsSpan.textContent = predLabel || '—';
+
+    // obsłuż oba formaty: {percent: 0..100} lub {prob: 0..1}
+    const items = (Array.isArray(probs) ? probs : []).map(it => {
+      const pct = (typeof it.percent === 'number')
+        ? it.percent
+        : (typeof it.prob === 'number' ? it.prob * 100 : 0);
+      return { label: it.label || '', percent: Math.max(0, Math.min(100, Number(pct))) };
+    }).sort((a, b) => b.percent - a.percent);
+
+    probsBox.innerHTML = items.map(it => `
+      <div class="mb-2">
+        <div class="d-flex justify-content-between">
+          <small>${(it.label || '').replace(/</g,'&lt;').replace(/>/g,'&gt;')}</small>
+          <small>${it.percent.toFixed(2)}%</small>
+        </div>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar"
+               style="width:${it.percent}%;" aria-valuenow="${it.percent}"
+               aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+      </div>
+    `).join('');
+
+    wrap.style.display = '';
+  }
+
+  function hideClassification() {
+    const wrap = document.getElementById('resultsClassification');
+    const clsSpan = document.getElementById('predictedClass');
+    const probsBox = document.getElementById('classProbs');
+    if (wrap) wrap.style.display = 'none';
+    if (clsSpan) clsSpan.textContent = '—';
+    if (probsBox) probsBox.innerHTML = '';
+  }
+
+  // --- przycisk: Uruchom analizę ---
+  document.getElementById('runAnalysisBtn')?.addEventListener('click', async () => {
+    const modelVal = (document.getElementById('aiModel')?.value || '').toLowerCase();
+    const survey_ids = getCheckedValues('.survey-checkbox');
+    const lab_ids = getCheckedValues('.lab-checkbox');
+    const prompt = document.getElementById('promptInput')?.value || '';
+    if (!modelVal) { alert('Wybierz model.'); return; }
+
+    // reset widoków
+    const gen = document.getElementById('generalText');
+    const genWrap = document.getElementById('resultsGeneral');
+    const raw = document.getElementById('rawPayload');
+    const rawJson = document.getElementById('rawJson');
+    if (gen) gen.innerHTML = '';
+    if (genWrap) genWrap.style.display = 'none';
+    hideClassification();
+    if (raw) raw.style.display = 'none';
+    if (rawJson) rawJson.textContent = '';
+
+    const loader = document.getElementById('analysisLoading');
+    if (loader) loader.style.display = '';
+    try {
+      const resp = await fetch("{% url 'api-run' %}", {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRFToken': csrftoken || ''
+        },
+        body: JSON.stringify({ model: modelVal, prompt, survey_ids, lab_ids })
+      });
+      const data = await resp.json();
+
+      if (!data.ok) {
+        showResultText(`<div class="text-danger">Błąd: ${data.error || 'nieznany'}</div>`);
+        return;
+      }
+
+      // render wg modelu
+      if (modelVal === 'mistral' || modelVal === 'mistral_rag') {
+        showResultText(
+          `<div class="border rounded p-2 bg-light">` +
+          (data.text || '').replace(/\n/g, '<br>') +
+          `</div>`
+        );
+      } else if (modelVal === 'herbert' || modelVal === 'xgboost') {
+        showClassification(data.predicted_label || '—', data.probs || []);
+      }
+
+      // pokaż surowy JSON (zawsze)
+      if (rawJson) rawJson.textContent = JSON.stringify(data, null, 2);
+      if (raw) raw.style.display = '';
+    } catch (e) {
+      showResultText(`<div class="text-danger">Błąd sieci/serwera: ${e}</div>`);
+    } finally {
+      if (loader) loader.style.display = 'none';
+    }
+  });
+
+  // --- przycisk: Wyczyść wyniki ---
+  document.getElementById('clearResultsBtn')?.addEventListener('click', () => {
+    const gen = document.getElementById('generalText');
+    const genWrap = document.getElementById('resultsGeneral');
+    const cls = document.getElementById('resultsClassification');
+    const llm = document.getElementById('resultsLLMConfidence');
+    const raw = document.getElementById('rawPayload');
+    const rawJson = document.getElementById('rawJson');
+    if (gen) gen.innerHTML = '';
+    if (genWrap) genWrap.style.display = 'none';
+    if (cls) cls.style.display = 'none';
+    if (llm) llm.style.display = 'none';
+    if (raw) raw.style.display = 'none';
+    if (rawJson) rawJson.textContent = '';
+  });
+
+  // startowe odświeżenie list
+  filterList('surveyList', 'survey-item', '');
+  filterList('labList', 'lab-item', '');
+});
+</script>
+

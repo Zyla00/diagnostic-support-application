@@ -1,0 +1,264 @@
+Oto szczegółowy opis specjalisty – **ginekologa**, przygotowany zgodnie z Twoimi założeniami: bez zbędnych ozdobników, z odniesieniem do konkretnych objawów, badań, wartości referencyjnych oraz kryteriów kwalifikacji pacjentki do wizyty z perspektywy POZ.
+
+---
+
+## Kim jest ginekolog?
+
+**Ginekolog** to lekarz specjalista zajmujący się diagnostyką, leczeniem oraz profilaktyką chorób układu rozrodczego kobiet na każdym etapie życia – od okresu pokwitania, przez wiek rozrodczy, ciążę, aż po menopauzę i okres postmenopauzalny. Prowadzi kontrolę cyklu miesiączkowego, leczenie infekcji, diagnostykę niepłodności, opiekę prenatalną, a także rozpoznaje i leczy choroby nowotworowe układu płciowego.
+
+---
+
+## Objawy wskazujące na konieczność wizyty u ginekologa
+
+### Objawy z wywiadu:
+
+* Nieregularne miesiączki lub ich brak (> 90 dni przerwy)
+* Zbyt obfite miesiączki (> 80 ml / cykl, > 7 dni) lub zbyt częste (< 21 dni odstępu)
+* Bóle w podbrzuszu niezwiązane z infekcją lub przewlekłe
+* Bolesne miesiączki (dysmenorrhoea) uniemożliwiające normalne funkcjonowanie
+* Krwawienia międzymiesiączkowe lub po stosunku
+* Upławy – nieprawidłowa barwa, zapach, ilość, pieczenie, świąd
+* Zaburzenia owulacji – cykle bezowulacyjne, brak śluzu szyjkowego
+* Objawy infekcji dróg rodnych – świąd, ból, pieczenie, gorączka
+* Ból w czasie współżycia (dyspareunia)
+* Zmiany na sromie, szyjce macicy, w piersiach (guzki, owrzodzenia)
+* Problemy z zajściem w ciążę (> 12 miesięcy bezskutecznych prób)
+* Nietrzymanie moczu, uczucie parcia, obniżenie narządów rodnych
+* Objawy menopauzalne: uderzenia gorąca, suchość pochwy, bezsenność, rozdrażnienie
+
+---
+
+## Badania laboratoryjne – wartości alarmowe
+
+### Hormony płciowe (dni cyklu – domyślnie 3.–5. dzień):
+
+* **FSH:** > 10–12 IU/L (może wskazywać na wygasanie funkcji jajników – u kobiet < 35 r.ż. nieprawidłowe)
+* **LH:** nieprawidłowy stosunek LH\:FSH > 2:1 może sugerować PCOS
+* **Estradiol:** < 40 pg/mL w 3.–5. dniu cyklu – podejrzenie niewydolności jajników
+* **Progesteron:** < 3 ng/mL w fazie lutealnej (dzień 21) – brak owulacji
+* **PRL:** > 25 ng/mL (hiperprolaktynemia – zaburzenia miesiączkowania, bezpłodność)
+
+### Markery infekcji i stanu zapalnego:
+
+* **CRP:** > 10 mg/L – aktywna infekcja (np. PID – zapalenie narządów miednicy mniejszej)
+* **WBC:** > 10 000/µL – infekcja, zwłaszcza przy podwyższonym OB
+* **OB:** > 20 mm/h u młodych kobiet, > 30 mm/h u starszych – przewlekły stan zapalny
+
+### Onkologia i screening:
+
+* **Cytologia szyjki macicy:** ASC-US, LSIL, HSIL – wskazanie do kolposkopii
+* **CA-125:** > 35 U/mL u kobiet w okresie pomenopauzalnym – podejrzenie raka jajnika
+* **CEA, HE4:** powyżej norm w kontekście zmian guzowatych
+* **Test HPV HR:** dodatni – ryzyko nowotworu szyjki macicy
+
+### Inne:
+
+* **Test ciążowy (β-hCG):** dodatni > 5 mIU/mL – diagnostyka ciąży i powikłań
+* **TSH:** < 0,3 lub > 4,0 µIU/mL – wpływ na cykl, płodność, przebieg ciąży
+* **Glukoza na czczo:** > 100 mg/dL – insulinooporność, PCOS
+* **Insulina na czczo:** > 15 µIU/mL – podejrzenie hiperinsulinemii
+* **Androstendion, DHEAS, testosteron:** podwyższone – hirsutyzm, PCOS
+
+---
+
+## Zmienność osobnicza – wiek i fazy życia kobiety
+
+* **Nastoletnie pacjentki:** brak miesiączki > 16 r.ż., silne bóle miesiączkowe, podejrzenie wad rozwojowych
+* **Kobiety w wieku rozrodczym:** zaburzenia owulacji, niepłodność, PCOS, infekcje, nadżerki
+* **Kobiety ciężarne:** prowadzenie ciąży, USG, testy prenatalne
+* **Kobiety w wieku okołomenopauzalnym:** nieregularne krwawienia, objawy klimakterium
+* **Kobiety w okresie postmenopauzy:** każde krwawienie z dróg rodnych jest objawem alarmowym (może wskazywać na raka endometrium)
+* **Kobiety z wywiadem nowotworowym w rodzinie:** wcześniejsza cytologia, testy HPV, profil genetyczny (np. BRCA1/2)
+
+---
+
+## Na co zwraca uwagę lekarz POZ przy kierowaniu do ginekologa?
+
+### 1. Objawy przewlekłe lub niepokojące:
+
+* Nieregularne, bolesne lub nadmierne miesiączki
+* Plamienia między miesiączkami lub po stosunku
+* Wydzielina z pochwy o nietypowym zapachu lub barwie
+* Bóle w podbrzuszu > 3 tygodnie
+* Objawy sugerujące torbiel, mięśniaka, endometriozę
+
+### 2. Nieprawidłowe wyniki badań:
+
+* Cytologia nieprawidłowa (np. HSIL, LSIL, ASC-H)
+* Dodatni test na HPV HR
+* CA-125 > 35 U/mL lub HE4 powyżej normy
+* Zaburzenia hormonalne – FSH, LH, prolaktyna, TSH
+* β-hCG dodatni bez obrazu ciąży w USG – podejrzenie ciąży pozamacicznej
+
+### 3. Diagnostyka płodności:
+
+* Brak owulacji, nieregularne cykle, brak ciąży mimo starań
+* Pary z niepłodnością (ponad 12 miesięcy współżycia bez zabezpieczenia)
+
+### 4. Prowadzenie ciąży i konsultacje prenatalne:
+
+* Potwierdzenie ciąży, badania prenatalne, badania przesiewowe, USG
+* Wcześniejsze poronienia, problemy z donoszeniem
+
+### 5. Skierowanie do dalszej diagnostyki lub leczenia:
+
+* Podejrzenie endometriozy, mięśniaków, torbieli, guzów
+* Potrzeba leczenia operacyjnego
+* Potrzeba antykoncepcji hormonalnej lub hormonalnej terapii menopauzy
+* Krwawienie po menopauzie (zawsze traktowane jako alarmowe)
+
+---
+
+## Podsumowanie – wskazania do konsultacji ginekologicznej
+
+* Nieregularne lub nieobecne miesiączki
+* Krwawienia międzymiesiączkowe, bolesne miesiączki, plamienia po stosunku
+* Podejrzenie ciąży pozamacicznej lub poronienia
+* Problemy z płodnością, zaburzenia owulacji
+* Hiperprolaktynemia, PCOS, insulinooporność
+* Infekcje dróg rodnych – nawracające lub oporne na leczenie
+* Zmiany w piersiach, sromie, szyjce macicy – do dalszej diagnostyki
+* Nieprawidłowa cytologia lub dodatni test HPV
+* Krwawienie po menopauzie, ból podbrzusza w okresie pomenopauzalnym
+* Niskie wartości estradiolu, FSH > 30 IU/L – menopauza potwierdzona
+
+---
+
+## Ankieta specjalistyczna – ginekologia
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód wizyty?
+• Od kiedy występują objawy?
+• Czy występowały podobne objawy wcześniej?
+• Czy objawy mają związek z cyklem miesiączkowym?
+• Czy występuje ból, krwawienie, upławy, świąd, pieczenie?
+• Czy objawy dotyczą dolnego brzucha, piersi, okolic intymnych?
+
+---
+
+### II. Cykl miesiączkowy
+
+• W jakim wieku pojawiła się pierwsza miesiączka?
+• Czy cykle są regularne? Ile dni trwa cykl?
+• Ile dni trwa krwawienie?
+• Czy miesiączki są bolesne?
+• Czy są bardzo obfite (np. konieczność zmiany podpaski co < 2 godz.)?
+• Czy występują plamienia między miesiączkami?
+• Czy występują krwawienia po stosunku?
+• Czy miesiączki ustały? W jakim wieku? (jeśli po menopauzie)
+
+---
+
+### III. Objawy hormonalne i endokrynologiczne
+
+• Czy występują:
+ – Trądzik, łojotok?
+ – Nadmierne owłosienie (twarz, klatka piersiowa, brzuch)?
+ – Wypadanie włosów (szczególnie skroniowo)?
+ – Przewlekłe bóle głowy lub zaburzenia widzenia?
+ – Objawy depresji, zaburzenia nastroju?
+ – Uderzenia gorąca, potliwość, bezsenność?
+
+---
+
+### IV. Objawy z dróg rodnych
+
+• Czy występuje świąd, pieczenie, ból przy oddawaniu moczu?
+• Czy są nieprawidłowe upławy (barwa, zapach, ilość)?
+• Czy pojawiły się zmiany skórne w okolicach intymnych (guzki, owrzodzenia)?
+• Czy współżycie jest bolesne?
+• Czy występuje nietrzymanie moczu?
+
+---
+
+### V. Historia ciąż i płodność
+
+• Czy pacjentka była w ciąży? Ile razy?
+• Czy były poronienia, ciąże pozamaciczne, porody przedwczesne?
+• Czy są trudności z zajściem w ciążę? Od jak dawna?
+• Czy stosuje środki antykoncepcyjne? Jakie?
+• Czy planuje ciążę?
+
+---
+
+### VI. Wyniki badań (jeśli dostępne)
+
+• Cytologia (ostatnia data, wynik)
+• HPV HR – dodatni / ujemny
+• USG przezpochwowe – opis, nieprawidłowości
+• β-hCG – \_\_\_\_\_\_ mIU/mL
+• FSH – \_\_\_\_\_\_ IU/L
+• LH – \_\_\_\_\_\_ IU/L
+• Estradiol – \_\_\_\_\_\_ pg/mL
+• Progesteron – \_\_\_\_\_\_ ng/mL
+• Prolaktyna – \_\_\_\_\_\_ ng/mL
+• Testosteron – \_\_\_\_\_\_ ng/dL
+• Androstendion / DHEAS – \_\_\_\_\_\_
+• TSH – \_\_\_\_\_\_ µIU/mL
+• Glukoza – \_\_\_\_\_\_ mg/dL
+• Insulina – \_\_\_\_\_\_ µIU/mL
+• CA-125 – \_\_\_\_\_\_ U/mL
+• CRP / OB – \_\_\_\_\_\_
+• WBC – \_\_\_\_\_\_
+
+---
+
+### VII. Wywiad rodzinny
+
+• Czy w rodzinie występowały:
+ – Rak piersi, jajnika, szyjki macicy, trzonu macicy?
+ – Mutacje BRCA1/2?
+ – Zaburzenia hormonalne, PCOS, wczesna menopauza?
+
+---
+
+### VIII. Badanie piersi / samobadanie
+
+• Czy pacjentka regularnie bada piersi?
+• Czy wykryła zmiany palpacyjne, zgrubienia?
+• Czy pojawił się wyciek z brodawki, ból lub zmiana kształtu piersi?
+
+---
+
+### IX. Menopauza / okres postmenopauzalny (jeśli dotyczy)
+
+• Wiek menopauzy?
+• Czy występują:
+ – Uderzenia gorąca, potliwość nocna?
+ – Suchość pochwy, ból przy stosunku?
+ – Zaburzenia snu, drażliwość?
+• Czy pojawiło się krwawienie po menopauzie?
+
+---
+
+### X. Inne istotne informacje
+
+• Czy stosowane są leki hormonalne (HTZ, antykoncepcja)?
+• Czy występują choroby przewlekłe? (np. cukrzyca, niedoczynność tarczycy)
+• Czy występują przeciwwskazania do HTZ (np. zakrzepica, nowotwory)?
+• Czy pacjentka ma partnera, czy współżyje?
+• Czy występują problemy seksualne?
+
+---
+
+### XI. Objawy alarmowe – do zaznaczenia
+
+\[ ] Krwawienia po menopauzie
+\[ ] Nieregularne, zbyt częste lub zbyt obfite miesiączki
+\[ ] Brak miesiączki > 3 miesiące (po wcześniejszych regularnych)
+\[ ] Bolesne stosunki płciowe (dyspareunia)
+\[ ] Hiperprolaktynemia (PRL > 25 ng/mL)
+\[ ] PCOS – LH\:FSH > 2:1, brak owulacji, hirsutyzm
+\[ ] Cytologia HSIL / ASC-H / LSIL
+\[ ] Dodatni test HPV HR
+\[ ] Zmiany palpacyjne piersi
+\[ ] Podejrzenie ciąży pozamacicznej (β-hCG dodatni, brak pęcherzyka w macicy)
+\[ ] Zakażenie układu rozrodczego (świąd, ból, upławy, gorączka)
+\[ ] CA-125 > 35 U/mL + objawy guzów przydatków
+\[ ] Zanik miesiączki < 40 r.ż. – podejrzenie przedwczesnej niewydolności jajników
+
+---
+

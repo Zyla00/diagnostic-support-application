@@ -1,0 +1,256 @@
+## Kim jest endokrynolog?
+
+Endokrynolog to lekarz specjalizujący się w rozpoznawaniu i leczeniu chorób gruczołów wydzielania wewnętrznego – tarczycy, przytarczyc, przysadki, nadnerczy, trzustki (w części hormonalnej) i gonad. Zajmuje się m.in. zaburzeniami hormonalnymi tarczycy, nadczynnością i niedoczynnością nadnerczy, hiperprolaktynemią, zaburzeniami miesiączkowania i płodności, pierwotnym i wtórnym hipogonadyzmem, zespołem policystycznych jajników (PCOS), akromegalią, chorobami kości zależnymi od hormonów (osteoporoza), oraz nowotworami endokrynnymi (np. rak rdzeniasty tarczycy, guz chromochłonny).
+
+---
+
+## Objawy kliniczne, które powinny skłonić do wizyty u endokrynologa
+
+1. **Zaburzenia masy ciała i metabolizmu**
+   • nagły przyrost lub spadek masy ciała > 5 kg w 3 miesiące bez zmiany stylu życia
+
+   • niekontrolowane pocenie się, napady gorąca, kołatania serca, nietolerancja ciepła (nadczynność tarczycy)
+
+   • uczucie zimna, senność, sucha skóra, obrzęki (niedoczynność tarczycy)
+
+2. **Zmiany szyi i głosu**
+   • widoczne powiększenie tarczycy, uczucie ucisku, chrypka, trudności w przełykaniu
+
+3. **Zaburzenia miesiączkowania i płodności**
+   • brak miesiączki > 3 mies. (amenorrhoea)
+
+   • cykle > 35 dni (oligomenorrhoea)
+
+   • hiperandrogenizm kliniczny: trądzik, hirsutyzm, łysienie typu męskiego u kobiet
+
+4. **Zaburzenia seksualne u mężczyzn**
+   • spadek libido, zaburzenia erekcji, ginekomastia, utrata owłosienia ciała
+
+5. **Objawy z nadnerczy**
+   • epizody nadciśnienia z bólami głowy i kołataniem serca (guz chromochłonny)
+
+   • osłabienie mięśni, hiperpigmentacja skóry, niedociśnienie ortostatyczne (niedoczynność nadnerczy)
+
+   • otyłość centralna, rozstępy purpurowe, osłabienie mięśni (zespół Cushinga)
+
+6. **Zaburzenia wzrostu i morfologii ciała**
+   • przyspieszony wzrost u dziecka > +2 SD względem wieku
+
+   • nagłe powiększenie stóp, dłoni, żuchwy, nosa u dorosłego (akromegalia)
+
+7. **Zaburzenia gospodarki wapniowo-fosforanowej**
+   • tężyczka, drętwienia, skurcze mięśni (hipokalcemia)
+
+   • wielomocz, kamica nerkowa, bóle kości (hiperkalcemia)
+
+8. **Osteoporoza i złamania niskoenergetyczne**
+   • złamanie przy upadku z wysokości własnej
+
+   • T-score ≤ −2,5 w densytometrii DEXA
+
+---
+
+## Badania laboratoryjne i instrumentalne wskazujące na potrzebę skierowania
+
+* **TSH poza zakresem 0,4-4,0 mIU/L**:
+  • TSH > 4,0 mIU/L z FT4 < 10 pmol/L → niedoczynność tarczycy (pilna wizyta, jeśli TSH > 10)
+  • TSH < 0,1 mIU/L z FT4 > 22 pmol/L → kliniczna nadczynność tarczycy
+* **Przeciwciała anty-TPO > 34 IU/mL lub anty-Tg > 115 IU/mL** – autoimmunologiczne zapalenie tarczycy.
+* **Kortyzol poranny < 5 µg/dL (140 nmol/L)** – podejrzenie niewydolności nadnerczy; > 18 µg/dL po próbie z ACTH wyklucza.
+* **Kortyzol późnonocny śliny > 0,25 µg/dL (6,9 nmol/L)** albo **test hamowania 1 mg deksametazonem: kortyzol > 1,8 µg/dL** – podejrzenie zespołu Cushinga.
+* **PRL > 25 ng/mL (kobieta) / > 20 ng/mL (mężczyzna)** w dwóch próbach – hiperprolaktynemia; przy > 150 ng/mL konieczne MRI przysadki.
+* **Ca skorygowane > 10,5 mg/dL (2,62 mmol/L)** oraz PTH > 65 pg/mL – pierwotna nadczynność przytarczyc.
+* **Testosteron całkowity < 300 ng/dL (10,4 nmol/L)** o 7:00-10:00 u mężczyzny → hipogonadyzm; FT4/SHBG zależnie od otyłości.
+* **DHEAS lub wolny testosteron > górna norma dla płci i wieku** u kobiety → hirsutyzm/PCOS lub guz androgenowy.
+* **IGF-1 > +2 SD dla wieku i płci** + brak supresji GH < 1 ng/mL w OGTT → akromegalia.
+* **FSH/LH < 3 IU/L u kobiety < 40 l. z amenorrhoeą** – podejrzenie niewydolności przysadki.
+* **T-score ≤ −2,5** (kręgosłup lub szyjka kości udowej) – osteoporoza pierwotna lub wtórna.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko zaburzeń hormonalnych
+
+* Kobiety 30-50 l. → najczęstsze Hashimoto, PCOS, hiperprolaktynemia.
+* Mężczyźni > 50 l. → andropauza funkcjonalna (testosteron < 300 ng/dL) i hiperkortyzolemia.
+* Wiek < 18 l. → zaburzenia wzrastania, niedoczynność tarczycy wrodzona, wczesne pokwitanie (dziewczynki < 8 l., chłopcy < 9 l.).
+* Wywiad rodzinny: choroby tarczycy, MEN 2, guz chromochłonny, rak tarczycy.
+* Radioterapia głowy/szyi, leczenie interferonem, amiodaron, lit.
+* Otyłość brzuszna (talia ≥ 102 cm mężczyzna; ≥ 88 cm kobieta) → insulinooporność, zespół metaboliczny.
+* Zaburzenia miesiączkowania + BMI ≥ 30 lub intensywny trening wyczynowy.
+
+---
+
+## Na co zwraca uwagę lekarz POZ przed wystawieniem skierowania
+
+1. **Objawy kliniczne + odchylenia w badaniu**
+   – powiększona, nierówna tarczyca, tężyczka, ortostatyczne spadki ciśnienia, akromegalia (rękawiczka większa, zmiana rysów twarzy).
+
+2. **Nieprawidłowości w rutynowych badaniach**
+   – TSH < 0,1 mIU/L lub > 4,0 mIU/L
+   – Ca skorygowane > 10,5 mg/dL, PTH podwyższone
+   – PRL > 100 ng/mL lub PRL podwyższona + objawy
+   – Kortyzol poranny < 5 µg/dL lub brak hamowania w teście deksametazonowym
+   – Testosteron < 300 ng/dL u mężczyzny z objawami hipogonadyzmu
+   – IGF-1 podwyższone + objawy akromegalii
+
+3. **Dynamika zmian**
+   – szybki wzrost guza tarczycy (> 20 %/rok lub średnica > 1 cm z cechami podejrzanymi w USG)
+   – nagłe pogorszenie wzroku, ból głowy + wysokie PRL (możliwy guz przysadki)
+
+4. **Brak poprawy mimo leczenia w POZ**
+   – dawka L-tyroksyny > 1,8 µg/kg i TSH nadal > 4 mIU/L
+   – leczenie doustne hirsutyzmu > 6 mies. bez efektu
+   – osteopenia/osteoporoza mimo suplementacji wapnia i wit. D (25(OH)D < 20 ng/mL)
+
+5. **Planowanie ciąży / ciąża**
+   – TSH poza zakresem 0,1-2,5 mIU/L w I trymestrze
+   – cukrzyca ciążowa + podejrzenie zaburzeń tarczycy lub PCOS
+
+---
+
+## Podsumowanie – kiedy bezwzględnie skierować do endokrynologa?
+
+* TSH < 0,1 mIU/L z objawami lub TSH > 10 mIU/L niezależnie od objawów.
+* Ca > 11 mg/dL lub hipokalcemia objawowa.
+* Kortyzol poranny < 3 µg/dL albo brak hamowania po 1 mg deksametazonu.
+* PRL > 150 ng/mL, spadek ostrości wzroku, bóle głowy – pilne MRI przysadki.
+* Testosteron < 200 ng/dL z objawami hipogonadyzmu lub androgenizacja kobiety.
+* IGF-1 podwyższone + brak supresji GH w OGTT.
+* Złamanie niskoenergetyczne + T-score ≤ −2,5.
+* Guz tarczycy > 1 cm z nieprawidłowym obrazem w USG lub szybki przyrost.
+* Nadciśnienie napadowe + metanefryny w moczu > 3-krotność normy → podejrzenie guza chromochłonnego.
+
+
+---
+
+## Ankieta specjalistyczna – endokrynolog
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód wizyty?
+• Od kiedy występują objawy?
+• Czy objawy nasilają się lub ulegają zmianie?
+• Czy pojawiły się wcześniej podobne dolegliwości?
+
+---
+
+### II. Objawy kliniczne ogólne i hormonalne
+
+• Czy występuje:
+ – Przyrost masy ciała bez zmiany diety?
+ – Spadek masy ciała mimo apetytu?
+ – Nadmierna potliwość lub uczucie gorąca?
+ – Nietolerancja zimna, suchość skóry, senność?
+ – Kołatanie serca, drżenie rąk, bezsenność?
+ – Zmiana głosu, ucisk w szyi, trudność w przełykaniu?
+ – Objawy nerwowo-mięśniowe: drętwienie, kurcze, tężyczka?
+ – Bóle głowy, zaburzenia widzenia (zwłaszcza bocznego)?
+ – Rozstępy na skórze, siniaki, trądzik, hirsutyzm?
+
+---
+
+### III. Układ rozrodczy i hormonalny
+
+• Kobieta:
+ – Czy miesiączki są regularne?
+ – Czy występują przerwy w miesiączkowaniu > 3 miesiące?
+ – Czy występuje nadmierne owłosienie na twarzy, klatce piersiowej, brzuchu?
+ – Czy występuje trądzik, łysienie skroniowe, głęboki głos?
+ – Czy były trudności z zajściem w ciążę?
+ – Czy rozpoznano PCOS?
+
+• Mężczyzna:
+ – Czy występuje spadek libido?
+ – Czy występują zaburzenia erekcji?
+ – Czy wystąpiła ginekomastia, spadek masy mięśniowej, osłabienie?
+
+---
+
+### IV. Choroby współistniejące
+
+• Czy rozpoznano choroby tarczycy (niedoczynność, nadczynność, guzki)?
+• Czy była/jest niedoczynność nadnerczy, przysadki lub inne zaburzenia hormonalne?
+• Czy rozpoznano osteoporozę, hiperkalcemię, kamicę nerkową, złamania?
+• Czy występuje nadciśnienie napadowe lub oporne na leczenie?
+• Czy pacjent choruje przewlekle na: cukrzycę, depresję, padaczkę, nowotwory?
+
+---
+
+### V. Leki i suplementacja
+
+• Jakie leki są obecnie przyjmowane?
+ – L-tyroksyna, leki na nadciśnienie, sterydy, antykoncepcja hormonalna, leki psychiatryczne?
+• Czy stosowane są suplementy (jod, wit. D, wapń)?
+• Czy wystąpiły działania niepożądane po lekach?
+
+---
+
+### VI. Wyniki badań laboratoryjnych (jeśli dostępne)
+
+• TSH: \_\_\_\_\_\_ mIU/L
+• FT4: \_\_\_\_\_\_ pmol/L
+• FT3: \_\_\_\_\_\_ pmol/L
+• Anty-TPO: \_\_\_\_\_\_ IU/mL
+• Anty-Tg: \_\_\_\_\_\_ IU/mL
+• Kortyzol 8:00: \_\_\_\_\_\_ µg/dL
+• ACTH: \_\_\_\_\_\_ pg/mL
+• PRL: \_\_\_\_\_\_ ng/mL
+• Testosteron całkowity: \_\_\_\_\_\_ ng/dL
+• SHBG: \_\_\_\_\_\_ nmol/L
+• DHEAS: \_\_\_\_\_\_ µg/dL
+• LH: \_\_\_\_\_\_ IU/L
+• FSH: \_\_\_\_\_\_ IU/L
+• Estradiol: \_\_\_\_\_\_ pg/mL
+• Ca całkowity / skorygowany: \_\_\_\_\_\_ / \_\_\_\_\_\_ mg/dL
+• PTH: \_\_\_\_\_\_ pg/mL
+• 25(OH)D (witamina D): \_\_\_\_\_\_ ng/mL
+• IGF-1: \_\_\_\_\_\_ ng/mL
+• GH (po OGTT, jeśli wykonywano): \_\_\_\_\_\_ ng/mL
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+
+---
+
+### VII. Wywiad rodzinny
+
+• Czy w rodzinie występowały choroby tarczycy, nadnerczy, cukrzyca typu 1, guzy przysadki lub nadnerczy?
+• Czy były przypadki raka rdzeniastego tarczycy, MEN 2, guz chromochłonny?
+
+---
+
+### VIII. Styl życia i czynniki środowiskowe
+
+• Jaki jest tryb życia? (siedzący, aktywny, stresujący)
+• Czy pacjent był leczony radioterapią głowy/szyi?
+• Czy stosowano leki o działaniu hormonalnym (np. lit, amiodaron, sterydy)?
+• Czy występują duże wahania masy ciała lub zaburzenia odżywiania?
+
+---
+
+### IX. Objawy alarmowe – do zaznaczenia
+
+\[ ] TSH < 0,1 mIU/L lub > 10 mIU/L
+\[ ] PRL > 100 ng/mL (z bólami głowy, ubytkiem pola widzenia)
+\[ ] Kortyzol poranny < 5 µg/dL lub > 18 µg/dL po deksametazonie
+\[ ] Ca skorygowane > 10,5 mg/dL z podwyższonym PTH
+\[ ] Hirsutyzm + wolny testosteron powyżej normy
+\[ ] IGF-1 podwyższone + zmiany wyglądu twarzy, dłoni
+\[ ] Osteoporoza (T-score ≤ −2,5) + złamanie niskoenergetyczne
+\[ ] Ginekomastia, hipogonadyzm męski z niskim testosteronem
+\[ ] Brak miesiączki > 6 miesięcy u kobiety < 40 r.ż.
+\[ ] Guz tarczycy > 1 cm z cechami podejrzanymi w USG
+\[ ] Nadciśnienie napadowe + metanefryny w moczu > 3 × ggn
+
+---
+
+### X. Podsumowanie – wskazania do konsultacji endokrynologicznej
+
+**Typ skierowania:**
+– Pilne: guz przysadki, hiperkalcemia objawowa, podejrzenie niedoczynności nadnerczy, podejrzenie raka tarczycy
+– Planowe: choroba Hashimoto, niedoczynność tarczycy stabilna, PCOS, hirsutyzm, hipogonadyzm
+– Diagnostyczne: niepłodność, zaburzenia wzrostu, osteoporoza, podejrzenie zespołów genetycznych (MEN)
+
+---
+

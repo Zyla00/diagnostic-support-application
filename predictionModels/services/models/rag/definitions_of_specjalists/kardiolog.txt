@@ -1,0 +1,253 @@
+## Kim jest kardiolog?
+
+**Kardiolog** to lekarz specjalista zajmujący się diagnostyką, leczeniem i profilaktyką chorób serca i układu krążenia: nadciśnienia tętniczego, choroby wieńcowej, zawału serca, zaburzeń rytmu, niewydolności serca, wad wrodzonych i nabytych zastawek, kardiomiopatii, zapaleń mięśnia sercowego i osierdzia oraz zaburzeń lipidowych.
+
+---
+
+## Oto tekstowy opis objawów klinicznych, które sugerują konieczność wizyty u kardiologa:
+
+
+Istnieje szereg objawów, których obecność powinna skłaniać do konsultacji z kardiologiem, szczególnie jeśli występują przewlekle lub nasilają się z czasem.
+
+**Ból w klatce piersiowej** to jeden z głównych sygnałów alarmowych. Jeśli ma charakter ucisku, gniecenia, promieniuje do lewej ręki lub żuchwy i trwa dłużej niż 10 minut albo pojawia się w trakcie wysiłku fizycznego (np. podczas chodzenia lub wchodzenia po schodach), może świadczyć o stabilnej dławicy piersiowej lub ostrym zespole wieńcowym.
+
+**Duszność**, zarówno wysiłkowa (np. przy wchodzeniu po jednym piętrze), jak i spoczynkowa czy w postaci ortopnoë (nasila się w pozycji leżącej), może wskazywać na niewydolność serca lub obecność wad zastawkowych.
+
+**Kołatania serca** – czyli uczucie nagłego, szybkiego lub nieregularnego bicia serca – często towarzyszą zawroty głowy, uczucie osłabienia czy omdlenia. Mogą być one objawem tachyarytmii, w tym migotania przedsionków.
+
+**Obrzęki** kończyn dolnych, szczególnie w okolicy kostek i goleni, które nasilają się wieczorem, mogą być wynikiem zastoinowej niewydolności serca, ale również chorób nerek. Wymagają diagnostyki różnicowej.
+
+**Omdlenia lub presynkopy**, czyli nagła utrata przytomności lub uczucie „ciemności przed oczami” i osłabienia, często mają podłoże kardiogenne – mogą wynikać z zaburzeń rytmu serca lub istotnego zwężenia zastawki aortalnej.
+
+**Objawy uogólnione**, takie jak przewlekłe zmęczenie, spadek tolerancji wysiłku czy napadowy kaszel nocny, mogą być subtelnymi oznakami postępującej niewydolności serca.
+
+
+---
+
+## Wyniki badań i wartości alarmowe
+
+### 1. Ciśnienie tętnicze (≥ 2 pomiary, siedz.):
+
+* **≥ 140/90 mmHg** (≥ 135/85 w pomiarach domowych) – nadciśnienie
+* **Skurczowe ≥ 180 lub rozkurczowe ≥ 110 mmHg** – pilna diagnostyka
+
+### 2. Lipidogram – wartości docelowe (Polska, 2025):
+
+
+W ocenie gospodarki lipidowej szczególną uwagę zwraca się na poziom cholesterolu frakcji LDL (LDL-C), cholesterolu nie-HDL (non-HDL-C) oraz trójglicerydów. Wartości docelowe różnią się w zależności od obecności chorób sercowo-naczyniowych (CVD), cukrzycy lub przewlekłej choroby nerek (PChN):
+
+* U **pacjentów bez chorób serca**:
+
+  * LDL-C powinien być **poniżej 115 mg/dL** (czyli < 3 mmol/L),
+  * non-HDL-C – poniżej 145 mg/dL,
+  * trójglicerydy – poniżej 150 mg/dL.
+
+* U **pacjentów z rozpoznaną chorobą sercowo-naczyniową, cukrzycą lub przewlekłą chorobą nerek**:
+
+  * docelowy poziom LDL-C jest znacznie niższy i wynosi **poniżej 55 mg/dL** (czyli < 1,4 mmol/L),
+  * non-HDL-C powinien być poniżej 85 mg/dL,
+  * trójglicerydy – poniżej 135 mg/dL.
+
+
+### 3. Markery sercowe (nagłe bóle klatki):
+
+* **hs-Troponina I/T**: > 99. centyl labo → OZW
+* **NT-proBNP**:
+  • < 50 r.ż. → > 450 pg/mL wskazuje na HF
+  • 50–75 l. → > 900 pg/mL
+  • > 75 l. → > 1800 pg/mL
+
+### 4. Glikemia i metabolizm:
+
+* Glukoza na czczo **≥ 100 mg/dL** – ryzyko sercowe (stan przedcukrzycowy)
+* HbA1c **≥ 6,5 %** – cukrzyca, ekwiwalent choroby wieńcowej
+* Kwas moczowy **> 7 mg/dL (M)** / **> 6 mg/dL (K)** – dodatkowy czynnik ryzyka
+
+### 5. EKG – wskazania do konsultacji:
+
+* Miara > 0,12 s (bloki pęczka), QS w V1–V3, uniesienia ST ≥ 1 mm, głęboka ujemna T, AF z częstością > 110/min, częstoskurcz > 150/min
+
+### 6. Echo serca / obrazowanie – wartości kluczowe:
+
+* Frakcja wyrzutowa **LVEF < 50 %** – dysfunkcja skurczowa
+* Stenoza aortalna: obszar zastawki < 1 cm² lub gradient średni > 40 mmHg
+* Niedomykalność mitralna ciężka: EROA ≥ 0,40 cm²
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób serca
+
+**Cechy osobnicze zwiększające ryzyko chorób sercowo-naczyniowych**
+
+Istnieje szereg czynników osobniczych, które istotnie podnoszą ryzyko wystąpienia choroby wieńcowej (CHD), niewydolności serca czy innych powikłań kardiologicznych:
+
+* **Wiek:** Ryzyko choroby niedokrwiennej serca (CHD) wyraźnie wzrasta po 55. roku życia u mężczyzn i po 65. roku życia u kobiet.
+
+* **Płeć:** Mężczyźni zapadają na chorobę wieńcową średnio około 10 lat wcześniej niż kobiety. Z kolei u kobiet częściej dochodzi do powikłań w przebiegu niewydolności serca z zachowaną frakcją wyrzutową (HFpEF).
+
+* **Wywiad rodzinny:** Wczesny zawał serca lub nagły zgon sercowy u krewnego pierwszego stopnia (< 55 lat u mężczyzn, < 65 lat u kobiet) istotnie zwiększa ryzyko genetyczne zachorowania.
+
+* **Palenie tytoniu:** Regularne palenie przynajmniej jednego papierosa dziennie, a także rzucenie palenia w ciągu ostatnich 12 miesięcy, to istotne czynniki ryzyka.
+
+* **Otyłość brzuszna:** Zwiększony obwód talii – ≥ 102 cm u mężczyzn i ≥ 88 cm u kobiet – koreluje z podwyższonym ryzykiem sercowo-naczyniowym.
+
+* **Nadciśnienie tętnicze:** Utrwalone ciśnienie tętnicze ≥ 140/90 mmHg to klasyczny i bardzo istotny czynnik ryzyka chorób serca.
+
+* **Cukrzyca lub stan przedcukrzycowy:** Poziom hemoglobiny glikowanej (HbA1c) równy lub wyższy niż 5,7% sugeruje zaburzenia gospodarki węglowodanowej, które znacząco wpływają na ryzyko sercowe.
+
+* **Przewlekła choroba nerek (CKD):** Obniżony wskaźnik przesączania kłębuszkowego (eGFR < 60 mL/min/1,73 m²) wskazuje na obecność przewlekłej choroby nerek, która niezależnie zwiększa ryzyko sercowo-naczyniowe.
+---
+
+## Na co zwraca uwagę lekarz POZ, wystawiając skierowanie
+
+1. **Objawy alarmowe**
+   – ból w klatce > 20 min, duszność spoczynkowa, omdlenie bez wyjaśnienia, sinica palców
+
+2. **Nieprawidłowe badania podstawowe**
+   – EKG z uniesieniem ST, blok AV II/III°, AF z szybką akcją, częstoskurcz komorowy
+   – BP ≥ 180/110 mmHg niekontrolowane farmakologicznie
+   – LVEF < 50 % w echu wykonanym w POZ
+   – Troponina podwyższona powyżej 99. percentyla
+
+3. **Nieskuteczność leczenia**
+   – HB-kontrolowane HT max-dawki, wciąż BP > 160/100 mmHg
+   – Dyslipidemia: LDL-C nie spada < 100 mg/dL mimo maks. statyny + ezetymib
+
+4. **Ryzyko powikłań**
+   – Wcześniejszy udar, TIA, PChW; trzeba ocenić potrzeby wtórnej prewencji
+   – Niewydolność nerek (eGFR < 60) + NT-proBNP > 900 pg/mL
+
+5. **Wskazania planowe**
+   – Ocena murmur systoliczny 3/6 lub głośniejszy
+   – Asymptomatyczna tachy- lub bradykardia utrwalona
+   – Choroba wieńcowa w rodzinie + objawy dyspeptyczne/ból wysiłkowy
+
+---
+
+## Podsumowanie: kiedy bezwzględnie do kardiologa?
+
+* Ból w klatce + troponina ≥ 99. pct. lub EKG z uniesieniem ST (pilne SOR).
+* Napadowy częstoskurcz > 150/min, AF z HR > 130/min w spoczynku.
+* LVEF ≤ 40 % lub OBJAWOWA niewydolność serca (NYHA III–IV).
+* Nadciśnienie oporne (≥ 3 leki, w tym diuretyk, a BP > 140/90 mmHg).
+* LDL-C > 190 mg/dL pomimo maks. terapii.
+* Obrzęki + NT-proBNP > 900 pg/mL (> 75 l.) lub > 450 pg/mL (< 50 l.).
+* Omdlenie niewyjaśnione z nieprawidłowym EKG.
+* Zwężenie aorty w echu (obszar < 1 cm²) lub podejrzenie wady wymagającej interwencji.
+
+---
+
+---
+
+## Ankieta specjalistyczna – kardiologia
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny objaw?
+• Od kiedy występują objawy?
+• Czy są stałe czy napadowe?
+• Co je wywołuje (wysiłek, stres, pozycja ciała)?
+• Czy towarzyszy im duszność, kołatanie serca, omdlenie, ból w klatce?
+• Czy objawy występują w spoczynku czy tylko przy wysiłku?
+
+---
+
+### II. Objawy sugerujące chorobę serca
+
+• Ból w klatce piersiowej – charakter, lokalizacja, czas trwania
+• Duszność – przy wysiłku czy spoczynkowa, ortopnoë, napadowa duszność nocna
+• Kołatania serca – szybkie, nieregularne, napadowe
+• Omdlenia lub uczucie zasłabnięcia
+• Obrzęki kończyn dolnych (pory dnia, symetria)
+• Sinica palców, bladość skóry
+• Kaszel suchy lub pienisty nocą
+• Uczucie szybkiego męczenia się
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy pacjent ma zdiagnozowane:
+ – Nadciśnienie tętnicze
+ – Cukrzycę typu 1 lub 2
+ – Przebyty zawał mięśnia sercowego
+ – Migotanie przedsionków, inne arytmie
+ – Wady zastawek serca
+ – Niewydolność serca
+ – Choroby naczyń (miażdżyca, TIA, udar)
+• Przebyte zabiegi: PCI / by-passy / stymulator / ablacja?
+• Czy rozpoznano choroby nerek, tarczycy lub choroby autoimmunologiczne?
+
+---
+
+### IV. Styl życia i czynniki ryzyka
+
+• Palenie papierosów – tak / nie / kiedy rzucił(a)
+• Alkohol – częstość i ilość
+• Dieta – tłusta, słona, bogata w węglowodany
+• Masa ciała, aktywność fizyczna
+• Poziom stresu, praca zmianowa
+• Sen – zaburzenia snu, bezdech?
+
+---
+
+### V. Leki i suplementy
+
+• Czy pacjent przyjmuje na stałe:
+ – Leki hipotensyjne, beta-blokery, diuretyki, statyny
+ – Leki przeciwkrzepliwe (NOAC, ASA, warfaryna)
+• Czy występują działania niepożądane?
+• Czy pacjent przyjmuje suplementy, zioła, środki odchudzające?
+
+---
+
+### VI. Badania laboratoryjne (jeśli dostępne)
+
+• Glukoza na czczo: \_\_\_\_\_\_ mg/dL
+• HbA1c: \_\_\_\_\_\_ %
+• Cholesterol całkowity: \_\_\_\_\_\_ mg/dL
+• LDL: \_\_\_\_\_\_ mg/dL
+• HDL: \_\_\_\_\_\_ mg/dL
+• Trójglicerydy: \_\_\_\_\_\_ mg/dL
+• NT-proBNP: \_\_\_\_\_\_ pg/mL
+• hs-Troponina: \_\_\_\_\_\_ ng/L
+• Kwas moczowy: \_\_\_\_\_\_ mg/dL
+• CRP: \_\_\_\_\_\_ mg/L
+• Kreatynina: \_\_\_\_\_\_ mg/dL
+• eGFR: \_\_\_\_\_\_ mL/min/1,73 m²
+• Elektrolity (Na⁺, K⁺): \_\_\_\_\_\_
+• INR (jeśli antykoagulacja): \_\_\_\_\_\_
+• EKG spoczynkowe – zmiany (jeśli znane): \_\_\_\_\_\_
+• Echo serca – LVEF: \_\_\_\_\_\_ %
+
+---
+
+### VII. Objawy alarmowe – do zaznaczenia
+
+\[ ] Ból w klatce piersiowej typowy dławicowy
+\[ ] Duszność spoczynkowa, ortopnoë
+\[ ] Omdlenie z nieprawidłowym EKG
+\[ ] NT-proBNP > 450 (<50 r.ż.), > 900 (50–75), > 1800 (>75)
+\[ ] Troponina powyżej wartości referencyjnej
+\[ ] LVEF < 50 %
+\[ ] Tętno spoczynkowe > 110/min lub < 50/min
+\[ ] Ciśnienie > 180/110 mmHg lub < 90/60 mmHg
+\[ ] Migotanie przedsionków z HR > 110/min
+\[ ] Bradykardia z objawami (HR < 45/min)
+\[ ] Obrzęki kończyn dolnych + duszność
+\[ ] Szmery serca III/VI lub głośniejsze
+\[ ] Przebyte TIA, udar, zawał – bez kardiologicznej kontroli
+
+---
+
+### VIII. Uwagi lekarza POZ
+
+• Obecne leczenie / schemat farmakologiczny: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Dotychczasowe próby leczenia i ich efekty: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Podejrzenie: wieńcowa / arytmia / HF / NT oporne / inna: \_\_\_\_\_\_\_\_
+• Potrzeba pilnej konsultacji (TAK/NIE)
+• Planowane badania dodatkowe: \_\_\_\_\_\_\_\_
+
+---

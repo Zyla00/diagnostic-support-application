@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+
+{% block content %}
+<div class="p-4 w-full bg-light" style="min-height: 100vh;">
+  <div class="container" style="max-width: 960px;">
+
+    <!-- Nagłówek -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <input type="text" name="questionnaire-name" id="questionnaire-name"
+             value="{{ questionnaire.name }}"
+             class="form-control fw-bold border-0 bg-white shadow-sm px-3 py-2"
+             style="max-width: 400px; font-size: 1.5rem;" />
+      <a href="{% url 'questionairesManager:questionnaire_detail' questionnaire.pk %}" class="btn btn-outline-primary" id="back-button">
+        ← Wróć do podglądu
+      </a>
+    </div>
+
+    <!-- Formularz -->
+    <form method="post" id="questionnaire-form">
+      {% csrf_token %}
+      {{ formset.management_form }}
+
+      <div id="sections-container">
+        {% for section in sections %}
+        <div class="section border rounded p-3 mb-4 bg-white" data-section-id="{{ section.id }}">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="mb-0 section-title" contenteditable="true">{{ section.name }}</h5>
+            <input type="hidden" name="section_titles[]" value="{{ section.name }}" />
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary add-question-btn">+ Dodaj pytanie</button>
+              <button type="button" class="btn btn-sm btn-outline-danger delete-section-btn" data-section-id="{{ section.id }}">Usuń sekcję</button>
+            </div>
+          </div>
+
+          <div class="questions-container">
+            {% for form in formset %}
+              {% if form.instance.section_id == section.id %}
+              <div class="question-item card mb-3" data-form-index="{{ forloop.counter0 }}">
+                {{ form.id }}
+                <div class="card-body">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <button type="button" class="btn btn-link toggle-details text-decoration-none text-primary">
+                      <i class="bi bi-caret-down-fill"></i> Pytanie
+                    </button>
+                    <button type="button" class="btn btn-sm btn-outline-danger btn-delete-question">Usuń</button>
+                  </div>
+                  <div class="question-details mt-3">
+                    <input type="hidden" name="form-{{ forloop.counter0 }}-id" value="{{ form.instance.id }}">
+                    <div class="mb-2">
+                      <label class="form-label">Treść pytania</label>
+                      {{ form.question_text|add_class:"form-control" }}
+                    </div>
+                    <div class="mb-2">
+                      <label class="form-label">Typ pytania</label>
+                      {{ form.question_type|add_class:"form-select" }}
+                    </div>
+                    <div class="mb-2">
+                      <label class="form-label">Opcje odpowiedzi</label>
+                      {{ form.choices_text|add_class:"form-control" }}
+                      <div class="form-text">Podaj rozdzielone przecinkami (jeśli dotyczy)</div>
+                    </div>
+                    {{ form.section.as_hidden }}
+                    {{ form.DELETE|add_class:"d-none" }}
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <!-- Zbieracz usuniętych sekcji -->
+      <div id="deleted-sections"></div>
+
+      <div class="text-end mt-4">
+        <button type="submit" class="btn btn-success">Zapisz wszystkie zmiany</button>
+      </div>
+    </form>
+
+    <!-- Dodaj nową sekcję -->
+    <div class="d-flex gap-2 mt-4">
+      <button class="btn btn-outline-secondary" id="add-section-btn">+ Dodaj nową sekcję</button>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="{% static 'js/questionaire_manager_bulk.js' %}"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+{% endblock %}

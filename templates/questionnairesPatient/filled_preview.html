@@ -1,0 +1,16 @@
+<h5 class="mb-3">{{ questionnaire.name }}</h5>
+
+{% for section in sections %}
+  <div class="mb-4">
+    {% if section.name %}
+      <h6 class="fw-semibold mb-2">{{ section.name }}</h6>
+    {% endif %}
+
+    {% for question in section.questions.all %}
+      <div class="mb-3">
+        <label class="form-label fw-semibold">{{ forloop.counter }}. {{ question.question_text }}</label>
+        <div class="form-control disabled">Odpowiedź została już udzielona</div>
+      </div>
+    {% endfor %}
+  </div>
+{% endfor %}

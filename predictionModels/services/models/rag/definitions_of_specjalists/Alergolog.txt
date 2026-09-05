@@ -1,0 +1,345 @@
+
+Kim jest alergolog?
+Alergolog to lekarz specjalista chorób alergicznych i immunologii klinicznej. Zajmuje się rozpoznawaniem, leczeniem i profilaktyką schorzeń, w których układ odpornościowy reaguje nadmiernie lub niewłaściwie na zwykle nieszkodliwe bodźce (alergeny) – np. pyłki, roztocze, pleśnie, pokarmy, leki czy jad owadów.
+
+
+1. Kiedy warto rozważyć wizytę u alergologa? typowe objawy:
+
+Skóra:
+
+* przewlekła pokrzywka
+* świąd bez wysypki
+* atopowe zapalenie skóry oporne na leczenie
+  Te objawy często mają podłoże atopowe lub pseudoalergiczne; konieczne testy skórne i/lub sIgE.
+
+Układ oddechowy:
+
+* nawracający katar, kichanie, zatkany nos (szczególnie sezonowo)
+* napady kaszlu, świszczący oddech, duszność wysiłkowa lub nocna
+* częste „infekcje” górnych dróg oddechowych bez gorączki
+  Mogą wskazywać na alergiczny nieżyt nosa lub astmę; alergolog ustala profil alergenów i wdraża immunoterapię.
+
+Oczy:
+
+* łzawienie i zaczerwienienie spojówek
+* świąd i obrzęk powiek
+  Typowe dla alergicznego zapalenia spojówek; często towarzyszy nieżytowi nosa.
+
+Przewód pokarmowy:
+
+* bóle brzucha, wzdęcia, biegunki lub wymioty po określonych pokarmach
+* słabe przyrosty masy ciała u dzieci
+  Może wskazywać na alergię IgE-zależną lub nietolerancję pokarmową wymagającą diagnostyki eliminacyjno-prowokacyjnej.
+
+Układ krążenia / reakcje ogólne:
+
+* epizod anafilaksji lub obrzęku naczynioruchowego
+* omdlenie, spadek ciśnienia po leku, pokarmie lub użądleniu
+  Stan bezpośrednio zagrażający życiu; alergolog weryfikuje przyczynę i wydaje adrenalinę auto-wstrzykiwacz.
+
+---
+
+2. Wyniki badań laboratoryjnych i testów, które sugerują alergię
+
+Morfologia krwi:
+
+* eozynofilia (> 0,45 G/L)
+  Koreluje z atopią, pasożytami lub rzadziej innymi chorobami immuno.
+
+IgE całkowite:
+
+* poziom wyraźnie > 100 kU/L (u dzieci normy wieku-zależne)
+  Niewystarczające do rozpoznania, ale naprowadza na alergię IgE-zależną.
+
+Specyficzne IgE (ImmunoCAP, ALEX itp.):
+
+* dodatnie wyniki dla konkretnych alergenów
+  Pozwalają zaplanować odczulanie (immunoterapię swoistą).
+
+Testy skórne punktowe (prick):
+
+* bąbel/rumień > 3 mm vs kontrola ujemna
+  Potwierdzają kliniczne znaczenie alergenu w kontekście objawów.
+
+Spirometria / PEF-metry:
+
+* zmienność FEV₁ ≥ 12 % po podaniu β₂-mimetyku
+* zmienność PEF ≥ 20 % w dzienniczku
+  Kryteria rozpoznania astmy alergicznej.
+
+Badanie kału na krew utajoną lub kalprotektynę:
+
+* prawidłowe mimo dolegliwości brzusznych
+  Skłania ku alergii pokarmowej, nie zapalnej chorobie jelit.
+
+**1. Badania hematologiczne (krew)**
+
+* Najważniejszy dla alergologa parametr z całej morfologii to **eozynofilia** (podwyższony odsetek lub liczba bezwzględna eozynofilów w rozmazie).
+* Samo OB bywa prawidłowe przy alergii; wysokie OB sugeruje raczej infekcję lub chorobę zapalną o innym podłożu.
+* Retikulocyty, płytki, inne frakcje leukocytów czy niedokrwistość dostarczają tła klinicznego, ale zwykle nie przesądzają o skierowaniu do alergologa.
+
+**2. Biochemia i immunochemia**
+
+* **Całkowite i swoiste IgE** – kluczowe; wysoki poziom lub dodatnie alergokomponenty są wskazaniem do dalszej oceny specjalistycznej.
+* **CRP**: w alergii najczęściej pozostaje w normie; jego wzrost podpowiada infekcję lub stan zapalny niezwiązany z IgE.
+* Elektrolity (Na, K, Ca), funkcje nerek (kreatynina, eGFR) i wątroby (AST, ALT, ALP itp.) nie są diagnostyczne dla alergii, ale pomagają bezpiecznie dobierać leki (np. doustne steroidy, metotreksat w ciężkim AZS).
+* Profil lipidowy, glukoza, HbA1c – istotne głównie przed długotrwałym leczeniem sterydami lub gdy planuje się immunoterapię, ale nie stanowią kryterium skierowania.
+* **Przeciwciała anty-TPO/anty-TG, RF, anty-CCP** i pozostałe markery autoimmunizacji są użyteczne, jeśli lekarz podejrzewa chorobę auto­immunologiczną maskującą się pod obraz „alergii” (np. pokrzywkę auto­immunologiczną).
+* **TSH, FT3, FT4** – zaburzenia tarczycy mogą nasilać objawy pokrzywki i obrzęku naczynioruchowego, stąd czasem trafiają na listę badań przesiewowych.
+* PSA, badania wirusologiczne (HBs, HCV, VDRL, SARS-CoV-2) – ważne epidemiologicznie lub przed immunosupresją, ale nie kierują wprost do alergologa.
+
+**3. Badania moczu**
+
+* Alergolog korzysta z nich sporadycznie; służą raczej internistom do oceny ogólnego stanu pacjenta przed immunoterapią lub biologicznym leczeniem przeciw-IgE.
+* Albuminuria czy UACR mogą być potrzebne nefrologowi, natomiast nie są markerem chorób alergicznych.
+
+**4. Badania kału**
+
+* **Krew utajona** pozwala odróżnić przewlekłe krwawienia z przewodu pokarmowego od alergii pokarmowej.
+* **Pasożyty** są ważne, bo mogą również dawać eozynofilię i objawy skórne lub brzuszne – ich wykluczenie jest krokiem przed skierowaniem do alergologa.
+* **Antygen H. pylori** – użyteczny bardziej dla gastroenterologa; nie jest markerem alergii.
+
+**5. Układ krzepnięcia**
+
+* INR, APTT, fibrynogen – wymagane jedynie, gdy pacjent ma przyjmować leki wpływające na hemostazę (np. wysokie dawki sterydów, procedury zabiegowe w alergologii). Na etapie decyzji o skierowaniu nie odgrywają istotnej roli.
+
+**6. Badania mikrobiologiczne**
+
+* Posiewy i szybkie testy (Strep-test, antygen SARS-CoV-2) pomagają wykluczyć ostre infekcje górnych dróg oddechowych, które mogą „maskować” alergię. Ujemny wynik przy utrzymujących się objawach nasila podejrzenie podłoża alergicznego.
+
+---
+
+### Co można jeszcze dorzucić, jeśli naprawdę chcemy maksymalnie doprecyzować diagnostykę alergiczną?
+
+1. **Stężenie tryptazy w surowicy**
+
+   * Warto oznaczyć po epizodzie anafilaksji (próbka w ostrej fazie + poziom bazowy po 24 h). Pomaga wykryć mastocytozę lub potwierdzić reakcję anafilaktyczną.
+
+2. **Składowe dopełniacza (C3, C4) oraz aktywność CH50**
+
+   * Obniżone mogą sugerować obrzęk naczynioruchowy zależny od C1-esterazy lub choroby immunokompleksowe.
+
+3. **C1-INH – aktywność i stężenie**
+
+   * Podstawowe badanie w diagnostyce wrodzonego obrzęku naczynioruchowego (HAE), który bywa mylony z alergią.
+
+4. **Frakcje immunoglobulin (IgG, IgA, IgM)**
+
+   * Ich niedobory zwiększają ryzyko nawracających infekcji i mogą współistnieć z astmą lub AZS, zmieniając plan leczenia.
+
+5. **FeNO (frakcja wydychanego tlenku azotu)**
+
+   * Nieinwazyjny marker eozynofilowego zapalenia dróg oddechowych; wysoki > 25 ppb sugeruje astmę alergiczną.
+
+6. **Cytologia nosa lub eozynofile w wydzielinie z nosa**
+
+   * Pomaga różnicować alergiczny i niealergiczny nieżyt nosa.
+
+7. **Testy płatkowe (patch-tests)**
+
+   * Gdy podejrzewa się alergię kontaktową, której nie wykrywają testy punktowe.
+
+8. **Basophil Activation Test lub testy CAST/Histamina-release**
+
+   * Stosowane w wyspecjalizowanych ośrodkach przy diagnostyce alergii na leki i dodatki żywnościowe, kiedy klasyczne metody zawodzą.
+
+9. **Diagnostyka komponentowa (molekularna) alergii**
+
+   * Testy ALEX, ImmunoCAP-ISAC pozwalają ocenić ryzyko ciężkich reakcji (np. na orzeszki Ara h 2, jad pszczoły Api m 1) i dobrać skuteczniejszą immunoterapię.
+
+
+
+
+**3. Cechy osobnicze zwiększające ryzyko chorób alergicznych**
+
+* Obciążony wywiad rodzinny (rodzice lub rodzeństwo z AZS, astmą, katarem siennym).
+* Wczesne wystąpienie atopowego zapalenia skóry – tzw. marsz alergiczny.
+* Współistniejące choroby atopowe (np. polipowatość nosa, eozynofilowe zapalenie przełyku).
+* Zawód lub hobby z ekspozycją na alergeny (weterynarze, piekarze, fryzjerzy, rolnicy).
+* Nawracające infekcje ze świszczącym oddechem u dzieci – ryzyko rozwoju astmy wczesnodziecięcej.
+* Przebyte reakcje anafilaktyczne – konieczność ustalenia czynnika sprawczego i planu postępowania.
+
+---
+
+**4. Jakie kryteria bierze pod uwagę lekarz POZ, wystawiając skierowanie?**
+
+1. Nasilenie i przewlekłość objawów
+   Brak poprawy po 2–4 tygodniach leczenia objawowego (antyhistaminiki, GKS donosowe, inhalatory).
+
+2. Wpływ na funkcjonowanie
+   Nocne wybudzenia, ograniczenia w pracy/szkole, absencja, zaburzenia snu.
+
+3. Ryzyko ciężkich reakcji
+   Przebyty wstrząs, obrzęk krtani, szybkie narastanie duszności, reakcje na małe dawki alergenu.
+
+4. Wyniki badań wstępnych
+   Eozynofilia, wysokie IgE, dodatnie sIgE, zmienność spirometryczna – wymagają pogłębionej diagnostyki specjalistycznej.
+
+5. Sezonowość lub wyraźna zależność od ekspozycji
+   Objawy pojawiające się co roku w czasie pylenia lub po kontakcie z konkretnym zwierzęciem.
+
+6. Nawracające „infekcje” górnych dróg oddechowych
+   Zwłaszcza bez gorączki – lekarz POZ różnicuje alergię z zakażeniem.
+
+7. Wątpliwości diagnostyczne
+   Nietypowy przebieg AZS, podejrzenie mastocytozy, podejrzenie alergii zawodowej – potrzebne testy nieosiągalne w POZ.
+8. Kluczowe kryteria do skierowania to: eozynofilia, wysokie IgE całkowite lub dodatnie IgE swoiste, typowy wywiad kliniczny i brak podwyższonego CRP/OB (czyli brak infekcji).
+
+9. Reszta badań biochemicznych i mikrobiologicznych służy głównie do wykluczania chorób współistniejących oraz oceny ogólnego bezpieczeństwa planowanego leczenia.
+Jeśli mimo prawidłowych wyników „ogólnych” objawy skórne/oddechowe utrzymują się i są sezonowe lub epizodyczne, lekarz rodzinny powinien rozważyć skierowanie – nawet bez dalszych, kosztownych testów specjalistycznych.
+
+
+
+
+
+
+**1. Badania hematologiczne (krew)**
+
+* Najważniejszy dla alergologa parametr z całej morfologii to **eozynofilia** (podwyższony odsetek lub liczba bezwzględna eozynofilów w rozmazie).
+* Samo OB bywa prawidłowe przy alergii; wysokie OB sugeruje raczej infekcję lub chorobę zapalną o innym podłożu.
+* Retikulocyty, płytki, inne frakcje leukocytów czy niedokrwistość dostarczają tła klinicznego, ale zwykle nie przesądzają o skierowaniu do alergologa.
+
+**2. Biochemia i immunochemia**
+
+* **Całkowite i swoiste IgE** – kluczowe; wysoki poziom lub dodatnie alergokomponenty są wskazaniem do dalszej oceny specjalistycznej.
+* **CRP**: w alergii najczęściej pozostaje w normie; jego wzrost podpowiada infekcję lub stan zapalny niezwiązany z IgE.
+* Elektrolity (Na, K, Ca), funkcje nerek (kreatynina, eGFR) i wątroby (AST, ALT, ALP itp.) nie są diagnostyczne dla alergii, ale pomagają bezpiecznie dobierać leki (np. doustne steroidy, metotreksat w ciężkim AZS).
+* Profil lipidowy, glukoza, HbA1c – istotne głównie przed długotrwałym leczeniem sterydami lub gdy planuje się immunoterapię, ale nie stanowią kryterium skierowania.
+* **Przeciwciała anty-TPO/anty-TG, RF, anty-CCP** i pozostałe markery autoimmunizacji są użyteczne, jeśli lekarz podejrzewa chorobę auto­immunologiczną maskującą się pod obraz „alergii” (np. pokrzywkę auto­immunologiczną).
+* **TSH, FT3, FT4** – zaburzenia tarczycy mogą nasilać objawy pokrzywki i obrzęku naczynioruchowego, stąd czasem trafiają na listę badań przesiewowych.
+* PSA, badania wirusologiczne (HBs, HCV, VDRL, SARS-CoV-2) – ważne epidemiologicznie lub przed immunosupresją, ale nie kierują wprost do alergologa.
+
+**3. Badania moczu**
+
+* Alergolog korzysta z nich sporadycznie; służą raczej internistom do oceny ogólnego stanu pacjenta przed immunoterapią lub biologicznym leczeniem przeciw-IgE.
+* Albuminuria czy UACR mogą być potrzebne nefrologowi, natomiast nie są markerem chorób alergicznych.
+
+**4. Badania kału**
+
+* **Krew utajona** pozwala odróżnić przewlekłe krwawienia z przewodu pokarmowego od alergii pokarmowej.
+* **Pasożyty** są ważne, bo mogą również dawać eozynofilię i objawy skórne lub brzuszne – ich wykluczenie jest krokiem przed skierowaniem do alergologa.
+* **Antygen H. pylori** – użyteczny bardziej dla gastroenterologa; nie jest markerem alergii.
+
+**5. Układ krzepnięcia**
+
+* INR, APTT, fibrynogen – wymagane jedynie, gdy pacjent ma przyjmować leki wpływające na hemostazę (np. wysokie dawki sterydów, procedury zabiegowe w alergologii). Na etapie decyzji o skierowaniu nie odgrywają istotnej roli.
+
+**6. Badania mikrobiologiczne**
+
+* Posiewy i szybkie testy (Strep-test, antygen SARS-CoV-2) pomagają wykluczyć ostre infekcje górnych dróg oddechowych, które mogą „maskować” alergię. Ujemny wynik przy utrzymujących się objawach nasila podejrzenie podłoża alergicznego.
+
+7. **Stężenie tryptazy w surowicy**
+
+   * Warto oznaczyć po epizodzie anafilaksji (próbka w ostrej fazie + poziom bazowy po 24 h). Pomaga wykryć mastocytozę lub potwierdzić reakcję anafilaktyczną.
+
+8. **Składowe dopełniacza (C3, C4) oraz aktywność CH50**
+
+   * Obniżone mogą sugerować obrzęk naczynioruchowy zależny od C1-esterazy lub choroby immunokompleksowe.
+
+9. **C1-INH – aktywność i stężenie**
+
+   * Podstawowe badanie w diagnostyce wrodzonego obrzęku naczynioruchowego (HAE), który bywa mylony z alergią.
+
+10. **Frakcje immunoglobulin (IgG, IgA, IgM)**
+
+   * Ich niedobory zwiększają ryzyko nawracających infekcji i mogą współistnieć z astmą lub AZS, zmieniając plan leczenia.
+
+11. **FeNO (frakcja wydychanego tlenku azotu)**
+
+   * Nieinwazyjny marker eozynofilowego zapalenia dróg oddechowych; wysoki > 25 ppb sugeruje astmę alergiczną.
+
+12. **Cytologia nosa lub eozynofile w wydzielinie z nosa**
+
+   * Pomaga różnicować alergiczny i niealergiczny nieżyt nosa.
+
+13. **Testy płatkowe (patch-tests)**
+
+   * Gdy podejrzewa się alergię kontaktową, której nie wykrywają testy punktowe.
+
+14. **Basophil Activation Test lub testy CAST/Histamina-release**
+
+   * Stosowane w wyspecjalizowanych ośrodkach przy diagnostyce alergii na leki i dodatki żywnościowe, kiedy klasyczne metody zawodzą.
+
+15. **Diagnostyka komponentowa (molekularna) alergii**
+
+   * Testy ALEX, ImmunoCAP-ISAC pozwalają ocenić ryzyko ciężkich reakcji (np. na orzeszki Ara h 2, jad pszczoły Api m 1) i dobrać skuteczniejszą immunoterapię.
+
+
+### **XII. Dodatkowe pytania – ukierunkowane na alergologa**
+
+#### 1. **Charakterystyka objawów alergicznych**
+
+• Czy objawy mają charakter sezonowy (np. tylko wiosną)?
+• Czy objawy pojawiają się po kontakcie z: pyłkami / zwierzętami / kurzem / pokarmami / lekami / wysiłkiem / stresem?
+• Czy objawy występują w określonym miejscu (dom, praca, działka)?
+• Czy pojawia się obrzęk (np. ust, twarzy, języka, kończyn)?
+• Czy pojawia się świąd skóry, nosa, oczu, gardła?
+• Czy występują nawracające wysypki lub pokrzywka?
+• Czy wystąpił kiedykolwiek wstrząs anafilaktyczny lub nagła duszność?
+
+#### 2. **Dokładna historia duszności i świszczącego oddechu**
+
+• Czy duszność pojawia się po wysiłku, w nocy, rano, po infekcji?
+• Czy objawy ustępują po lekach (inhalator, sterydy, antyhistaminiki)?
+• Czy były hospitalizacje lub pogotowie z powodu duszności?
+
+3. Objawy ze strony oczu i nosa
+
+• Czy pojawia się wodnisty katar, kichanie seriami, świąd nosa?
+• Czy występuje łzawienie, zaczerwienienie, obrzęk spojówek?
+• Czy objawy nasilają się w konkretnych miesiącach lub przy otwieraniu okna?
+
+4. Objawy pokarmowe sugerujące alergię
+
+• Czy po spożyciu konkretnych produktów pojawia się ból brzucha, biegunka, wzdęcia, swędzenie w jamie ustnej?
+• Czy występują reakcje natychmiastowe po zjedzeniu (np. orzechów, mleka, jajek, ryb)?
+• Czy występują przewlekłe problemy jelitowe bez wyjaśnionej przyczyny?
+
+5. Reakcje na leki i substancje chemiczne
+
+• Czy kiedykolwiek pojawiła się wysypka, świąd lub duszność po lekach?
+• Czy występuje nadwrażliwość na środki kontrastowe, antybiotyki, NLPZ?
+
+6. Czynniki środowiskowe
+
+• Czy w domu są zwierzęta? Jakie? Czy przebywają w mieszkaniu?
+• Czy w domu występuje pleśń, wilgoć, dywany, pióra?
+• Czy praca wiąże się z kontaktem z chemikaliami, pyłami, zwierzętami, lateksem?
+• Czy objawy nasilają się w miejscu pracy?
+
+7. Historia leczenia i diagnostyki alergologicznej
+
+• Czy był/a Pan/Pani wcześniej diagnozowany/a przez alergologa?
+• Czy wykonano testy alergiczne? Jakie i kiedy?
+• Czy była stosowana immunoterapia swoista (odczulanie)?
+• Czy leczenie (np. sterydy, antyhistaminiki) przynosiło ulgę?
+
+---
+
+XIII. Uzupełniające dane diagnostyczne (jeśli dostępne)
+
+W tej sekcji można zebrać dane z dokumentacji lub wcześniejszych badań:
+• Morfologia z rozmazem – eozynofile (wartość liczbowo)
+• IgE całkowite – wartość i data oznaczenia
+• Specyficzne IgE lub testy molekularne (jeśli były)
+• Spirometria – FEV₁, FEV₁/FVC, reakcja na lek rozkurczowy
+• FeNO – wartość (jeśli dostępna)
+• Testy skórne – alergeny dodatnie
+• Badania kału – wykluczenie pasożytów, H. pylori
+• Historia ewentualnych hospitalizacji związanych z reakcjami alergicznymi
+
+---
+
+Syntetyczne kategorie dla profilu alergologicznego
+
+1. Objawy typowe dla alergii (sezonowe, środowiskowe, pokarmowe, skórne)
+2. Reakcje nagłe i ciężkie (obrzęki, duszność, anafilaksja)
+3. Czynniki środowiskowe (dom, praca, hobby)
+4. Historia diagnostyki alergologicznej (testy, leczenie, immunoterapia)
+5. Wyniki badań przydatne dla alergologa
+6. Styl życia a objawy (palenie, dieta, sen, stres, aktywność)
+7. Historia lekowa i nadwrażliwości
+
+
+
+

@@ -1,0 +1,358 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+<style>
+  #searchSuggestions {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 0.375rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+    background-color: #fff;
+    z-index: 1050;
+    position: absolute;
+    width: 100%;
+    display: none;
+  }
+
+  .back-button {
+    width: fit-content;
+    padding: 0.3rem 0.8rem;
+    font-size: 0.875rem;
+  }
+
+  .nav-tabs .nav-link.active {
+    background-color: #e9ecef;
+    color: #000 !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+
+  .form-control, textarea {
+    font-size: 0.95rem;
+  }
+
+  .list-group-item p {
+    font-size: 0.95rem;
+  }
+
+  .list-group-item small {
+    font-size: 0.8rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+</style>
+
+</style>
+{% endblock %}
+
+{% block content %}
+{% if messages %}
+  <div class="container mt-3">
+    {% for message in messages %}
+      <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+        {{ message }}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Zamknij"></button>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
+{% with request.GET.tab as active_tab %}
+<div class="container mt-4">
+  <div class="card shadow p-4">
+    <h4 class="mb-3">Profil pacjenta</h4>
+    <p><strong>Imię i nazwisko:</strong> {{ patient.get_full_name }}</p>
+    {% if profile %}
+      {% if profile.date_of_birth %}<p><strong>Data urodzenia:</strong> {{ profile.date_of_birth }}</p>{% endif %}
+      {% if profile.gender %}<p><strong>Płeć:</strong> {{ profile.get_gender_display }}</p>{% endif %}
+      {% if profile.address %}<p><strong>Adres:</strong> {{ profile.address }}</p>{% endif %}
+      {% if profile.phone %}<p><strong>Telefon:</strong> {{ profile.phone }}</p>{% endif %}
+      {% if profile.additional_info %}<p><strong>Informacje dodatkowe:</strong> {{ profile.additional_info }}</p>{% endif %}
+    {% else %}
+      <p>Brak profilu pacjenta.</p>
+    {% endif %}
+    <a href="{% url 'my_patients' %}" class="btn btn-outline-secondary back-button mt-4">← Wróć</a>
+  </div>
+
+  <div class="card shadow mt-4 p-4">
+    <ul class="nav nav-tabs mb-3" id="tabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link {% if not active_tab or active_tab == 'rec' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#rec">Rekomendacje</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link {% if active_tab == 'survey' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#survey">Ankiety</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link {% if active_tab == 'lab' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#lab">Badania lab.</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link {% if active_tab == 'ai' %}active{% endif %}" data-bs-toggle="tab" data-bs-target="#ai">AI</button>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+          <div class="tab-pane fade {% if not active_tab or active_tab == 'rec' %}show active{% endif %}" id="rec" role="tabpanel">
+      <!-- Rekomendacje -->
+      <div class="mb-4">
+        <h5 class="fw-semibold mb-3">Dodaj nową rekomendację</h5>
+        <form method="post">
+          {% csrf_token %}
+          {{ form.text }}
+          <button type="submit" class="btn btn-primary mt-2">Zapisz rekomendację</button>
+        </form>
+      </div>
+
+      <hr class="mb-4">
+
+      <div>
+        <h5 class="fw-semibold mb-3">Historia rekomendacji</h5>
+        {% if recommendations %}
+          <ul class="list-group">
+            {% for rec in recommendations %}
+              <li class="list-group-item">
+                <div class="d-flex justify-content-between">
+                  <small class="text-muted">{{ rec.created_at|date:"d.m.Y H:i" }}</small>
+                </div>
+                <p class="mt-2 mb-0">{{ rec.text|linebreaks }}</p>
+              </li>
+            {% endfor %}
+          </ul>
+
+          {% if recommendations.paginator.num_pages > 1 %}
+
+            <nav class="mt-3">
+              <ul class="pagination pagination-sm justify-content-center">
+                {% if recommendations.has_previous %}
+                  <li class="page-item">
+                    <a class="page-link" href="?rec_page={{ recommendations.previous_page_number }}&tab=rec">&laquo;</a>
+                  </li>
+                {% endif %}
+                {% for page in recommendations.paginator.page_range %}
+                  <li class="page-item {% if page == recommendations.number %}active{% endif %}">
+                    <a class="page-link" href="?rec_page={{ page }}&tab=rec">{{ page }}</a>
+                  </li>
+                {% endfor %}
+                {% if recommendations.has_next %}
+                  <li class="page-item">
+                    <a class="page-link" href="?rec_page={{ recommendations.next_page_number }}&tab=rec">&raquo;</a>
+                  </li>
+                {% endif %}
+              </ul>
+            </nav>
+          {% endif %}
+        {% else %}
+          <p class="text-muted">Brak rekomendacji dla pacjenta.</p>
+        {% endif %}
+      </div>
+    </div>
+
+
+      <div class="tab-pane fade {% if active_tab == 'survey' %}show active{% endif %}" id="survey">
+        <div class="row">
+          <div class="col-md-8">
+            <h6 class="mb-3">Historia wysłanych ankiet</h6>
+            {% if sent_history %}
+              <ul class="list-group">
+                {% for sent in sent_history %}
+                  <li class="list-group-item">
+                    <div class="d-flex justify-content-between align-items-start">
+                      <div>
+                        <strong>{{ sent.questionnaire.name }}</strong><br>
+                        <small>Wysłano: {{ sent.sent_at|date:"d.m.Y H:i" }}</small><br>
+                        {% if sent.is_filled %}
+                          <span class="badge bg-success mt-1">Wypełniona</span>
+                        {% else %}
+                          <span class="badge bg-secondary mt-1">Niewypełniona</span>
+                        {% endif %}
+                      </div>
+                      {% if sent.is_filled %}
+                        <button class="btn btn-sm btn-outline-success preview-response-btn" data-id="{{ sent.id }}">Podgląd odpowiedzi</button>
+                      {% else %}
+                        <button class="btn btn-sm btn-outline-primary" onclick="previewQuestionnaire({{ sent.questionnaire.id }})">Podgląd ankiety</button>
+                      {% endif %}
+                    </div>
+                  </li>
+                {% endfor %}
+              </ul>
+
+              {% if sent_history.has_other_pages %}
+                <nav class="mt-3">
+                  <ul class="pagination pagination-sm">
+                    {% if sent_history.has_previous %}
+                      <li class="page-item"><a class="page-link" href="?sent_page={{ sent_history.previous_page_number }}&tab=survey">«</a></li>
+                    {% endif %}
+                    {% for page in sent_history.paginator.page_range %}
+                      <li class="page-item {% if page == sent_history.number %}active{% endif %}">
+                        <a class="page-link" href="?sent_page={{ page }}&tab=survey">{{ page }}</a>
+                      </li>
+                    {% endfor %}
+                    {% if sent_history.has_next %}
+                      <li class="page-item"><a class="page-link" href="?sent_page={{ sent_history.next_page_number }}&tab=survey">»</a></li>
+                    {% endif %}
+                  </ul>
+                </nav>
+              {% endif %}
+            {% else %}
+              <p class="text-muted">Brak wysłanych ankiet.</p>
+            {% endif %}
+          </div>
+
+          <div class="col-md-4 position-relative">
+            <h6 class="mb-3">Wyślij nową ankietę</h6>
+            <input type="text" id="questionnaireSearch" class="form-control mb-2" placeholder="Szukaj ankiety..." autocomplete="off">
+            <div id="searchSuggestions" class="list-group"></div>
+
+            <form method="post" id="sendForm" action="{% url 'send_questionnaire' patient.id %}" style="display:none;">
+              {% csrf_token %}
+              <input type="hidden" name="questionnaire_id" id="questionnaireIdInput" />
+            </form>
+
+            <div class="modal fade" id="confirmModal" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content rounded-4 shadow">
+                  <div class="modal-header">
+                    <h5 class="modal-title">Potwierdzenie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    Czy na pewno chcesz wysłać ankietę: <strong id="modalQName"></strong>?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Anuluj</button>
+                    <button type="button" class="btn btn-primary" onclick="submitQuestionnaire()">Wyślij</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade {% if active_tab == 'lab' %}show active{% endif %}" id="lab">
+        <h6 class="mb-3">Historia badań laboratoryjnych</h6>
+        {% include 'labTest/includes/_lab_history_partial.html' %}
+
+      </div>
+
+      <div class="tab-pane fade {% if active_tab == 'ai' %}show active{% endif %}" id="ai">
+        <h6 class="mb-3">Modele AI</h6>
+        {% include 'predictions/modele.html'%}
+      </div>
+    </div>
+  </div>
+</div>
+{% endwith %}
+
+<!-- Overlay i Modal -->
+<div id="previewOverlay" style="position: fixed; top:0; left:0; width:100%; height:100%; background: rgba(0,0,0,0.5); z-index: 1040; display: none;"></div>
+
+<div class="modal fade" id="questionnairePreviewModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content rounded-4 shadow">
+      <div class="modal-header">
+        <h5 class="modal-title">Podgląd</h5>
+        <button type="button" class="btn-close" onclick="closePreview()"></button>
+      </div>
+      <div class="modal-body" id="modalContent">
+        <p>Wczytywanie…</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" onclick="closePreview()">Zamknij</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  const searchInput = document.getElementById("questionnaireSearch");
+  const suggestionBox = document.getElementById("searchSuggestions");
+  let timeout = null;
+
+  searchInput?.addEventListener("input", () => {
+    clearTimeout(timeout);
+    const term = searchInput.value.trim();
+    if (term.length === 0) {
+      suggestionBox.style.display = 'none';
+      return;
+    }
+
+    timeout = setTimeout(() => {
+      fetch("{% url 'search_questionnaires' %}?q=" + encodeURIComponent(term))
+        .then(res => res.json())
+        .then(data => {
+          suggestionBox.innerHTML = data.html;
+          suggestionBox.style.display = 'block';
+        });
+    }, 300);
+  });
+
+  document.addEventListener("click", function (e) {
+    if (!searchInput?.contains(e.target) && !suggestionBox.contains(e.target)) {
+      suggestionBox.style.display = 'none';
+    }
+
+    const btn = e.target.closest(".preview-response-btn");
+    if (btn) {
+      const id = btn.getAttribute("data-id");
+      previewFilledResponse(id);
+    }
+  });
+
+  function confirmSend(id, name) {
+    document.getElementById("questionnaireIdInput").value = id;
+    document.getElementById("modalQName").textContent = name;
+    new bootstrap.Modal(document.getElementById("confirmModal")).show();
+  }
+
+  function submitQuestionnaire() {
+    document.getElementById("sendForm").submit();
+  }
+
+  function previewQuestionnaire(id) {
+    const overlay = document.getElementById("previewOverlay");
+    const modal = new bootstrap.Modal(document.getElementById("questionnairePreviewModal"));
+    const content = document.getElementById("modalContent");
+
+    overlay.style.display = "block";
+    content.innerHTML = "<p>Wczytywanie…</p>";
+
+    fetch(`/specialists/questionnaire-preview/${id}/`)
+      .then(res => res.text())
+      .then(html => {
+        content.innerHTML = html;
+        modal.show();
+      })
+      .catch(err => {
+        content.innerHTML = "<div class='text-danger'>Błąd ładowania ankiety.</div>";
+      });
+  }
+
+  function previewFilledResponse(id) {
+    const overlay = document.getElementById("previewOverlay");
+    const modal = new bootstrap.Modal(document.getElementById("questionnairePreviewModal"));
+    const content = document.getElementById("modalContent");
+
+    overlay.style.display = "block";
+    content.innerHTML = "<p>Wczytywanie odpowiedzi...</p>";
+
+    fetch(`/specialists/response/${id}/`)
+      .then(res => res.text())
+      .then(html => {
+        content.innerHTML = html;
+        modal.show();
+      })
+      .catch(err => {
+        content.innerHTML = "<div class='text-danger'>Nie udało się załadować odpowiedzi.</div>";
+      });
+  }
+
+  function closePreview() {
+    document.getElementById("previewOverlay").style.display = "none";
+    bootstrap.Modal.getInstance(document.getElementById("questionnairePreviewModal")).hide();
+  }
+</script>
+{% endblock %}

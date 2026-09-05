@@ -1,0 +1,252 @@
+## Kim jest hematolog?
+
+**Hematolog** to lekarz specjalista zajmujący się diagnostyką i leczeniem chorób krwi i układu krwiotwórczego (szpiku kostnego, śledziony, węzłów chłonnych). Obejmuje to niedokrwistości, skazy krwotoczne, nadkrwistości, choroby białych krwinek (leukopenie, leukocytozy), chłoniaki, białaczki, szpiczaka mnogiego, mastocytozę, trombofilię wrodzoną i nabytą oraz powikłania leczenia onko-hematologicznego.
+
+---
+
+## Objawy kliniczne sugerujące potrzebę konsultacji hematologicznej
+
+1. **Objawy niedokrwistości**
+   – bladość skóry i spojówek, osłabienie, senność, kołatania serca, duszność wysiłkowa
+   – tachykardia spoczynkowa (> 100 ud./min)
+
+2. **Objawy skaz krwotocznych**
+   – łatwe siniaczenie, krwawienia z dziąseł, nosa, obfite miesiączki (> 80 ml), wybroczyny < 2 mm średnicy
+   – przedłużone krwawienie po drobnych urazach (> 10 min)
+
+3. **Objawy nadkrwistości / nadlepkości krwi**
+   – bóle i zawroty głowy, zaczerwienienie twarzy, świąd skóry po kąpieli, parestezje palców, zakrzepica żył głębokich
+
+4. **Objawy limfadenopatii lub splenomegalii**
+   – powiększenie szyjnych, pachowych, pachwinowych węzłów > 1 cm, niebolesne
+   – uczucie pełności w lewym podżebrzu, szybka sytość (powiększona śledziona)
+
+5. **Objawy infekcji nawracających / neutropenii**
+   – gorączka neutropeniczna (> 38 °C przy neutrofilach < 0,5 G/L)
+   – ropnie skórne, zapalenie jamy ustnej, liczne anginy w roku
+
+6. **Utrata masy ciała, poty nocne, gorączka nieznanego pochodzenia**
+   – tzw. objawy „B” chłoniaka (utrata > 10 % masy w 6 mies., poty nasiąkające bieliznę, gorączka > 38 °C > 7 dni)
+
+---
+
+## Badania laboratoryjne - wartości alarmowe\*
+
+W diagnostyce hematologicznej szczególne znaczenie mają określone wartości laboratoryjne, których przekroczenie może wskazywać na stany wymagające pilnej diagnostyki lub interwencji. Poniżej przedstawiono najważniejsze parametry i ich interpretację:
+
+**Hemoglobina (HGB):** U kobiet wartości poniżej 12 g/dL, a u mężczyzn poniżej 13 g/dL świadczą o niedokrwistości. W takiej sytuacji należy poszerzyć diagnostykę m.in. o MCV, ferrytynę, witaminę B₁₂ i retikulocyty.
+
+**MCV (średnia objętość erytrocytu):** Wartości poniżej 80 fL (mikrocytoza) mogą wskazywać na niedobór żelaza, natomiast wartości powyżej 100 fL (makrocytoza) sugerują niedobór witaminy B₁₂, nadużywanie alkoholu lub zespoły mielodysplastyczne (MDS).
+
+**Leukocyty (WBC):** Liczba poniżej 4,0 G/L (leukopenia) lub powyżej 11 G/L (leukocytoza) może być związana z infekcją, stanem zapalnym lub chorobą nowotworową, np. białaczką.
+
+**Neutrofile:** Liczba poniżej 1,5 G/L to neutropenia, a poniżej 0,5 G/L oznacza ciężką neutropenię, zwiększającą ryzyko sepsy i konieczność profilaktyki przeciwinfekcyjnej.
+
+**Limfocyty:** U dorosłych liczba powyżej 5 G/L może sugerować przewlekłą białaczkę limfocytową (CLL) lub infekcje wirusowe.
+
+**Płytki krwi (PLT):** Wartości poniżej 100 G/L świadczą o małopłytkowości, a powyżej 450 G/L o trombocytozie. Obie sytuacje mogą wskazywać na skazy krwotoczne, nadpłytkowość samoistną (ET) lub reakcje wtórne do stanów zapalnych.
+
+**Retikulocyty:** Liczba poniżej 20 ‰ sugeruje niewydolność szpiku (hipoproliferacja), natomiast powyżej 100 ‰ może świadczyć o nadmiernej odnowie (hiperproliferacja), np. w hemolizie lub utracie krwi.
+
+**CRP:** Wartość powyżej 30 mg/L w obecności cytopenii może wskazywać na infekcję, a przy współistniejącej neutropenii – na neutropenię febrilną, wymagającą pilnej oceny.
+
+**LDH:** Poziom powyżej 250 U/L może być markerem hemolizy, nowotworów układu krwiotwórczego lub innych procesów destrukcyjnych w organizmie.
+
+**Ferrytyna:** Poziom poniżej 15 ng/mL świadczy o niedoborze żelaza, natomiast wartości powyżej 500 ng/mL (bez współistniejącego stanu zapalnego) mogą sugerować hemochromatozę, przewlekłe zapalenia lub choroby nowotworowe.
+
+**Bilirubina niesprzężona:** Wartość powyżej 1,2 mg/dL może być objawem hemolizy.
+
+**D-dimer:** Wartości powyżej 500 ng/mL FEU sugerują obecność zakrzepicy lub koagulopatii ze zużycia (DIC – rozsiane krzepnięcie wewnątrznaczyniowe).
+
+---
+
+
+\*zakresy mogą się różnić w zależności od laboratorium; należy uwzględniać normy lokalne i stan kliniczny.
+
+---
+
+## Cechy osobnicze zwiększające ryzyko chorób hematologicznych
+
+* **Wiek**:
+  • < 18 r.ż. – ostre białaczki limfoblastyczne, anemie wrodzone
+  • 20–45 l. – choroby autoimmuno (ITP, AIHA), niedobory Fe, białaczki przewlekłe rzadkie
+  • > 60 l. – CLL, AML, szpiczak mnogi, MDS, chłoniaki nieziarnicze, nadkrwistość prawdziwa
+* **Płeć**:
+  • Kobiety: niedokrwistość z niedoboru żelaza (miesiączki, ciąże)
+  • Mężczyźni: hemochromatoza (objawy wcześniej), nadkrwistość prawdziwa
+* **Wywiad rodzinny**: hemofilia, talasemie, hemochromatoza, dziedziczne trombofilie (V Leiden)
+* **Czynniki środowiskowe**: benzyna, pestycydy, promieniowanie jonizujące, palenie tytoniu
+* **Współistniejące choroby**: choroby autoimmuno (SLE, RZS), przewlekłe infekcje (HCV, HIV), choroby nerek (erytropoetyna ↓)
+
+---
+
+## Na co zwraca uwagę lekarz POZ kierując do hematologa?
+
+1. **Trwałe lub narastające odchylenia morfologii**
+   – HGB < 10 g/dL lub spadek > 2 g/dL w 6 tygodni
+   – WBC < 3 G/L lub > 20 G/L utrzymujące się > 2 tyg.
+   – PLT < 100 G/L (bez infekcji) lub > 450 G/L powyżej 3 kontrolek
+
+2. **Objawy kliniczne + laboratoryjne**
+   – Bladość, osłabienie + MCV < 80 fL, ferrytyna < 15 ng/mL
+   – Łatwe siniaczenie + PLT < 50 G/L
+   – Gorączka > 38 °C + ANC (neutrofile) < 0,5 G/L
+   – Poty nocne, spadek masy, LDH podwyższone
+
+3. **Nieprawidłowości w rozmazie**
+   – Blasty, komórki z ziarnistościami Auerowskimi
+   – Długo utrzymująca się limfocytoza > 5 G/L
+
+4. **Powikłania zakrzepowe lub krwotoczne niewyjaśnione**
+   – Zakrzepica żył w młodym wieku, D-dimer wysoki, mutacja V Leiden dodatnia
+   – Krwawienia po małych urazach, INR w normie, PLT niskie
+
+5. **Brak odpowiedzi na leczenie w POZ**
+   – Niedokrwistość nieodpowiadająca na suplementy Fe (wzrost HGB < 1 g/dL w 4 tyg.)
+   – Małopłytkowość odporna na sterydy
+
+6. **Splenomegalia / limfadenopatia nieznanego pochodzenia**
+   – Śledziona > 2 cm poniżej łuku żebrowego, węzły > 1 cm utrzymujące się > 4 tyg.
+
+---
+
+## Podsumowanie – kiedy bezwzględnie do hematologa?
+
+* HGB < 8 g/dL, PLT < 20 G/L, neutrofile < 0,5 G/L (pilna hospitalizacja)
+* Obecność blastów w rozmazie obwodowym
+* Pancytopenia (3 linie krwiotwórcze poniżej norm)
+* Długotrwała limfocytoza > 5 G/L + powiększone węzły
+* Ferrytina > 500 ng/mL + transferyna wysycona > 45 % (hemochromatoza)
+* Trombocytoza > 1 000 G/L lub hematokryt > 55 % (m) / > 52 % (k)
+* Nieprawidłowy rozmaz (erytroblasty, sferocyty, schistocyty)
+* Zakrzepica w nietypowej lokalizacji (zatoki mózgowe, żyły wrotne) u osoby < 50 l.
+* Nawracające gorączki + neutropenia, podejrzenie agranulocytozy
+
+---
+
+## Ankieta specjalistyczna – hematologia
+
+---
+
+### I. Główna dolegliwość / Powód wizyty
+
+• Jaki jest główny powód wizyty?
+• Od kiedy występują objawy?
+• Czy objawy nasilają się w czasie?
+• Czy występują stany gorączkowe, poty nocne, utrata masy ciała?
+• Czy były wcześniejsze nieprawidłowości w badaniach krwi?
+
+---
+
+### II. Objawy ogólne
+
+• Czy występuje:
+ – Bladość skóry, osłabienie, senność?
+ – Duszność wysiłkowa, kołatanie serca?
+ – Łatwe siniaczenie, przedłużone krwawienia z dziąseł, nosa?
+ – Wybroczyny na skórze, plamki krwawe?
+ – Świąd skóry, szczególnie po kąpieli?
+ – Uczucie pełności po jedzeniu, powiększenie brzucha (śledziona)?
+ – Powiększone węzły chłonne (lokalizacja, czy bolesne)?
+ – Częste infekcje lub trudno gojące się zakażenia?
+
+---
+
+### III. Wywiad chorobowy
+
+• Czy pacjent chorował na:
+ – Niedokrwistość, białaczkę, chłoniaka, szpiczaka?
+ – Skazy krwotoczne, małopłytkowość?
+ – Choroby autoimmunologiczne (SLE, RZS)?
+• Czy występuje choroba nerek, wątroby, tarczycy?
+• Czy był leczony onkologicznie (chemioterapia, radioterapia)?
+• Czy były transfuzje krwi lub preparaty żelaza?
+• Czy wystąpiły powikłania zakrzepowe w młodym wieku?
+
+---
+
+### IV. Wywiad rodzinny
+
+• Czy w rodzinie występują:
+ – Choroby krwi (anemie, skazy krwotoczne, chłoniaki, białaczki)?
+ – Zaburzenia krzepnięcia, zakrzepica?
+ – Dziedziczne niedokrwistości (np. sferocytoza, talasemia)?
+
+---
+
+### V. Styl życia i ryzyko środowiskowe
+
+• Czy pacjent:
+ – Pracuje z substancjami toksycznymi (chemikalia, pestycydy)?
+ – Przebywał w rejonach tropikalnych (malaria)?
+ – Pali papierosy, nadużywa alkoholu?
+ – Ma ryzykowne kontakty seksualne, używał dożylnie narkotyków?
+ – Ma kontakt z osobami zakażonymi HBV, HCV, HIV?
+
+---
+
+### VI. Przyjmowane leki i suplementy
+
+• Czy pacjent stosuje:
+ – NLPZ, leki przeciwzakrzepowe (warfaryna, NOAC, ASA)?
+ – Leki immunosupresyjne, cytostatyki?
+ – Żelazo, witaminę B₁₂, kwas foliowy?
+• Czy wystąpiły działania niepożądane po lekach hematotoksycznych?
+• Czy pacjent stosuje leki bez recepty lub zioła?
+
+---
+
+### VII. Wyniki badań laboratoryjnych (jeśli dostępne)
+
+• Hemoglobina: \_\_\_\_\_\_ g/dL
+• MCV: \_\_\_\_\_\_ fL
+• Retikulocyty: \_\_\_\_\_\_ ‰ lub G/L
+• Leukocyty (WBC): \_\_\_\_\_\_ G/L
+• Neutrofile: \_\_\_\_\_\_ G/L
+• Limfocyty: \_\_\_\_\_\_ G/L
+• Płytki (PLT): \_\_\_\_\_\_ G/L
+• CRP: \_\_\_\_\_\_ mg/L
+• OB: \_\_\_\_\_\_ mm/h
+• Ferrytyna: \_\_\_\_\_\_ ng/mL
+• Żelazo: \_\_\_\_\_\_ µg/dL
+• Witamina B₁₂: \_\_\_\_\_\_ pg/mL
+• Kwas foliowy: \_\_\_\_\_\_ ng/mL
+• Bilirubina całkowita / niesprzężona: \_\_\_\_\_\_ / \_\_\_\_\_\_ mg/dL
+• LDH: \_\_\_\_\_\_ U/L
+• D-dimer: \_\_\_\_\_\_ ng/mL
+• INR: \_\_\_\_\_\_
+• APTT: \_\_\_\_\_\_ s
+• Fibrinogen: \_\_\_\_\_\_ g/L
+• Elektrofereza białek: wynik – \_\_\_\_\_\_\_\_\_\_\_\_\_\_
+• Rozmaz krwi obwodowej: obecność blastów / sferocytów / innych zmian?
+
+---
+
+### VIII. Objawy alarmowe – do zaznaczenia
+
+\[ ] HGB < 10 g/dL lub szybki spadek w czasie
+\[ ] PLT < 100 G/L lub > 450 G/L
+\[ ] WBC < 4,0 G/L lub > 20 G/L
+\[ ] Neutrofile < 1,5 G/L
+\[ ] Limfocytoza > 5 G/L
+\[ ] MCV < 80 fL (mikrocytoza) lub > 100 fL (makrocytoza)
+\[ ] Retikulocyty < 20 ‰ (niedobór regeneracji)
+\[ ] LDH > 250 U/L
+\[ ] CRP > 30 mg/L + cytopenia
+\[ ] Dodatnie objawy B (poty, utrata masy, gorączka)
+\[ ] Obecność blastów / atypowych komórek w rozmazie
+\[ ] Powiększone węzły chłonne > 1,5 cm, niebolesne
+\[ ] Splenomegalia (wyczuwalna śledziona)
+\[ ] Zakrzepica żylna w młodym wieku / nawracająca
+
+---
+
+### IX. Uwagi lekarza POZ / wskazanie do konsultacji
+
+• W jakim kontekście zlecono badania?
+• Jaka była odpowiedź na leczenie w POZ?
+• Czy pacjent wymaga pilnej diagnostyki szpitalnej?
+• Czy istnieje podejrzenie nowotworu układu krwiotwórczego?
+
+---
+
