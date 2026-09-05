@@ -16,8 +16,29 @@ retraining and patient data analysis.
 
 **Keywords:** web application, clinical decision support, machine learning, natural language processing (NLP), XGBoost, HerBERT, Mistral, RAG
 
+## Web application interface
+
+
+
 ## Evaluation of Results
 
+### Rejestracja oraz logowanie użytkownika 
+
+W aplikacji MedPred proces logowania i rejestracji użytkowników został 
+zaprojektowany w sposób intuicyjny i prosty. Nowi użytkownicy mogą założyć konto, 
+wybierając jedną z dwóch ról: Pacjent lub Specjalista. Formularz rejestracyjny przewiduje 
+różne pola w zależności od wybranej roli – w przypadku specjalisty konieczne jest dodatkowe 
+podanie numeru licencji zawodowej. System posiada również wbudowany mechanizm 
+walidacji danych – w sytuacji, gdy wprowadzone hasła różnią się od siebie, adres e-mail jest 
+już zajęty, bądź wybrana nazwa użytkownika jest niedostępna, aplikacja wyświetla odpowiedni 
+komunikat błędu. Dzięki temu proces rejestracji jest zabezpieczony przed duplikacją kont 
+i nieprawidłowym wprowadzeniem danych. Na rysunku 7.1.A przedstawiono ekran logowania, 
+gdzie użytkownik musi podać swoją nazwę oraz hasło, a dodatkowo ma możliwość zaznaczenia 
+opcji Pamiętaj mnie. Na rysunku 7.1.B znajdują się przykładowe komunikaty błędów – w tym 
+
+<p>
+<img width="253" height="296" alt="image" src="https://github.com/user-attachments/assets/5e60e275-6dde-4808-8ff1-cf36947fdda1" />
+</p>
 ### Classification
 
 For the task of assigning patient symptoms to appropriate medical specialists, the Mistral model was evaluated in two configurations: zero-shot, without additional training, and with a Retrieval-Augmented Generation (RAG) mechanism supported by an external knowledge base. The experiment was conducted on 260 cases, with 10 cases representing each medical specialty. 
