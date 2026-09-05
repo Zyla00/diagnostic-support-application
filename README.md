@@ -410,11 +410,43 @@ wskaźników zdrowotnych,
 • Wiadomości – moduł służący do komunikacji z lekarzem.
 
 <p>
-<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+<img width="270" height="149" alt="image" src="https://github.com/user-attachments/assets/49852812-f8b4-4383-a464-ea534a74e962" />
 </p>
 
+Podsumowując, ekran startowy pacjenta stanowi centralne miejsce, w którym gromadzone są 
+kluczowe informacje przekazywane przez specjalistę, co pozwala szybko zorientować się 
+w aktualnych zaleceniach. Dzięki intuicyjnemu paskowi nawigacyjnemu użytkownik ma 
+możliwość łatwego przechodzenia do poszczególnych funkcjonalności, co znacząco usprawnia 
+korzystanie z aplikacji.
+
+####  Obsługa ankiet 
+
+Po zalogowaniu pacjent ma dostęp do zakładki Ankiety, w której wyświetlana jest historia 
+wszystkich formularzy wysłanych przez specjalistę. Widok ten dzieli ankiety na dwie kategorie: 
+oczekujące na wypełnienie (oznaczone żółtym polem z napisem „Oczekuje na wypełnienie”) 
+oraz wypełnione (zielone pole z napisem „Wypełniona”). Każda z ankiet posiada również 
+przycisk akcji – w przypadku ankiety niewypełnionej jest to przycisk „Wypełnij”, natomiast 
+przy ankietach już przesłanych dostępny jest wyłącznie przycisk „Podgląd”, który pozwala 
+przejrzeć wszystkie pytania wraz z udzielonymi odpowiedziami (Rysunek 7.26).
+
 <p>
-<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+<img width="257" height="127" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
+</p>
+
+W momencie przechodzenia do widoku wypełniania ankiety pacjent ma możliwość udzielenia 
+odpowiedzi na pytania przygotowane przez lekarza. Po kliknięciu przycisku „Wyślij” system 
+wyświetla komunikat potwierdzający, przypominający, że ankietę można wypełnić tylko raz 
+i nie będzie możliwości późniejszej edycji (rysunek 7.27).
+
+<p>
+<img width="248" height="164" alt="image" src="https://github.com/user-attachments/assets/c053a864-ade3-4933-9966-121ea7f15c98" />
+</p>
+
+Po zatwierdzeniu odpowiedzi i wysłaniu formularza, na górze strony pojawia się komunikat 
+informujący o pomyślnym zapisaniu ankiety (rysunek 7.28). Dzięki temu pacjent otrzymuje
+
+<p>
+<img width="257" height="127" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
 </p>
 
 ## Evaluation of Results
