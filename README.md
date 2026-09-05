@@ -40,7 +40,7 @@ Cały mechanizm logowania i rejestracji zapewnia przejrzystość oraz bezpiecze�
 korzystania z aplikacji. Dzięki odpowiedniej walidacji danych użytkownicy mają pewność, że 
 ich konta są unikalne i chronione przed nieuprawnionym dostępem.
 
-### Informacje profilowe oraz zmiana hasła 
+#### Informacje profilowe oraz zmiana hasła 
 
 W aplikacji MedPred użytkownik ma dostęp do panelu zarządzania swoim kontem 
 poprzez ikonę awatara znajdującą się w lewym dolnym rogu paska bocznego. Po kliknięciu 
@@ -73,7 +73,100 @@ komunikat potwierdzający operację. Zarówno panel zmiany hasła, jak i panel p
 zamknąć na dwa sposoby: klikając w krzyżyk w prawym górnym rogu lub klikając 
 w zaciemnione pole po lewej stronie ekranu.
 
+<p>
+<img width="276" height="157" alt="image" src="https://github.com/user-attachments/assets/07f910a4-78cc-4e38-9965-b9bbf2e964b7" />
+</p>
 
+Warto podkreślić, że widok profilu pacjenta różni się od widoku dostępnego dla specjalisty 
+(rysunek 7.5). Zawiera on podstawowe informacje osobowe i kontaktowe, takie jak imię, 
+nazwisko, data urodzenia, numer PESEL, adres e-mail, numer telefonu oraz dane dotyczące 
+ubezpieczenia zdrowotnego (np. NFZ). W odróżnieniu od profilu specjalisty nie ma tu pól 
+związanych z wykształceniem, numerem PWZ czy doświadczeniem zawodowym, co wynika 
+z odmiennej roli pacjenta w systemie. 
+
+<p>
+<img width="262" height="110" alt="image" src="https://github.com/user-attachments/assets/b7996cf8-c897-4979-9952-49ef52ba32f4" />
+</p>
+Profil pacjenta jest zatem uproszczony, ale zawiera wszystkie istotne dane niezbędne w procesie 
+diagnostycznym i komunikacji ze specjalistą.
+
+#### Wiadomości
+
+Funkcjonalność wiadomości umożliwia bezpośrednią i wygodną komunikację pomiędzy 
+pacjentem a specjalistą. Dzięki niej możliwe jest zadawanie pytań, ustalanie szczegółów 
+diagnostyki czy konsultowanie zmian w planie leczenia w czasie rzeczywistym. System 
+zapewnia przejrzyste oznaczenia nowych wiadomości, co minimalizuje ryzyko ich 
+przeoczenia. Na rysunku 7.6 przedstawiono widok paska bocznego, na którym obok zakładki 
+Wiadomości pojawia się czerwona ikona z liczbą nowych wiadomości. Dzięki temu użytkownik 
+od razu widzi, że w skrzynce oczekuje nowa korespondencja.
+
+<p>
+<img width="156" height="78" alt="image" src="https://github.com/user-attachments/assets/6afbdeb2-8f3f-417f-bcfd-64fe02be42ea" />
+</p>
+
+Po kliknięciu w zakładkę Wiadomości otwiera się panel czatu (rysunek 7.7). Z lewej strony 
+znajduje się lista pacjentów lub specjalistów, wraz z podglądem ostatniej wiadomości. Nowe 
+wiadomości oznaczane są dodatkowym czerwonym komunikatem z liczbą oczekujących 
+wiadomości, co ułatwia ich szybkie odnalezienie. 
+
+<p>
+<img width="209" height="155" alt="image" src="https://github.com/user-attachments/assets/5ff41235-38ed-41b2-bc69-92e6693df0a1" />
+</p>
+
+Po wybraniu rozmówcy użytkownik przechodzi do szczegółowego widoku konwersacji 
+(rysunek 7.8). W tym miejscu dostępna jest cała historia czatu oraz możliwość swobodnego 
+prowadzenia dalszej korespondencji. Wiadomości są prezentowane w sposób intuicyjny. 
+Użytkownik widzi zarówno swoje wiadomości, jak i odpowiedzi rozmówcy, wraz z datą 
+i godziną ich wysłania.
+
+<p>
+<img width="178" height="158" alt="image" src="https://github.com/user-attachments/assets/cf255cbe-1602-4e0d-9a23-4aed9c0c0bbb" />  
+</p>
+
+System wiadomości w aplikacji pełni rolę bezpośredniego kanału komunikacji, który zwiększa 
+dostępność specjalisty i umożliwia szybkie reagowanie na potrzeby pacjenta. Jasne oznaczenia 
+nowych wiadomości oraz prosty interfejs czatu sprawiają, że korzystanie z tej funkcjonalności 
+jest intuicyjne i efektywne. 
+
+### Funkcjonalności dostępne dla specjalisty
+
+Po zalogowaniu się do aplikacji specjalista otrzymuje dostęp do widoku listy swoich 
+pacjentów. Bezpośrednio po rejestracji lista ta jest pusta, natomiast wraz z przypisaniem 
+pierwszych osób pojawiają się tutaj pacjenci danego specjalisty. Każdy rekord na liście zawiera 
+imię i nazwisko pacjenta oraz informację o jego statusie – aktywnym lub nieaktywnym. 
+Dodatkowo dostępne jest pole wyszukiwania, które umożliwia szybkie odnalezienie pacjenta 
+po imieniu lub nazwisku. 
+Po lewej stronie znajduje się boczny pasek nawigacyjny, który został zaprojektowany w formie 
+wsuwanego panelu. Może on być zarówno rozwinięty (rysunek 7.9), jak i zwinięty (rysunek 
+7.10), co pozwala na oszczędność miejsca w głównym obszarze roboczym. Pasek boczny 
+zawiera cztery kluczowe sekcje: 
+• Pacjenci – zakładka prezentująca listę przypisanych pacjentów wraz z możliwością ich 
+wyszukiwania, umożliwia również wybranie (poprzez kliknięcie) i podgląd bardziej 
+szczegółowych informacji na temat danej osoby, 
+• Menadżer ankiet – moduł umożliwiający podgląd, tworzenie oraz edycję ankiet, które 
+mogą być następnie udostępniane pacjentom, 
+• Modele predykcyjne – sekcja pozwalająca na ingerencję w działanie systemu 
+predykcyjnego, w tym na retrening istniejących modeli na podstawie nowych danych 
+pochodzących od pacjentów oraz na wzbogacanie bazy wiedzy w mechanizmie RAG, 
+• Wiadomości – miejsce do wymiany informacji między specjalistą a pacjentami, 
+ułatwiające bieżący kontakt i szybkie reagowanie na potrzeby chorych. 
+Na rysunku 7.9 przedstawiono widok listy pacjentów w momencie, gdy specjalista nie ma 
+jeszcze przypisanych żadnych osób. 
+
+<p>
+<img width="260" height="143" alt="image" src="https://github.com/user-attachments/assets/f23a0ab5-39b1-403e-af79-f9db1023489f" />  
+</p>
+Natomiast rysunek 7.10 prezentuje sytuację, w której pacjenci są już przypisani – można ich 
+przeglądać wraz ze statusem aktywności.  
+
+<p>
+<img width="260" height="151" alt="image" src="https://github.com/user-attachments/assets/11028644-81f4-4fce-95f1-1846dfdbd42b" />
+</p>
+Oba widoki dobrze obrazują zarówno elastyczność interfejsu, jak i możliwość dostosowania 
+przestrzeni roboczej do aktualnych potrzeb użytkownika.
+
+
+#### Karta pacjenta i analiza danych
 
 ## Evaluation of Results
 
