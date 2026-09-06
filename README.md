@@ -546,21 +546,28 @@ dziennie.
 <img width="272" height="283" alt="image" src="https://github.com/user-attachments/assets/49282702-edb8-421d-94ea-20468b7e3545" />
 </p>
 
-<p>
-<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
-</p>
+Na rysunku 7.36 zaprezentowano widok kalendarza, w którym każda wprowadzona ankieta 
+dnia zapisywana jest w postaci kartki z podstawowymi danymi. W prawym górnym rogu 
+znajdują się ikony umożliwiające pobranie danych oraz dodanie wpisu za pominięty dzień. 
+Każdy wpis można również edytować lub usunąć.
 
 <p>
-<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+<img width="290" height="142" alt="image" src="https://github.com/user-attachments/assets/56f8ab7a-47ee-4ef2-b223-2bcd33879135" />
 </p>
 
-<p>
-<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
-</p>
+Na rysunku 7.37 znajduje się przykład sekcji Statystyki, w której dane są wizualizowane 
+w postaci wykresów. W tym przypadku jest to wykres przedstawiający częstotliwość 
+poszczególnych ocen nastroju. Dzięki temu pacjent może szybko ocenić ogólne trendy 
+w swoim samopoczuciu.
 
 <p>
-<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+<img width="289" height="165" alt="image" src="https://github.com/user-attachments/assets/c8268b8d-c4f1-460d-99bc-65f502ef2202" />
 </p>
+
+Podsumowując, mechanizm monitoringu nawyków i samopoczucia łączy codzienny zapis 
+danych, ich prezentację w formie kalendarza oraz graficzną analizę w postaci wykresów. Taki 
+system sprzyja większej samoświadomości pacjenta i może stanowić cenne wsparcie dla 
+specjalisty w procesie diagnostycznym.
 
 ## Evaluation of Results
 
