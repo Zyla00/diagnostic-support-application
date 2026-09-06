@@ -457,13 +457,36 @@ prawidłowo zapisane w systemie.
 
 #### Wyniki badań laboratoryjnych 
 
-<p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
-</p>
+Zakładka Wyniki laboratoryjne umożliwia pacjentowi dostęp do pełnej historii 
+wprowadzonych badań. Już na pierwszym ekranie użytkownik widzi listę badań zapisanych 
+w systemie w postaci kafelków (rysunek 7.29). Na samej górze dostępne jest wyszukiwanie 
+badań w określonym przedziale dat, dzięki czemu można łatwo filtrować wyniki po dacie ich 
+wykonania. Dodatkowo w prawym górnym rogu znajduje się przycisk Nowa ankieta, który 
+pozwala na dodanie nowego wpisu z wynikami badań.
 
 <p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+<img width="283" height="88" alt="image" src="https://github.com/user-attachments/assets/9e7aa7a7-b053-4b2d-bf1c-c665761e056d" />
 </p>
+
+Po wybraniu opcji dodania nowych wyników otwiera się formularz (rysunek 7.30.A), w którym 
+znajdują się różne sekcje tematyczne. Formularz obejmuje między innymi badania z obszaru 
+hormonów (rysunek 7.30.B), badań kału oraz podstawowych parametrów życiowych (rysunek 
+7.30.C). Pacjent może wpisywać wartości numeryczne, kategoryczne (np. wynik 
+pozytywny/negatywny) oraz opisowe. Ważnym ograniczeniem jest fakt, że po zapisaniu formularza nie ma już możliwości jego edycji. Użytkownik musi upewnić się, że wprowadzone 
+dane są poprawne przed zapisaniem. Prezentowane na rysunkach przykłady przedstawiają 
+jedynie fragment całego formularza, który w rzeczywistości obejmuje znacznie szerszy zakres 
+badań laboratoryjnych i parametrów zdrowotnych pacjenta.
+
+<p>
+<img width="285" height="254" alt="image" src="https://github.com/user-attachments/assets/2c9da23c-be07-44b7-8da0-0918a9a15f35" />
+</p>
+
+Podsumowując, moduł wyników laboratoryjnych stanowi rozbudowane narzędzie do 
+gromadzenia danych medycznych w aplikacji. Dzięki niemu pacjenci mogą wprowadzać 
+i monitorować swoje badania, a lekarze mają wgląd w pełną historię zdrowotną, co wspiera 
+dalszą diagnostykę i proces leczenia.
+
+####  Zarządzanie wyborem lekarza 
 
 <p>
 <img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
