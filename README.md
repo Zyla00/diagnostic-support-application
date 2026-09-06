@@ -488,16 +488,78 @@ dalszą diagnostykę i proces leczenia.
 
 ####  Zarządzanie wyborem lekarza 
 
+W zakładce „Mój lekarz” pacjent ma możliwość wyszukiwania, wyboru oraz rezygnacji 
+z opieki danego specjalisty. Na samej górze interfejsu znajduje się pole wyszukiwania, które 
+umożliwia filtrowanie specjalistów po imieniu i nazwisku. Lista wyników prezentuje 
+podstawowe informacje o lekarzach, takie jak specjalizacja, wykształcenie, doświadczenie 
+zawodowe, numer PWZ, lokalizacja oraz dodatkowy opis (rysunek 7.31). Każdego 
+z dostępnych specjalistów można przypisać do swojego profilu za pomocą przycisku 
+„Wybierz”.
+
 <p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+<img width="284" height="212" alt="image" src="https://github.com/user-attachments/assets/b837fa9a-9fb6-4df0-8dc3-2048b5cfc2f6" />
+</p>
+
+Po dokonaniu wyboru na górze ekranu pojawia się zielony komunikat potwierdzający 
+przypisanie lekarza, a wybrany specjalista zostaje wyświetlony w sekcji „Mój specjalista” 
+(rysunek 7.32). W tym widoku znajduje się także opcja „Zrezygnuj”, umożliwiająca przerwanie 
+współpracy.
+
+<p>
+<img width="280" height="159" alt="image" src="https://github.com/user-attachments/assets/bd8dd0d9-9f8e-4bba-b9d1-998fcfa9d388" />
+</p>
+
+Jeżeli pacjent zdecyduje się na rezygnację, system wyświetla okno dialogowe z prośbą  
+o potwierdzenie decyzji (rysunek 7.33). 
+
+<p>
+<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+</p>
+
+Po akceptacji na górze ekranu pojawia się żółty komunikat informujący o rezygnacji ze 
+specjalisty (rysunek 7.34). Dodatkowo, w profilu lekarza widoczne jest oznaczenie statusu 
+pacjenta – aktywny (zielony) lub nieaktywny (szary), w zależności od aktualnej relacji pacjent
+specjalista.
+
+<p>
+<img width="271" height="36" alt="image" src="https://github.com/user-attachments/assets/01eff250-b419-4998-8dac-0afb402dfe58" />
+</p>
+
+Sekcja zarządzania lekarzem pozwala pacjentowi w prosty sposób przypisać do swojego profilu 
+wybranego specjalistę, a następnie w razie potrzeby zrezygnować z jego opieki. Dzięki 
+przejrzystemu interfejsowi i komunikatom systemowym pacjent ma pełną kontrolę nad 
+procesem wyboru oraz może w każdej chwili zmienić lekarza prowadzącego.
+
+#### Monitoring nawyków i samopoczucia
+
+Zakładki Nawyki, Kalendarz oraz Statystyki tworzą wspólnie prosty, ale użyteczny 
+mechanizm monitoringu codziennego samopoczucia i stylu życia pacjenta. Dzięki nim 
+użytkownik może regularnie wprowadzać dane dotyczące swojego nastroju, snu, emocji czy 
+aktywności, a następnie analizować ich wpływ na zdrowie w szerszej perspektywie czasowej. 
+Na Rysunku 7.35.A-B przedstawiono widok formularza w zakładce Nawyki, w którym pacjent 
+codziennie ocenia swój dzień, liczbę godzin snu, emocje, dodatkowe uwagi, ilość wypitej kawy 
+i alkoholu, liczbę wypalonych papierosów oraz czas przeznaczony na aktywność fizyczną. 
+Formularz składa się z zestawu stałych kafelków i jest przeznaczony do wypełniania raz 
+dziennie.
+
+<p>
+<img width="272" height="283" alt="image" src="https://github.com/user-attachments/assets/49282702-edb8-421d-94ea-20468b7e3545" />
 </p>
 
 <p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
 </p>
 
 <p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+</p>
+
+<p>
+<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+</p>
+
+<p>
+<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
 </p>
 
 ## Evaluation of Results
