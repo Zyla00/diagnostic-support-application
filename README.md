@@ -54,7 +54,7 @@ wyświetla w prawym górnym rogu stosowny komunikat informujący o poprawnym zap
 nowego hasła lub o ewentualnym błędzie, np. niezgodności haseł.
 
 <p>
-<img width="254" height="233" alt="image" src="https://github.com/user-attachments/assets/4d67d8ef-d94c-46d0-bd5c-8bd25e23df56" />
+<img width="506" height="466" alt="image" src="https://github.com/user-attachments/assets/4d67d8ef-d94c-46d0-bd5c-8bd25e23df56" />
 </p>
 
 Analogicznie, wybierając opcję Profil, użytkownikowi wyświetla się widok podglądu profilu 
@@ -63,7 +63,7 @@ adres e-mail, telefon, numer PWZ, adres przyjęć, wykształcenie, doświadczeni
 specjalizacja. 
 
 <p>
-<img width="259" height="151" alt="image" src="https://github.com/user-attachments/assets/d57609aa-655b-44f6-9575-e8572e1a6ae2" />
+<img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/d57609aa-655b-44f6-9575-e8572e1a6ae2" />
 </p>
 
 W prawym górnym rogu widoczny jest przycisk umożliwiający przejście do trybu edycji. Po 
