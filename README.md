@@ -443,10 +443,38 @@ i nie będzie możliwości późniejszej edycji (rysunek 7.27).
 </p>
 
 Po zatwierdzeniu odpowiedzi i wysłaniu formularza, na górze strony pojawia się komunikat 
-informujący o pomyślnym zapisaniu ankiety (rysunek 7.28). Dzięki temu pacjent otrzymuje
+informujący o pomyślnym zapisaniu ankiety (rysunek 7.28). Dzięki temu pacjent otrzymuje jasną informację, że jego odpowiedzi zostały poprawnie zapisane i przekazane lekarzowi 
+prowadzącemu.
 
 <p>
-<img width="257" height="127" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+</p>
+
+Zakładka Ankiety zapewnia pacjentowi pełną kontrolę nad formularzami przesyłanymi przez 
+specjalistę, umożliwiając zarówno ich wypełnianie, jak i późniejszy podgląd odpowiedzi. 
+Dzięki prostemu systemowi powiadomień pacjent ma pewność, że jego dane zostały 
+prawidłowo zapisane w systemie. 
+
+#### Wyniki badań laboratoryjnych 
+
+<p>
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+</p>
+
+<p>
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+</p>
+
+<p>
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+</p>
+
+<p>
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+</p>
+
+<p>
+<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
 </p>
 
 ## Evaluation of Results
