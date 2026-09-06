@@ -33,7 +33,7 @@ gdzie użytkownik musi podać swoją nazwę oraz hasło, a dodatkowo ma możliwo
 opcji Pamiętaj mnie. Na rysunku 7.1.B znajdują się przykładowe komunikaty błędów – w tym 
 
 <p>
-<img width="253" height="296" alt="image" src="https://github.com/user-attachments/assets/5e60e275-6dde-4808-8ff1-cf36947fdda1" />
+<img width="506" height="592" alt="image" src="https://github.com/user-attachments/assets/5e60e275-6dde-4808-8ff1-cf36947fdda1" />
 </p>
 
 Cały mechanizm logowania i rejestracji zapewnia przejrzystość oraz bezpieczeństwo 
