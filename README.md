@@ -60,80 +60,48 @@ The patient profile contains a simpler set of information, including personal an
 
 Both the profile and password panels can be closed using the close button or by clicking outside the panel.
 
-#### Wiadomości
+#### Messages
 
-Funkcjonalność wiadomości umożliwia bezpośrednią i wygodną komunikację pomiędzy 
-pacjentem a specjalistą. Dzięki niej możliwe jest zadawanie pytań, ustalanie szczegółów 
-diagnostyki czy konsultowanie zmian w planie leczenia w czasie rzeczywistym. System 
-zapewnia przejrzyste oznaczenia nowych wiadomości, co minimalizuje ryzyko ich 
-przeoczenia. Na rysunku 7.6 przedstawiono widok paska bocznego, na którym obok zakładki 
-Wiadomości pojawia się czerwona ikona z liczbą nowych wiadomości. Dzięki temu użytkownik 
-od razu widzi, że w skrzynce oczekuje nowa korespondencja.
+The Messages feature enables direct communication between patients and specialists. It can be used to ask questions, discuss diagnostic details, and consult changes in the treatment plan.
+
+New messages are clearly indicated in the sidebar by a red badge showing the number of unread messages (Figure 7.6). After opening the Messages section, the user sees a list of conversations with a preview of the latest message and unread message indicators (Figure 7.7).
 
 <p>
 <img width="312" height="156" alt="image" src="https://github.com/user-attachments/assets/6afbdeb2-8f3f-417f-bcfd-64fe02be42ea" />
 </p>
 
-Po kliknięciu w zakładkę Wiadomości otwiera się panel czatu (rysunek 7.7). Z lewej strony 
-znajduje się lista pacjentów lub specjalistów, wraz z podglądem ostatniej wiadomości. Nowe 
-wiadomości oznaczane są dodatkowym czerwonym komunikatem z liczbą oczekujących 
-wiadomości, co ułatwia ich szybkie odnalezienie. 
-
 <p>
 <img width="506" height="310" alt="image" src="https://github.com/user-attachments/assets/5ff41235-38ed-41b2-bc69-92e6693df0a1" />
 </p>
 
-Po wybraniu rozmówcy użytkownik przechodzi do szczegółowego widoku konwersacji 
-(rysunek 7.8). W tym miejscu dostępna jest cała historia czatu oraz możliwość swobodnego 
-prowadzenia dalszej korespondencji. Wiadomości są prezentowane w sposób intuicyjny. 
-Użytkownik widzi zarówno swoje wiadomości, jak i odpowiedzi rozmówcy, wraz z datą 
-i godziną ich wysłania.
+electing a conversation opens the full chat view, where the entire message history is available (Figure 7.8). Messages from both participants are displayed together with their date and time of delivery.
 
 <p>
 <img width="506" height="316" alt="image" src="https://github.com/user-attachments/assets/cf255cbe-1602-4e0d-9a23-4aed9c0c0bbb" />  
 </p>
 
-System wiadomości w aplikacji pełni rolę bezpośredniego kanału komunikacji, który zwiększa 
-dostępność specjalisty i umożliwia szybkie reagowanie na potrzeby pacjenta. Jasne oznaczenia 
-nowych wiadomości oraz prosty interfejs czatu sprawiają, że korzystanie z tej funkcjonalności 
-jest intuicyjne i efektywne. 
+This module provides a simple and accessible communication channel between patients and specialists, allowing users to quickly identify and respond to new messages.
 
-### Funkcjonalności dostępne dla specjalisty
+### Features Available to Specialists
 
-Po zalogowaniu się do aplikacji specjalista otrzymuje dostęp do widoku listy swoich 
-pacjentów. Bezpośrednio po rejestracji lista ta jest pusta, natomiast wraz z przypisaniem 
-pierwszych osób pojawiają się tutaj pacjenci danego specjalisty. Każdy rekord na liście zawiera 
-imię i nazwisko pacjenta oraz informację o jego statusie – aktywnym lub nieaktywnym. 
-Dodatkowo dostępne jest pole wyszukiwania, które umożliwia szybkie odnalezienie pacjenta 
-po imieniu lub nazwisku. 
-Po lewej stronie znajduje się boczny pasek nawigacyjny, który został zaprojektowany w formie 
-wsuwanego panelu. Może on być zarówno rozwinięty (rysunek 7.9), jak i zwinięty (rysunek 
-7.10), co pozwala na oszczędność miejsca w głównym obszarze roboczym. Pasek boczny 
-zawiera cztery kluczowe sekcje: 
-• Pacjenci – zakładka prezentująca listę przypisanych pacjentów wraz z możliwością ich 
-wyszukiwania, umożliwia również wybranie (poprzez kliknięcie) i podgląd bardziej 
-szczegółowych informacji na temat danej osoby, 
-• Menadżer ankiet – moduł umożliwiający podgląd, tworzenie oraz edycję ankiet, które 
-mogą być następnie udostępniane pacjentom, 
-• Modele predykcyjne – sekcja pozwalająca na ingerencję w działanie systemu 
-predykcyjnego, w tym na retrening istniejących modeli na podstawie nowych danych 
-pochodzących od pacjentów oraz na wzbogacanie bazy wiedzy w mechanizmie RAG, 
-• Wiadomości – miejsce do wymiany informacji między specjalistą a pacjentami, 
-ułatwiające bieżący kontakt i szybkie reagowanie na potrzeby chorych. 
-Na rysunku 7.9 przedstawiono widok listy pacjentów w momencie, gdy specjalista nie ma 
-jeszcze przypisanych żadnych osób. 
+After logging in, a specialist has access to the list of assigned patients. Initially, the list is empty, but it is automatically populated as patients are assigned to the specialist. Each entry contains the patient’s name and current status, such as active or inactive. A search field allows patients to be quickly found by name or surname.
+
+Navigation is provided through a collapsible sidebar, which can be displayed in expanded or compact form (Figures 7.9 and 7.10). It contains four main sections:
+
+Patients – displays assigned patients and provides access to their detailed information.
+Survey Manager – allows specialists to create, view, and edit surveys that can later be assigned to patients.
+Predictive Models – provides tools for retraining predictive models using new patient data and updating the knowledge base used by the RAG mechanism.
+Messages – enables direct communication with patients.
+
+Figure 7.9 shows the patient list when no patients have yet been assigned, while Figure 7.10 presents the same view after patients have been added. The collapsible sidebar allows the workspace to be adjusted according to the user’s current needs.
 
 <p>
 <img width="506" height="286" alt="image" src="https://github.com/user-attachments/assets/f23a0ab5-39b1-403e-af79-f9db1023489f" />  
 </p>
-Natomiast rysunek 7.10 prezentuje sytuację, w której pacjenci są już przypisani – można ich 
-przeglądać wraz ze statusem aktywności.  
 
 <p>
 <img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/11028644-81f4-4fce-95f1-1846dfdbd42b" />
 </p>
-Oba widoki dobrze obrazują zarówno elastyczność interfejsu, jak i możliwość dostosowania 
-przestrzeni roboczej do aktualnych potrzeb użytkownika.
 
 
 #### Karta pacjenta i analiza danych
