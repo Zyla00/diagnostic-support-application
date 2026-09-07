@@ -211,98 +211,58 @@ For closed questions, available answers are entered as comma-separated options. 
 
 The system also displays notifications confirming successful operations or reporting errors. This module provides a structured way to prepare questionnaires for collecting consistent patient information.
 
-#### Zarządzanie modelami predykcyjnymi
+#### Predictive Model Management
 
-Zakładka Modele predykcyjne umożliwia specjalistom aktywną ingerencję w działanie 
-i rozwój wykorzystywanych algorytmów. Udostępnione zostały tutaj trzy zakładki: HerBERT, 
-XGBoost oraz Mistral RAG – notatki (rysunki 7.21–7.24). Dwa pierwsze odpowiadają za 
-możliwość retreningu modeli HerBERT oraz XGBoost na podstawie danych udostępnionych 
-przez pacjentów, natomiast ostatni pozwala na dodawanie notatek rozszerzających bazę wiedzy. 
-W module HerBERT (rysunek 7.21) specjalista może wskazać dane wejściowe w postaci 
-wysłanych i wypełnionych formularzy. Ankiety już wypełnione są dostępne do zaznaczenia, 
-natomiast niewypełnione są wyszarzane i nieaktywne. Dodatkowo dostępna jest wyszukiwarka 
-po nazwie ankiety oraz licznik wskazujący liczbę dostępnych formularzy. Dzięki temu proces 
-wyboru danych jest precyzyjny i ograniczony wyłącznie do wartościowych przypadków. 
+The Predictive Models section allows specialists to update and extend the AI components used in MedPred. It contains three modules: HerBERT, XGBoost, and Mistral RAG – Notes.
+
+The HerBERT module allows retraining the model using completed patient surveys. Only filled surveys can be selected, while incomplete ones remain disabled. Search and filtering tools help specialists quickly locate relevant training data (Figure 7.21).
 
 <p>
 <img width="506" height="390" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
 </p>
 
-Analogicznie działa moduł XGBoost (rysunek 7.22), w którym dane wejściowe mogą stanowić 
-ankiety oraz wyniki badań laboratoryjnych. Widok przedstawia listę badań wraz z datą ich 
-wykonania oraz przypisaniem do konkretnego pacjenta. Możliwe jest również dodanie ankiet. 
-Działa to dokładnie tak samo jak w przypadku modelu HerBERT. Tu również można korzystać 
-z wyszukiwarki oraz filtrowania, aby szybko odnaleźć interesujące dane.
+The XGBoost module works similarly but can use both completed surveys and laboratory test results as training data (Figure 7.22). Selected records can then be assigned to a new training case.
 
 <p>
 <img width="506" height="268" alt="image" src="https://github.com/user-attachments/assets/27d210bc-5cb2-4efa-9ca7-1037fa8385ee" />
 </p>
 
-Po zaznaczeniu odpowiednich rekordów (ankiet lub badań) i wciśnięciu przycisku „Przypisz 
-zaznaczone” można przejść do okna definiowania przypadków do treningu (rysunek 7.23). 
-Specjalista nadaje im etykietę (np. nazwę jednostki chorobowej), która może być całkowicie 
-nowa lub wybrana spośród podpowiedzi systemu. Dodatkowo istnieje możliwość dopisania 
-opisu przypadku (np. kontekst kliniczny, objawy, leki), usunięcia przypadku (przycisk 
-„Wyczyść”) oraz wyczyszczenia przypisania ankiet i badań (przycisk „Usuń”). Tak 
-przygotowane dane zapisywane są jako nowa próbka i natychmiast wykorzystywane do 
-ponownego treningu modelu. Mechanizm aplikacji automatycznie archiwizuje poprzednią 
-wersję modelu, a nowa zaktualizowana wersja jest od razu gotowa do wykorzystania 
-w analizach predykcyjnych.
+During case definition, the specialist assigns a label, optionally adds a clinical description, and selects the relevant surveys or laboratory results (Figure 7.23). After saving, the new sample is used to retrain the model. The previous model version is archived automatically, while the updated version becomes available for further predictions.
 
 <p>
 <img width="506" height="282" alt="image" src="https://github.com/user-attachments/assets/64914ba5-e703-4794-8aae-951b4a6a485b" />
 </p>
 
-Ostatnia zakładka, Mistral RAG – notatki (rysunek 7.24), pozwala specjalistom dodawać 
-treściowe wpisy, które rozszerzają bazę wiedzy systemu. Każda notatka może mieć tytuł, treść 
-oraz opcjonalny załącznik. Po zapisaniu i przebudowie indeksu jest natychmiast uwzględniana 
-w procesie generowania rekomendacji dla pacjentów. Dzięki temu możliwe jest elastyczne 
-wzbogacanie kontekstu analiz bez potrzeby retreningu modeli ML. 
+The Mistral RAG – Notes module enables specialists to extend the system knowledge base without retraining the model. Notes may contain a title, text, and an optional attachment. After rebuilding the index, the new content can be used during RAG-based analyses and recommendation generation (Figure 7.24).
 
 <p>
 <img width="506" height="312" alt="image" src="https://github.com/user-attachments/assets/fac4f09c-1730-4ad5-963a-0c29985443e8" />
 </p>
 
-Sekcja Zarządzanie modelami predykcyjnymi stanowi kluczowy element aplikacji, pozwalając 
-na bieżące aktualizowanie i rozwijanie algorytmów uczenia maszynowego. Dzięki intuicyjnym 
-mechanizmom wyboru danych, archiwizacji starych modeli i wzbogacania wiedzy w postaci 
-notatek, specjaliści mają pełną kontrolę nad procesem adaptacji systemu do zmieniających się 
-potrzeb klinicznych.
+Overall, this section allows specialists to improve model performance and expand the available medical context as new data become available.
 
-### Funkcjonalności dostępne dla pacjenta
+### Features Available to Patients
 
-#### Widok dostępny po zalogowaniu
+#### Patient Dashboard
 
-Od razu po zalogowaniu pacjent trafia na ekran startowy, którego zawartość odpowiada 
-zakładce Rekomendacje (rysunek 7.25). W tym miejscu wyświetlane są zalecenia i uwagi od 
-specjalisty. Mogą one wynikać z analizy wypełnionych ankiet, dodanych wyników badań 
-laboratoryjnych, a także modeli predykcyjnych. Dzięki temu pacjent w pierwszej kolejności 
-otrzymuje spersonalizowane wskazówki dotyczące dalszej diagnostyki lub postępowania 
-zdrowotnego. Po lewej stronie ekranu znajduje się pasek nawigacyjny, który umożliwia szybki 
-dostęp do wszystkich głównych sekcji aplikacji: 
-• Rekomendacje – główna zakładka, w której wyświetlane są zalecenia od specjalisty, 
-• Ankiety – dostęp do ankiet wypełnionych wcześniej oraz nowych, wysłanych przez 
-lekarza, 
-• Wyniki laboratoryjne – historia dotychczas dodanych badań laboratoryjnych oraz 
-możliwość wprowadzenia nowych wyników, 
-• Mój lekarz – przegląd lekarzy dostępnych w systemie oraz możliwość wyboru lub 
-zmiany przypisanego specjalisty, 
-• Nawyki – funkcjonalność pozwalająca na dodawanie i monitorowanie wybranych 
-nawyków zdrowotnych, 
-• Kalendarz – podgląd zaplanowanych wydarzeń i wizyt, 
-• Statystyki – prezentacja statystyk dotyczących np. nastrojów pacjenta czy innych 
-wskaźników zdrowotnych, 
-• Wiadomości – moduł służący do komunikacji z lekarzem.
+After logging in, the patient is redirected to the Recommendations view, which serves as the main dashboard (Figure 7.25). It displays recommendations and comments provided by the assigned specialist, including suggestions based on surveys, laboratory results, and predictive analyses.
+
+The sidebar provides access to the main patient functions:
+
+Recommendations – displays recommendations from the specialist,
+Surveys – provides access to completed and newly assigned surveys,
+Laboratory Results – stores previous test results and allows new results to be added,
+My Doctor – allows the patient to view and change the assigned specialist,
+Habits – supports tracking selected health-related habits,
+Calendar – displays scheduled appointments and events,
+Statistics – presents selected health and well-being indicators,
+Messages – enables communication with the specialist.
 
 <p>
 <img width="506" height="298" alt="image" src="https://github.com/user-attachments/assets/49852812-f8b4-4383-a464-ea534a74e962" />
 </p>
 
-Podsumowując, ekran startowy pacjenta stanowi centralne miejsce, w którym gromadzone są 
-kluczowe informacje przekazywane przez specjalistę, co pozwala szybko zorientować się 
-w aktualnych zaleceniach. Dzięki intuicyjnemu paskowi nawigacyjnemu użytkownik ma 
-możliwość łatwego przechodzenia do poszczególnych funkcjonalności, co znacząco usprawnia 
-korzystanie z aplikacji.
+The dashboard therefore provides a central overview of the patient’s current recommendations and quick access to the most important application features.
 
 ####  Obsługa ankiet 
 
