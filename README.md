@@ -264,116 +264,68 @@ Messages – enables communication with the specialist.
 
 The dashboard therefore provides a central overview of the patient’s current recommendations and quick access to the most important application features.
 
-####  Obsługa ankiet 
+####  Survey Handling 
 
-Po zalogowaniu pacjent ma dostęp do zakładki Ankiety, w której wyświetlana jest historia 
-wszystkich formularzy wysłanych przez specjalistę. Widok ten dzieli ankiety na dwie kategorie: 
-oczekujące na wypełnienie (oznaczone żółtym polem z napisem „Oczekuje na wypełnienie”) 
-oraz wypełnione (zielone pole z napisem „Wypełniona”). Każda z ankiet posiada również 
-przycisk akcji – w przypadku ankiety niewypełnionej jest to przycisk „Wypełnij”, natomiast 
-przy ankietach już przesłanych dostępny jest wyłącznie przycisk „Podgląd”, który pozwala 
-przejrzeć wszystkie pytania wraz z udzielonymi odpowiedziami (Rysunek 7.26).
+The Surveys section displays all questionnaires assigned by the specialist. Surveys are marked as either Pending or Completed, and users can either fill in a pending survey or review previously submitted answers (Figure 7.26).
 
 <p>
 <img width="506" height="254" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
 </p>
 
-W momencie przechodzenia do widoku wypełniania ankiety pacjent ma możliwość udzielenia 
-odpowiedzi na pytania przygotowane przez lekarza. Po kliknięciu przycisku „Wyślij” system 
-wyświetla komunikat potwierdzający, przypominający, że ankietę można wypełnić tylko raz 
-i nie będzie możliwości późniejszej edycji (rysunek 7.27).
+When completing a survey, the patient answers questions prepared by the specialist. Before submission, the system displays a confirmation message informing the patient that the survey can only be submitted once and cannot be edited later (Figure 7.27). After successful submission, a confirmation notification is displayed (Figure 7.28).
 
 <p>
 <img width="506" height="328" alt="image" src="https://github.com/user-attachments/assets/c053a864-ade3-4933-9966-121ea7f15c98" />
 </p>
 
-Po zatwierdzeniu odpowiedzi i wysłaniu formularza, na górze strony pojawia się komunikat 
-informujący o pomyślnym zapisaniu ankiety (rysunek 7.28). Dzięki temu pacjent otrzymuje jasną informację, że jego odpowiedzi zostały poprawnie zapisane i przekazane lekarzowi 
-prowadzącemu.
-
 <p>
 <img width="506" height="118" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
 </p>
 
-Zakładka Ankiety zapewnia pacjentowi pełną kontrolę nad formularzami przesyłanymi przez 
-specjalistę, umożliwiając zarówno ich wypełnianie, jak i późniejszy podgląd odpowiedzi. 
-Dzięki prostemu systemowi powiadomień pacjent ma pewność, że jego dane zostały 
-prawidłowo zapisane w systemie. 
+This module provides a simple way to complete, track, and review patient questionnaires.
 
-#### Wyniki badań laboratoryjnych 
+#### Laboratory Results 
 
-Zakładka Wyniki laboratoryjne umożliwia pacjentowi dostęp do pełnej historii 
-wprowadzonych badań. Już na pierwszym ekranie użytkownik widzi listę badań zapisanych 
-w systemie w postaci kafelków (rysunek 7.29). Na samej górze dostępne jest wyszukiwanie 
-badań w określonym przedziale dat, dzięki czemu można łatwo filtrować wyniki po dacie ich 
-wykonania. Dodatkowo w prawym górnym rogu znajduje się przycisk Nowa ankieta, który 
-pozwala na dodanie nowego wpisu z wynikami badań.
+The Laboratory Results section provides access to the full history of medical test data entered by the patient. Results are displayed as individual records and can be filtered by date (Figure 7.29).
 
 <p>
 <img width="506" height="176" alt="image" src="https://github.com/user-attachments/assets/9e7aa7a7-b053-4b2d-bf1c-c665761e056d" />
 </p>
 
-Po wybraniu opcji dodania nowych wyników otwiera się formularz (rysunek 7.30.A), w którym 
-znajdują się różne sekcje tematyczne. Formularz obejmuje między innymi badania z obszaru 
-hormonów (rysunek 7.30.B), badań kału oraz podstawowych parametrów życiowych (rysunek 
-7.30.C). Pacjent może wpisywać wartości numeryczne, kategoryczne (np. wynik 
-pozytywny/negatywny) oraz opisowe. Ważnym ograniczeniem jest fakt, że po zapisaniu formularza nie ma już możliwości jego edycji. Użytkownik musi upewnić się, że wprowadzone 
-dane są poprawne przed zapisaniem. Prezentowane na rysunkach przykłady przedstawiają 
-jedynie fragment całego formularza, który w rzeczywistości obejmuje znacznie szerszy zakres 
-badań laboratoryjnych i parametrów zdrowotnych pacjenta.
+Patients can also add new laboratory results through a structured form containing multiple categories, including hormone tests, stool tests, and basic health parameters (Figure 7.30). The form supports numerical, categorical, and descriptive values.
 
 <p>
 <img width="506" height="508" alt="image" src="https://github.com/user-attachments/assets/2c9da23c-be07-44b7-8da0-0918a9a15f35" />
 </p>
 
-Podsumowując, moduł wyników laboratoryjnych stanowi rozbudowane narzędzie do 
-gromadzenia danych medycznych w aplikacji. Dzięki niemu pacjenci mogą wprowadzać 
-i monitorować swoje badania, a lekarze mają wgląd w pełną historię zdrowotną, co wspiera 
-dalszą diagnostykę i proces leczenia.
+Once saved, laboratory results cannot be edited, so patients are required to verify the entered data before submission. The module therefore provides a structured medical data source that can later be reviewed by the specialist and used during diagnostic analysis.
 
-####  Zarządzanie wyborem lekarza 
+####  Doctor Selection 
 
-W zakładce „Mój lekarz” pacjent ma możliwość wyszukiwania, wyboru oraz rezygnacji 
-z opieki danego specjalisty. Na samej górze interfejsu znajduje się pole wyszukiwania, które 
-umożliwia filtrowanie specjalistów po imieniu i nazwisku. Lista wyników prezentuje 
-podstawowe informacje o lekarzach, takie jak specjalizacja, wykształcenie, doświadczenie 
-zawodowe, numer PWZ, lokalizacja oraz dodatkowy opis (rysunek 7.31). Każdego 
-z dostępnych specjalistów można przypisać do swojego profilu za pomocą przycisku 
-„Wybierz”.
+The My Doctor section allows patients to search for and select a specialist. Doctors can be filtered by name, while their profiles provide information such as specialization, education, professional experience, license number, location, and additional details (Figure 7.31).
 
 <p>
 <img width="506" height="424" alt="image" src="https://github.com/user-attachments/assets/b837fa9a-9fb6-4df0-8dc3-2048b5cfc2f6" />
 </p>
 
-Po dokonaniu wyboru na górze ekranu pojawia się zielony komunikat potwierdzający 
-przypisanie lekarza, a wybrany specjalista zostaje wyświetlony w sekcji „Mój specjalista” 
-(rysunek 7.32). W tym widoku znajduje się także opcja „Zrezygnuj”, umożliwiająca przerwanie 
-współpracy.
+After selecting a doctor, the specialist is assigned to the patient and displayed in the My Specialist section (Figure 7.32). The patient can also end the relationship using the Resign option. This action requires confirmation before it is processed (Figure 7.33).
 
 <p>
 <img width="506" height="318" alt="image" src="https://github.com/user-attachments/assets/bd8dd0d9-9f8e-4bba-b9d1-998fcfa9d388" />
 </p>
 
-Jeżeli pacjent zdecyduje się na rezygnację, system wyświetla okno dialogowe z prośbą  
-o potwierdzenie decyzji (rysunek 7.33). 
+After resignation, the system displays a notification and updates the patient’s status in the specialist’s profile to inactive (Figure 7.34). 
 
 <p>
 <img width="506" height="144" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
 </p>
 
-Po akceptacji na górze ekranu pojawia się żółty komunikat informujący o rezygnacji ze 
-specjalisty (rysunek 7.34). Dodatkowo, w profilu lekarza widoczne jest oznaczenie statusu 
-pacjenta – aktywny (zielony) lub nieaktywny (szary), w zależności od aktualnej relacji pacjent
-specjalista.
 
 <p>
 <img width="506" height="72" alt="image" src="https://github.com/user-attachments/assets/01eff250-b419-4998-8dac-0afb402dfe58" />
 </p>
 
-Sekcja zarządzania lekarzem pozwala pacjentowi w prosty sposób przypisać do swojego profilu 
-wybranego specjalistę, a następnie w razie potrzeby zrezygnować z jego opieki. Dzięki 
-przejrzystemu interfejsowi i komunikatom systemowym pacjent ma pełną kontrolę nad 
-procesem wyboru oraz może w każdej chwili zmienić lekarza prowadzącego.
+This functionality gives patients direct control over selecting and changing their assigned specialist.
 
 #### Monitoring nawyków i samopoczucia
 
