@@ -74,7 +74,7 @@ zamknąć na dwa sposoby: klikając w krzyżyk w prawym górnym rogu lub klikaj�
 w zaciemnione pole po lewej stronie ekranu.
 
 <p>
-<img width="276" height="157" alt="image" src="https://github.com/user-attachments/assets/07f910a4-78cc-4e38-9965-b9bbf2e964b7" />
+<img width="506" height="314" alt="image" src="https://github.com/user-attachments/assets/07f910a4-78cc-4e38-9965-b9bbf2e964b7" />
 </p>
 
 Warto podkreślić, że widok profilu pacjenta różni się od widoku dostępnego dla specjalisty 
@@ -85,7 +85,7 @@ związanych z wykształceniem, numerem PWZ czy doświadczeniem zawodowym, co wyn
 z odmiennej roli pacjenta w systemie. 
 
 <p>
-<img width="262" height="110" alt="image" src="https://github.com/user-attachments/assets/b7996cf8-c897-4979-9952-49ef52ba32f4" />
+<img width="506" height="220" alt="image" src="https://github.com/user-attachments/assets/b7996cf8-c897-4979-9952-49ef52ba32f4" />
 </p>
 Profil pacjenta jest zatem uproszczony, ale zawiera wszystkie istotne dane niezbędne w procesie 
 diagnostycznym i komunikacji ze specjalistą.
