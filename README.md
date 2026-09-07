@@ -74,7 +74,7 @@ New messages are clearly indicated in the sidebar by a red badge showing the num
 <img width="506" height="310" alt="image" src="https://github.com/user-attachments/assets/5ff41235-38ed-41b2-bc69-92e6693df0a1" />
 </p>
 
-electing a conversation opens the full chat view, where the entire message history is available (Figure 7.8). Messages from both participants are displayed together with their date and time of delivery.
+Selecting a conversation opens the full chat view, where the entire message history is available (Figure 7.8). Messages from both participants are displayed together with their date and time of delivery.
 
 <p>
 <img width="506" height="316" alt="image" src="https://github.com/user-attachments/assets/cf255cbe-1602-4e0d-9a23-4aed9c0c0bbb" />  
@@ -104,54 +104,37 @@ Figure 7.9 shows the patient list when no patients have yet been assigned, while
 </p>
 
 
-#### Karta pacjenta i analiza danych
+#### Patient Record and Data Analysis
 
-Po przejściu do zakładki Pacjenci i wybraniu konkretnego pacjenta (aktywnego lub 
-nieaktywnego), system przenosi specjalistę do karty pacjenta, gdzie na samej górze 
-wyświetlana jest podstawowa informacja identyfikacyjna (rysunek 7.11). Poniżej dostępne są 
-cztery zakładki: Rekomendacje, Ankiety, Badania laboratoryjne oraz AI. 
-Zakładka Rekomendacje (rysunek 7.11) umożliwia lekarzowi wpisanie nowej rekomendacji, 
-która natychmiast trafia do pacjenta i pojawia się również w jego panelu startowym. Dostępna 
-jest też pełna historia wcześniejszych zaleceń.
+After selecting a patient from the Patients section, the specialist is redirected to the patient record, which contains basic identification data and four main tabs: Recommendations, Surveys, Laboratory Tests, and AI.
+
+The Recommendations tab allows the specialist to add new recommendations, which are immediately visible in the patient’s dashboard, as well as review the history of previous recommendations (Figure 7.11).
 
 <p>
 <img width="506" height="386" alt="image" src="https://github.com/user-attachments/assets/6865dc5d-188c-4d21-8d4f-cc4e7950e2b1" />  
 </p>
 
-Zakładka Ankiety (rysunki 7.12.A–D) zawiera historię ankiet wysyłanych do danego pacjenta. 
-Każda ankieta ma oznaczenie  „Wypełniona” (zielony znacznik) lub „Niewypełniona” (szary 
-znacznik). Lekarz może wyświetlić zawartość ankiety zarówno przed wypełnieniem (podgląd 
-pytań), jak i po jej uzupełnieniu (z odpowiedziami pacjenta). Po prawej stronie znajduje się 
-pole wyszukiwania, w którym można znaleźć i wybrać dowolną ankietę z dostępnych 
-(systemowych lub stworzonych przez specjalistę). Po wybraniu ankiety pojawia się okno 
-potwierdzenia wysyłki (rysunek 7.12.C). Wysłanie ankiety jest procesem nieodwracalnym. Nie 
-można jej edytować ani cofnąć.
+The Surveys tab contains all surveys assigned to the patient and indicates whether each survey has been completed. Specialists can preview survey questions before completion and review the patient’s answers afterwards. New surveys can be selected from the available system or custom surveys and sent after confirmation. Once assigned, a survey cannot be edited or withdrawn (Figures 7.12.A–D).
 
 <p>
 <img width="506" height="524" alt="image" src="https://github.com/user-attachments/assets/209fbbaa-cab7-47f1-a34b-cb146d9864b9" />
 </p>
-Zakładka Badania laboratoryjne (rysunki 7.13.A) prezentuje historię wyników badań dodanych 
-przez pacjenta. Specjalista ma możliwość podglądu szczegółowych wartości, np. poziomu 
-hormonów (rysunek 7.13.B).
+The Laboratory Tests tab provides access to the history of test results uploaded by the patient. Specialists can review detailed values, including individual laboratory parameters such as hormone levels (Figures 7.13.A–B).
 
 <p>
 <img width="506" height="304" alt="image" src="https://github.com/user-attachments/assets/fdcfd0a9-14af-4bc3-9f37-735109ebc64c" /> 
 </p>
 
-Zakładka AI (rysunki 7.14.A–E) umożliwia przeprowadzenie analizy danych pacjenta 
-z wykorzystaniem modeli uczenia maszynowego. W pierwszym kroku wybiera się model: 
-• XGBoost – klasyfikacja na podstawie ankiet i badań, 
-• HerBERT – klasyfikacja na podstawie ankiet, 
-• Mistral – analiza ankiet i badań, odpowiedzi tekstowe, 
-• Mistral RAG – analiza z wykorzystaniem bazy wiedzy. 
-Każdy model ma opis działania widoczny w niebieskim dymku obok. Następnie wybiera się 
-dane wejściowe – jedną ankietę (tylko „Informacje dodatkowe” i „Pierwszy wywiad ogólny” 
-są filtrowane do analizy) oraz, w przypadku modeli XGBoost i Mistral, opcjonalnie badania 
-laboratoryjne. Przygotowane dane są filtrowane tak, aby obejmowały tylko pola zgodne 
-z treningiem modelu (wiek, płeć, waga, objawy, choroby przewlekłe itp.). Kolejnym krokiem 
-jest uruchomienie analizy. W przypadku Mistrala i Mistrala RAG można dodatkowo wpisać 
-własne pytanie lub pozostawić domyślny prompt („Do jakiego specjalisty powinien udać się 
-pacjent?”). Wynik ma formę odpowiedzi tekstowej z podsumowaniem i zaleceniami.
+The AI tab supports patient data analysis using several machine learning models:
+
+XGBoost – classification based on survey and laboratory data,
+HerBERT – classification based on survey data,
+Mistral – text-based analysis using surveys and laboratory results,
+Mistral RAG – analysis enhanced with an external knowledge base.
+
+The specialist selects the model and relevant patient data before starting the analysis. Input data are filtered to match the features used during model training. For Mistral-based models, the specialist can also enter a custom question or use a predefined prompt.
+
+Mistral and Mistral RAG return textual summaries and recommendations, while XGBoost and HerBERT present probability scores for different medical specialties and highlight the most probable result. The RAG variant additionally uses the connected knowledge base to provide broader contextual information (Figures 7.14–7.18).
 
 <p>
 <img width="506" height="122" alt="image" src="https://github.com/user-attachments/assets/c6b8fcd1-d998-437d-9839-8861946138e4" />  
@@ -163,21 +146,12 @@ pacjent?”). Wynik ma formę odpowiedzi tekstowej z podsumowaniem i zaleceniami
 <img width="506" height="280" alt="image" src="https://github.com/user-attachments/assets/fea4880c-c758-45ae-a65b-c6cc2241ff18" />
 </p>
 
-W przypadku modelu Mistral RAG analiza danych pacjenta odbywa się z dodatkowym 
-wykorzystaniem podpiętej bazy wiedzy, co pozwala na poszerzenie kontekstu i bardziej 
-precyzyjne odpowiedzi. Model ten umożliwia nie tylko analizę ankiet i badań, ale również 
-zadawanie pytań odnoszących się do szerszej wiedzy medycznej (rysunek 7.15.A-B).
-
 <p>
 <img width="506" height="136" alt="image" src="https://github.com/user-attachments/assets/57deda2a-a6e1-4913-b4ee-a3fd648abd6f" />
 </p>
 <p>
 <img width="506" height="370" alt="image" src="https://github.com/user-attachments/assets/50cb7d07-4642-4525-9fb8-fb736a944868" />
 </p>
-
-Dla HerBERTa i XGBoosta analiza przedstawiana jest jako procentowe prawdopodobieństwo 
-wystąpienia poszczególnych klas (specjalizacji medycznych). Na górze wskazana jest ta 
-najbardziej prawdopodobna (rysunek 8.16.A-B).
 
 <p>
 <img width="506" height="124" alt="image" src="https://github.com/user-attachments/assets/9d6d3cbd-af35-49fe-94e2-318b056eb93c" />
@@ -187,10 +161,7 @@ najbardziej prawdopodobna (rysunek 8.16.A-B).
 <img width="506" height="400" alt="image" src="https://github.com/user-attachments/assets/6734a3a9-9051-436d-8ad0-343a2fefef75" />
 </p>
 
-Warto zaznaczyć, że w przypadku, gdy kilka specjalizacji uzyskuje porównywalne wyniki (np. 
-20–10%), lekarz może poddać analizę w wątpliwość i samodzielnie zdecydować o dalszych 
-krokach diagnostycznych. Rysunek 8.18.A-B przedstawia przykładową analizę dla modelu 
-HerBERT.
+The AI output is intended to support, rather than replace, clinical judgment. When several classes receive similar probability scores, the specialist can interpret the results independently and determine further diagnostic steps.
 
 <p>
 <img width="506" height="124" alt="image" src="https://github.com/user-attachments/assets/7530a8cf-4774-45e4-b893-9519cf22906c" />
@@ -200,49 +171,29 @@ HerBERT.
 <img width="506" height="408" alt="image" src="https://github.com/user-attachments/assets/971683f9-e5bb-447d-91a8-0e132dbb0356" />
 </p>
 
-Sekcja szczegółowego widoku pacjenta stanowi centralne narzędzie pracy specjalisty. Łączy 
-ona możliwość przeglądania historii interakcji (rekomendacje, ankiety, badania) 
-z zaawansowaną analizą AI wspierającą proces diagnostyczny. Dzięki integracji różnych 
-modeli lekarz otrzymuje zarówno precyzyjne klasyfikacje, jak i bardziej elastyczne odpowiedzi 
-tekstowe, co pozwala łączyć dane kliniczne pacjenta z wiedzą ekspercką i wspomaga 
-podejmowanie decyzji. 
+Overall, the patient record combines medical history, surveys, laboratory results, recommendations, and AI-assisted analysis in a single workspace.
 
-#### Menadżer ankiet
+#### Survey Manager
 
-Menadżer ankiet jest modułem umożliwiającym specjalistom tworzenie, edycję oraz 
-zarządzanie ankietami, które następnie mogą być udostępniane pacjentom. Po wejściu do tej 
-sekcji użytkownik widzi listę wszystkich ankiet przypisanych do jego konta. Jak przedstawiono 
-na rysunku 7.18, ankiety mogą być zarówno systemowe, jak i użytkownika. Ankiety systemowe 
-oznaczone są ikoną kłódki. Można je jedynie podglądać lub kopiować, natomiast nie ma 
-możliwości ich edycji czy usuwania. Ankiety utworzone przez użytkownika są w pełni 
-edytowalne, można zmieniać ich nazwy oraz usuwać je w dowolnym momencie. Dodatkowo w górnej części interfejsu znajduje się wyszukiwarka, która umożliwia szybkie odnalezienie 
-konkretnej ankiety po nazwie, a także mechanizm paginacji (zmiany stron), jeśli liczba ankiet 
-przekracza jedną stronę. 
+The Survey Manager enables specialists to create, edit, and organize surveys that can later be assigned to patients.
+
+The main view displays both system and user-created surveys (Figure 7.18). System surveys are marked with a lock icon and can only be viewed or copied, while custom surveys can be edited, renamed, and deleted. A search field and pagination simplify navigation through larger survey collections.
 
 <p>
 <img width="506" height="224" alt="image" src="https://github.com/user-attachments/assets/8ddf8a14-6e3d-4a7a-be05-47c069b3dac1" />
 </p>
 
-W prawym górnym rogu znajduje się przycisk „Nowa ankieta”, którego kliknięcie powoduje 
-wyświetlenie pola do wprowadzenia nazwy ankiety. Po zatwierdzeniu, jak widać na rysunku 
-7.19.A, nowa ankieta zostaje dodana i pojawia się na liście dostępnych. W przypadku usunięcia 
-ankiety, w prawym górnym rogu system wyświetla stosowny komunikat, co zaprezentowano 
-na rysunku 7.19.B. 
+A new survey can be created using the New Survey button. After entering its name, the survey is added to the list and can be further configured (Figures 7.19.A–B).
 
 <p>
 <img width="506" height="142" alt="image" src="https://github.com/user-attachments/assets/bf769e77-80d8-4590-83c0-8bda0d4f42da" />
 </p>
 
-Po wejściu w tryb Podglądu ankiety użytkownik zyskuje możliwość jej edycji lub usunięcia. 
-Na rysunku 7.20.A przedstawiono górny panel widoku ankiety, gdzie dostępne są przyciski 
-Edytuj oraz Usuń. Przechodząc do edycji, użytkownik może tworzyć strukturę ankiety poprzez 
-dodawanie nowych sekcji (przycisk Dodaj nową sekcję, widoczny na rysunku 7.20.B). Każdą 
-sekcję można nazwać lub zmienić jej nazwę poprzez kliknięcie w tytuł. Do sekcji można 
-następnie dodawać pytania. Jak pokazano na rysunku 7.20.C w trzech dostępnych formatach: 
-pytania otwarte (tekstowe), pytania jednokrotnego wyboru oraz pytania wielokrotnego wyboru. 
-W przypadku pytań zamkniętych opcje odpowiedzi należy podawać w jednym polu, 
-oddzielając je przecinkami. Na rysunku 7.20.D zaprezentowano przykład pytania 
-jednokrotnego wyboru oraz przycisk zapisu całej ankiety.
+In edit mode, specialists can divide the survey into sections and add different types of questions:
+
+ - open-ended text questions,
+ - single-choice questions,
+ - multiple-choice questions.
 
 <p>
 <img width="506" height="660" alt="image" src="https://github.com/user-attachments/assets/eed6c677-2ce8-46ba-bc1f-f68adbc2b914" />
@@ -252,17 +203,13 @@ jednokrotnego wyboru oraz przycisk zapisu całej ankiety.
 <img width="506" height="322" alt="image" src="https://github.com/user-attachments/assets/423ff8fe-632b-4f1c-92f4-2b7439fea4fd" />
 </p>
 
-Kolejna ilustracje przedstawiają podgląd całej ankiety po wprowadzeniu pytań i sekcji. Jak 
-widać na rysunku 7.21, możliwe jest szybkie przełączanie się pomiędzy edycją a podglądem.
+For closed questions, available answers are entered as comma-separated options. Specialists can switch between edit and preview modes before saving the final version (Figures 7.20–7.21).
 
 <p>
 <img width="506" height="282" alt="image" src="https://github.com/user-attachments/assets/ff18ac3c-4980-4720-be4d-a8567c9b67f5" />
 </p>
 
-Dodatkowo system wyświetla w prawym górnym rogu komunikaty związane z działaniami 
-użytkownika, np. o zapisaniu zmian, usunięciu ankiety czy błędach podczas edycji. Dzięki temu 
-specjalista ma pełną kontrolę nad procesem przygotowania ankiet, które później mogą służyć 
-do zbierania informacji od pacjentów w ustrukturyzowanej i spójnej formie.
+The system also displays notifications confirming successful operations or reporting errors. This module provides a structured way to prepare questionnaires for collecting consistent patient information.
 
 #### Zarządzanie modelami predykcyjnymi
 
