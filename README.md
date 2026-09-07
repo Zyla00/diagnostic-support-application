@@ -101,7 +101,7 @@ Wiadomości pojawia się czerwona ikona z liczbą nowych wiadomości. Dzięki te
 od razu widzi, że w skrzynce oczekuje nowa korespondencja.
 
 <p>
-<img width="156" height="78" alt="image" src="https://github.com/user-attachments/assets/6afbdeb2-8f3f-417f-bcfd-64fe02be42ea" />
+<img width="312" height="156" alt="image" src="https://github.com/user-attachments/assets/6afbdeb2-8f3f-417f-bcfd-64fe02be42ea" />
 </p>
 
 Po kliknięciu w zakładkę Wiadomości otwiera się panel czatu (rysunek 7.7). Z lewej strony 
@@ -110,7 +110,7 @@ wiadomości oznaczane są dodatkowym czerwonym komunikatem z liczbą oczekujący
 wiadomości, co ułatwia ich szybkie odnalezienie. 
 
 <p>
-<img width="209" height="155" alt="image" src="https://github.com/user-attachments/assets/5ff41235-38ed-41b2-bc69-92e6693df0a1" />
+<img width="506" height="310" alt="image" src="https://github.com/user-attachments/assets/5ff41235-38ed-41b2-bc69-92e6693df0a1" />
 </p>
 
 Po wybraniu rozmówcy użytkownik przechodzi do szczegółowego widoku konwersacji 
@@ -120,7 +120,7 @@ Użytkownik widzi zarówno swoje wiadomości, jak i odpowiedzi rozmówcy, wraz z
 i godziną ich wysłania.
 
 <p>
-<img width="178" height="158" alt="image" src="https://github.com/user-attachments/assets/cf255cbe-1602-4e0d-9a23-4aed9c0c0bbb" />  
+<img width="506" height="316" alt="image" src="https://github.com/user-attachments/assets/cf255cbe-1602-4e0d-9a23-4aed9c0c0bbb" />  
 </p>
 
 System wiadomości w aplikacji pełni rolę bezpośredniego kanału komunikacji, który zwiększa 
@@ -154,13 +154,13 @@ Na rysunku 7.9 przedstawiono widok listy pacjentów w momencie, gdy specjalista 
 jeszcze przypisanych żadnych osób. 
 
 <p>
-<img width="260" height="143" alt="image" src="https://github.com/user-attachments/assets/f23a0ab5-39b1-403e-af79-f9db1023489f" />  
+<img width="506" height="286" alt="image" src="https://github.com/user-attachments/assets/f23a0ab5-39b1-403e-af79-f9db1023489f" />  
 </p>
 Natomiast rysunek 7.10 prezentuje sytuację, w której pacjenci są już przypisani – można ich 
 przeglądać wraz ze statusem aktywności.  
 
 <p>
-<img width="260" height="151" alt="image" src="https://github.com/user-attachments/assets/11028644-81f4-4fce-95f1-1846dfdbd42b" />
+<img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/11028644-81f4-4fce-95f1-1846dfdbd42b" />
 </p>
 Oba widoki dobrze obrazują zarówno elastyczność interfejsu, jak i możliwość dostosowania 
 przestrzeni roboczej do aktualnych potrzeb użytkownika.
@@ -177,7 +177,7 @@ która natychmiast trafia do pacjenta i pojawia się również w jego panelu sta
 jest też pełna historia wcześniejszych zaleceń.
 
 <p>
-<img width="262" height="193" alt="image" src="https://github.com/user-attachments/assets/6865dc5d-188c-4d21-8d4f-cc4e7950e2b1" />  
+<img width="506" height="386" alt="image" src="https://github.com/user-attachments/assets/6865dc5d-188c-4d21-8d4f-cc4e7950e2b1" />  
 </p>
 
 Zakładka Ankiety (rysunki 7.12.A–D) zawiera historię ankiet wysyłanych do danego pacjenta. 
@@ -190,14 +190,14 @@ potwierdzenia wysyłki (rysunek 7.12.C). Wysłanie ankiety jest procesem nieodwr
 można jej edytować ani cofnąć.
 
 <p>
-<img width="253" height="262" alt="image" src="https://github.com/user-attachments/assets/209fbbaa-cab7-47f1-a34b-cb146d9864b9" />
+<img width="506" height="524" alt="image" src="https://github.com/user-attachments/assets/209fbbaa-cab7-47f1-a34b-cb146d9864b9" />
 </p>
 Zakładka Badania laboratoryjne (rysunki 7.13.A) prezentuje historię wyników badań dodanych 
 przez pacjenta. Specjalista ma możliwość podglądu szczegółowych wartości, np. poziomu 
 hormonów (rysunek 7.13.B).
 
 <p>
-<img width="257" height="152" alt="image" src="https://github.com/user-attachments/assets/fdcfd0a9-14af-4bc3-9f37-735109ebc64c" /> 
+<img width="506" height="304" alt="image" src="https://github.com/user-attachments/assets/fdcfd0a9-14af-4bc3-9f37-735109ebc64c" /> 
 </p>
 
 Zakładka AI (rysunki 7.14.A–E) umożliwia przeprowadzenie analizy danych pacjenta 
@@ -216,13 +216,13 @@ własne pytanie lub pozostawić domyślny prompt („Do jakiego specjalisty powi
 pacjent?”). Wynik ma formę odpowiedzi tekstowej z podsumowaniem i zaleceniami.
 
 <p>
-<img width="251" height="61" alt="image" src="https://github.com/user-attachments/assets/c6b8fcd1-d998-437d-9839-8861946138e4" />  
+<img width="506" height="122" alt="image" src="https://github.com/user-attachments/assets/c6b8fcd1-d998-437d-9839-8861946138e4" />  
 </p>
 <p>
-<img width="248" height="307" alt="image" src="https://github.com/user-attachments/assets/fc1fa2d1-6df9-46f0-866b-fdabb21395fe" />
+<img width="506" height="614" alt="image" src="https://github.com/user-attachments/assets/fc1fa2d1-6df9-46f0-866b-fdabb21395fe" />
 </p>
 <p>
-<img width="255" height="140" alt="image" src="https://github.com/user-attachments/assets/fea4880c-c758-45ae-a65b-c6cc2241ff18" />
+<img width="506" height="280" alt="image" src="https://github.com/user-attachments/assets/fea4880c-c758-45ae-a65b-c6cc2241ff18" />
 </p>
 
 W przypadku modelu Mistral RAG analiza danych pacjenta odbywa się z dodatkowym 
@@ -231,10 +231,10 @@ precyzyjne odpowiedzi. Model ten umożliwia nie tylko analizę ankiet i badań, 
 zadawanie pytań odnoszących się do szerszej wiedzy medycznej (rysunek 7.15.A-B).
 
 <p>
-<img width="252" height="68" alt="image" src="https://github.com/user-attachments/assets/57deda2a-a6e1-4913-b4ee-a3fd648abd6f" />
+<img width="506" height="136" alt="image" src="https://github.com/user-attachments/assets/57deda2a-a6e1-4913-b4ee-a3fd648abd6f" />
 </p>
 <p>
-<img width="262" height="185" alt="image" src="https://github.com/user-attachments/assets/50cb7d07-4642-4525-9fb8-fb736a944868" />
+<img width="506" height="370" alt="image" src="https://github.com/user-attachments/assets/50cb7d07-4642-4525-9fb8-fb736a944868" />
 </p>
 
 Dla HerBERTa i XGBoosta analiza przedstawiana jest jako procentowe prawdopodobieństwo 
@@ -242,11 +242,11 @@ wystąpienia poszczególnych klas (specjalizacji medycznych). Na górze wskazana
 najbardziej prawdopodobna (rysunek 8.16.A-B).
 
 <p>
-<img width="250" height="62" alt="image" src="https://github.com/user-attachments/assets/9d6d3cbd-af35-49fe-94e2-318b056eb93c" />
+<img width="506" height="124" alt="image" src="https://github.com/user-attachments/assets/9d6d3cbd-af35-49fe-94e2-318b056eb93c" />
 </p>
 
 <p>
-<img width="248" height="200" alt="image" src="https://github.com/user-attachments/assets/6734a3a9-9051-436d-8ad0-343a2fefef75" />
+<img width="506" height="400" alt="image" src="https://github.com/user-attachments/assets/6734a3a9-9051-436d-8ad0-343a2fefef75" />
 </p>
 
 Warto zaznaczyć, że w przypadku, gdy kilka specjalizacji uzyskuje porównywalne wyniki (np. 
@@ -255,11 +255,11 @@ krokach diagnostycznych. Rysunek 8.18.A-B przedstawia przykładową analizę dla
 HerBERT.
 
 <p>
-<img width="253" height="62" alt="image" src="https://github.com/user-attachments/assets/7530a8cf-4774-45e4-b893-9519cf22906c" />
+<img width="506" height="124" alt="image" src="https://github.com/user-attachments/assets/7530a8cf-4774-45e4-b893-9519cf22906c" />
 </p>
 
 <p>
-<img width="254" height="204" alt="image" src="https://github.com/user-attachments/assets/971683f9-e5bb-447d-91a8-0e132dbb0356" />
+<img width="506" height="408" alt="image" src="https://github.com/user-attachments/assets/971683f9-e5bb-447d-91a8-0e132dbb0356" />
 </p>
 
 Sekcja szczegółowego widoku pacjenta stanowi centralne narzędzie pracy specjalisty. Łączy 
@@ -282,7 +282,7 @@ konkretnej ankiety po nazwie, a także mechanizm paginacji (zmiany stron), jeśl
 przekracza jedną stronę. 
 
 <p>
-<img width="263" height="112" alt="image" src="https://github.com/user-attachments/assets/8ddf8a14-6e3d-4a7a-be05-47c069b3dac1" />
+<img width="506" height="224" alt="image" src="https://github.com/user-attachments/assets/8ddf8a14-6e3d-4a7a-be05-47c069b3dac1" />
 </p>
 
 W prawym górnym rogu znajduje się przycisk „Nowa ankieta”, którego kliknięcie powoduje 
@@ -292,7 +292,7 @@ ankiety, w prawym górnym rogu system wyświetla stosowny komunikat, co zaprezen
 na rysunku 7.19.B. 
 
 <p>
-<img width="249" height="71" alt="image" src="https://github.com/user-attachments/assets/bf769e77-80d8-4590-83c0-8bda0d4f42da" />
+<img width="506" height="142" alt="image" src="https://github.com/user-attachments/assets/bf769e77-80d8-4590-83c0-8bda0d4f42da" />
 </p>
 
 Po wejściu w tryb Podglądu ankiety użytkownik zyskuje możliwość jej edycji lub usunięcia. 
@@ -307,18 +307,18 @@ oddzielając je przecinkami. Na rysunku 7.20.D zaprezentowano przykład pytania
 jednokrotnego wyboru oraz przycisk zapisu całej ankiety.
 
 <p>
-<img width="263" height="330" alt="image" src="https://github.com/user-attachments/assets/eed6c677-2ce8-46ba-bc1f-f68adbc2b914" />
+<img width="506" height="660" alt="image" src="https://github.com/user-attachments/assets/eed6c677-2ce8-46ba-bc1f-f68adbc2b914" />
 </p>
 
 <p>
-<img width="263" height="161" alt="image" src="https://github.com/user-attachments/assets/423ff8fe-632b-4f1c-92f4-2b7439fea4fd" />
+<img width="506" height="322" alt="image" src="https://github.com/user-attachments/assets/423ff8fe-632b-4f1c-92f4-2b7439fea4fd" />
 </p>
 
 Kolejna ilustracje przedstawiają podgląd całej ankiety po wprowadzeniu pytań i sekcji. Jak 
 widać na rysunku 7.21, możliwe jest szybkie przełączanie się pomiędzy edycją a podglądem.
 
 <p>
-<img width="266" height="141" alt="image" src="https://github.com/user-attachments/assets/ff18ac3c-4980-4720-be4d-a8567c9b67f5" />
+<img width="506" height="282" alt="image" src="https://github.com/user-attachments/assets/ff18ac3c-4980-4720-be4d-a8567c9b67f5" />
 </p>
 
 Dodatkowo system wyświetla w prawym górnym rogu komunikaty związane z działaniami 
@@ -340,7 +340,7 @@ po nazwie ankiety oraz licznik wskazujący liczbę dostępnych formularzy. Dzię
 wyboru danych jest precyzyjny i ograniczony wyłącznie do wartościowych przypadków. 
 
 <p>
-<img width="258" height="195" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
+<img width="506" height="390" alt="image" src="https://github.com/user-attachments/assets/30daec9d-e078-4676-acde-202edc20e666" />
 </p>
 
 Analogicznie działa moduł XGBoost (rysunek 7.22), w którym dane wejściowe mogą stanowić 
@@ -350,7 +350,7 @@ Działa to dokładnie tak samo jak w przypadku modelu HerBERT. Tu również moż
 z wyszukiwarki oraz filtrowania, aby szybko odnaleźć interesujące dane.
 
 <p>
-<img width="261" height="134" alt="image" src="https://github.com/user-attachments/assets/27d210bc-5cb2-4efa-9ca7-1037fa8385ee" />
+<img width="506" height="268" alt="image" src="https://github.com/user-attachments/assets/27d210bc-5cb2-4efa-9ca7-1037fa8385ee" />
 </p>
 
 Po zaznaczeniu odpowiednich rekordów (ankiet lub badań) i wciśnięciu przycisku „Przypisz 
@@ -365,7 +365,7 @@ wersję modelu, a nowa zaktualizowana wersja jest od razu gotowa do wykorzystani
 w analizach predykcyjnych.
 
 <p>
-<img width="254" height="141" alt="image" src="https://github.com/user-attachments/assets/64914ba5-e703-4794-8aae-951b4a6a485b" />
+<img width="506" height="282" alt="image" src="https://github.com/user-attachments/assets/64914ba5-e703-4794-8aae-951b4a6a485b" />
 </p>
 
 Ostatnia zakładka, Mistral RAG – notatki (rysunek 7.24), pozwala specjalistom dodawać 
@@ -375,7 +375,7 @@ w procesie generowania rekomendacji dla pacjentów. Dzięki temu możliwe jest e
 wzbogacanie kontekstu analiz bez potrzeby retreningu modeli ML. 
 
 <p>
-<img width="262" height="156" alt="image" src="https://github.com/user-attachments/assets/fac4f09c-1730-4ad5-963a-0c29985443e8" />
+<img width="506" height="312" alt="image" src="https://github.com/user-attachments/assets/fac4f09c-1730-4ad5-963a-0c29985443e8" />
 </p>
 
 Sekcja Zarządzanie modelami predykcyjnymi stanowi kluczowy element aplikacji, pozwalając 
@@ -410,7 +410,7 @@ wskaźników zdrowotnych,
 • Wiadomości – moduł służący do komunikacji z lekarzem.
 
 <p>
-<img width="270" height="149" alt="image" src="https://github.com/user-attachments/assets/49852812-f8b4-4383-a464-ea534a74e962" />
+<img width="506" height="298" alt="image" src="https://github.com/user-attachments/assets/49852812-f8b4-4383-a464-ea534a74e962" />
 </p>
 
 Podsumowując, ekran startowy pacjenta stanowi centralne miejsce, w którym gromadzone są 
@@ -430,7 +430,7 @@ przy ankietach już przesłanych dostępny jest wyłącznie przycisk „Podgląd
 przejrzeć wszystkie pytania wraz z udzielonymi odpowiedziami (Rysunek 7.26).
 
 <p>
-<img width="257" height="127" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
+<img width="506" height="254" alt="image" src="https://github.com/user-attachments/assets/92f8b1f4-3c99-4363-bc61-5655f8cf692a" />
 </p>
 
 W momencie przechodzenia do widoku wypełniania ankiety pacjent ma możliwość udzielenia 
@@ -439,7 +439,7 @@ wyświetla komunikat potwierdzający, przypominający, że ankietę można wype�
 i nie będzie możliwości późniejszej edycji (rysunek 7.27).
 
 <p>
-<img width="248" height="164" alt="image" src="https://github.com/user-attachments/assets/c053a864-ade3-4933-9966-121ea7f15c98" />
+<img width="506" height="328" alt="image" src="https://github.com/user-attachments/assets/c053a864-ade3-4933-9966-121ea7f15c98" />
 </p>
 
 Po zatwierdzeniu odpowiedzi i wysłaniu formularza, na górze strony pojawia się komunikat 
@@ -447,7 +447,7 @@ informujący o pomyślnym zapisaniu ankiety (rysunek 7.28). Dzięki temu pacjent
 prowadzącemu.
 
 <p>
-<img width="236" height="59" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
+<img width="506" height="118" alt="image" src="https://github.com/user-attachments/assets/d9ba8096-1b89-4686-a89f-77514ea5ead8" />
 </p>
 
 Zakładka Ankiety zapewnia pacjentowi pełną kontrolę nad formularzami przesyłanymi przez 
@@ -465,7 +465,7 @@ wykonania. Dodatkowo w prawym górnym rogu znajduje się przycisk Nowa ankieta, 
 pozwala na dodanie nowego wpisu z wynikami badań.
 
 <p>
-<img width="283" height="88" alt="image" src="https://github.com/user-attachments/assets/9e7aa7a7-b053-4b2d-bf1c-c665761e056d" />
+<img width="506" height="176" alt="image" src="https://github.com/user-attachments/assets/9e7aa7a7-b053-4b2d-bf1c-c665761e056d" />
 </p>
 
 Po wybraniu opcji dodania nowych wyników otwiera się formularz (rysunek 7.30.A), w którym 
@@ -478,7 +478,7 @@ jedynie fragment całego formularza, który w rzeczywistości obejmuje znacznie 
 badań laboratoryjnych i parametrów zdrowotnych pacjenta.
 
 <p>
-<img width="285" height="254" alt="image" src="https://github.com/user-attachments/assets/2c9da23c-be07-44b7-8da0-0918a9a15f35" />
+<img width="506" height="508" alt="image" src="https://github.com/user-attachments/assets/2c9da23c-be07-44b7-8da0-0918a9a15f35" />
 </p>
 
 Podsumowując, moduł wyników laboratoryjnych stanowi rozbudowane narzędzie do 
@@ -497,7 +497,7 @@ z dostępnych specjalistów można przypisać do swojego profilu za pomocą przy
 „Wybierz”.
 
 <p>
-<img width="284" height="212" alt="image" src="https://github.com/user-attachments/assets/b837fa9a-9fb6-4df0-8dc3-2048b5cfc2f6" />
+<img width="506" height="424" alt="image" src="https://github.com/user-attachments/assets/b837fa9a-9fb6-4df0-8dc3-2048b5cfc2f6" />
 </p>
 
 Po dokonaniu wyboru na górze ekranu pojawia się zielony komunikat potwierdzający 
