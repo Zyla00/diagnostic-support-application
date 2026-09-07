@@ -18,8 +18,6 @@ retraining and patient data analysis.
 
 ## Web application interface
 
-### Rejestracja oraz logowanie użytkownika 
-
 ### User Registration and Login
 
 The MedPred application provides a simple and intuitive user authentication system. New users can create an account by selecting one of two roles: **Patient** or **Specialist**. The registration form is adjusted to the selected role. Specialists are additionally required to provide their professional license number.
@@ -34,55 +32,33 @@ Figure 7.1.A presents the login screen, where users enter their username and pas
 
 Overall, the registration and login process ensures secure and convenient access to the application while maintaining the uniqueness and validity of user accounts.
 
-#### Informacje profilowe oraz zmiana hasła 
+#### Profile Information and Password Change
 
-W aplikacji MedPred użytkownik ma dostęp do panelu zarządzania swoim kontem 
-poprzez ikonę awatara znajdującą się w lewym dolnym rogu paska bocznego. Po kliknięciu 
-w tę ikonę rozwija się menu z trzema opcjami: Profil, Zmień hasło oraz Wyloguj (rysunek 
-7.2.A). Dzięki temu specjalista może w prosty sposób zarządzać informacjami dotyczącymi 
-swojego konta. 
-Wybór opcji Zmień hasło powoduje wysunięcie się panelu z prawej strony ekranu (rysunek 
-7.2.B). Panel ten zawiera formularz umożliwiający wpisanie starego hasła, wprowadzenie 
-nowego oraz jego potwierdzenie. Po zatwierdzeniu zmian przyciskiem Zapisz zmiany, system 
-wyświetla w prawym górnym rogu stosowny komunikat informujący o poprawnym zapisaniu 
-nowego hasła lub o ewentualnym błędzie, np. niezgodności haseł.
+In the MedPred application, users can manage their account through the avatar icon located in the lower-left corner of the sidebar. Clicking the icon opens a menu with three options: Profile, Change Password, and Log Out (Figure 7.2.A).
+
+The Change Password option opens a side panel containing fields for the current password, the new password, and its confirmation (Figure 7.2.B). After saving the changes, the system displays a notification confirming success or informing the user about an error, such as mismatched passwords.
 
 <p>
 <img width="506" height="466" alt="image" src="https://github.com/user-attachments/assets/4d67d8ef-d94c-46d0-bd5c-8bd25e23df56" />
 </p>
 
-Analogicznie, wybierając opcję Profil, użytkownikowi wyświetla się widok podglądu profilu 
-(rysunek 7.3). Znajdują się tam wszystkie kluczowe dane specjalisty, takie jak imię, nazwisko, 
-adres e-mail, telefon, numer PWZ, adres przyjęć, wykształcenie, doświadczenie zawodowe czy 
-specjalizacja. 
+The Profile view presents the user’s account information. For specialists, it includes personal and professional data such as name, email address, phone number, professional license number, workplace address, education, experience, and specialization (Figure 7.3). The profile can be edited using the button in the upper-right corner, which opens an editable form (Figure 7.4). After saving, the system displays a confirmation message.
 
 <p>
 <img width="506" height="302" alt="image" src="https://github.com/user-attachments/assets/d57609aa-655b-44f6-9575-e8572e1a6ae2" />
 </p>
 
-W prawym górnym rogu widoczny jest przycisk umożliwiający przejście do trybu edycji. Po 
-jego wybraniu otwiera się panel z formularzem (rysunek 7.4), w którym specjalista może 
-uzupełniać lub modyfikować wszystkie pola. Po zapisaniu zmian system ponownie generuje 
-komunikat potwierdzający operację. Zarówno panel zmiany hasła, jak i panel profilu można 
-zamknąć na dwa sposoby: klikając w krzyżyk w prawym górnym rogu lub klikając 
-w zaciemnione pole po lewej stronie ekranu.
-
 <p>
 <img width="506" height="314" alt="image" src="https://github.com/user-attachments/assets/07f910a4-78cc-4e38-9965-b9bbf2e964b7" />
 </p>
 
-Warto podkreślić, że widok profilu pacjenta różni się od widoku dostępnego dla specjalisty 
-(rysunek 7.5). Zawiera on podstawowe informacje osobowe i kontaktowe, takie jak imię, 
-nazwisko, data urodzenia, numer PESEL, adres e-mail, numer telefonu oraz dane dotyczące 
-ubezpieczenia zdrowotnego (np. NFZ). W odróżnieniu od profilu specjalisty nie ma tu pól 
-związanych z wykształceniem, numerem PWZ czy doświadczeniem zawodowym, co wynika 
-z odmiennej roli pacjenta w systemie. 
+The patient profile contains a simpler set of information, including personal and contact details, date of birth, PESEL number, and health insurance information (Figure 7.5). Unlike the specialist profile, it does not include professional fields such as education, license number, or work experience.
 
 <p>
 <img width="506" height="220" alt="image" src="https://github.com/user-attachments/assets/b7996cf8-c897-4979-9952-49ef52ba32f4" />
 </p>
-Profil pacjenta jest zatem uproszczony, ale zawiera wszystkie istotne dane niezbędne w procesie 
-diagnostycznym i komunikacji ze specjalistą.
+
+Both the profile and password panels can be closed using the close button or by clicking outside the panel.
 
 #### Wiadomości
 
