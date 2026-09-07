@@ -506,14 +506,14 @@ przypisanie lekarza, a wybrany specjalista zostaje wyświetlony w sekcji „Mój
 współpracy.
 
 <p>
-<img width="280" height="159" alt="image" src="https://github.com/user-attachments/assets/bd8dd0d9-9f8e-4bba-b9d1-998fcfa9d388" />
+<img width="506" height="318" alt="image" src="https://github.com/user-attachments/assets/bd8dd0d9-9f8e-4bba-b9d1-998fcfa9d388" />
 </p>
 
 Jeżeli pacjent zdecyduje się na rezygnację, system wyświetla okno dialogowe z prośbą  
 o potwierdzenie decyzji (rysunek 7.33). 
 
 <p>
-<img width="205" height="72" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
+<img width="506" height="144" alt="image" src="https://github.com/user-attachments/assets/fa26ede7-8a2a-47b4-9e26-e53a9ca43891" />
 </p>
 
 Po akceptacji na górze ekranu pojawia się żółty komunikat informujący o rezygnacji ze 
@@ -522,7 +522,7 @@ pacjenta – aktywny (zielony) lub nieaktywny (szary), w zależności od aktualn
 specjalista.
 
 <p>
-<img width="271" height="36" alt="image" src="https://github.com/user-attachments/assets/01eff250-b419-4998-8dac-0afb402dfe58" />
+<img width="506" height="72" alt="image" src="https://github.com/user-attachments/assets/01eff250-b419-4998-8dac-0afb402dfe58" />
 </p>
 
 Sekcja zarządzania lekarzem pozwala pacjentowi w prosty sposób przypisać do swojego profilu 
@@ -543,7 +543,7 @@ Formularz składa się z zestawu stałych kafelków i jest przeznaczony do wype�
 dziennie.
 
 <p>
-<img width="272" height="283" alt="image" src="https://github.com/user-attachments/assets/49282702-edb8-421d-94ea-20468b7e3545" />
+<img width="506" height="566" alt="image" src="https://github.com/user-attachments/assets/49282702-edb8-421d-94ea-20468b7e3545" />
 </p>
 
 Na rysunku 7.36 zaprezentowano widok kalendarza, w którym każda wprowadzona ankieta 
@@ -552,7 +552,7 @@ znajdują się ikony umożliwiające pobranie danych oraz dodanie wpisu za pomin
 Każdy wpis można również edytować lub usunąć.
 
 <p>
-<img width="290" height="142" alt="image" src="https://github.com/user-attachments/assets/56f8ab7a-47ee-4ef2-b223-2bcd33879135" />
+<img width="506" height="284" alt="image" src="https://github.com/user-attachments/assets/56f8ab7a-47ee-4ef2-b223-2bcd33879135" />
 </p>
 
 Na rysunku 7.37 znajduje się przykład sekcji Statystyki, w której dane są wizualizowane 
@@ -561,7 +561,7 @@ poszczególnych ocen nastroju. Dzięki temu pacjent może szybko ocenić ogólne
 w swoim samopoczuciu.
 
 <p>
-<img width="289" height="165" alt="image" src="https://github.com/user-attachments/assets/c8268b8d-c4f1-460d-99bc-65f502ef2202" />
+<img width="506" height="330" alt="image" src="https://github.com/user-attachments/assets/c8268b8d-c4f1-460d-99bc-65f502ef2202" />
 </p>
 
 Podsumowując, mechanizm monitoringu nawyków i samopoczucia łączy codzienny zapis 
