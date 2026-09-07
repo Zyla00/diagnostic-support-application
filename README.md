@@ -20,25 +20,19 @@ retraining and patient data analysis.
 
 ### Rejestracja oraz logowanie użytkownika 
 
-W aplikacji MedPred proces logowania i rejestracji użytkowników został 
-zaprojektowany w sposób intuicyjny i prosty. Nowi użytkownicy mogą założyć konto, 
-wybierając jedną z dwóch ról: Pacjent lub Specjalista. Formularz rejestracyjny przewiduje 
-różne pola w zależności od wybranej roli – w przypadku specjalisty konieczne jest dodatkowe 
-podanie numeru licencji zawodowej. System posiada również wbudowany mechanizm 
-walidacji danych – w sytuacji, gdy wprowadzone hasła różnią się od siebie, adres e-mail jest 
-już zajęty, bądź wybrana nazwa użytkownika jest niedostępna, aplikacja wyświetla odpowiedni 
-komunikat błędu. Dzięki temu proces rejestracji jest zabezpieczony przed duplikacją kont 
-i nieprawidłowym wprowadzeniem danych. Na rysunku 7.1.A przedstawiono ekran logowania, 
-gdzie użytkownik musi podać swoją nazwę oraz hasło, a dodatkowo ma możliwość zaznaczenia 
-opcji Pamiętaj mnie. Na rysunku 7.1.B znajdują się przykładowe komunikaty błędów – w tym 
+### User Registration and Login
+
+The MedPred application provides a simple and intuitive user authentication system. New users can create an account by selecting one of two roles: **Patient** or **Specialist**. The registration form is adjusted to the selected role. Specialists are additionally required to provide their professional license number.
+
+The system validates the entered data during registration. Appropriate error messages are displayed when passwords do not match, an email address is already registered, or a username is unavailable. This prevents duplicate accounts and reduces incorrect data entry.
+
+Figure 7.1.A presents the login screen, where users enter their username and password and can select the **Remember me** option. Figure 7.1.B shows examples of validation and authentication error messages.
 
 <p>
 <img width="506" height="592" alt="image" src="https://github.com/user-attachments/assets/5e60e275-6dde-4808-8ff1-cf36947fdda1" />
 </p>
 
-Cały mechanizm logowania i rejestracji zapewnia przejrzystość oraz bezpieczeństwo 
-korzystania z aplikacji. Dzięki odpowiedniej walidacji danych użytkownicy mają pewność, że 
-ich konta są unikalne i chronione przed nieuprawnionym dostępem.
+Overall, the registration and login process ensures secure and convenient access to the application while maintaining the uniqueness and validity of user accounts.
 
 #### Informacje profilowe oraz zmiana hasła 
 
