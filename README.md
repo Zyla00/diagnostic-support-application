@@ -327,44 +327,29 @@ After resignation, the system displays a notification and updates the patient’
 
 This functionality gives patients direct control over selecting and changing their assigned specialist.
 
-#### Monitoring nawyków i samopoczucia
+#### Habit and Well-being Monitoring
 
-Zakładki Nawyki, Kalendarz oraz Statystyki tworzą wspólnie prosty, ale użyteczny 
-mechanizm monitoringu codziennego samopoczucia i stylu życia pacjenta. Dzięki nim 
-użytkownik może regularnie wprowadzać dane dotyczące swojego nastroju, snu, emocji czy 
-aktywności, a następnie analizować ich wpływ na zdrowie w szerszej perspektywie czasowej. 
-Na Rysunku 7.35.A-B przedstawiono widok formularza w zakładce Nawyki, w którym pacjent 
-codziennie ocenia swój dzień, liczbę godzin snu, emocje, dodatkowe uwagi, ilość wypitej kawy 
-i alkoholu, liczbę wypalonych papierosów oraz czas przeznaczony na aktywność fizyczną. 
-Formularz składa się z zestawu stałych kafelków i jest przeznaczony do wypełniania raz 
-dziennie.
+The Habits, Calendar, and Statistics sections provide a simple system for tracking the patient’s daily well-being and lifestyle.
+
+In the Habits section, the patient completes a daily form covering mood, sleep duration, emotions, notes, coffee and alcohol consumption, smoking, and physical activity (Figure 7.35).
 
 <p>
 <img width="506" height="566" alt="image" src="https://github.com/user-attachments/assets/49282702-edb8-421d-94ea-20468b7e3545" />
 </p>
 
-Na rysunku 7.36 zaprezentowano widok kalendarza, w którym każda wprowadzona ankieta 
-dnia zapisywana jest w postaci kartki z podstawowymi danymi. W prawym górnym rogu 
-znajdują się ikony umożliwiające pobranie danych oraz dodanie wpisu za pominięty dzień. 
-Każdy wpis można również edytować lub usunąć.
+The Calendar stores completed daily entries and allows users to review, edit, delete, export, or add missing records (Figure 7.36).
 
 <p>
 <img width="506" height="284" alt="image" src="https://github.com/user-attachments/assets/56f8ab7a-47ee-4ef2-b223-2bcd33879135" />
 </p>
 
-Na rysunku 7.37 znajduje się przykład sekcji Statystyki, w której dane są wizualizowane 
-w postaci wykresów. W tym przypadku jest to wykres przedstawiający częstotliwość 
-poszczególnych ocen nastroju. Dzięki temu pacjent może szybko ocenić ogólne trendy 
-w swoim samopoczuciu.
+The Statistics section visualizes collected data using charts, making it easier to identify trends in mood and other health-related indicators over time (Figure 7.37).
 
 <p>
 <img width="506" height="330" alt="image" src="https://github.com/user-attachments/assets/c8268b8d-c4f1-460d-99bc-65f502ef2202" />
 </p>
 
-Podsumowując, mechanizm monitoringu nawyków i samopoczucia łączy codzienny zapis 
-danych, ich prezentację w formie kalendarza oraz graficzną analizę w postaci wykresów. Taki 
-system sprzyja większej samoświadomości pacjenta i może stanowić cenne wsparcie dla 
-specjalisty w procesie diagnostycznym.
+Together, these features support regular self-monitoring and provide additional data that may be useful during medical assessment and diagnosis.
 
 ## Evaluation of Results
 
